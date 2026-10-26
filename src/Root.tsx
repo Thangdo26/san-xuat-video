@@ -1,58 +1,40 @@
-import { Composition, Folder } from "remotion";
-import { DayScene } from "./DayScene";
-import { Intro } from "./Intro";
-import { Outro } from "./Outro";
-import { Video } from "./Video";
+import { CalculateMetadataFunction, Composition } from "remotion";
+import daNang3n2d from "../data/videos/da-nang-3n2d/video.json";
+import { totalDurationInFrames, VideoData } from "./schema";
+import { TravelShort } from "./TravelShort";
+
+/**
+ * JSON imports widen to `string` where the schema wants unions such as
+ * SceneLayout, so the data is asserted once here. The real runtime check is
+ * `npm run video:validate`, which every render runs first.
+ */
+const daNangData = daNang3n2d as VideoData;
+
+/**
+ * Format and length belong to the video data, not the registration, so a
+ * different video.json passed via --props renders at its own size and
+ * duration without touching this file.
+ */
+const calculateMetadata: CalculateMetadataFunction<VideoData> = ({ props }) => {
+  return {
+    width: props.format.width,
+    height: props.format.height,
+    fps: props.format.fps,
+    durationInFrames: totalDurationInFrames(props),
+  };
+};
 
 export const RemotionRoot: React.FC = () => {
   return (
-    <>
-      {/* 180 + 150 + 150 + 150 + 120 - 4 transitions of 15 frames = 690 */}
-      <Composition
-        id="DaNang3N2D"
-        component={Video}
-        durationInFrames={690}
-        fps={30}
-        width={1080}
-        height={1920}
-      />
-      <Folder name="Scenes">
-        <Composition
-          id="Intro"
-          component={Intro}
-          durationInFrames={180}
-          fps={30}
-          width={1080}
-          height={1920}
-        />
-        <Composition
-          id="DayScene"
-          component={DayScene}
-          durationInFrames={150}
-          fps={30}
-          width={1080}
-          height={1920}
-          defaultProps={{
-            day: "NGÀY 01",
-            title: "Biển & Cầu Rồng",
-            accent: "#ffd27a",
-            glow: "rgba(255,190,105,0.42)",
-            stops: [
-              { time: "10:00", place: "Biển Mỹ Khê" },
-              { time: "16:00", place: "Sơn Trà · Chùa Linh Ứng" },
-              { time: "21:00", place: "Cầu Rồng phun lửa" },
-            ],
-          }}
-        />
-        <Composition
-          id="Outro"
-          component={Outro}
-          durationInFrames={120}
-          fps={30}
-          width={1080}
-          height={1920}
-        />
-      </Folder>
-    </>
+    <Composition
+      id="TravelShort"
+      component={TravelShort}
+      calculateMetadata={calculateMetadata}
+      defaultProps={daNangData}
+      durationInFrames={1710}
+      fps={30}
+      width={1080}
+      height={1920}
+    />
   );
 };

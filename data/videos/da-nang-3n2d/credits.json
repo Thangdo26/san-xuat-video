@@ -1,0 +1,65 @@
+[
+  {
+    "slot": "01-hook",
+    "file": "01-hook.jpg",
+    "title": "File:Da Nang, Vietnam.jpg",
+    "author": "Quangpraha",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADa_Nang%2C_Vietnam.jpg"
+  },
+  {
+    "slot": "02-my-khe-beach",
+    "file": "02-my-khe-beach.jpg",
+    "title": "File:My Khe Beach, Da Nang, Vietnam.jpg",
+    "author": ". Ray in Manila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMy_Khe_Beach%2C_Da_Nang%2C_Vietnam.jpg"
+  },
+  {
+    "slot": "03-han-river-night",
+    "file": "03-han-river-night.jpg",
+    "title": "File:Han River Bridge in Vietnam Night View.jpg",
+    "author": "kizamaya",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHan_River_Bridge_in_Vietnam_Night_View.jpg"
+  },
+  {
+    "slot": "04-golden-bridge",
+    "file": "04-golden-bridge.jpg",
+    "title": "File:Golden Bridge Ba Na Hills aerial sunset Da Nang Vietnam.jpg",
+    "author": "Vivu Vietnam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGolden_Bridge_Ba_Na_Hills_aerial_sunset_Da_Nang_Vietnam.jpg"
+  },
+  {
+    "slot": "05-marble-mountains",
+    "file": "05-marble-mountains.jpg",
+    "title": "File:Ngu Hanh Son Pagoda.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ANgu_Hanh_Son_Pagoda.jpg"
+  },
+  {
+    "slot": "06-hoi-an",
+    "file": "06-hoi-an.jpg",
+    "title": "File:Hoi An - HoiAn1457.jpg",
+    "author": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHoi_An_-_HoiAn1457.jpg"
+  },
+  {
+    "slot": "07-outro",
+    "file": "07-outro.jpg",
+    "title": "File:My Khe Beach Danang Coastline.jpg",
+    "author": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMy_Khe_Beach_Danang_Coastline.jpg"
+  }
+]

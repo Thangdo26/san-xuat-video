@@ -1,0 +1,106 @@
+{
+  "id": "da-nang-3n2d",
+  "title": "Đà Nẵng 3 ngày 2 đêm",
+  "language": "vi",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffd27a",
+    "brand": "ĐÀ NẴNG · 3N2Đ"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/01-hook.jpg",
+      "narration": "Có ba ngày hai đêm ở Đà Nẵng? Lưu ngay lịch trình này để vừa đi biển, khám phá núi, vừa có một buổi tối thật chill.",
+      "label": "MIỀN TRUNG · VIỆT NAM",
+      "caption": "ĐÀ NẴNG",
+      "badge": "3N2Đ",
+      "tip": "Biển · Núi · Một tối thật chill",
+      "durationSec": 8
+    },
+    {
+      "id": "day1-beach",
+      "layout": "point",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/02-my-khe-beach.jpg",
+      "narration": "Ngày đầu tiên, dành thời gian thư giãn ở biển Mỹ Khê. Nếu còn thời gian, ghé bán đảo Sơn Trà để ngắm biển và thành phố từ trên cao.",
+      "label": "NGÀY 1",
+      "caption": "Biển Mỹ Khê",
+      "points": ["Thư giãn cả buổi ở biển", "Bán đảo Sơn Trà"],
+      "tip": "Lên Sơn Trà ngắm biển và thành phố từ trên cao",
+      "accent": "#ffd27a",
+      "durationSec": 9
+    },
+    {
+      "id": "day1-evening",
+      "layout": "point",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/03-han-river-night.jpg",
+      "narration": "Tối về trung tâm, thưởng thức đặc sản địa phương và dạo quanh sông Hàn. Nếu thời gian phù hợp, bạn có thể ngắm cầu Rồng về đêm.",
+      "label": "NGÀY 1 · TỐI",
+      "caption": "Đêm sông Hàn",
+      "points": ["Thưởng thức đặc sản địa phương", "Dạo quanh sông Hàn"],
+      "tip": "Thời gian phù hợp thì ngắm cầu Rồng về đêm",
+      "accent": "#ffb978",
+      "durationSec": 8
+    },
+    {
+      "id": "day2-bana",
+      "layout": "point",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/04-golden-bridge.jpg",
+      "narration": "Ngày thứ hai, dành phần lớn thời gian cho Bà Nà Hills. Cầu Vàng là điểm check-in nổi bật, nhưng nhớ tính thời gian di chuyển và đừng xếp thêm quá nhiều điểm trong ngày này.",
+      "label": "NGÀY 2",
+      "caption": "Bà Nà Hills",
+      "points": ["Dành trọn ngày cho Bà Nà", "Cầu Vàng · điểm check-in chính"],
+      "tip": "Tính kỹ thời gian di chuyển, đừng xếp thêm quá nhiều điểm",
+      "accent": "#7fe3d4",
+      "durationSec": 11
+    },
+    {
+      "id": "day3-marble",
+      "layout": "point",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/05-marble-mountains.jpg",
+      "narration": "Ngày cuối, có thể bắt đầu bằng Ngũ Hành Sơn để khám phá cảnh quan núi đá và các điểm tâm linh.",
+      "label": "NGÀY 3",
+      "caption": "Ngũ Hành Sơn",
+      "points": ["Khám phá cảnh quan núi đá", "Ghé các điểm tâm linh"],
+      "accent": "#ff9d7a",
+      "durationSec": 7
+    },
+    {
+      "id": "day3-hoian",
+      "layout": "point",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/06-hoi-an.jpg",
+      "narration": "Nếu chuyến bay về muộn, cân nhắc ghé phố cổ Hội An. Còn nếu bay sớm, hãy tận hưởng buổi sáng nhẹ nhàng ở Đà Nẵng thay vì cố nhồi lịch.",
+      "label": "NGÀY 3 · TÙY CHỌN",
+      "caption": "Thêm Hội An?",
+      "points": ["Bay muộn: ghé phố cổ Hội An", "Bay sớm: sáng nhẹ ở Đà Nẵng"],
+      "tip": "Đừng cố nhồi lịch",
+      "accent": "#ff9d7a",
+      "durationSec": 9
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "assetType": "image",
+      "asset": "videos/da-nang-3n2d/images/07-outro.jpg",
+      "narration": "Một lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi. Lưu video lại để lên kế hoạch cho chuyến đi Đà Nẵng nhé!",
+      "label": "ĐI NHẸ NHÀNG THÔI",
+      "caption": "ĐÀ NẴNG",
+      "tip": "Lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi",
+      "cta": "Lưu lại để lên kế hoạch nhé!",
+      "durationSec": 8
+    }
+  ]
+}
