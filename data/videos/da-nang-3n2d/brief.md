@@ -8,7 +8,7 @@ Tạo video TikTok giúp người xem hình dung lịch trình
 Người Việt Nam muốn tự lên kế hoạch du lịch.
 
 ## Thời lượng
-50–65 giây.
+Không giới hạn; độ dài theo nội dung và lời thuyết minh (bản hiện tại ~73,5 giây).
 
 ## Format
 Vertical 9:16, 1080x1920, 30 FPS.
