@@ -1,24 +1,47 @@
+import type { Caption } from "@remotion/captions";
+
 /**
- * Shape of data/videos/<slug>/video.json.
+ * Shape of data/videos/<slug>/video.json (written by hand) plus
+ * voiceover.json (written by `npm run video:voice`).
  *
- * The composition only knows how to *display* these fields; all content,
- * timing and asset choices live in the video's JSON file. Keep this type and
- * scripts/lib/validate-video.mjs in sync — the script validates the same
- * shape at build time, since TypeScript types are erased at runtime.
+ * The composition only decides how these fields look; all content, timing and
+ * asset choices live in the data. Keep this file and
+ * scripts/lib/video-data.mjs in sync - the script checks the same shape at
+ * runtime, since TypeScript types are erased.
  */
 
-export type SceneLayout = "hook" | "point" | "outro";
+export type SceneLayout = "hook" | "point" | "food" | "outro";
+
+/** Where the map intro zooms to before the scene's photos appear. */
+export type MapTarget = {
+  readonly lng: number;
+  readonly lat: number;
+  /** Label on the pin. */
+  readonly name: string;
+};
+
+export type Dish = {
+  readonly name: string;
+  /** Path relative to public/. */
+  readonly image: string;
+  /** Suggested place to eat it. */
+  readonly place: string;
+  /** Street address as shown on screen. */
+  readonly address: string;
+  /**
+   * The words the narration uses for this dish, if they differ from `name`.
+   * Used to switch to the dish's photo exactly when it is spoken.
+   */
+  readonly spokenAs?: string;
+  /** Google Maps rating. Only shown when set - fill it in after checking. */
+  readonly rating?: number;
+};
 
 export type Scene = {
   /** Stable id, also used for voice file names. */
   readonly id: string;
   readonly layout: SceneLayout;
-  /** Path relative to public/, e.g. "videos/<slug>/images/01-hook.jpg". */
-  readonly asset?: string;
-  readonly assetType?: "image" | "video";
-  /** Path relative to public/. Written by `npm run video:voice`. */
-  readonly voice?: string;
-  /** Spoken line. Not rendered on screen; it is the voice-over source. */
+  /** Spoken line; the source for voice-over and subtitles. */
   readonly narration: string;
   /** Small label above the caption, e.g. "NGÀY 1". */
   readonly label?: string;
@@ -34,32 +57,85 @@ export type Scene = {
   readonly cta?: string;
   /** Per-scene accent colour; falls back to theme.accent. */
   readonly accent?: string;
+  /** Photos or clips (.mp4/.webm) shown in turn, relative to public/. */
+  readonly gallery?: string[];
+  /** Zoom into this point on the region map before the photos. */
+  readonly map?: MapTarget;
+  /** Only used by the "food" layout. */
+  readonly dishes?: Dish[];
   readonly durationSec: number;
+};
+
+export type MapPlate = {
+  /** The pre-rendered region image, relative to public/. */
+  readonly plate: string;
+  /** MapLibre style the plate was rendered from. */
+  readonly style: string;
+  readonly center: [number, number];
+  readonly zoom: number;
+  /** Plate size in CSS pixels, before the render scale. */
+  readonly width: number;
+  readonly height: number;
+  /** Required by the map data licence; shown while the map is visible. */
+  readonly attribution: string;
+};
+
+export type Narrator = {
+  readonly provider: "edge" | "elevenlabs";
+  readonly voice?: string;
+  readonly rate?: string;
+  readonly model?: string;
 };
 
 export type VideoData = {
   readonly id: string;
   readonly title: string;
   readonly language: string;
+  /** Appended to Google Maps searches in the post description. */
+  readonly region?: string;
   readonly template: string;
   readonly format: {
     readonly width: number;
     readonly height: number;
     readonly fps: number;
   };
-  /** Crossfade length between scenes. */
+  /** Crossfade length between scenes. Voice starts after it. */
   readonly transitionFrames: number;
   readonly theme: {
     readonly accent: string;
     readonly brand: string;
   };
+  readonly narrator?: Narrator;
+  /** Burn the narration in as subtitles. Defaults to true. */
+  readonly subtitles?: boolean;
   readonly music?: {
     /** Path relative to public/. */
     readonly src: string;
     readonly volume: number;
   };
+  readonly map?: MapPlate;
   readonly scenes: Scene[];
 };
+
+/** One scene's generated clip. Word times are relative to the clip start. */
+export type VoiceClip = {
+  readonly file: string;
+  readonly hash: string;
+  readonly durationSec: number;
+  readonly words: Caption[];
+};
+
+export type Voiceover = {
+  readonly clips: Record<string, VoiceClip>;
+};
+
+/** What the composition receives: the video plus its generated voice-over. */
+export type VideoProps = VideoData & {
+  readonly voiceover?: Voiceover;
+};
+
+export const sceneDurationInFrames = (scene: Scene, fps: number): number =>
+  Math.round(scene.durationSec * fps);
 
 /**
  * Total length once overlapping transitions are subtracted.
@@ -68,9 +144,20 @@ export type VideoData = {
 export const totalDurationInFrames = (data: VideoData): number => {
   const { fps } = data.format;
   const scenes = data.scenes.reduce(
-    (sum, scene) => sum + Math.round(scene.durationSec * fps),
+    (sum, scene) => sum + sceneDurationInFrames(scene, fps),
     0,
   );
   const overlaps = Math.max(0, data.scenes.length - 1) * data.transitionFrames;
   return Math.max(1, scenes - overlaps);
+};
+
+/** Frame each scene starts at in the full video. */
+export const sceneStartFrames = (data: VideoData): number[] => {
+  const starts: number[] = [];
+  let cursor = 0;
+  for (const scene of data.scenes) {
+    starts.push(cursor);
+    cursor += sceneDurationInFrames(scene, data.format.fps) - data.transitionFrames;
+  }
+  return starts;
 };

@@ -48,7 +48,6 @@ export const resolveInside = (base, relative, label) => {
 
 export const videoDir = (slug) => path.join(DATA_ROOT, assertSafeSlug(slug));
 export const videoJsonPath = (slug) => path.join(videoDir(slug), "video.json");
-export const voiceLockPath = (slug) => path.join(videoDir(slug), "voice.lock.json");
 
 /** Where generated voice clips live, relative to public/. */
 export const voiceDirRelative = (slug) =>

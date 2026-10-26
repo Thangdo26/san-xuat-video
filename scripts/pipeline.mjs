@@ -1,11 +1,16 @@
 #!/usr/bin/env node
 /**
- * npm run video:pipeline -- --slug da-nang-3n2d
+ * npm run video:pipeline -- --slug da-nang-3n2d [--final]
  *
- * Runs the stages in order and stops at the first failure:
- *   1. voice    only when a clip is missing or --voice was passed
- *   2. validate always
- *   3. render   draft.mp4, or final.mp4 with --final
+ * Runs the stages in order and stops at the first failure. Each stage reuses
+ * what is already on disk:
+ *
+ *   1. music        only if the track video.json names is missing
+ *   2. map          only if the map plate is missing
+ *   3. voice        regenerates only clips whose narration changed
+ *   4. validate     always
+ *   5. render       draft.mp4, or final.mp4 with --final
+ *   6. description  post caption, Maps links and credits
  *
  * Nothing is uploaded or published; reviewing and posting stay manual.
  */
@@ -20,10 +25,11 @@ const { flags } = parseArgs(process.argv.slice(2));
 
 const runStage = (name, script, args) => {
   console.log(`\n=== ${name} ===`);
-  const result = spawnSync(process.execPath, [script, ...args], {
-    cwd: PROJECT_ROOT,
-    stdio: "inherit",
-  });
+  const result = spawnSync(
+    process.execPath,
+    [path.join(PROJECT_ROOT, "scripts", script), ...args],
+    { cwd: PROJECT_ROOT, stdio: "inherit" },
+  );
   if (result.error) {
     fail(`${name} could not start: ${result.error.message}`);
   }
@@ -32,42 +38,37 @@ const runStage = (name, script, args) => {
   }
 };
 
+const skip = (name, reason) => console.log(`\n=== ${name} ===\n${reason}; skipping.`);
+
 try {
   const slug = requireSlug(flags, "video:pipeline");
   const isFinal = flags.final === true || flags.final === "true";
-  const forceVoice = flags.voice === true || flags.voice === "true";
-
-  const script = (name) => path.join(PROJECT_ROOT, "scripts", name);
-
-  // Reuse whatever is already on disk: only generate voice when something
-  // actually references a clip that is missing, or the user asked for it.
   const { data } = loadVideoData(slug);
-  const missingVoice = (data.scenes ?? []).filter(
-    (scene) =>
-      typeof scene.voice === "string" &&
-      !existsSync(path.join(PUBLIC_ROOT, scene.voice)),
-  );
-  const hasAnyVoice = (data.scenes ?? []).some((scene) => scene.voice);
 
-  if (forceVoice || missingVoice.length > 0) {
-    runStage("voice", script("voice.mjs"), ["--slug", slug]);
-  } else if (!hasAnyVoice) {
-    console.log(
-      "\n=== voice ===\nNo scene references a voice clip; skipping.\n" +
-        "  Run with --voice (and ELEVENLABS_API_KEY set) to generate voice-over.",
-    );
+  if (!data.music) {
+    skip("music", "video.json has no music");
+  } else if (existsSync(path.join(PUBLIC_ROOT, data.music.src))) {
+    skip("music", `public/${data.music.src} exists`);
+  } else if (/\.mp3$/i.test(data.music.src)) {
+    runStage("music", "music.mjs", ["--out", data.music.src.replace(/\.mp3$/i, "")]);
   } else {
-    console.log("\n=== voice ===\nAll referenced voice clips exist; skipping.");
+    fail(`music.src "${data.music.src}" is missing and is not an .mp3 the music stage can make.`);
   }
 
-  runStage("validate", script("validate.mjs"), ["--slug", slug]);
-  runStage(
-    "render",
-    script("render.mjs"),
-    isFinal ? ["--slug", slug, "--final"] : ["--slug", slug],
-  );
+  if (!data.map) {
+    skip("map", "video.json has no map");
+  } else if (existsSync(path.join(PUBLIC_ROOT, data.map.plate))) {
+    skip("map", `public/${data.map.plate} exists`);
+  } else {
+    runStage("map", "map-plate.mjs", ["--slug", slug]);
+  }
 
-  console.log("\nPipeline finished. Review the file before publishing.");
+  runStage("voice", "voice.mjs", ["--slug", slug]);
+  runStage("validate", "validate.mjs", ["--slug", slug]);
+  runStage("render", "render.mjs", isFinal ? ["--slug", slug, "--final"] : ["--slug", slug]);
+  runStage("description", "description.mjs", ["--slug", slug]);
+
+  console.log("\nPipeline finished. Review the video and description before publishing.");
 } catch (error) {
   fail(error.message);
 }

@@ -1,7 +1,7 @@
 [
   {
     "slot": "01-hook",
-    "file": "01-hook.jpg",
+    "file": "videos/da-nang-3n2d/images/01-hook.jpg",
     "title": "File:Da Nang, Vietnam.jpg",
     "author": "Quangpraha",
     "license": "CC0",
@@ -10,7 +10,7 @@
   },
   {
     "slot": "02-my-khe-beach",
-    "file": "02-my-khe-beach.jpg",
+    "file": "videos/da-nang-3n2d/images/02-my-khe-beach.jpg",
     "title": "File:My Khe Beach, Da Nang, Vietnam.jpg",
     "author": ". Ray in Manila",
     "license": "CC BY 2.0",
@@ -18,8 +18,17 @@
     "source": "https://commons.wikimedia.org/wiki/File%3AMy_Khe_Beach%2C_Da_Nang%2C_Vietnam.jpg"
   },
   {
+    "slot": "02c-son-tra",
+    "file": "videos/da-nang-3n2d/images/02c-son-tra.jpg",
+    "title": "File:Lady Buddha Statue at Linh Ung Pagoda.jpg",
+    "author": "SerChevalerie",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALady_Buddha_Statue_at_Linh_Ung_Pagoda.jpg"
+  },
+  {
     "slot": "03-han-river-night",
-    "file": "03-han-river-night.jpg",
+    "file": "videos/da-nang-3n2d/images/03-han-river-night.jpg",
     "title": "File:Han River Bridge in Vietnam Night View.jpg",
     "author": "kizamaya",
     "license": "CC BY 2.0",
@@ -27,8 +36,17 @@
     "source": "https://commons.wikimedia.org/wiki/File%3AHan_River_Bridge_in_Vietnam_Night_View.jpg"
   },
   {
+    "slot": "03b-dragon-bridge",
+    "file": "videos/da-nang-3n2d/images/03b-dragon-bridge.jpg",
+    "title": "File:Da Nang Dragon Bridge (II).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADa_Nang_Dragon_Bridge_(II).jpg"
+  },
+  {
     "slot": "04-golden-bridge",
-    "file": "04-golden-bridge.jpg",
+    "file": "videos/da-nang-3n2d/images/04-golden-bridge.jpg",
     "title": "File:Golden Bridge Ba Na Hills aerial sunset Da Nang Vietnam.jpg",
     "author": "Vivu Vietnam",
     "license": "CC BY-SA 4.0",
@@ -36,8 +54,26 @@
     "source": "https://commons.wikimedia.org/wiki/File%3AGolden_Bridge_Ba_Na_Hills_aerial_sunset_Da_Nang_Vietnam.jpg"
   },
   {
+    "slot": "04b-golden-bridge-fog",
+    "file": "videos/da-nang-3n2d/images/04b-golden-bridge-fog.jpg",
+    "title": "File:Ba Na Hills - BaNa1519.jpg",
+    "author": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABa_Na_Hills_-_BaNa1519.jpg"
+  },
+  {
+    "slot": "04c-ba-na-cable-car",
+    "file": "videos/da-nang-3n2d/images/04c-ba-na-cable-car.jpg",
+    "title": "File:Cable car Ba Na.JPG",
+    "author": "Daaé",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACable_car_Ba_Na.JPG"
+  },
+  {
     "slot": "05-marble-mountains",
-    "file": "05-marble-mountains.jpg",
+    "file": "videos/da-nang-3n2d/images/05-marble-mountains.jpg",
     "title": "File:Ngu Hanh Son Pagoda.jpg",
     "author": "Christophe95",
     "license": "CC BY-SA 4.0",
@@ -45,8 +81,17 @@
     "source": "https://commons.wikimedia.org/wiki/File%3ANgu_Hanh_Son_Pagoda.jpg"
   },
   {
+    "slot": "05b-huyen-khong-cave",
+    "file": "videos/da-nang-3n2d/images/05b-huyen-khong-cave.jpg",
+    "title": "File:Sunlight Huyen Khong Cave.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASunlight_Huyen_Khong_Cave.jpg"
+  },
+  {
     "slot": "06-hoi-an",
-    "file": "06-hoi-an.jpg",
+    "file": "videos/da-nang-3n2d/images/06-hoi-an.jpg",
     "title": "File:Hoi An - HoiAn1457.jpg",
     "author": "lumoplank",
     "license": "CC0",
@@ -54,12 +99,66 @@
     "source": "https://commons.wikimedia.org/wiki/File%3AHoi_An_-_HoiAn1457.jpg"
   },
   {
+    "slot": "06b-hoi-an-lanterns",
+    "file": "videos/da-nang-3n2d/images/06b-hoi-an-lanterns.jpg",
+    "title": "File:Lanterns in Hoi An 2.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALanterns_in_Hoi_An_2.jpg"
+  },
+  {
+    "slot": "06c-hoi-an-river",
+    "file": "videos/da-nang-3n2d/images/06c-hoi-an-river.jpg",
+    "title": "File:Hoi An - HoiAn1441.jpg",
+    "author": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHoi_An_-_HoiAn1441.jpg"
+  },
+  {
     "slot": "07-outro",
-    "file": "07-outro.jpg",
+    "file": "videos/da-nang-3n2d/images/07-outro.jpg",
     "title": "File:My Khe Beach Danang Coastline.jpg",
     "author": "Jpatokal",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File%3AMy_Khe_Beach_Danang_Coastline.jpg"
+  },
+  {
+    "slot": "banh-trang-cuon",
+    "file": "videos/da-nang-3n2d/food/banh-trang-cuon.jpg",
+    "title": "File:Bánh tráng cuốn thịt heo.jpg",
+    "author": "Lê Huỳnh Bộ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_tr%C3%A1ng_cu%E1%BB%91n_th%E1%BB%8Bt_heo.jpg"
+  },
+  {
+    "slot": "banh-xeo",
+    "file": "videos/da-nang-3n2d/food/banh-xeo.jpg",
+    "title": "File:Bánh xèo nhân Mực, Nha Trang.jpg",
+    "author": "vi:User:ASM~viwiki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_x%C3%A8o_nh%C3%A2n_M%E1%BB%B1c%2C_Nha_Trang.jpg"
+  },
+  {
+    "slot": "bun-cha-ca",
+    "file": "videos/da-nang-3n2d/food/bun-cha-ca.jpg",
+    "title": "File:Bún chả cá, tháng 8 năm 2018.JPG",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG"
+  },
+  {
+    "slot": "mi-quang",
+    "file": "videos/da-nang-3n2d/food/mi-quang.jpg",
+    "title": "File:Mi Quang 1A Danang.jpg",
+    "author": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMi_Quang_1A_Danang.jpg"
   }
 ]

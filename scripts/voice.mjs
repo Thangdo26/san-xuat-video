@@ -1,181 +1,278 @@
 #!/usr/bin/env node
 /**
- * npm run video:voice -- --slug da-nang-3n2d
+ * npm run video:voice -- --slug da-nang-3n2d [--dry-run]
  *
- * Turns each scene's narration into an MP3 with ElevenLabs and writes the
- * resulting path back into video.json.
+ * Turns each scene's narration into an MP3, then writes
+ * data/videos/<slug>/voiceover.json with each clip's path, measured length
+ * and word timings (used for subtitles and to time the food photos).
+ * Scenes too short for their clip are lengthened in video.json, so voice-over
+ * is never cut off.
  *
- * Credentials come from the environment and are never printed:
- *   ELEVENLABS_API_KEY    required, only when a clip actually needs generating
- *   ELEVENLABS_VOICE_ID   required, the voice to speak with
- *   ELEVENLABS_MODEL_ID   optional, defaults to eleven_multilingual_v2
+ * Which engine speaks is set in video.json under "narrator":
  *
- * A clip is regenerated only when its narration, voice or model changed, so
- * editing one line does not re-bill the whole video.
+ *   "edge"        Microsoft Edge's read-aloud voices. Free, no key, and it
+ *                 returns word timings. Unofficial endpoint: fine for drafts;
+ *                 see README before publishing commercially.
+ *   "elevenlabs"  ElevenLabs. Needs ELEVENLABS_API_KEY (and a voice id in
+ *                 narrator.voice or ELEVENLABS_VOICE_ID). No word timings,
+ *                 so no subtitles and evenly spaced food photos.
+ *
+ * Credentials come from the environment and are never printed. A clip is
+ * regenerated only when its narration or narrator settings changed.
  */
-import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fail, parseArgs, requireSlug } from "./lib/args.mjs";
+import { probeDurationSec } from "./lib/media.mjs";
+import { PUBLIC_ROOT, videoJsonPath, voiceDirRelative } from "./lib/paths.mjs";
 import {
-  PUBLIC_ROOT,
-  voiceDirRelative,
-  voiceLockPath,
-  videoJsonPath,
-} from "./lib/paths.mjs";
-import { loadValidVideoData } from "./lib/video-data.mjs";
-
-const DEFAULT_MODEL = "eleven_multilingual_v2";
-const API = "https://api.elevenlabs.io/v1/text-to-speech";
+  VOICE_TAIL_SEC,
+  clipHash,
+  loadValidVideoData,
+  resolveNarrator,
+  totalDurationInFrames,
+  voiceoverPath,
+} from "./lib/video-data.mjs";
 
 const { flags } = parseArgs(process.argv.slice(2));
 
-const clipHash = (narration, voiceId, modelId) =>
-  createHash("sha256")
-    .update(`${narration}\u0000${voiceId}\u0000${modelId}`)
-    .digest("hex")
-    .slice(0, 16);
-
-const readLock = (slug) => {
-  const file = voiceLockPath(slug);
-  if (!existsSync(file)) return {};
-  try {
-    return JSON.parse(readFileSync(file, "utf8"));
-  } catch {
-    return {};
-  }
-};
-
-const describeApiError = (status, body) => {
+const describeHttpError = (provider, status, body) => {
   const hint =
-    status === 401
-      ? "Check ELEVENLABS_API_KEY."
+    status === 401 || status === 403
+      ? "Check the API key."
       : status === 404
-        ? "Check ELEVENLABS_VOICE_ID; that voice was not found."
-        : status === 422
-          ? "The request was rejected; check ELEVENLABS_MODEL_ID and the narration text."
+        ? "Check the voice id; that voice was not found."
+        : status === 400 || status === 422
+          ? "The request was rejected; check the voice/model settings and the narration text."
           : status === 429
-            ? "Rate limited or out of quota. Wait and run the command again; finished clips are kept."
+            ? "Rate limited or out of quota. Wait and run again; finished clips are kept."
             : status >= 500
-              ? "ElevenLabs is failing. Run the command again in a few minutes; finished clips are kept."
+              ? "The service is failing. Run again in a few minutes; finished clips are kept."
               : "See the response above.";
   const snippet = body ? ` ${String(body).slice(0, 300)}` : "";
-  return `ElevenLabs returned HTTP ${status}.${snippet}\n  ${hint}`;
+  return `${provider} returned HTTP ${status}.${snippet}\n  ${hint}`;
 };
+
+const lettersOnly = (text) =>
+  text.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+
+/**
+ * Edge reports bare words; the narration has the punctuation. Pair them up so
+ * subtitles read "Đà Nẵng?" rather than "Đà Nẵng" (src/Subtitles.tsx also
+ * breaks lines on that punctuation).
+ */
+const toCaptions = (narration, boundaries) => {
+  const tokens = narration.trim().split(/\s+/);
+  let cursor = 0;
+  return boundaries.map((boundary, index) => {
+    let text = boundary.text;
+    for (let k = cursor; k < Math.min(tokens.length, cursor + 3); k++) {
+      if (lettersOnly(tokens[k]) === lettersOnly(boundary.text)) {
+        text = tokens[k];
+        cursor = k + 1;
+        break;
+      }
+    }
+    // Edge offsets are in 100-nanosecond ticks.
+    const startMs = Math.round(boundary.offset / 10000);
+    const endMs = Math.round((boundary.offset + boundary.duration) / 10000);
+    return {
+      text: (index === 0 ? "" : " ") + text,
+      startMs,
+      endMs,
+      timestampMs: Math.round((startMs + endMs) / 2),
+      confidence: null,
+    };
+  });
+};
+
+const providers = {
+  edge: {
+    describe: (narrator) => `Edge TTS, ${narrator.voice}, rate ${narrator.rate}`,
+    missingCredentials: () => [],
+    synthesise: async (text, narrator) => {
+      const { EdgeTTS } = await import("@andresaya/edge-tts");
+      try {
+        const result = await new EdgeTTS().generate(text, narrator.voice, {
+          rate: narrator.rate,
+        });
+        return {
+          audio: Buffer.from(result.audio),
+          words: toCaptions(text, result.wordBoundaries ?? []),
+        };
+      } catch (error) {
+        throw new Error(
+          `Edge TTS failed: ${error.message}\n` +
+            "  It is a free online service with no SLA. Check your connection and run again; finished clips are kept.",
+        );
+      }
+    },
+  },
+
+  elevenlabs: {
+    describe: (narrator) =>
+      `ElevenLabs, model ${narrator.model ?? "eleven_multilingual_v2"}`,
+    missingCredentials: (narrator) =>
+      [
+        process.env.ELEVENLABS_API_KEY ? null : "ELEVENLABS_API_KEY",
+        narrator.voice || process.env.ELEVENLABS_VOICE_ID
+          ? null
+          : "ELEVENLABS_VOICE_ID",
+      ].filter(Boolean),
+    synthesise: async (text, narrator) => {
+      const voiceId = narrator.voice || process.env.ELEVENLABS_VOICE_ID;
+      const response = await fetch(
+        `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}`,
+        {
+          method: "POST",
+          headers: {
+            "xi-api-key": process.env.ELEVENLABS_API_KEY,
+            "Content-Type": "application/json",
+            Accept: "audio/mpeg",
+          },
+          body: JSON.stringify({
+            text,
+            model_id: narrator.model ?? "eleven_multilingual_v2",
+          }),
+        },
+      );
+      if (!response.ok) {
+        const body = await response.text().catch(() => "");
+        throw new Error(describeHttpError("ElevenLabs", response.status, body));
+      }
+      return { audio: Buffer.from(await response.arrayBuffer()), words: [] };
+    },
+  },
+};
+
+/** One word per line keeps the file reviewable and its diffs small. */
+const formatVoiceover = (voiceover) => {
+  const ids = Object.keys(voiceover.clips);
+  const lines = ["{", '  "clips": {'];
+  ids.forEach((id, index) => {
+    const clip = voiceover.clips[id];
+    lines.push(`    ${JSON.stringify(id)}: {`);
+    lines.push(`      "file": ${JSON.stringify(clip.file)},`);
+    lines.push(`      "hash": ${JSON.stringify(clip.hash)},`);
+    lines.push(`      "durationSec": ${clip.durationSec},`);
+    if (clip.words.length === 0) {
+      lines.push('      "words": []');
+    } else {
+      lines.push('      "words": [');
+      clip.words.forEach((word, i) => {
+        lines.push(`        ${JSON.stringify(word)}${i < clip.words.length - 1 ? "," : ""}`);
+      });
+      lines.push("      ]");
+    }
+    lines.push(`    }${index < ids.length - 1 ? "," : ""}`);
+  });
+  lines.push("  }", "}", "");
+  return lines.join("\n");
+};
+
+const roundUpToHalf = (seconds) => Math.ceil(seconds * 2) / 2;
 
 const main = async () => {
   const slug = requireSlug(flags, "video:voice");
-  const { data } = loadValidVideoData(slug);
+  // Scene lengths are what this command fixes, so don't fail on them here.
+  const { data, voiceover } = loadValidVideoData(slug, { requireVoiceFit: false });
 
-  const voiceId = process.env.ELEVENLABS_VOICE_ID ?? "";
-  const modelId = process.env.ELEVENLABS_MODEL_ID ?? DEFAULT_MODEL;
-  const apiKey = process.env.ELEVENLABS_API_KEY ?? "";
-
+  const narrator = resolveNarrator(data);
+  const provider = providers[narrator.provider];
   const relDir = voiceDirRelative(slug);
-  const absDir = path.join(PUBLIC_ROOT, relDir);
-  const lock = readLock(slug);
+  const leadSec = data.transitionFrames / data.format.fps;
+  const previous = voiceover.clips ?? {};
 
   const planned = data.scenes.map((scene, index) => {
     const order = String(index + 1).padStart(2, "0");
-    const relative = `${relDir}/${order}-${scene.id}.mp3`;
-    const absolute = path.join(PUBLIC_ROOT, relative);
-    const hash = voiceId ? clipHash(scene.narration, voiceId, modelId) : null;
+    const file = `${relDir}/${order}-${scene.id}.mp3`;
+    const absolute = path.join(PUBLIC_ROOT, file);
+    const hash = clipHash(scene.narration, narrator);
+    const old = previous[scene.id];
     const upToDate =
-      existsSync(absolute) && hash !== null && lock[scene.id] === hash;
-    return { scene, relative, absolute, hash, upToDate };
+      existsSync(absolute) && old?.hash === hash && old?.file === file;
+    return { scene, file, absolute, hash, upToDate, old };
   });
-
   const stale = planned.filter((item) => !item.upToDate);
 
-  if (stale.length === 0 && planned.every((item) => existsSync(item.absolute))) {
-    console.log(
-      `All ${planned.length} voice clips are up to date; nothing to generate.`,
-    );
-    writeVoicePaths(slug, data, planned);
-    return;
-  }
-
   if (flags["dry-run"]) {
-    console.log(`Would generate ${stale.length} clip(s):`);
-    for (const item of stale) {
-      console.log(`  - ${item.relative}`);
-    }
+    console.log(`Narrator: ${provider.describe(narrator)}`);
+    console.log(
+      stale.length === 0
+        ? "All clips are up to date."
+        : `Would generate ${stale.length} clip(s):\n` +
+            stale.map((item) => `  - ${item.file}`).join("\n"),
+    );
     return;
   }
 
-  if (!apiKey || !voiceId) {
-    const missing = [
-      !apiKey ? "ELEVENLABS_API_KEY" : null,
-      !voiceId ? "ELEVENLABS_VOICE_ID" : null,
-    ].filter(Boolean);
-    throw new Error(
-      `${stale.length} voice clip(s) need generating but ${missing.join(" and ")} ` +
-        `${missing.length > 1 ? "are" : "is"} not set.\n` +
-        `  Set them in your shell, then run the command again:\n` +
-        `    export ELEVENLABS_API_KEY=...\n` +
-        `    export ELEVENLABS_VOICE_ID=...\n` +
-        `  Or run with --dry-run to see what would be generated.`,
-    );
-  }
+  const clips = {};
 
-  mkdirSync(absDir, { recursive: true });
-  console.log(
-    `Generating ${stale.length} of ${planned.length} clip(s) with model ${modelId}`,
-  );
-
-  for (const item of stale) {
-    const response = await fetch(`${API}/${encodeURIComponent(voiceId)}`, {
-      method: "POST",
-      headers: {
-        "xi-api-key": apiKey,
-        "Content-Type": "application/json",
-        Accept: "audio/mpeg",
-      },
-      body: JSON.stringify({
-        text: item.scene.narration,
-        model_id: modelId,
-      }),
-    });
-
-    if (!response.ok) {
-      const body = await response.text().catch(() => "");
-      // No placeholder file is written, so a retry picks up exactly here.
+  if (stale.length > 0) {
+    const missing = provider.missingCredentials(narrator);
+    if (missing.length > 0) {
       throw new Error(
-        `Scene "${item.scene.id}": ${describeApiError(response.status, body)}`,
+        `${stale.length} clip(s) need generating with ${narrator.provider}, ` +
+          `but ${missing.join(" and ")} ${missing.length > 1 ? "are" : "is"} not set.\n` +
+          '  Set them in your shell and run again, or set narrator.provider to "edge" (free, no key).',
       );
     }
+    mkdirSync(path.join(PUBLIC_ROOT, relDir), { recursive: true });
+    console.log(
+      `Generating ${stale.length} of ${planned.length} clip(s): ${provider.describe(narrator)}`,
+    );
+  } else {
+    console.log(`All ${planned.length} clips are up to date.`);
+  }
 
-    const audio = Buffer.from(await response.arrayBuffer());
-    if (audio.length === 0) {
-      throw new Error(
-        `Scene "${item.scene.id}": ElevenLabs returned an empty body. Run the command again.`,
-      );
+  for (const item of planned) {
+    if (item.upToDate) {
+      clips[item.scene.id] = item.old;
+      continue;
+    }
+    // Nothing is written until the audio is in hand, so a failure leaves no
+    // placeholder behind. Finished clips are saved as we go, so a retry
+    // resumes from the clip that failed.
+    const { audio, words } = await provider.synthesise(item.scene.narration, narrator);
+    if (!audio || audio.length === 0) {
+      throw new Error(`Scene "${item.scene.id}": the service returned no audio. Run again.`);
     }
     writeFileSync(item.absolute, audio);
-    lock[item.scene.id] = item.hash;
-    writeFileSync(voiceLockPath(slug), JSON.stringify(lock, null, 2) + "\n");
-    console.log(`  ✓ ${item.relative} (${(audio.length / 1024).toFixed(0)} KB)`);
+    const durationSec = Math.round(probeDurationSec(item.absolute) * 100) / 100;
+    clips[item.scene.id] = { file: item.file, hash: item.hash, durationSec, words };
+    writeFileSync(
+      voiceoverPath(slug),
+      formatVoiceover({ clips: { ...previous, ...clips } }),
+    );
+    console.log(`  ✓ ${item.file}  ${durationSec.toFixed(2)}s  ${words.length} words`);
   }
 
-  writeVoicePaths(slug, data, planned);
-  console.log("\nDone.");
-};
+  // Drop clips for scenes that no longer exist.
+  writeFileSync(voiceoverPath(slug), formatVoiceover({ clips }));
 
-/** Points video.json at the clips so the composition can play them. */
-const writeVoicePaths = (slug, data, planned) => {
-  let changed = false;
-  for (const item of planned) {
-    if (!existsSync(item.absolute)) continue;
-    const scene = data.scenes.find((candidate) => candidate.id === item.scene.id);
-    if (scene && scene.voice !== item.relative) {
-      scene.voice = item.relative;
-      changed = true;
+  let lengthened = false;
+  console.log("\nFitting scenes to their voice-over:");
+  for (const scene of data.scenes) {
+    const clip = clips[scene.id];
+    const needed = roundUpToHalf(leadSec + clip.durationSec + VOICE_TAIL_SEC);
+    const before = scene.durationSec;
+    if (scene.durationSec < needed) {
+      scene.durationSec = needed;
+      lengthened = true;
     }
+    const note =
+      scene.durationSec !== before
+        ? `scene ${before}s → ${scene.durationSec}s`
+        : `scene ${scene.durationSec}s ok`;
+    console.log(`  ${scene.id.padEnd(14)} voice ${clip.durationSec.toFixed(2)}s   ${note}`);
   }
-  if (changed) {
+  if (lengthened) {
     writeFileSync(videoJsonPath(slug), JSON.stringify(data, null, 2) + "\n");
-    console.log(`Updated voice paths in data/videos/${slug}/video.json`);
+    console.log(`\nLengthened scenes in data/videos/${slug}/video.json`);
   }
+
+  const total = totalDurationInFrames(data) / data.format.fps;
+  console.log(`Video length is now ${total.toFixed(1)}s.`);
 };
 
 main().catch((error) => fail(error.message));

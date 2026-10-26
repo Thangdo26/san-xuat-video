@@ -7,8 +7,8 @@ import {
   useVideoConfig,
 } from "remotion";
 import { fontFamily } from "./font";
-import { IMAGE_HEIGHT } from "./SceneImage";
-import type { Scene } from "./schema";
+import { IMAGE_HEIGHT } from "./Gallery";
+import type { Dish, Scene } from "./schema";
 
 /**
  * Every layout animates in after ENTRY_DELAY frames, which matches the scene
@@ -290,12 +290,141 @@ const Cta: React.FC<{ readonly text: string; readonly delay: number }> = ({
   );
 };
 
+const PinIcon: React.FC<{ readonly color: string }> = ({ color }) => (
+  <svg width={36} height={36} viewBox="0 0 24 24" style={{ flexShrink: 0 }}>
+    <path
+      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"
+      fill={color}
+    />
+  </svg>
+);
+
+/**
+ * All dishes stay listed for the whole scene so every address can be read;
+ * the one being spoken is highlighted. The narration names the dishes faster
+ * than an address can be read, so a one-at-a-time card would flash past.
+ */
+const DishList: React.FC<{
+  readonly dishes: Dish[];
+  readonly starts: number[];
+  readonly accent: string;
+}> = ({ dishes, starts, accent }) => {
+  const frame = useCurrentFrame();
+
+  return (
+    <div style={{ marginTop: 28 }}>
+      {dishes.map((dish, index) => {
+        const appear = ENTRY_DELAY + 6 + index * 5;
+        const entry = interpolate(frame, [appear, appear + 12], [0, 1], {
+          easing: Easing.bezier(0.16, 1, 0.3, 1),
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        });
+        const start = starts[index] ?? 0;
+        const end = starts[index + 1];
+        const on =
+          interpolate(frame, [start - 3, start + 3], [0, 1], {
+            extrapolateLeft: "clamp",
+            extrapolateRight: "clamp",
+          }) *
+          (end === undefined
+            ? 1
+            : interpolate(frame, [end - 3, end + 3], [1, 0], {
+                extrapolateLeft: "clamp",
+                extrapolateRight: "clamp",
+              }));
+
+        return (
+          <div
+            key={dish.name}
+            style={{
+              display: "flex",
+              gap: 22,
+              marginTop: index === 0 ? 0 : 26,
+              opacity: entry * (0.42 + 0.58 * on),
+              translate: `${interpolate(entry, [0, 1], [-80, 0])}px 0px`,
+            }}
+          >
+            <div
+              style={{
+                width: 6,
+                borderRadius: 3,
+                flexShrink: 0,
+                backgroundColor: accent,
+                opacity: on,
+              }}
+            />
+            <div>
+              <div
+                style={{
+                  fontFamily,
+                  fontSize: 50,
+                  fontWeight: 800,
+                  lineHeight: 1.2,
+                  color: "#ffffff",
+                }}
+              >
+                {dish.name}
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                  marginTop: 4,
+                  fontFamily,
+                  fontSize: 36,
+                  fontWeight: 500,
+                  lineHeight: 1.35,
+                  color: "rgba(255,255,255,0.78)",
+                }}
+              >
+                <PinIcon color={accent} />
+                <span>
+                  <span style={{ fontWeight: 700, color: "#ffffff" }}>
+                    {dish.place}
+                  </span>
+                  {`  ·  ${dish.address}`}
+                  {typeof dish.rating === "number" ? (
+                    <span style={{ color: accent, fontWeight: 700 }}>
+                      {`  ·  ★ ${dish.rating.toFixed(1)}`}
+                    </span>
+                  ) : null}
+                </span>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 type LayoutProps = {
   readonly scene: Scene;
   readonly accent: string;
+  /** Frame each dish is spoken at; only used by the "food" layout. */
+  readonly dishStarts?: number[];
 };
 
-export const SceneLayout: React.FC<LayoutProps> = ({ scene, accent }) => {
+export const SceneLayout: React.FC<LayoutProps> = ({
+  scene,
+  accent,
+  dishStarts,
+}) => {
+  if (scene.layout === "food") {
+    return (
+      <TextBlock>
+        {scene.label ? <Label text={scene.label} accent={accent} /> : null}
+        <DishList
+          dishes={scene.dishes ?? []}
+          starts={dishStarts ?? []}
+          accent={accent}
+        />
+      </TextBlock>
+    );
+  }
+
   if (scene.layout === "hook") {
     return (
       <TextBlock>

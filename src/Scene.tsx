@@ -1,36 +1,172 @@
+import type { Caption } from "@remotion/captions";
 import { Audio } from "@remotion/media";
 import {
   AbsoluteFill,
   Easing,
   interpolate,
+  Sequence,
   staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
 import { fontFamily } from "./font";
+import { evenSlots, Gallery, MEDIA_CROSSFADE_FRAMES, Scrim } from "./Gallery";
 import { SceneLayout } from "./layouts";
-import type { Scene as SceneData, VideoData } from "./schema";
+import { MAP_INTRO_SEC, MapAttribution, MapIntro } from "./MapIntro";
+import type { Dish, MapPlate, Scene as SceneData, VideoData, VoiceClip } from "./schema";
 import { SceneBackground } from "./SceneBackground";
-import { SceneImage } from "./SceneImage";
+import { Subtitles } from "./Subtitles";
 
 type Props = {
   readonly scene: SceneData;
   readonly theme: VideoData["theme"];
+  readonly plate?: MapPlate;
+  readonly voice?: VoiceClip;
+  /** Frame within the scene the voice clip starts at. */
+  readonly voiceOffsetFrames: number;
+  readonly subtitles: boolean;
   readonly durationInFrames: number;
 };
 
-export const Scene: React.FC<Props> = ({ scene, theme, durationInFrames }) => {
+const normalise = (text: string) =>
+  text
+    .normalize("NFC")
+    .toLowerCase()
+    .replace(/[.,!?;:"'()…-]/g, "")
+    .trim();
+
+/** Frame (within the clip) at which `phrase` starts being spoken, if found. */
+const spokenAtFrame = (
+  words: Caption[],
+  phrase: string,
+  fps: number,
+): number | null => {
+  const wanted = phrase.split(/\s+/).map(normalise).filter(Boolean);
+  const spoken = words.map((word) => normalise(word.text));
+  for (let i = 0; i + wanted.length <= spoken.length; i++) {
+    if (wanted.every((token, k) => spoken[i + k] === token)) {
+      return Math.round((words[i].startMs / 1000) * fps);
+    }
+  }
+  return null;
+};
+
+/**
+ * Switch to each dish's photo just before its name is spoken. Falls back to
+ * even spacing when there is no word timing (e.g. no voice-over yet, or a
+ * provider without timestamps) or a dish is not found in the narration.
+ */
+const dishStartFrames = (
+  dishes: Dish[],
+  voice: VoiceClip | undefined,
+  voiceOffsetFrames: number,
+  fps: number,
+  durationInFrames: number,
+): number[] => {
+  const fallback = evenSlots(dishes.length, 0, durationInFrames);
+  if (!voice || voice.words.length === 0) {
+    return fallback;
+  }
+  const lead = Math.round(0.15 * fps);
+  const synced = dishes.map((dish, index) => {
+    if (index === 0) {
+      return 0;
+    }
+    const at = spokenAtFrame(voice.words, dish.spokenAs ?? dish.name, fps);
+    return at === null ? null : voiceOffsetFrames + at - lead;
+  });
+  const ascending = synced.every(
+    (frame, index) =>
+      frame !== null && (index === 0 || frame > (synced[index - 1] ?? 0)),
+  );
+  return ascending ? (synced as number[]) : fallback;
+};
+
+export const Scene: React.FC<Props> = ({
+  scene,
+  theme,
+  plate,
+  voice,
+  voiceOffsetFrames,
+  subtitles,
+  durationInFrames,
+}) => {
+  const { fps } = useVideoConfig();
   const accent = scene.accent ?? theme.accent;
+
+  const hasMap = Boolean(scene.map && plate);
+  const mapFrames = hasMap ? Math.round(MAP_INTRO_SEC * fps) : 0;
+
+  const isFood = scene.layout === "food";
+  const dishes = scene.dishes ?? [];
+  const dishStarts = isFood
+    ? dishStartFrames(dishes, voice, voiceOffsetFrames, fps, durationInFrames)
+    : undefined;
+
+  const items = isFood ? dishes.map((dish) => dish.image) : (scene.gallery ?? []);
+  const slotStarts =
+    dishStarts ?? evenSlots(items.length, mapFrames, durationInFrames);
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#04101a" }}>
       <SceneBackground glow="rgba(255,190,105,0.26)" />
-      {scene.asset ? (
-        <SceneImage src={scene.asset} durationInFrames={durationInFrames} />
+
+      {hasMap && scene.map && plate ? (
+        <Sequence
+          durationInFrames={mapFrames + MEDIA_CROSSFADE_FRAMES}
+          layout="none"
+        >
+          <MapIntro
+            plate={plate}
+            target={scene.map}
+            accent={accent}
+            durationInFrames={mapFrames}
+          />
+        </Sequence>
       ) : null}
-      <SceneLayout scene={scene} accent={accent} />
-      {scene.layout === "point" ? <Brand text={theme.brand} /> : null}
-      {scene.voice ? <Audio src={staticFile(scene.voice)} /> : null}
+
+      {items.length > 0 ? (
+        <Gallery
+          items={items}
+          slotStarts={slotStarts}
+          endFrame={durationInFrames}
+          fadeInFirst={hasMap}
+        />
+      ) : null}
+      <Scrim />
+
+      {hasMap && plate ? (
+        <Sequence
+          durationInFrames={mapFrames + MEDIA_CROSSFADE_FRAMES}
+          layout="none"
+        >
+          <MapAttribution
+            text={plate.attribution}
+            visibleUntil={mapFrames + MEDIA_CROSSFADE_FRAMES}
+          />
+        </Sequence>
+      ) : null}
+
+      {subtitles && voice && voice.words.length > 0 ? (
+        <Subtitles
+          words={voice.words}
+          offsetFrames={voiceOffsetFrames}
+          accent={accent}
+        />
+      ) : null}
+
+      <SceneLayout
+        scene={scene}
+        accent={accent}
+        dishStarts={dishStarts}
+      />
+      {scene.layout === "point" || isFood ? <Brand text={theme.brand} /> : null}
+
+      {voice ? (
+        <Sequence from={voiceOffsetFrames} layout="none">
+          <Audio src={staticFile(voice.file)} />
+        </Sequence>
+      ) : null}
     </AbsoluteFill>
   );
 };

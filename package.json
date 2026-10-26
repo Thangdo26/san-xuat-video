@@ -9,15 +9,18 @@
   },
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.539",
     "@remotion/cli": "4.0.539",
     "@remotion/google-fonts": "4.0.539",
     "@remotion/media": "4.0.539",
     "@remotion/transitions": "4.0.539",
+    "maplibre-gl": "6.16.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.539"
   },
   "devDependencies": {
+    "@andresaya/edge-tts": "1.9.1",
     "@remotion/eslint-config-flat": "4.0.539",
     "@types/react": "19.2.7",
     "@types/web": "0.0.166",
@@ -33,7 +36,11 @@
     "video:validate": "node scripts/validate.mjs",
     "video:voice": "node scripts/voice.mjs",
     "video:render": "node scripts/render.mjs",
-    "video:pipeline": "node scripts/pipeline.mjs"
+    "video:pipeline": "node scripts/pipeline.mjs",
+    "video:music": "node scripts/music.mjs",
+    "video:map": "node scripts/map-plate.mjs",
+    "video:fetch-image": "node scripts/fetch-commons.mjs",
+    "video:description": "node scripts/description.mjs"
   },
   "allowScripts": {
     "esbuild": false
