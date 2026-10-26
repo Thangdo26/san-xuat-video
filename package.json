@@ -29,7 +29,11 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "video:validate": "node scripts/validate.mjs",
+    "video:voice": "node scripts/voice.mjs",
+    "video:render": "node scripts/render.mjs",
+    "video:pipeline": "node scripts/pipeline.mjs"
   },
   "allowScripts": {
     "esbuild": false
