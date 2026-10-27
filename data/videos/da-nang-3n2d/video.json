@@ -59,19 +59,17 @@
         "name": "Biển Mỹ Khê"
       },
       "gallery": [
-        "videos/da-nang-3n2d/images/02-my-khe-beach.jpg",
-        "videos/da-nang-3n2d/images/02c-son-tra.jpg"
+        "videos/da-nang-3n2d/images/02-my-khe-beach.jpg"
       ],
-      "narration": "Ngày đầu tiên, dành thời gian thư giãn ở biển Mỹ Khê. Nếu còn thời gian, ghé bán đảo Sơn Trà để ngắm biển và thành phố từ trên cao. Trưa ăn hải sản ở Bé Mặn, hoặc một tô bún chả cá 109.",
+      "narration": "Ngày đầu tiên, dành thời gian thư giãn ở biển Mỹ Khê. Trưa ăn hải sản ở Bé Mặn, hoặc một tô bún chả cá 109.",
       "label": "NGÀY 1",
       "caption": "Biển Mỹ Khê",
       "points": [
         "Thư giãn cả buổi ở biển",
-        "Bán đảo Sơn Trà"
+        "Sáng sớm hoặc chiều mát là đẹp nhất"
       ],
-      "tip": "Lên Sơn Trà ngắm biển và thành phố từ trên cao",
       "accent": "#ffd27a",
-      "durationSec": 14.5,
+      "durationSec": 10,
       "dishes": [
         {
           "name": "Hải sản",
@@ -86,6 +84,30 @@
           "address": "109 Nguyễn Chí Thanh"
         }
       ]
+    },
+    {
+      "id": "day1-sontra",
+      "layout": "point",
+      "map": {
+        "lng": 108.2779,
+        "lat": 16.1003,
+        "name": "Chùa Linh Ứng · Sơn Trà"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/02d-linh-ung.jpg",
+        "videos/da-nang-3n2d/images/02e-tra-tac.jpg",
+        "videos/da-nang-3n2d/images/02c-son-tra.jpg"
+      ],
+      "narration": "Chiều lên bán đảo Sơn Trà, ghé chùa Linh Ứng với tượng Quan Âm cao sáu mươi bảy mét. Sau đó gọi một ly trà tắc mát lạnh, ngồi ngắm toàn cảnh thành phố và biển từ trên cao.",
+      "label": "NGÀY 1 · CHIỀU",
+      "caption": "Bán đảo Sơn Trà",
+      "points": [
+        "Chùa Linh Ứng · Quan Âm 67m",
+        "Trà tắc ngắm thành phố từ trên cao"
+      ],
+      "tip": "Đi lúc chiều mát để kịp ngắm hoàng hôn",
+      "accent": "#8fe0b0",
+      "durationSec": 12
     },
     {
       "id": "day1-evening",

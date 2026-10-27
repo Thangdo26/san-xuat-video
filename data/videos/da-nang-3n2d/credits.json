@@ -20,11 +20,29 @@
   {
     "slot": "02c-son-tra",
     "file": "videos/da-nang-3n2d/images/02c-son-tra.jpg",
-    "title": "File:Lady Buddha Statue at Linh Ung Pagoda.jpg",
-    "author": "SerChevalerie",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "https://commons.wikimedia.org/wiki/File%3ALady_Buddha_Statue_at_Linh_Ung_Pagoda.jpg"
+    "title": "File:Da Nang and the Son Tra Peninsula.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADa_Nang_and_the_Son_Tra_Peninsula.jpg"
+  },
+  {
+    "slot": "02d-linh-ung",
+    "file": "videos/da-nang-3n2d/images/02d-linh-ung.jpg",
+    "title": "File:Linh Ung Pagoda 5.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALinh_Ung_Pagoda_5.jpg"
+  },
+  {
+    "slot": "02e-tra-tac",
+    "file": "videos/da-nang-3n2d/images/02e-tra-tac.jpg",
+    "title": "File:Trà tắc và bánh tráng.jpg",
+    "author": "Cohaithaofoody",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A0_t%E1%BA%AFc_v%C3%A0_b%C3%A1nh_tr%C3%A1ng.jpg"
   },
   {
     "slot": "03-han-river-night",
