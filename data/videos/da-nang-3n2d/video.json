@@ -15,9 +15,8 @@
     "brand": "ĐÀ NẴNG · 3N2Đ"
   },
   "narrator": {
-    "provider": "edge",
-    "voice": "vi-VN-HoaiMyNeural",
-    "rate": "+10%"
+    "provider": "vbee",
+    "voice": "hn_female_ngochuyen_full_48k-fhg"
   },
   "subtitles": true,
   "music": {
@@ -69,7 +68,7 @@
         "Sáng sớm hoặc chiều mát là đẹp nhất"
       ],
       "accent": "#ffd27a",
-      "durationSec": 10,
+      "durationSec": 8.5,
       "dishes": [
         {
           "name": "Hải sản",
@@ -173,7 +172,7 @@
       ],
       "tip": "Tính kỹ thời gian di chuyển, đừng xếp thêm quá nhiều điểm",
       "accent": "#7fe3d4",
-      "durationSec": 15.5,
+      "durationSec": 14.5,
       "dishes": [
         {
           "name": "Buffet Á – Âu",
@@ -246,7 +245,7 @@
         "Bay sớm: sáng nhẹ ở Đà Nẵng"
       ],
       "accent": "#ff9d7a",
-      "durationSec": 15,
+      "durationSec": 13.5,
       "dishes": [
         {
           "name": "Cơm gà",
@@ -276,7 +275,7 @@
       "caption": "ĐÀ NẴNG",
       "tip": "Lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi",
       "cta": "Lưu lại để lên kế hoạch nhé!",
-      "durationSec": 11.5
+      "durationSec": 10
     }
   ]
 }
