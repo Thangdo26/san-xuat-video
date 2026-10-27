@@ -22,7 +22,7 @@
   "subtitles": true,
   "music": {
     "src": "shared/music/travel-upbeat.mp3",
-    "volume": 0.28
+    "volume": 0.8
   },
   "map": {
     "plate": "videos/da-nang-3n2d/map/region.jpg",
