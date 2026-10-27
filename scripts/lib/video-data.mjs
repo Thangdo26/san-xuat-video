@@ -10,7 +10,7 @@ import {
 } from "./paths.mjs";
 
 const LAYOUTS = new Set(["hook", "point", "food", "outro"]);
-const PROVIDERS = new Set(["edge", "elevenlabs"]);
+const PROVIDERS = new Set(["edge", "elevenlabs", "vbee"]);
 const HEX = /^#[0-9a-fA-F]{6}$/;
 const ID = /^[a-z0-9][a-z0-9-]*$/;
 

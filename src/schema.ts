@@ -87,7 +87,7 @@ export type MapPlate = {
 };
 
 export type Narrator = {
-  readonly provider: "edge" | "elevenlabs";
+  readonly provider: "edge" | "elevenlabs" | "vbee";
   readonly voice?: string;
   readonly rate?: string;
   readonly model?: string;

@@ -35,6 +35,7 @@
     "lint": "eslint src && tsc",
     "video:validate": "node scripts/validate.mjs",
     "video:voice": "node scripts/voice.mjs",
+    "video:import-voice": "node scripts/import-voice.mjs",
     "video:render": "node scripts/render.mjs",
     "video:pipeline": "node scripts/pipeline.mjs",
     "video:music": "node scripts/music.mjs",

@@ -16,6 +16,12 @@ import { fail, parseArgs, requireSlug } from "./lib/args.mjs";
 import { outputDir, videoDir } from "./lib/paths.mjs";
 import { loadVideoData, resolveNarrator } from "./lib/video-data.mjs";
 
+const PROVIDER_NAMES = {
+  edge: "Microsoft Edge TTS",
+  elevenlabs: "ElevenLabs",
+  vbee: "Vbee AIVoice",
+};
+
 const mapsSearch = (query) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 
@@ -106,7 +112,7 @@ try {
   }
   const narrator = resolveNarrator(data);
   attribution.push(
-    `Giọng đọc: ${narrator.provider === "edge" ? "Microsoft Edge TTS" : narrator.provider}` +
+    `Giọng đọc: ${PROVIDER_NAMES[narrator.provider] ?? narrator.provider}` +
       (narrator.voice ? ` (${narrator.voice})` : ""),
   );
 

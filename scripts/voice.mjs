@@ -16,6 +16,9 @@
  *   "elevenlabs"  ElevenLabs. Needs ELEVENLABS_API_KEY (and a voice id in
  *                 narrator.voice or ELEVENLABS_VOICE_ID). No word timings,
  *                 so no subtitles and evenly spaced food photos.
+ *   "vbee"        Vbee AIVoice. Clips are made in Vbee Studio and brought in
+ *                 with video:import-voice; this command only checks they are
+ *                 up to date, since Vbee's API needs separately bought credit.
  *
  * Credentials come from the environment and are never printed. A clip is
  * regenerated only when its narration or narrator settings changed.
@@ -26,13 +29,12 @@ import { fail, parseArgs, requireSlug } from "./lib/args.mjs";
 import { probeDurationSec } from "./lib/media.mjs";
 import { PUBLIC_ROOT, videoJsonPath, voiceDirRelative } from "./lib/paths.mjs";
 import {
-  VOICE_TAIL_SEC,
   clipHash,
   loadValidVideoData,
   resolveNarrator,
-  totalDurationInFrames,
   voiceoverPath,
 } from "./lib/video-data.mjs";
+import { fitScenesToVoice, formatVoiceover, logVideoLength } from "./lib/voiceover.mjs";
 
 const { flags } = parseArgs(process.argv.slice(2));
 
@@ -109,6 +111,18 @@ const providers = {
     },
   },
 
+  vbee: {
+    describe: (narrator) => `Vbee, ${narrator.voice}`,
+    missingCredentials: () => [],
+    synthesise: async () => {
+      throw new Error(
+        "Vbee clips are made in Vbee Studio, not by this command. Create one MP3 per " +
+          "scene there, name each <scene-id>.mp3, then run:\n" +
+          "  npm run video:import-voice -- --slug <slug> --dir <folder>",
+      );
+    },
+  },
+
   elevenlabs: {
     describe: (narrator) =>
       `ElevenLabs, model ${narrator.model ?? "eleven_multilingual_v2"}`,
@@ -145,33 +159,6 @@ const providers = {
   },
 };
 
-/** One word per line keeps the file reviewable and its diffs small. */
-const formatVoiceover = (voiceover) => {
-  const ids = Object.keys(voiceover.clips);
-  const lines = ["{", '  "clips": {'];
-  ids.forEach((id, index) => {
-    const clip = voiceover.clips[id];
-    lines.push(`    ${JSON.stringify(id)}: {`);
-    lines.push(`      "file": ${JSON.stringify(clip.file)},`);
-    lines.push(`      "hash": ${JSON.stringify(clip.hash)},`);
-    lines.push(`      "durationSec": ${clip.durationSec},`);
-    if (clip.words.length === 0) {
-      lines.push('      "words": []');
-    } else {
-      lines.push('      "words": [');
-      clip.words.forEach((word, i) => {
-        lines.push(`        ${JSON.stringify(word)}${i < clip.words.length - 1 ? "," : ""}`);
-      });
-      lines.push("      ]");
-    }
-    lines.push(`    }${index < ids.length - 1 ? "," : ""}`);
-  });
-  lines.push("  }", "}", "");
-  return lines.join("\n");
-};
-
-const roundUpToHalf = (seconds) => Math.ceil(seconds * 2) / 2;
-
 const main = async () => {
   const slug = requireSlug(flags, "video:voice");
   // Scene lengths are what this command fixes, so don't fail on them here.
@@ -180,7 +167,6 @@ const main = async () => {
   const narrator = resolveNarrator(data);
   const provider = providers[narrator.provider];
   const relDir = voiceDirRelative(slug);
-  const leadSec = data.transitionFrames / data.format.fps;
   const previous = voiceover.clips ?? {};
 
   const planned = data.scenes.map((scene, index) => {
@@ -250,29 +236,11 @@ const main = async () => {
   // Drop clips for scenes that no longer exist.
   writeFileSync(voiceoverPath(slug), formatVoiceover({ clips }));
 
-  let lengthened = false;
-  console.log("\nFitting scenes to their voice-over:");
-  for (const scene of data.scenes) {
-    const clip = clips[scene.id];
-    const needed = roundUpToHalf(leadSec + clip.durationSec + VOICE_TAIL_SEC);
-    const before = scene.durationSec;
-    if (scene.durationSec < needed) {
-      scene.durationSec = needed;
-      lengthened = true;
-    }
-    const note =
-      scene.durationSec !== before
-        ? `scene ${before}s → ${scene.durationSec}s`
-        : `scene ${scene.durationSec}s ok`;
-    console.log(`  ${scene.id.padEnd(14)} voice ${clip.durationSec.toFixed(2)}s   ${note}`);
-  }
-  if (lengthened) {
+  if (fitScenesToVoice(data, clips)) {
     writeFileSync(videoJsonPath(slug), JSON.stringify(data, null, 2) + "\n");
     console.log(`\nLengthened scenes in data/videos/${slug}/video.json`);
   }
-
-  const total = totalDurationInFrames(data) / data.format.fps;
-  console.log(`Video length is now ${total.toFixed(1)}s.`);
+  logVideoLength(data);
 };
 
 main().catch((error) => fail(error.message));

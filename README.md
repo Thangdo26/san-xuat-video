@@ -49,6 +49,7 @@ npm run video:pipeline -- --slug da-nang-3n2d --final   # writes final.mp4
 # Individual stages
 npm run video:validate    -- --slug da-nang-3n2d   # no network
 npm run video:voice       -- --slug da-nang-3n2d   # [--dry-run]
+npm run video:import-voice -- --slug da-nang-3n2d --dir <folder>   # Vbee clips
 npm run video:map         -- --slug da-nang-3n2d   # after changing map.*
 npm run video:render      -- --slug da-nang-3n2d   # [--final] [--crf 20]
 npm run video:description -- --slug da-nang-3n2d
@@ -79,6 +80,26 @@ The engine is chosen in `video.json`:
 | --- | --- | --- | --- |
 | `edge` | none | yes | Free Microsoft Edge read-aloud voices (`vi-VN-HoaiMyNeural`, `vi-VN-NamMinhNeural`). Unofficial endpoint: fine for drafts. For commercial publishing use Azure Speech, which has the same voices officially. |
 | `elevenlabs` | `ELEVENLABS_API_KEY`, voice id in `narrator.voice` or `ELEVENLABS_VOICE_ID` | no | Without timings there are no subtitles and food photos switch at even intervals. |
+| `vbee` | none here (clips are made in Vbee Studio) | estimated | Native Vietnamese voices in every region. `narrator.voice` is the Vbee voice code, e.g. `hn_female_ngochuyen_full_24k-stl`. See below. |
+
+### Vbee
+
+Vbee's API spends API credit, bought separately from the Studio points a new
+account gets, so clips are made by hand in Vbee Studio: one request per scene
+with exactly that scene's `narration`, downloaded as `<scene-id>.mp3` into one
+folder. Then:
+
+```bash
+npm run video:import-voice -- --slug da-nang-3n2d --dir path/to/folder
+```
+
+It copies the clips into `public/`, writes `voiceover.json`, and refits every
+scene to its clip, shorter as well as longer. Vbee returns no word timings,
+so `scripts/lib/align.mjs` estimates them: it finds the pause at each comma
+or full stop in the audio and spreads the words of each phrase over it.
+Subtitles and food photos land within a word or so. Change a scene's
+narration and its clip must be remade in Studio; `video:validate` warns
+until it is.
 
 Word timings drive the subtitles (`"subtitles": false` turns them off) and
 switch each food photo when its dish is named. If the narration words for a
