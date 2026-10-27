@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { fontFamily } from "./font";
 import { SUBTITLE_TOP } from "./Gallery";
+import { SAFE_LEFT, SAFE_RIGHT } from "./layouts";
 
 type Props = {
   /** Word timings relative to the voice clip's start. */
@@ -19,10 +20,10 @@ type Page = {
 };
 
 /**
- * About two lines at 46px in the 980px subtitle box. Anything longer would
+ * About two lines at 46px in the 860px subtitle box. Anything longer would
  * push a third line off the foot of the frame.
  */
-const MAX_CHARS_PER_PAGE = 60;
+const MAX_CHARS_PER_PAGE = 54;
 
 /** Keeps a finished line on screen briefly so it can be read to the end. */
 const HOLD_MS = 350;
@@ -106,8 +107,8 @@ export const Subtitles: React.FC<Props> = ({ words, offsetFrames, accent }) => {
       style={{
         position: "absolute",
         top: SUBTITLE_TOP,
-        left: 50,
-        right: 50,
+        left: SAFE_LEFT,
+        right: SAFE_RIGHT,
         textAlign: "center",
         lineHeight: 1.5,
         // Two even lines rather than a long one and an orphaned word.

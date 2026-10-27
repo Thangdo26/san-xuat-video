@@ -52,24 +52,28 @@ const spokenAtFrame = (
 };
 
 /**
- * Switch to each dish's photo just before its name is spoken. Falls back to
- * even spacing when there is no word timing (e.g. no voice-over yet, or a
- * provider without timestamps) or a dish is not found in the narration.
+ * Switch to each dish just before its name is spoken. A "food" scene opens on
+ * its first dish; a "point" scene reaches its dishes partway through, so the
+ * first one is timed as well. Falls back to even spacing from `from` when
+ * there is no word timing (e.g. no voice-over yet, or a provider without
+ * timestamps) or a dish is not found in the narration.
  */
 const dishStartFrames = (
   dishes: Dish[],
   voice: VoiceClip | undefined,
   voiceOffsetFrames: number,
   fps: number,
+  from: number,
   durationInFrames: number,
+  syncFirst: boolean,
 ): number[] => {
-  const fallback = evenSlots(dishes.length, 0, durationInFrames);
+  const fallback = evenSlots(dishes.length, from, durationInFrames);
   if (!voice || voice.words.length === 0) {
     return fallback;
   }
   const lead = Math.round(0.15 * fps);
   const synced = dishes.map((dish, index) => {
-    if (index === 0) {
+    if (index === 0 && !syncFirst) {
       return 0;
     }
     const at = spokenAtFrame(voice.words, dish.spokenAs ?? dish.name, fps);
@@ -99,13 +103,31 @@ export const Scene: React.FC<Props> = ({
 
   const isFood = scene.layout === "food";
   const dishes = scene.dishes ?? [];
-  const dishStarts = isFood
-    ? dishStartFrames(dishes, voice, voiceOffsetFrames, fps, durationInFrames)
-    : undefined;
+  const dishStarts =
+    dishes.length > 0
+      ? dishStartFrames(
+          dishes,
+          voice,
+          voiceOffsetFrames,
+          fps,
+          isFood ? 0 : Math.round(durationInFrames / 2),
+          durationInFrames,
+          !isFood,
+        )
+      : undefined;
 
-  const items = isFood ? dishes.map((dish) => dish.image) : (scene.gallery ?? []);
-  const slotStarts =
-    dishStarts ?? evenSlots(items.length, mapFrames, durationInFrames);
+  // The scene's photos share the time until the first dish photo; each dish
+  // photo then appears as its dish is spoken.
+  const dishPhotos = dishes.flatMap((dish, index) =>
+    dish.image ? [{ src: dish.image, from: dishStarts?.[index] ?? 0 }] : [],
+  );
+  const photos = isFood ? [] : (scene.gallery ?? []);
+  const photosEnd = dishPhotos[0]?.from ?? durationInFrames;
+  const items = [...photos, ...dishPhotos.map((photo) => photo.src)];
+  const slotStarts = [
+    ...evenSlots(photos.length, mapFrames, photosEnd),
+    ...dishPhotos.map((photo) => photo.from),
+  ];
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#04101a" }}>

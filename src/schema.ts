@@ -22,8 +22,11 @@ export type MapTarget = {
 
 export type Dish = {
   readonly name: string;
-  /** Path relative to public/. */
-  readonly image: string;
+  /**
+   * Path relative to public/. Required by the "food" layout; on a "point"
+   * scene the photo replaces the scene's own when the dish is spoken.
+   */
+  readonly image?: string;
   /** Suggested place to eat it. */
   readonly place: string;
   /** Street address as shown on screen. */
@@ -61,7 +64,10 @@ export type Scene = {
   readonly gallery?: string[];
   /** Zoom into this point on the region map before the photos. */
   readonly map?: MapTarget;
-  /** Only used by the "food" layout. */
+  /**
+   * "food" layout: the whole scene. "point" layout: where to eat nearby, up
+   * to three; it replaces the points once the narration reaches the first.
+   */
   readonly dishes?: Dish[];
   readonly durationSec: number;
 };

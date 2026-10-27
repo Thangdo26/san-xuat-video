@@ -17,6 +17,9 @@ const ID = /^[a-z0-9][a-z0-9-]*$/;
 /** Seconds the map intro takes; keep in sync with MAP_INTRO_SEC in src/MapIntro.tsx. */
 export const MAP_INTRO_SEC = 2;
 
+/** How many dishes a "point" scene's list fits between headline and subtitles. */
+const MAX_POINT_DISHES = 3;
+
 /** Silence kept after a voice clip before its scene ends. */
 export const VOICE_TAIL_SEC = 0.6;
 
@@ -357,10 +360,21 @@ export const validateVideoData = (data, slug, voiceover = { clips: {} }) => {
       }
     }
 
-    if (scene.layout === "food") {
+    if (scene.layout === "food" && (!Array.isArray(scene.dishes) || scene.dishes.length === 0)) {
+      add(`${where}.dishes`, 'layout "food" needs at least one dish');
+    } else if (scene.dishes !== undefined) {
+      if (scene.layout !== "food" && scene.layout !== "point") {
+        add(`${where}.dishes`, 'only the "food" and "point" layouts show dishes');
+      }
       if (!Array.isArray(scene.dishes) || scene.dishes.length === 0) {
-        add(`${where}.dishes`, 'layout "food" needs at least one dish');
+        add(`${where}.dishes`, "must be a non-empty array when present");
       } else {
+        if (scene.layout === "point" && scene.dishes.length > MAX_POINT_DISHES) {
+          add(
+            `${where}.dishes`,
+            `a "point" scene fits ${MAX_POINT_DISHES} dishes above the subtitles, got ${scene.dishes.length}`,
+          );
+        }
         scene.dishes.forEach((dish, i) => {
           const at = `${where}.dishes[${i}]`;
           for (const field of ["name", "place", "address"]) {
@@ -368,7 +382,9 @@ export const validateVideoData = (data, slug, voiceover = { clips: {} }) => {
               add(`${at}.${field}`, "required, must be a non-empty string");
             }
           }
-          checkFile(dish?.image, `${at}.image`);
+          if (scene.layout === "food" || dish?.image !== undefined) {
+            checkFile(dish?.image, `${at}.image`);
+          }
           if (dish?.spokenAs !== undefined && !isNonEmptyString(dish.spokenAs)) {
             add(`${at}.spokenAs`, "must be a non-empty string when present");
           }

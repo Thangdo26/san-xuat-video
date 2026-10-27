@@ -52,7 +52,7 @@ npm run video:voice       -- --slug da-nang-3n2d   # [--dry-run]
 npm run video:map         -- --slug da-nang-3n2d   # after changing map.*
 npm run video:render      -- --slug da-nang-3n2d   # [--final] [--crf 20]
 npm run video:description -- --slug da-nang-3n2d
-npm run video:music -- --out shared/music/travel-ambient --seconds 96 [--seed 1]
+npm run video:music -- --out shared/music/travel-upbeat --seconds 120 [--style upbeat|ambient] [--seed 1]
 npm run video:fetch-image -- --slug da-nang-3n2d --dir images \
   --slot 02c-son-tra --title "File:Lady Buddha Statue at Linh Ung Pagoda.jpg"
 
@@ -98,9 +98,19 @@ line up with the map. Validation fails if a pin is too close to the plate edge.
 
 ## Music
 
-`video:music` synthesises a calm loop (Fmaj7–G–Em7–Am7, 92 BPM) from code, so
-there is no licence to clear. It is deterministic for a given `--seed`.
+`video:music` synthesises the track from code, so there is no licence to
+clear. It is deterministic for a given `--seed`. `--style upbeat` (default)
+is C–G–Am–F at 118 BPM with four-on-the-floor kick, claps, pumping bass and a
+plucked hook; `--style ambient` is the calm Fmaj7–G–Em7–Am7 loop at 92 BPM.
 `music.volume` sets its level; it ducks to half while someone is speaking.
+
+## Where to eat
+
+A `"point"` scene can list up to three `dishes` (`name`, `place`,
+`address`, optional `image` and `spokenAs`). When the narration reaches the
+first one, the points and tip fade out and an "ĂN GẦN ĐÂY" list takes their
+place; a dish with an `image` swaps in its photo as it is named.
+`video:description` lists each stop's places under it, with Maps links.
 
 ## Adding a video
 

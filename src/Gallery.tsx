@@ -14,10 +14,13 @@ import {
  * like, and portrait and landscape sources share one layout. Kept short
  * enough that the text block ends above the subtitle band.
  */
-export const IMAGE_HEIGHT = 980;
+export const IMAGE_HEIGHT = 950;
 
-/** Top of the subtitle band at the foot of the frame. */
-export const SUBTITLE_TOP = 1600;
+/**
+ * Top of the subtitle band at the foot of the frame. A three-dish list, the
+ * tallest text block, ends about 70px above it.
+ */
+export const SUBTITLE_TOP = 1620;
 
 /** Overlap while one photo dissolves into the next. */
 export const MEDIA_CROSSFADE_FRAMES = 14;

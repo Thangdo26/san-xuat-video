@@ -21,8 +21,8 @@
   },
   "subtitles": true,
   "music": {
-    "src": "shared/music/travel-ambient.mp3",
-    "volume": 0.22
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.28
   },
   "map": {
     "plate": "videos/da-nang-3n2d/map/region.jpg",
@@ -62,7 +62,7 @@
         "videos/da-nang-3n2d/images/02-my-khe-beach.jpg",
         "videos/da-nang-3n2d/images/02c-son-tra.jpg"
       ],
-      "narration": "Ngày đầu tiên, dành thời gian thư giãn ở biển Mỹ Khê. Nếu còn thời gian, ghé bán đảo Sơn Trà để ngắm biển và thành phố từ trên cao.",
+      "narration": "Ngày đầu tiên, dành thời gian thư giãn ở biển Mỹ Khê. Nếu còn thời gian, ghé bán đảo Sơn Trà để ngắm biển và thành phố từ trên cao. Trưa ăn hải sản ở Bé Mặn, hoặc một tô bún chả cá 109.",
       "label": "NGÀY 1",
       "caption": "Biển Mỹ Khê",
       "points": [
@@ -71,7 +71,21 @@
       ],
       "tip": "Lên Sơn Trà ngắm biển và thành phố từ trên cao",
       "accent": "#ffd27a",
-      "durationSec": 10
+      "durationSec": 14.5,
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Bé Mặn",
+          "address": "Lô 8 Võ Nguyên Giáp",
+          "spokenAs": "hải sản"
+        },
+        {
+          "name": "Bún chả cá",
+          "image": "videos/da-nang-3n2d/food/bun-cha-ca.jpg",
+          "place": "Bún chả cá 109",
+          "address": "109 Nguyễn Chí Thanh"
+        }
+      ]
     },
     {
       "id": "day1-evening",
@@ -85,24 +99,15 @@
         "videos/da-nang-3n2d/images/03-han-river-night.jpg",
         "videos/da-nang-3n2d/images/03b-dragon-bridge.jpg"
       ],
-      "narration": "Tối về trung tâm, thưởng thức đặc sản địa phương và dạo quanh sông Hàn. Nếu thời gian phù hợp, bạn có thể ngắm cầu Rồng về đêm.",
+      "narration": "Tối về trung tâm, dạo quanh sông Hàn và ngắm cầu Rồng về đêm. Bữa tối thì thử mì Quảng 1A, bánh xèo Bà Dưỡng, hoặc bánh tráng cuốn thịt heo ở quán Trần.",
       "label": "NGÀY 1 · TỐI",
       "caption": "Đêm sông Hàn",
       "points": [
-        "Thưởng thức đặc sản địa phương",
-        "Dạo quanh sông Hàn"
+        "Dạo quanh sông Hàn",
+        "Ngắm cầu Rồng về đêm"
       ],
-      "tip": "Thời gian phù hợp thì ngắm cầu Rồng về đêm",
       "accent": "#ffb978",
-      "durationSec": 9.5
-    },
-    {
-      "id": "food",
-      "layout": "food",
-      "narration": "Đến Đà Nẵng, nhớ thử mì Quảng đậm đà, bánh xèo giòn rụm, bún chả cá thanh ngọt, và bánh tráng cuốn thịt heo chấm mắm nêm. Địa chỉ quán mình để ở phần mô tả nhé.",
-      "label": "ĐẶC SẢN NÊN THỬ",
-      "caption": "Ăn gì ở Đà Nẵng?",
-      "accent": "#ffb978",
+      "durationSec": 11,
       "dishes": [
         {
           "name": "Mì Quảng",
@@ -117,19 +122,12 @@
           "address": "K280/23 Hoàng Diệu"
         },
         {
-          "name": "Bún chả cá",
-          "image": "videos/da-nang-3n2d/food/bun-cha-ca.jpg",
-          "place": "Bún chả cá 109",
-          "address": "109 Nguyễn Chí Thanh"
-        },
-        {
           "name": "Bánh tráng cuốn thịt heo",
           "image": "videos/da-nang-3n2d/food/banh-trang-cuon.jpg",
           "place": "Quán Trần",
           "address": "4 Lê Duẩn"
         }
-      ],
-      "durationSec": 11.5
+      ]
     },
     {
       "id": "day2-bana",
@@ -144,7 +142,7 @@
         "videos/da-nang-3n2d/images/04c-ba-na-cable-car.jpg",
         "videos/da-nang-3n2d/images/04b-golden-bridge-fog.jpg"
       ],
-      "narration": "Ngày thứ hai, dành phần lớn thời gian cho Bà Nà Hills. Cầu Vàng là điểm check-in nổi bật, nhưng nhớ tính thời gian di chuyển và đừng xếp thêm quá nhiều điểm trong ngày này.",
+      "narration": "Ngày thứ hai, dành phần lớn thời gian cho Bà Nà Hills. Cầu Vàng là điểm check-in nổi bật, nhưng nhớ tính thời gian di chuyển và đừng xếp thêm quá nhiều điểm. Bữa trưa ăn ngay trên núi, ở buffet Arapang hoặc Beer Plaza tại Làng Pháp.",
       "label": "NGÀY 2",
       "caption": "Bà Nà Hills",
       "points": [
@@ -153,7 +151,21 @@
       ],
       "tip": "Tính kỹ thời gian di chuyển, đừng xếp thêm quá nhiều điểm",
       "accent": "#7fe3d4",
-      "durationSec": 11
+      "durationSec": 15.5,
+      "dishes": [
+        {
+          "name": "Buffet Á – Âu",
+          "place": "Arapang",
+          "address": "Quảng trường Du Dôme, Làng Pháp",
+          "spokenAs": "buffet arapang"
+        },
+        {
+          "name": "Buffet BBQ · bia tươi",
+          "place": "Beer Plaza",
+          "address": "Làng Pháp, Sun World Bà Nà Hills",
+          "spokenAs": "beer plaza"
+        }
+      ]
     },
     {
       "id": "day3-marble",
@@ -167,7 +179,7 @@
         "videos/da-nang-3n2d/images/05-marble-mountains.jpg",
         "videos/da-nang-3n2d/images/05b-huyen-khong-cave.jpg"
       ],
-      "narration": "Ngày cuối, có thể bắt đầu bằng Ngũ Hành Sơn để khám phá cảnh quan núi đá và các điểm tâm linh.",
+      "narration": "Ngày cuối, có thể bắt đầu bằng Ngũ Hành Sơn để khám phá cảnh quan núi đá và các điểm tâm linh. Xong thì ghé quán Nhân ăn vịt, hoặc mì Quảng Bà Mua ngay đầu cầu Trần Thị Lý.",
       "label": "NGÀY 3",
       "caption": "Ngũ Hành Sơn",
       "points": [
@@ -175,7 +187,21 @@
         "Ghé các điểm tâm linh"
       ],
       "accent": "#ff9d7a",
-      "durationSec": 7
+      "durationSec": 11.5,
+      "dishes": [
+        {
+          "name": "Vịt luộc · gỏi vịt",
+          "place": "Quán Nhân",
+          "address": "83 Phan Tứ",
+          "spokenAs": "quán nhân"
+        },
+        {
+          "name": "Mì Quảng",
+          "place": "Mì Quảng Bà Mua",
+          "address": "40 Ngũ Hành Sơn",
+          "spokenAs": "mì quảng bà mua"
+        }
+      ]
     },
     {
       "id": "day3-hoian",
@@ -190,16 +216,32 @@
         "videos/da-nang-3n2d/images/06b-hoi-an-lanterns.jpg",
         "videos/da-nang-3n2d/images/06c-hoi-an-river.jpg"
       ],
-      "narration": "Nếu chuyến bay về muộn, cân nhắc ghé phố cổ Hội An. Còn nếu bay sớm, hãy tận hưởng buổi sáng nhẹ nhàng ở Đà Nẵng thay vì cố nhồi lịch.",
+      "narration": "Nếu chuyến bay về muộn, cân nhắc ghé phố cổ Hội An. Còn nếu bay sớm, hãy tận hưởng buổi sáng nhẹ nhàng ở Đà Nẵng thay vì cố nhồi lịch. Ở Hội An, đừng bỏ lỡ cơm gà Bà Buội, bánh mì Phượng và cao lầu Thanh.",
       "label": "NGÀY 3 · TÙY CHỌN",
       "caption": "Thêm Hội An?",
       "points": [
         "Bay muộn: ghé phố cổ Hội An",
         "Bay sớm: sáng nhẹ ở Đà Nẵng"
       ],
-      "tip": "Đừng cố nhồi lịch",
       "accent": "#ff9d7a",
-      "durationSec": 10
+      "durationSec": 15,
+      "dishes": [
+        {
+          "name": "Cơm gà",
+          "place": "Cơm gà Bà Buội",
+          "address": "22 Phan Châu Trinh, Hội An"
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mì Phượng",
+          "address": "2B Phan Châu Trinh, Hội An"
+        },
+        {
+          "name": "Cao lầu",
+          "place": "Cao lầu Thanh",
+          "address": "26 Thái Phiên, Hội An"
+        }
+      ]
     },
     {
       "id": "outro",
@@ -207,12 +249,12 @@
       "gallery": [
         "videos/da-nang-3n2d/images/07-outro.jpg"
       ],
-      "narration": "Một lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi. Lưu video lại để lên kế hoạch cho chuyến đi Đà Nẵng nhé!",
+      "narration": "Một lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi. Địa chỉ quán mình để ở phần mô tả. Lưu video lại để lên kế hoạch cho chuyến đi Đà Nẵng nhé!",
       "label": "ĐI NHẸ NHÀNG THÔI",
       "caption": "ĐÀ NẴNG",
       "tip": "Lịch trình dễ chịu quan trọng hơn việc check-in thật nhiều nơi",
       "cta": "Lưu lại để lên kế hoạch nhé!",
-      "durationSec": 9
+      "durationSec": 11.5
     }
   ]
 }

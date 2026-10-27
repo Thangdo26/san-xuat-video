@@ -17,6 +17,16 @@ import type { Dish, Scene } from "./schema";
  */
 const ENTRY_DELAY = 15;
 
+/** Frames the points take to hand over to a point scene's dish list. */
+const SWAP_FRAMES = 10;
+
+/**
+ * Wider on the right: TikTok, Reels and Shorts stack their like, comment and
+ * share buttons down the right edge.
+ */
+export const SAFE_LEFT = 80;
+export const SAFE_RIGHT = 140;
+
 const TextBlock: React.FC<{ readonly children: React.ReactNode }> = ({
   children,
 }) => (
@@ -26,7 +36,7 @@ const TextBlock: React.FC<{ readonly children: React.ReactNode }> = ({
       top: IMAGE_HEIGHT - 40,
       left: 0,
       right: 0,
-      padding: "0 80px",
+      padding: `0 ${SAFE_RIGHT}px 0 ${SAFE_LEFT}px`,
     }}
   >
     {children}
@@ -223,7 +233,7 @@ const Badge: React.FC<{ readonly text: string }> = ({ text }) => {
       name="Hook badge"
       style={{
         fontFamily,
-        fontSize: 68,
+        fontSize: 62,
         fontWeight: 800,
         letterSpacing: 3,
         lineHeight: 1.1,
@@ -308,13 +318,15 @@ const DishList: React.FC<{
   readonly dishes: Dish[];
   readonly starts: number[];
   readonly accent: string;
-}> = ({ dishes, starts, accent }) => {
+  /** Frame the first row starts to slide in at. */
+  readonly appearFrom: number;
+}> = ({ dishes, starts, accent, appearFrom }) => {
   const frame = useCurrentFrame();
 
   return (
     <div style={{ marginTop: 28 }}>
       {dishes.map((dish, index) => {
-        const appear = ENTRY_DELAY + 6 + index * 5;
+        const appear = appearFrom + index * 5;
         const entry = interpolate(frame, [appear, appear + 12], [0, 1], {
           easing: Easing.bezier(0.16, 1, 0.3, 1),
           extrapolateLeft: "clamp",
@@ -340,7 +352,7 @@ const DishList: React.FC<{
             style={{
               display: "flex",
               gap: 22,
-              marginTop: index === 0 ? 0 : 26,
+              marginTop: index === 0 ? 0 : 22,
               opacity: entry * (0.42 + 0.58 * on),
               translate: `${interpolate(entry, [0, 1], [-80, 0])}px 0px`,
             }}
@@ -358,7 +370,7 @@ const DishList: React.FC<{
               <div
                 style={{
                   fontFamily,
-                  fontSize: 50,
+                  fontSize: 46,
                   fontWeight: 800,
                   lineHeight: 1.2,
                   color: "#ffffff",
@@ -373,7 +385,7 @@ const DishList: React.FC<{
                   gap: 10,
                   marginTop: 4,
                   fontFamily,
-                  fontSize: 36,
+                  fontSize: 33,
                   fontWeight: 500,
                   lineHeight: 1.35,
                   color: "rgba(255,255,255,0.78)",
@@ -420,6 +432,7 @@ export const SceneLayout: React.FC<LayoutProps> = ({
           dishes={scene.dishes ?? []}
           starts={dishStarts ?? []}
           accent={accent}
+          appearFrom={ENTRY_DELAY + 6}
         />
       </TextBlock>
     );
@@ -430,7 +443,7 @@ export const SceneLayout: React.FC<LayoutProps> = ({
       <TextBlock>
         {scene.label ? <Label text={scene.label} accent={accent} /> : null}
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          <Caption text={scene.caption} size={124} nowrap />
+          <Caption text={scene.caption} size={112} nowrap />
           {scene.badge ? <Badge text={scene.badge} /> : null}
         </div>
         {scene.tip ? (
@@ -453,27 +466,91 @@ export const SceneLayout: React.FC<LayoutProps> = ({
     );
   }
 
+  return <PointLayout scene={scene} accent={accent} dishStarts={dishStarts} />;
+};
+
+/**
+ * Headline with points and tip. With dishes, the points and tip fade out as
+ * the narration reaches the first dish and the "where to eat" list takes
+ * their place, so both fit between the photo and the subtitles.
+ */
+const PointLayout: React.FC<LayoutProps> = ({ scene, accent, dishStarts }) => {
+  const frame = useCurrentFrame();
   const points = scene.points ?? [];
+  const dishes = scene.dishes ?? [];
+  const swapAt = dishes.length > 0 ? dishStarts?.[0] : undefined;
+
+  const pointsOpacity =
+    swapAt === undefined
+      ? 1
+      : interpolate(frame, [swapAt - SWAP_FRAMES, swapAt], [1, 0], {
+          easing: Easing.bezier(0.33, 0, 0.67, 1),
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        });
 
   return (
     <TextBlock>
       {scene.label ? <Label text={scene.label} accent={accent} /> : null}
       <Caption text={scene.caption} size={88} />
-      {points.map((point, index) => (
-        <Point
-          key={point}
-          text={point}
-          accent={accent}
-          delay={ENTRY_DELAY + 17 + index * 9}
-        />
-      ))}
-      {scene.tip ? (
-        <Tip
-          text={scene.tip}
-          accent={accent}
-          delay={ENTRY_DELAY + 19 + points.length * 9}
-        />
-      ) : null}
+      <div style={{ position: "relative" }}>
+        <div style={{ opacity: pointsOpacity }}>
+          {points.map((point, index) => (
+            <Point
+              key={point}
+              text={point}
+              accent={accent}
+              delay={ENTRY_DELAY + 17 + index * 9}
+            />
+          ))}
+          {scene.tip ? (
+            <Tip
+              text={scene.tip}
+              accent={accent}
+              delay={ENTRY_DELAY + 19 + points.length * 9}
+            />
+          ) : null}
+        </div>
+        {swapAt === undefined ? null : (
+          <div style={{ position: "absolute", top: 0, left: 0, right: 0 }}>
+            <EatHeading accent={accent} from={swapAt} />
+            <DishList
+              dishes={dishes}
+              starts={dishStarts ?? []}
+              accent={accent}
+              appearFrom={swapAt + 2}
+            />
+          </div>
+        )}
+      </div>
     </TextBlock>
+  );
+};
+
+const EatHeading: React.FC<{ readonly accent: string; readonly from: number }> = ({
+  accent,
+  from,
+}) => {
+  const frame = useCurrentFrame();
+
+  return (
+    <Interactive.Div
+      name="Where to eat"
+      style={{
+        marginTop: 30,
+        fontFamily,
+        fontSize: 30,
+        fontWeight: 700,
+        letterSpacing: 6,
+        color: accent,
+        opacity: interpolate(frame, [from - 4, from + 8], [0, 0.9], {
+          easing: Easing.bezier(0.16, 1, 0.3, 1),
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        }),
+      }}
+    >
+      ĂN GẦN ĐÂY
+    </Interactive.Div>
   );
 };

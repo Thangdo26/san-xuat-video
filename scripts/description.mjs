@@ -29,6 +29,14 @@ try {
 
   const caption = [`${data.title}`, ""];
 
+  const dishLines = (dish, indent) => {
+    const rating = typeof dish.rating === "number" ? ` · ★ ${dish.rating.toFixed(1)}` : "";
+    return [
+      `${indent}${dish.name}: ${dish.place}, ${dish.address}${rating}`,
+      `${indent}  ${mapsSearch(withRegion(`${dish.place}, ${dish.address}`))}`,
+    ];
+  };
+
   const stops = data.scenes.filter((scene) => scene.layout === "point");
   if (stops.length > 0) {
     caption.push("📍 Lịch trình");
@@ -41,20 +49,28 @@ try {
       if (scene.map) {
         caption.push(`   Bản đồ: ${mapsSearch(`${scene.map.lat},${scene.map.lng}`)}`);
       }
+      if ((scene.dishes ?? []).length > 0) {
+        caption.push("   🍜 Ăn gần đây:");
+        for (const dish of scene.dishes) {
+          caption.push(...dishLines(dish, "   – "));
+        }
+      }
+    }
+    caption.push("");
+  }
+
+  const foodScenes = data.scenes.filter((scene) => scene.layout === "food");
+  for (const scene of foodScenes) {
+    caption.push(`🍜 ${scene.caption}`);
+    for (const dish of scene.dishes ?? []) {
+      caption.push(...dishLines(dish, "• "));
     }
     caption.push("");
   }
 
   const dishes = data.scenes.flatMap((scene) => scene.dishes ?? []);
   if (dishes.length > 0) {
-    caption.push("🍜 Ăn gì");
-    for (const dish of dishes) {
-      const rating = typeof dish.rating === "number" ? ` · ★ ${dish.rating.toFixed(1)}` : "";
-      caption.push(`• ${dish.name}: ${dish.place}, ${dish.address}${rating}`);
-      caption.push(`   ${mapsSearch(withRegion(`${dish.place}, ${dish.address}`))}`);
-    }
     caption.push(
-      "",
       "Địa chỉ quán tổng hợp từ nhiều trang du lịch. Kiểm tra lại địa chỉ, giờ mở cửa và đánh giá trên Google Maps trước khi đi.",
       "",
     );
@@ -63,7 +79,7 @@ try {
   // Only credit what the video actually shows.
   const used = new Set([
     ...data.scenes.flatMap((scene) => scene.gallery ?? []),
-    ...dishes.map((dish) => dish.image),
+    ...dishes.flatMap((dish) => (dish.image ? [dish.image] : [])),
   ]);
   const creditsFile = path.join(videoDir(slug), "credits.json");
   const credits = existsSync(creditsFile)
