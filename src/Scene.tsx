@@ -179,7 +179,8 @@ const Brand: React.FC<{ readonly text: string }> = ({ text }) => {
     <div
       style={{
         position: "absolute",
-        bottom: 96,
+        // At the top, so nothing but the subtitles sits below the text block.
+        top: 64,
         width: "100%",
         textAlign: "center",
         fontFamily,

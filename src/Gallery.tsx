@@ -11,9 +11,13 @@ import {
 /**
  * Photos occupy the top of the frame and melt into the background via a
  * scrim, so the text block below stays readable whatever the photo looks
- * like, and portrait and landscape sources share one layout.
+ * like, and portrait and landscape sources share one layout. Kept short
+ * enough that the text block ends above the subtitle band.
  */
-export const IMAGE_HEIGHT = 1100;
+export const IMAGE_HEIGHT = 980;
+
+/** Top of the subtitle band at the foot of the frame. */
+export const SUBTITLE_TOP = 1600;
 
 /** Overlap while one photo dissolves into the next. */
 export const MEDIA_CROSSFADE_FRAMES = 14;

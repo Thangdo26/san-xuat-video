@@ -2,7 +2,7 @@ import type { Caption } from "@remotion/captions";
 import { useMemo } from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { fontFamily } from "./font";
-import { IMAGE_HEIGHT } from "./Gallery";
+import { SUBTITLE_TOP } from "./Gallery";
 
 type Props = {
   /** Word timings relative to the voice clip's start. */
@@ -20,7 +20,7 @@ type Page = {
 
 /**
  * About two lines at 46px in the 980px subtitle box. Anything longer would
- * spill a third line onto the scene's label below.
+ * push a third line off the foot of the frame.
  */
 const MAX_CHARS_PER_PAGE = 60;
 
@@ -85,7 +85,8 @@ const paginate = (words: Caption[]): Page[] => {
 
 /**
  * Burned-in subtitles for the scene's voice-over, with the current word
- * highlighted. Sits at the foot of the photo, above the scene's text block.
+ * highlighted. Sits in a band at the foot of the frame, below the scene's
+ * text block, so the two never overlap.
  */
 export const Subtitles: React.FC<Props> = ({ words, offsetFrames, accent }) => {
   const frame = useCurrentFrame();
@@ -104,7 +105,7 @@ export const Subtitles: React.FC<Props> = ({ words, offsetFrames, accent }) => {
     <div
       style={{
         position: "absolute",
-        top: IMAGE_HEIGHT - 200,
+        top: SUBTITLE_TOP,
         left: 50,
         right: 50,
         textAlign: "center",
