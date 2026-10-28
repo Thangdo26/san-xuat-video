@@ -36,6 +36,7 @@
     "video:validate": "node scripts/validate.mjs",
     "video:voice": "node scripts/voice.mjs",
     "video:import-voice": "node scripts/import-voice.mjs",
+    "video:vbee-script": "node scripts/vbee-script.mjs",
     "video:render": "node scripts/render.mjs",
     "video:pipeline": "node scripts/pipeline.mjs",
     "video:music": "node scripts/music.mjs",
