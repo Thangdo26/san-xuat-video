@@ -3,7 +3,11 @@
 Vertical 9:16 travel videos rendered with [Remotion](https://remotion.dev).
 One composition renders every video; each video is a folder of data.
 
-Current video: **`da-nang-3n2d`** — Đà Nẵng 3 ngày 2 đêm, 8 scenes, 73.5s.
+Videos: **`da-nang-3n2d`**, Đà Nẵng 3 ngày 2 đêm (8 scenes, 86.5s), and
+**`da-nang-3n2d-en`**, its English version (Edge voice
+`en-US-AvaMultilingualNeural`, same photos and map). `language` in
+`video.json` picks the language of the "where to eat" heading and of the
+post caption written by `video:description`.
 
 ## Layout
 
@@ -82,16 +86,32 @@ The engine is chosen in `video.json`:
 | `elevenlabs` | `ELEVENLABS_API_KEY`, voice id in `narrator.voice` or `ELEVENLABS_VOICE_ID` | no | Without timings there are no subtitles and food photos switch at even intervals. |
 | `vbee` | none here (clips are made in Vbee Studio) | estimated | Native Vietnamese voices in every region. `narrator.voice` is the Vbee voice code, e.g. `hn_female_ngochuyen_full_24k-stl`. See below. |
 
-### Vbee
+### Vbee (house voice)
 
-Vbee's API spends API credit, bought separately from the Studio points a new
-account gets, so clips are made by hand in Vbee Studio: one request per scene
-with exactly that scene's `narration`, downloaded as `<scene-id>.mp3` into one
-folder. Then:
+Every travel video uses Vbee's **HN - Ngọc Huyền**:
+
+```json
+"narrator": { "provider": "vbee", "voice": "hn_female_ngochuyen_full_48k-fhg" }
+```
+
+It costs one Studio point per character; a 90-second video is about 1,300.
+Vbee's API spends API credit, bought separately from Studio points, so clips
+are made in Vbee Studio: one request per scene with exactly that scene's
+`narration`, downloaded as `<scene-id>.mp3` into one folder. The Studio part
+is scripted for Playwright:
 
 ```bash
-npm run video:import-voice -- --slug da-nang-3n2d --dir path/to/folder
+npm run video:vbee-script -- --slug <slug> --out path/to/folder   # [--scenes a,b]
+# run each printed vbee-studio-N.js with the Playwright MCP tool
+# browser_run_code_unsafe, signed in to studio.vbee.vn
+npm run video:import-voice -- --slug <slug> --dir path/to/folder  # [--trim id=sec]
 ```
+
+**Listen for promos.** Vbee's free tier can append a spoken ad after the
+narration (it did on one Da Nang clip). A clip with more spoken phrases than
+its narration has clauses, or a long pause before a last stretch of speech,
+has one; cut it with `--trim <scene-id>=<seconds>`. The "nâng cao", "2.0" and
+"Pro" voices cost 2-3x and are capped at a few free uses per account.
 
 It copies the clips into `public/`, writes `voiceover.json`, and refits every
 scene to its clip, shorter as well as longer. Vbee returns no word timings,
@@ -140,7 +160,10 @@ place; a dish with an `image` swaps in its photo as it is named.
 2. Add photos with `video:fetch-image`, then **look at every one** - Commons
    titles are not proof of what a photo shows.
 3. Set `map` and run `video:map` if the video uses map intros.
-4. `npm run video:pipeline -- --slug <slug>`.
+4. Make the voice-over with the house voice (see "Vbee" above):
+   `video:vbee-script`, run the scripts, then `video:import-voice`.
+   Redo only the scenes whose narration changed (`--scenes`).
+5. `npm run video:pipeline -- --slug <slug>`.
 
 ## Review checklist
 

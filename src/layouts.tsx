@@ -27,6 +27,14 @@ const SWAP_FRAMES = 10;
 export const SAFE_LEFT = 80;
 export const SAFE_RIGHT = 140;
 
+/** The one piece of on-screen text that is not in video.json, by language. */
+const EAT_HEADING: Record<string, string> = {
+  vi: "ĂN GẦN ĐÂY",
+  en: "WHERE TO EAT",
+};
+const eatHeading = (language: string) =>
+  EAT_HEADING[language.split("-")[0]] ?? EAT_HEADING.en;
+
 const TextBlock: React.FC<{ readonly children: React.ReactNode }> = ({
   children,
 }) => (
@@ -415,6 +423,8 @@ const DishList: React.FC<{
 type LayoutProps = {
   readonly scene: Scene;
   readonly accent: string;
+  /** video.json `language`, e.g. "vi" or "en". */
+  readonly language: string;
   /** Frame each dish is spoken at; only used by the "food" layout. */
   readonly dishStarts?: number[];
 };
@@ -422,6 +432,7 @@ type LayoutProps = {
 export const SceneLayout: React.FC<LayoutProps> = ({
   scene,
   accent,
+  language,
   dishStarts,
 }) => {
   if (scene.layout === "food") {
@@ -466,7 +477,14 @@ export const SceneLayout: React.FC<LayoutProps> = ({
     );
   }
 
-  return <PointLayout scene={scene} accent={accent} dishStarts={dishStarts} />;
+  return (
+    <PointLayout
+      scene={scene}
+      accent={accent}
+      language={language}
+      dishStarts={dishStarts}
+    />
+  );
 };
 
 /**
@@ -474,7 +492,12 @@ export const SceneLayout: React.FC<LayoutProps> = ({
  * the narration reaches the first dish and the "where to eat" list takes
  * their place, so both fit between the photo and the subtitles.
  */
-const PointLayout: React.FC<LayoutProps> = ({ scene, accent, dishStarts }) => {
+const PointLayout: React.FC<LayoutProps> = ({
+  scene,
+  accent,
+  language,
+  dishStarts,
+}) => {
   const frame = useCurrentFrame();
   const points = scene.points ?? [];
   const dishes = scene.dishes ?? [];
@@ -513,7 +536,11 @@ const PointLayout: React.FC<LayoutProps> = ({ scene, accent, dishStarts }) => {
         </div>
         {swapAt === undefined ? null : (
           <div style={{ position: "absolute", top: 0, left: 0, right: 0 }}>
-            <EatHeading accent={accent} from={swapAt} />
+            <EatHeading
+              text={eatHeading(language)}
+              accent={accent}
+              from={swapAt}
+            />
             <DishList
               dishes={dishes}
               starts={dishStarts ?? []}
@@ -527,10 +554,11 @@ const PointLayout: React.FC<LayoutProps> = ({ scene, accent, dishStarts }) => {
   );
 };
 
-const EatHeading: React.FC<{ readonly accent: string; readonly from: number }> = ({
-  accent,
-  from,
-}) => {
+const EatHeading: React.FC<{
+  readonly text: string;
+  readonly accent: string;
+  readonly from: number;
+}> = ({ text, accent, from }) => {
   const frame = useCurrentFrame();
 
   return (
@@ -550,7 +578,7 @@ const EatHeading: React.FC<{ readonly accent: string; readonly from: number }> =
         }),
       }}
     >
-      ĂN GẦN ĐÂY
+      {text}
     </Interactive.Div>
   );
 };

@@ -22,6 +22,31 @@ const PROVIDER_NAMES = {
   vbee: "Vbee AIVoice",
 };
 
+// What gets posted follows video.json `language`; the notes around it in
+// description.md are for the person posting and stay in Vietnamese.
+const TEXT = {
+  vi: {
+    itinerary: "📍 Lịch trình",
+    map: "Bản đồ",
+    eatNearby: "🍜 Ăn gần đây:",
+    checkPlaces:
+      "Địa chỉ quán tổng hợp từ nhiều trang du lịch. Kiểm tra lại địa chỉ, giờ mở cửa và đánh giá trên Google Maps trước khi đi.",
+    photos: "Nguồn ảnh (Wikimedia Commons):",
+    music: "Nhạc nền: tự tổng hợp cho video này bằng scripts/music.mjs.",
+    voice: "Giọng đọc",
+  },
+  en: {
+    itinerary: "📍 Itinerary",
+    map: "Map",
+    eatNearby: "🍜 Where to eat:",
+    checkPlaces:
+      "Places collected from several travel sites. Check addresses, opening hours and reviews on Google Maps before you go.",
+    photos: "Photos (Wikimedia Commons):",
+    music: "Music: generated for this video with scripts/music.mjs.",
+    voice: "Voice",
+  },
+};
+
 const mapsSearch = (query) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 
@@ -32,6 +57,7 @@ try {
   const { data } = loadVideoData(slug);
   const region = data.region ?? "";
   const withRegion = (text) => (region ? `${text}, ${region}` : text);
+  const text = TEXT[data.language.split("-")[0]] ?? TEXT.en;
 
   const caption = [`${data.title}`, ""];
 
@@ -45,7 +71,7 @@ try {
 
   const stops = data.scenes.filter((scene) => scene.layout === "point");
   if (stops.length > 0) {
-    caption.push("📍 Lịch trình");
+    caption.push(text.itinerary);
     for (const scene of stops) {
       const heading = scene.label ? `${scene.label}: ${scene.caption}` : scene.caption;
       caption.push(`• ${heading}`);
@@ -53,10 +79,10 @@ try {
         caption.push(`   – ${point}`);
       }
       if (scene.map) {
-        caption.push(`   Bản đồ: ${mapsSearch(`${scene.map.lat},${scene.map.lng}`)}`);
+        caption.push(`   ${text.map}: ${mapsSearch(`${scene.map.lat},${scene.map.lng}`)}`);
       }
       if ((scene.dishes ?? []).length > 0) {
-        caption.push("   🍜 Ăn gần đây:");
+        caption.push(`   ${text.eatNearby}`);
         for (const dish of scene.dishes) {
           caption.push(...dishLines(dish, "   – "));
         }
@@ -76,10 +102,7 @@ try {
 
   const dishes = data.scenes.flatMap((scene) => scene.dishes ?? []);
   if (dishes.length > 0) {
-    caption.push(
-      "Địa chỉ quán tổng hợp từ nhiều trang du lịch. Kiểm tra lại địa chỉ, giờ mở cửa và đánh giá trên Google Maps trước khi đi.",
-      "",
-    );
+    caption.push(text.checkPlaces, "");
   }
 
   // Only credit what the video actually shows.
@@ -97,22 +120,22 @@ try {
     (file) => !credits.some((credit) => credit.file === file),
   );
 
-  const attribution = ["Nguồn ảnh (Wikimedia Commons):"];
+  const attribution = [text.photos];
   for (const credit of credits) {
     attribution.push(`• ${credit.author} — ${credit.license} — ${credit.source}`);
   }
   if (data.map) {
     attribution.push(
       "",
-      `Bản đồ: ${data.map.attribution} contributors — openstreetmap.org/copyright`,
+      `${text.map}: ${data.map.attribution} contributors — openstreetmap.org/copyright`,
     );
   }
   if (data.music) {
-    attribution.push("Nhạc nền: tự tổng hợp cho video này bằng scripts/music.mjs.");
+    attribution.push(text.music);
   }
   const narrator = resolveNarrator(data);
   attribution.push(
-    `Giọng đọc: ${PROVIDER_NAMES[narrator.provider] ?? narrator.provider}` +
+    `${text.voice}: ${PROVIDER_NAMES[narrator.provider] ?? narrator.provider}` +
       (narrator.voice ? ` (${narrator.voice})` : ""),
   );
 

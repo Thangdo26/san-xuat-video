@@ -20,6 +20,7 @@ import { Subtitles } from "./Subtitles";
 type Props = {
   readonly scene: SceneData;
   readonly theme: VideoData["theme"];
+  readonly language: string;
   readonly plate?: MapPlate;
   readonly voice?: VoiceClip;
   /** Frame within the scene the voice clip starts at. */
@@ -89,6 +90,7 @@ const dishStartFrames = (
 export const Scene: React.FC<Props> = ({
   scene,
   theme,
+  language,
   plate,
   voice,
   voiceOffsetFrames,
@@ -180,6 +182,7 @@ export const Scene: React.FC<Props> = ({
       <SceneLayout
         scene={scene}
         accent={accent}
+        language={language}
         dishStarts={dishStarts}
       />
       {scene.layout === "point" || isFood ? <Brand text={theme.brand} /> : null}

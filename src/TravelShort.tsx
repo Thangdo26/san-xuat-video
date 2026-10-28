@@ -73,6 +73,7 @@ export const TravelShort: React.FC<VideoProps> = (data) => {
         <Scene
           scene={scene}
           theme={data.theme}
+          language={data.language}
           plate={data.map}
           voice={clips[scene.id]}
           voiceOffsetFrames={voiceOffset}
