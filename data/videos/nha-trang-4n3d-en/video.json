@@ -1,0 +1,567 @@
+{
+  "id": "nha-trang-4n3d-en",
+  "title": "Nha Trang in 4 days, 3 nights",
+  "language": "en",
+  "region": "Nha Trang, Khánh Hòa, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fd3ff",
+    "brand": "NHA TRANG · 4D3N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/nha-trang-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.215,
+      12.385
+    ],
+    "zoom": 11,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/nha-trang-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      107.4,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/nha-trang-4n3d/images/01-hook.jpg"
+      ],
+      "narration": "Four days in Nha Trang? Save this itinerary: ancient Cham towers, snorkeling over coral, VinWonders, and the quiet beach at Doc Let.",
+      "label": "CENTRAL VIETNAM",
+      "caption": "NHA TRANG",
+      "badge": "4D3N",
+      "tip": "Cham towers · Islands · VinWonders · Doc Let",
+      "frame": "full",
+      "durationSec": 10.5
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "There are direct flights from Hanoi and Ho Chi Minh City to Cam Ranh airport, about thirty five kilometers from central Nha Trang.",
+      "label": "GETTING THERE",
+      "caption": "Fly to Cam Ranh",
+      "flight": {
+        "to": {
+          "name": "Cam Ranh",
+          "lng": 109.2174,
+          "lat": 11.9983
+        },
+        "from": [
+          {
+            "name": "Hanoi",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "HCMC",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 9
+    },
+    {
+      "id": "day1-sang",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Po Nagar towers",
+          "lng": 109.1952,
+          "lat": 12.2654
+        },
+        {
+          "name": "Hon Chong rocks",
+          "lng": 109.2066,
+          "lat": 12.2728
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/02-ponagar.jpg",
+        "videos/nha-trang-4n3d/images/02c-honchong.jpg",
+        "videos/nha-trang-4n3d/images/02b-ponagar.jpg"
+      ],
+      "narration": "Day one, go early to Po Nagar, the ancient Cham towers above the Cai river, then walk out to the Hon Chong rocks. Nearby, try Xuan Tra for seafood, a bowl of fish noodle soup, or noodles with mantis shrimp.",
+      "label": "DAY 1 · MORNING",
+      "caption": "Po Nagar",
+      "points": [
+        "Po Nagar Cham towers",
+        "Hon Chong rocks by the sea"
+      ],
+      "tip": "Go early and dress modestly",
+      "accent": "#ffb978",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Xuân Trà",
+          "address": "27 Tháp Bà",
+          "spokenAs": "xuan tra",
+          "rating": 4.9
+        },
+        {
+          "name": "Fish noodle soup",
+          "place": "Bún Cá Tháp Bà",
+          "address": "19 Hồ Tùng Mậu",
+          "spokenAs": "fish noodle",
+          "rating": 4.7
+        },
+        {
+          "name": "Mantis shrimp noodles",
+          "place": "Bếp Nhà 61",
+          "address": "61 Tháp Bà",
+          "spokenAs": "mantis shrimp",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Flan & ice cream",
+          "place": "Kem Flan Cô Giỏi",
+          "address": "17 Tháp Bà, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Local seafood",
+          "place": "Hải sản Viên Hồ",
+          "address": "33 Cù Huân, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Seafood",
+          "place": "Nhà Hàng Hải Sản Hằng 66",
+          "address": "46 Cù Huân, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Fresh seafood",
+          "place": "Quán Bờ Biển",
+          "address": "8 Phạm Văn Đồng, Nha Trang",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 14.5
+    },
+    {
+      "id": "day1-chieu",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Long Son pagoda",
+          "lng": 109.1806,
+          "lat": 12.2513
+        },
+        {
+          "name": "Stone cathedral",
+          "lng": 109.1881,
+          "lat": 12.2467
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/03c-longson.jpg",
+        "videos/nha-trang-4n3d/images/03d-longson.jpg",
+        "videos/nha-trang-4n3d/images/03-nhatho.jpg"
+      ],
+      "narration": "In the afternoon, climb to Long Son pagoda and its white Buddha on the hill, then visit the stone cathedral. Close by, try crab noodle soup, chicken rice, and Ninh Hoa style grilled pork rolls.",
+      "label": "DAY 1 · AFTERNOON",
+      "caption": "Long Son pagoda",
+      "points": [
+        "Long Son pagoda · white Buddha",
+        "The stone cathedral"
+      ],
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Crab noodle soup",
+          "place": "Cô Ba Miền Biển",
+          "address": "5 Thái Nguyên",
+          "spokenAs": "crab noodle",
+          "rating": 4.7
+        },
+        {
+          "name": "Chicken rice",
+          "place": "B-Food",
+          "address": "04 Núi Một",
+          "spokenAs": "chicken rice",
+          "rating": 4.8
+        },
+        {
+          "name": "Grilled pork rolls",
+          "place": "Nem Bà Mười",
+          "address": "7A Bạch Đằng",
+          "spokenAs": "grilled pork",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Banh can",
+          "place": "Bánh Căn Cô Ly",
+          "address": "186 Thống Nhất, Nha Trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Fish noodle soup",
+          "place": "Bún Cá Nha Trang 79",
+          "address": "15 Nguyễn Chánh, Nha Trang",
+          "rating": 4.7
+        },
+        {
+          "name": "Lobster noodle soup",
+          "place": "Quán Nhỏ",
+          "address": "8B Đường 12A, Nha Trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Grilled pork rolls",
+          "place": "Nem Nướng Hồng Vũ",
+          "address": "89 Nhị Hà, Nha Trang",
+          "rating": 4.9
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 14
+    },
+    {
+      "id": "day1-toi",
+      "layout": "point",
+      "map": {
+        "name": "Tran Phu beach",
+        "lng": 109.196,
+        "lat": 12.2385
+      },
+      "gallery": [
+        "videos/nha-trang-4n3d/images/05-dem.jpg",
+        "videos/nha-trang-4n3d/images/05b-nem.jpg"
+      ],
+      "narration": "In the evening, stroll along Tran Phu beach, then go for seafood. Around Nguyen Thien Thuat street, try Dong Hai, JJ Seafood, and the snails at Lang Bien.",
+      "label": "DAY 1 · EVENING",
+      "caption": "Tran Phu beach",
+      "points": [
+        "Evening walk on Tran Phu beach",
+        "Seafood around Nguyen Thien Thuat"
+      ],
+      "tip": "Locals say: skip places a taxi takes you to",
+      "accent": "#b9a2ff",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Đông Hải",
+          "address": "24 Tô Hiến Thành",
+          "spokenAs": "dong hai",
+          "rating": 4.9
+        },
+        {
+          "name": "Seafood",
+          "place": "JJ Seafood",
+          "address": "20 Nguyễn Thiện Thuật",
+          "spokenAs": "jj seafood",
+          "rating": 4.7
+        },
+        {
+          "name": "Sea snails",
+          "place": "Ốc Làng Biển",
+          "address": "48 Nguyễn Thiện Thuật",
+          "spokenAs": "snails",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood",
+          "place": "Nhà Hàng Hải Sản Phố Việt",
+          "address": "69 Trần Quang Khải, Nha Trang",
+          "rating": 4.8
+        },
+        {
+          "name": "Snails & seafood",
+          "place": "Quán Ốc Ngon Nha Trang",
+          "address": "48 Nguyễn Thiện Thuật, Nha Trang",
+          "rating": 4.6
+        },
+        {
+          "name": "Thai-style sweet soup",
+          "place": "Chè Thái WanWan",
+          "address": "98 Hồng Bàng, Nha Trang",
+          "rating": 4.7
+        },
+        {
+          "name": "Banh can & banh xeo",
+          "place": "Hai Phượng - Yến",
+          "address": "46/27 Hùng Vương, Nha Trang",
+          "rating": 4.6
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 11
+    },
+    {
+      "id": "day2-dao",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Cau Da pier",
+          "lng": 109.2149,
+          "lat": 12.2066
+        },
+        {
+          "name": "Hon Tam",
+          "lng": 109.2447,
+          "lat": 12.1747
+        },
+        {
+          "name": "Hon Mun",
+          "lng": 109.3049,
+          "lat": 12.1667
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/04-honmun.jpg",
+        "videos/nha-trang-4n3d/images/04b-sanho.jpg",
+        "videos/nha-trang-4n3d/images/04c-hontam.jpg"
+      ],
+      "narration": "Day two is an island tour from Cau Da pier: snorkel over the coral at Hon Mun, then swim at Hon Tam. Back on land, eat seafood at Ha Linh or Thanh An, or try a snail salad.",
+      "label": "DAY 2",
+      "caption": "Island tour",
+      "points": [
+        "Snorkel over coral at Hon Mun",
+        "Swim at Hon Tam"
+      ],
+      "tip": "Clearest water from April to August",
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Hà Linh",
+          "address": "34 Trần Phú",
+          "spokenAs": "ha linh",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "Thanh An",
+          "address": "11A Trần Phú",
+          "spokenAs": "thanh an",
+          "rating": 4.8
+        },
+        {
+          "name": "Snail salad",
+          "place": "Gỏi Ốc Cửa Bé",
+          "address": "350 Võ Thị Sáu",
+          "spokenAs": "snail salad",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood",
+          "place": "Quán Hải Sản Ty Rô",
+          "address": "5A Tô Hiệu, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Floating seafood raft",
+          "place": "Bè Hải sản Sơn Khánh",
+          "address": "gần cảng Cầu Đá",
+          "rating": 5
+        },
+        {
+          "name": "Porcupine fish",
+          "place": "Quán Long Ka",
+          "address": "Võ Thị Sáu, Nha Trang",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 14
+    },
+    {
+      "id": "day3-vin",
+      "layout": "point",
+      "map": {
+        "name": "VinWonders",
+        "lng": 109.2412,
+        "lat": 12.2174
+      },
+      "gallery": [
+        "videos/nha-trang-4n3d/images/07-captreo.jpg",
+        "videos/nha-trang-4n3d/images/07b-vin.jpg",
+        "videos/nha-trang-4n3d/images/07c-nhacnuoc.jpg"
+      ],
+      "narration": "Spend day three at VinWonders on Hon Tre island. Local tips: arrive early for Tata World before the queues, hide from the midday sun in the aquarium, and stay for the Tata show at night. For lunch, try Hola, Caribe Rock burgers, or Bach Giai.",
+      "label": "DAY 3",
+      "caption": "VinWonders",
+      "points": [
+        "Cable car or speedboat to the island",
+        "Stay for the Tata show"
+      ],
+      "tip": "Rides first, water park after",
+      "accent": "#ff9fc4",
+      "dishes": [
+        {
+          "name": "Vietnamese food",
+          "place": "Hola",
+          "address": "Phố mua sắm VinWonders",
+          "spokenAs": "hola",
+          "rating": 4.6
+        },
+        {
+          "name": "Burgers",
+          "place": "Caribe Rock Burger",
+          "address": "Phố thương mại Vinpearl",
+          "spokenAs": "caribe rock",
+          "rating": 4.9
+        },
+        {
+          "name": "Chinese food",
+          "place": "Bách Giai",
+          "address": "Lầu vọng cảnh",
+          "spokenAs": "bach giai",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Italian",
+          "place": "Oceania Italian Restaurant",
+          "address": "đảo Hòn Tre",
+          "rating": 4.6
+        },
+        {
+          "name": "Pizza",
+          "place": "Mamma Mia Italian Cucina",
+          "address": "đảo Hòn Tre",
+          "rating": 4.7
+        },
+        {
+          "name": "Local dishes",
+          "place": "Ẩm Thực Nha Trang (Vinpearl)",
+          "address": "Khu phố đi bộ Vinpearl",
+          "rating": 4.8
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 16.5
+    },
+    {
+      "id": "day4-doclet",
+      "layout": "point",
+      "map": {
+        "name": "Doc Let beach",
+        "lng": 109.2293,
+        "lat": 12.5494
+      },
+      "gallery": [
+        "videos/nha-trang-4n3d/images/08-doclet.jpg",
+        "videos/nha-trang-4n3d/images/08b-doclet.jpg",
+        "videos/nha-trang-4n3d/images/08c-ninhhoa.jpg"
+      ],
+      "narration": "On the last day, drive north to Doc Let beach in Ninh Hoa: clear water, white sand, and far fewer people. Have seafood at Tinh Thu or on the Bao An raft, or a bowl of noodle soup, then head to the airport.",
+      "label": "DAY 4",
+      "caption": "Doc Let",
+      "points": [
+        "Clear water, white sand",
+        "Far quieter than Nha Trang"
+      ],
+      "tip": "A favourite of Nha Trang locals on TikTok",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Tính Thu",
+          "address": "Bãi biển Dốc Lết",
+          "spokenAs": "tinh thu",
+          "rating": 4.6
+        },
+        {
+          "name": "Seafood on a raft",
+          "place": "Nhà Bè Bảo An",
+          "address": "Ninh Hải, Ninh Hòa",
+          "spokenAs": "bao an",
+          "rating": 4.7
+        },
+        {
+          "name": "Noodle soups",
+          "place": "Quán Trang",
+          "address": "Hòn Khói, Ninh Hòa",
+          "spokenAs": "noodle",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood raft",
+          "place": "Bè hải sản Quân Thảo",
+          "address": "Ninh Hải, Ninh Hòa",
+          "rating": 4.5
+        },
+        {
+          "name": "Rice dishes",
+          "place": "Cơm Huyền",
+          "address": "32 Hòn Khói, Ninh Hòa",
+          "rating": 4.7
+        },
+        {
+          "name": "Family eatery",
+          "place": "Quán 8 Cương",
+          "address": "gần bãi Dốc Lết",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "Trâm Anh Quán",
+          "address": "206 Lê Hồng Phong, Ninh Hòa",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 15.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/nha-trang-4n3d/images/09-outro.jpg"
+      ],
+      "narration": "Four days still isn't enough for Nha Trang. All the addresses are in the description. Save this for your next beach trip!",
+      "label": "SEE YOU AGAIN",
+      "caption": "NHA TRANG",
+      "tip": "Four days isn't enough",
+      "cta": "Save it for your trip!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9
+    }
+  ]
+}

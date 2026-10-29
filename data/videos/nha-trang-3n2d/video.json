@@ -1,0 +1,505 @@
+{
+  "id": "nha-trang-3n2d",
+  "title": "Nha Trang 3 ngày 2 đêm",
+  "language": "vi",
+  "region": "Nha Trang, Khánh Hòa, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fd3ff",
+    "brand": "NHA TRANG · 3N2Đ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/nha-trang-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.215,
+      12.385
+    ],
+    "zoom": 11,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/nha-trang-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      107.4,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/nha-trang-4n3d/images/01-hook.jpg"
+      ],
+      "narration": "Có ba ngày ở Nha Trang? Lưu ngay lịch trình ba ngày hai đêm này: tháp Chăm, tour đảo, hải sản, và ăn sáng chợ Đầm.",
+      "label": "MIỀN TRUNG · VIỆT NAM",
+      "caption": "NHA TRANG",
+      "badge": "3N2Đ",
+      "tip": "Tháp Chăm · Đảo · Hải sản · Chợ Đầm",
+      "frame": "full",
+      "durationSec": 8
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Từ Hà Nội hay Thành phố Hồ Chí Minh đều có chuyến bay thẳng tới sân bay Cam Ranh, cách trung tâm Nha Trang khoảng ba mươi lăm cây số.",
+      "label": "ĐƯỜNG ĐẾN",
+      "caption": "Bay tới Cam Ranh",
+      "flight": {
+        "to": {
+          "name": "Cam Ranh",
+          "lng": 109.2174,
+          "lat": 11.9983
+        },
+        "from": [
+          {
+            "name": "Hà Nội",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "TP.HCM",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 9
+    },
+    {
+      "id": "day1-sang",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Tháp Bà Ponagar",
+          "lng": 109.1952,
+          "lat": 12.2654
+        },
+        {
+          "name": "Hòn Chồng",
+          "lng": 109.2066,
+          "lat": 12.2728
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/02-ponagar.jpg",
+        "videos/nha-trang-4n3d/images/02c-honchong.jpg",
+        "videos/nha-trang-4n3d/images/02b-ponagar.jpg"
+      ],
+      "narration": "Ngày đầu, sáng sớm ghé tháp Bà Ponagar, cụm tháp Chăm cổ bên sông Cái, rồi qua Hòn Chồng ngắm biển. Gần tháp có hải sản Xuân Trà, bún cá Tháp Bà, và bánh canh tôm tít Bếp Nhà.",
+      "label": "NGÀY 1 · SÁNG",
+      "caption": "Tháp Bà Ponagar",
+      "points": [
+        "Tháp Bà Ponagar bên sông Cái",
+        "Hòn Chồng ngắm biển"
+      ],
+      "tip": "Đi sáng sớm cho mát, mặc lịch sự vào tháp",
+      "accent": "#ffb978",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Xuân Trà",
+          "address": "27 Tháp Bà",
+          "spokenAs": "xuân trà",
+          "rating": 4.9
+        },
+        {
+          "name": "Bún cá",
+          "place": "Bún Cá Tháp Bà",
+          "address": "19 Hồ Tùng Mậu",
+          "spokenAs": "bún cá tháp bà",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh canh tôm tít",
+          "place": "Bếp Nhà 61",
+          "address": "61 Tháp Bà",
+          "spokenAs": "bếp nhà",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Kem flan",
+          "place": "Kem Flan Cô Giỏi",
+          "address": "17 Tháp Bà, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Hải sản địa phương",
+          "place": "Hải sản Viên Hồ",
+          "address": "33 Cù Huân, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Hải sản",
+          "place": "Nhà Hàng Hải Sản Hằng 66",
+          "address": "46 Cù Huân, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Hải sản tươi sống",
+          "place": "Quán Bờ Biển",
+          "address": "8 Phạm Văn Đồng, Nha Trang",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 11
+    },
+    {
+      "id": "day1-chieu",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Chùa Long Sơn",
+          "lng": 109.1806,
+          "lat": 12.2513
+        },
+        {
+          "name": "Nhà thờ Núi",
+          "lng": 109.1881,
+          "lat": 12.2467
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/03c-longson.jpg",
+        "videos/nha-trang-4n3d/images/03d-longson.jpg",
+        "videos/nha-trang-4n3d/images/03-nhatho.jpg"
+      ],
+      "narration": "Chiều leo lên chùa Long Sơn với tượng Phật trắng trên đồi, rồi ghé nhà thờ Núi xây bằng đá. Ăn gần đây có bánh canh ghẹ Cô Ba Miền Biển, cơm gà xối mắm B-Food, và nem nướng bà Mười.",
+      "label": "NGÀY 1 · CHIỀU",
+      "caption": "Chùa Long Sơn",
+      "points": [
+        "Chùa Long Sơn · tượng Phật trắng",
+        "Nhà thờ Núi xây bằng đá"
+      ],
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Bánh canh ghẹ",
+          "place": "Cô Ba Miền Biển",
+          "address": "5 Thái Nguyên",
+          "spokenAs": "bánh canh ghẹ",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm gà xối mắm",
+          "place": "B-Food",
+          "address": "04 Núi Một",
+          "spokenAs": "cơm gà",
+          "rating": 4.8
+        },
+        {
+          "name": "Nem nướng Ninh Hòa",
+          "place": "Nem Bà Mười",
+          "address": "7A Bạch Đằng",
+          "spokenAs": "nem nướng bà mười",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh căn",
+          "place": "Bánh Căn Cô Ly",
+          "address": "186 Thống Nhất, Nha Trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Bún cá",
+          "place": "Bún Cá Nha Trang 79",
+          "address": "15 Nguyễn Chánh, Nha Trang",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh canh tôm hùm",
+          "place": "Quán Nhỏ",
+          "address": "8B Đường 12A, Nha Trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Nem nướng",
+          "place": "Nem Nướng Hồng Vũ",
+          "address": "89 Nhị Hà, Nha Trang",
+          "rating": 4.9
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 11.5
+    },
+    {
+      "id": "day1-toi",
+      "layout": "point",
+      "map": {
+        "name": "Biển Trần Phú",
+        "lng": 109.196,
+        "lat": 12.2385
+      },
+      "gallery": [
+        "videos/nha-trang-4n3d/images/05-dem.jpg",
+        "videos/nha-trang-4n3d/images/05b-nem.jpg"
+      ],
+      "narration": "Tối dạo biển Trần Phú hóng gió, rồi đi ăn hải sản. Khu Nguyễn Thiện Thuật có hải sản Đông Hải, JJ Seafood, và ốc ngon Làng Biển.",
+      "label": "NGÀY 1 · TỐI",
+      "caption": "Biển Trần Phú",
+      "points": [
+        "Dạo biển Trần Phú buổi tối",
+        "Hải sản, ốc quanh Nguyễn Thiện Thuật"
+      ],
+      "tip": "Dân địa phương mách: né quán do taxi tự chở tới",
+      "accent": "#b9a2ff",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Đông Hải",
+          "address": "24 Tô Hiến Thành",
+          "spokenAs": "đông hải",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản",
+          "place": "JJ Seafood",
+          "address": "20 Nguyễn Thiện Thuật",
+          "spokenAs": "jj seafood",
+          "rating": 4.7
+        },
+        {
+          "name": "Ốc các loại",
+          "place": "Ốc Làng Biển",
+          "address": "48 Nguyễn Thiện Thuật",
+          "spokenAs": "ốc ngon làng biển",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản",
+          "place": "Nhà Hàng Hải Sản Phố Việt",
+          "address": "69 Trần Quang Khải, Nha Trang",
+          "rating": 4.8
+        },
+        {
+          "name": "Ốc, hải sản",
+          "place": "Quán Ốc Ngon Nha Trang",
+          "address": "48 Nguyễn Thiện Thuật, Nha Trang",
+          "rating": 4.6
+        },
+        {
+          "name": "Chè Thái",
+          "place": "Chè Thái WanWan",
+          "address": "98 Hồng Bàng, Nha Trang",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh căn, bánh xèo",
+          "place": "Hai Phượng - Yến",
+          "address": "46/27 Hùng Vương, Nha Trang",
+          "rating": 4.6
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 8.5
+    },
+    {
+      "id": "day2-dao",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Cảng Cầu Đá",
+          "lng": 109.2149,
+          "lat": 12.2066
+        },
+        {
+          "name": "Hòn Tằm",
+          "lng": 109.2447,
+          "lat": 12.1747
+        },
+        {
+          "name": "Hòn Mun",
+          "lng": 109.3049,
+          "lat": 12.1667
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/04-honmun.jpg",
+        "videos/nha-trang-4n3d/images/04b-sanho.jpg",
+        "videos/nha-trang-4n3d/images/04c-hontam.jpg"
+      ],
+      "narration": "Ngày hai đi tour đảo từ cảng Cầu Đá: lặn ngắm san hô ở Hòn Mun, rồi tắm biển Hòn Tằm. Về đất liền ăn hải sản Hà Linh, Thanh An, hay gỏi ốc Cửa Bé.",
+      "label": "NGÀY 2",
+      "caption": "Tour đảo",
+      "points": [
+        "Lặn ngắm san hô Hòn Mun",
+        "Tắm biển Hòn Tằm"
+      ],
+      "tip": "Nước trong nhất từ tháng 4 tới tháng 8",
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hà Linh",
+          "address": "34 Trần Phú",
+          "spokenAs": "hà linh",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản",
+          "place": "Thanh An",
+          "address": "11A Trần Phú",
+          "spokenAs": "thanh an",
+          "rating": 4.8
+        },
+        {
+          "name": "Gỏi ốc",
+          "place": "Gỏi Ốc Cửa Bé",
+          "address": "350 Võ Thị Sáu",
+          "spokenAs": "gỏi ốc cửa bé",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản",
+          "place": "Quán Hải Sản Ty Rô",
+          "address": "5A Tô Hiệu, Nha Trang",
+          "rating": 4.5
+        },
+        {
+          "name": "Hải sản trên bè",
+          "place": "Bè Hải sản Sơn Khánh",
+          "address": "gần cảng Cầu Đá",
+          "rating": 5
+        },
+        {
+          "name": "Cá nóc nhím",
+          "place": "Quán Long Ka",
+          "address": "Võ Thị Sáu, Nha Trang",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 9.5
+    },
+    {
+      "id": "day3-chodam",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Chợ Đầm",
+          "lng": 109.1917,
+          "lat": 12.2553
+        },
+        {
+          "name": "Viện Hải dương học",
+          "lng": 109.2139,
+          "lat": 12.208
+        }
+      ],
+      "gallery": [
+        "videos/nha-trang-4n3d/images/06-chodam.jpg",
+        "videos/nha-trang-4n3d/images/06b-chodam.jpg",
+        "videos/nha-trang-4n3d/images/06c-vien.jpg"
+      ],
+      "narration": "Ngày cuối ăn sáng quanh chợ Đầm: bánh căn số tám, bún cá Quán hai mươi bốn, bánh căn Út Liên, rồi mua hải sản khô làm quà. Trên đường ra sân bay ghé Viện Hải dương học.",
+      "label": "NGÀY 3",
+      "caption": "Chợ Đầm",
+      "points": [
+        "Ăn sáng, mua hải sản khô ở chợ Đầm",
+        "Viện Hải dương học gần cảng Cầu Đá"
+      ],
+      "tip": "Bánh căn ngon nhất là buổi sáng",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "Bánh căn",
+          "place": "Bánh Căn Số 8",
+          "address": "08 Phan Đình Phùng",
+          "spokenAs": "bánh căn số tám",
+          "rating": 4.8
+        },
+        {
+          "name": "Bún cá lá Ninh Hòa",
+          "place": "Quán 24",
+          "address": "19 Phan Đình Phùng",
+          "spokenAs": "bún cá",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh căn",
+          "place": "Út Liên",
+          "address": "977 Đường 2/4",
+          "spokenAs": "út liên",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Quán ăn",
+          "place": "Quán ăn Xuân Thu",
+          "address": "13 Nguyễn Thái Học, Nha Trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Phở khô",
+          "place": "Phở Khô Hưng Huỳnh",
+          "address": "51 Hoàng Hoa Thám, Nha Trang",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh canh, bún cá",
+          "place": "Cô Ba An",
+          "address": "03 Hai Bà Trưng, Nha Trang",
+          "rating": 4.7
+        },
+        {
+          "name": "Bún thịt nướng, nem",
+          "place": "Nem Ninh Hoà Cô Phước",
+          "address": "24B Đoàn Thị Điểm, Nha Trang",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 10.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/nha-trang-4n3d/images/09-outro.jpg"
+      ],
+      "narration": "Ba ngày ở Nha Trang trôi nhanh lắm. Địa chỉ quán mình để ở phần mô tả. Lưu lại cho chuyến đi biển sắp tới nhé!",
+      "label": "HẸN QUAY LẠI",
+      "caption": "NHA TRANG",
+      "tip": "Ba ngày trôi nhanh lắm",
+      "cta": "Lưu lại để lên kế hoạch nhé!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 7.5
+    }
+  ]
+}
