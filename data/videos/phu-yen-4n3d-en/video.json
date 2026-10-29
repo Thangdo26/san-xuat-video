@@ -1,0 +1,561 @@
+{
+  "id": "phu-yen-4n3d-en",
+  "title": "Phu Yen in 4 days, 3 nights",
+  "language": "en",
+  "region": "Phú Yên, Đắk Lắk, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fd3ff",
+    "brand": "PHU YEN · 4D3N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/phu-yen-3n2d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.376,
+      13.126
+    ],
+    "zoom": 10.5,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/phu-yen-3n2d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      107.4,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phu-yen-4n3d/images/01-hook.jpg"
+      ],
+      "narration": "Four days in Phu Yen? Save this itinerary: quiet beaches, basalt coasts, a cool plateau, and market food that costs almost nothing.",
+      "label": "CENTRAL VIETNAM",
+      "caption": "PHU YEN",
+      "badge": "4D3N",
+      "tip": "Beaches · Rocks · Plateau · Market food",
+      "frame": "full",
+      "durationSec": 10.5
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Getting there is easy: direct flights from Hanoi and Ho Chi Minh City land at Tuy Hoa airport.",
+      "label": "GETTING THERE",
+      "caption": "Fly to Tuy Hoa",
+      "flight": {
+        "to": {
+          "name": "Tuy Hoa",
+          "lng": 109.3337,
+          "lat": 13.0496
+        },
+        "from": [
+          {
+            "name": "Hanoi",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "Ho Chi Minh City",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 7.5
+    },
+    {
+      "id": "day1-sang",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Xom Ro sea wall",
+          "lng": 109.3405,
+          "lat": 13.0693
+        },
+        {
+          "name": "Nghinh Phong Tower",
+          "lng": 109.3073,
+          "lat": 13.1163
+        },
+        {
+          "name": "Tran Phu beach",
+          "lng": 109.3155,
+          "lat": 13.1056
+        }
+      ],
+      "gallery": [
+        "videos/phu-yen-4n3d/images/02d-tuyhoa-beach.jpg",
+        "videos/phu-yen-4n3d/images/02b-tuyhoa-nghinhphong.jpg",
+        "videos/phu-yen-4n3d/images/02-tuyhoa-bien.jpg"
+      ],
+      "narration": "Day one in Tuy Hoa: catch sunrise on the mossy Xom Ro sea wall, then walk Nghinh Phong Tower and Tran Phu beach. Hungry? Try chive noodle soup at Quan 129, home-style rice at Tiem Com Lua, and a seafood buffet at Mr Moc.",
+      "label": "DAY 1 · MORNING",
+      "caption": "Tuy Hoa",
+      "points": [
+        "Sunrise on the mossy Xom Ro sea wall",
+        "Nghinh Phong Tower · Tran Phu beach"
+      ],
+      "tip": "The moss is greenest from January to April",
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Chive noodle soup",
+          "place": "Quán 129",
+          "address": "129 Lý Thường Kiệt",
+          "rating": 4.7
+        },
+        {
+          "name": "Home-style Phu Yen rice",
+          "place": "Tiệm Cơm Lúa",
+          "address": "39 Đồng Khởi",
+          "spokenAs": "tiem com lua",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood buffet",
+          "place": "Mr Mộc",
+          "address": "185A Điện Biên Phủ",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Ocean tuna eyes",
+          "place": "Sunviea",
+          "address": "259 Điện Biên Phủ, Tuy Hòa",
+          "rating": 4.5
+        },
+        {
+          "name": "Clay-pot rice, seafood",
+          "place": "Nhà Hàng Hoa Vàng",
+          "address": "357-359 ĐL Hùng Vương, Tuy Hòa",
+          "rating": 4.6
+        },
+        {
+          "name": "Beachfront seafood",
+          "place": "Sala Beach Club",
+          "address": "51 Độc Lập, Tuy Hòa",
+          "rating": 4.6
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 17.5
+    },
+    {
+      "id": "day1-chieu",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Lo Village · Trong Xanh",
+          "lng": 109.3788,
+          "lat": 13.0014
+        },
+        {
+          "name": "Hung Vuong bridge",
+          "lng": 109.3184,
+          "lat": 13.0809
+        }
+      ],
+      "gallery": [
+        "videos/phu-yen-4n3d/images/03b-pho-tuyhoa.jpg"
+      ],
+      "narration": "In the afternoon, head to Lo village in Hoa Hiep for coffee at Trong Xanh, then watch the sunset over the Da Rang River by Hung Vuong bridge. Eat crispy squid pancakes at Co Du, seafood at Nguyet Trang, or Bip Nha Nau.",
+      "label": "DAY 1 · AFTERNOON",
+      "caption": "Lo Village",
+      "points": [
+        "Trong Xanh coffee in Lo village",
+        "Sunset by Hung Vuong bridge"
+      ],
+      "accent": "#ffb978",
+      "dishes": [
+        {
+          "name": "Shrimp & squid pancakes",
+          "place": "Cô Dư",
+          "address": "Hòa Hiệp",
+          "rating": 4.9,
+          "spokenAs": "squid pancakes"
+        },
+        {
+          "name": "Seafood",
+          "place": "Nguyệt Trang",
+          "address": "Bãi tắm Lò 1",
+          "spokenAs": "nguyet trang",
+          "rating": 4.8
+        },
+        {
+          "name": "Country food, sea view",
+          "place": "Bíp Nhà Nậu 1978",
+          "address": "Đường Ven Biển",
+          "spokenAs": "bip nha nau",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Restaurant",
+          "place": "Tam Sơn Quán",
+          "address": "Hòa Hiệp (X9RJ+72W)",
+          "rating": 4.7
+        },
+        {
+          "name": "Local eatery",
+          "place": "Quán 47 Ngọc Ái",
+          "address": "Đường Hà Vi Tùng, KP Lò 3, Hòa Hiệp",
+          "rating": 4.7
+        },
+        {
+          "name": "BBQ",
+          "place": "Ra Khơi Beer Garden",
+          "address": "Hòa Hiệp",
+          "rating": 4.6
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 15
+    },
+    {
+      "id": "cho-tuyhoa",
+      "layout": "point",
+      "map": {
+        "name": "Tuy Hoa Market",
+        "lng": 109.3084,
+        "lat": 13.0875
+      },
+      "gallery": [
+        "videos/phu-yen-4n3d/images/03-cho-mon.jpg"
+      ],
+      "narration": "Food in Phu Yen is cheap, so hit Tuy Hoa market in the morning: mini rice cakes and shrimp pancakes cost just a few thousand dong each. Around the market, try vermicelli with pork offal at KenKen, chive noodle soup at Ca Dam, and sweet soups at Che 5K.",
+      "label": "MARKET FOOD",
+      "caption": "Tuy Hoa Market",
+      "points": [
+        "Rice cakes & pancakes for pennies",
+        "Go early, mornings are liveliest"
+      ],
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Vermicelli & pork offal",
+          "place": "KenKen",
+          "address": "41 Trần Phú",
+          "spokenAs": "kenken",
+          "rating": 4.7
+        },
+        {
+          "name": "Chive noodle soup",
+          "place": "Cá Dầm",
+          "address": "69 Nguyễn Huệ",
+          "spokenAs": "ca dam",
+          "rating": 4.8
+        },
+        {
+          "name": "Sweet soups",
+          "place": "Chè 5K",
+          "address": "42 Duy Tân",
+          "spokenAs": "sweet soups",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Fish noodle soup",
+          "place": "Bún Cá Tuy Hòa",
+          "address": "55 Lương Tấn Thịnh, Tuy Hòa",
+          "rating": 4.6
+        },
+        {
+          "name": "Chive noodle soup",
+          "place": "Bánh Canh Hẹ Bé Bông",
+          "address": "65 Điện Biên Phủ, Tuy Hòa",
+          "rating": 4.6
+        },
+        {
+          "name": "Fish noodles, chive soup",
+          "place": "Quán Tiên",
+          "address": "162 Trường Chinh, Tuy Hòa",
+          "rating": 4.5
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 18
+    },
+    {
+      "id": "day2-muidien",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Han Dam",
+          "lng": 109.351,
+          "lat": 12.8984
+        },
+        {
+          "name": "Co Hieu coffee",
+          "lng": 109.391,
+          "lat": 12.8497
+        },
+        {
+          "name": "Dien Cape · Bai Mon",
+          "lng": 109.455,
+          "lat": 12.8958
+        }
+      ],
+      "gallery": [
+        "videos/phu-yen-4n3d/images/04b-mui-dien-view.jpg",
+        "videos/phu-yen-4n3d/images/04-mui-dien.jpg",
+        "videos/phu-yen-4n3d/images/04c-bai-mon.jpg"
+      ],
+      "narration": "Day two, head south: swim at Han Dam stream, stop for coffee at Co Hieu on the way, then climb to Dien Cape lighthouse and go down to Bai Mon beach. Lunch on the floating rafts of Vung Ro Bay: Huong Bien, Vung Ro Xanh, or Nam Sang.",
+      "label": "DAY 2",
+      "caption": "Dien Cape",
+      "points": [
+        "Han Dam stream · Co Hieu coffee",
+        "Dien Cape lighthouse · Bai Mon"
+      ],
+      "tip": "Wear sneakers: lots of steps up to the lighthouse",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "Floating raft seafood",
+          "place": "Hương Biển",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "huong bien",
+          "rating": 4.7
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Vũng Rô Xanh",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "vung ro xanh",
+          "rating": 4.8
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Năm Sáng",
+          "address": "Bãi Hưởng, Vũng Rô",
+          "spokenAs": "nam sang",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood, boat trips",
+          "place": "Ba Đua Travel",
+          "address": "QL29, Vũng Rô",
+          "rating": 4.9
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Nhà bè Biển Hẹn",
+          "address": "Vũng Rô, Hòa Xuân",
+          "rating": 4.7
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Bè hải sản Bốn Thinh",
+          "address": "Hòa Xuân Nam, Vũng Rô",
+          "rating": 4.5
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 17
+    },
+    {
+      "id": "day3-tuyan",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Mang Lang Church",
+          "lng": 109.2258,
+          "lat": 13.3341
+        },
+        {
+          "name": "Ong Cop bridge",
+          "lng": 109.2415,
+          "lat": 13.3606
+        },
+        {
+          "name": "Shark Rock · Ganh Den",
+          "lng": 109.2882,
+          "lat": 13.3639
+        },
+        {
+          "name": "Hon Yen",
+          "lng": 109.3082,
+          "lat": 13.2257
+        }
+      ],
+      "gallery": [
+        "videos/phu-yen-4n3d/images/05-mang-lang.jpg",
+        "videos/phu-yen-4n3d/images/05b-ganh-da-dia.jpg"
+      ],
+      "narration": "Day three in Tuy An: Mang Lang Church, Ong Cop wooden bridge, then Shark Rock and Ganh Den lighthouse, right next to Ganh Da Dia. Finish at Hon Yen. For lunch, try seafood at Muoi Xi, Lang Chai, or Gio Bien.",
+      "label": "DAY 3",
+      "caption": "Tuy An",
+      "points": [
+        "Mang Lang Church · Ong Cop bridge",
+        "Shark Rock · Ganh Den · Hon Yen"
+      ],
+      "tip": "Ganh Den is only about 1 km from Ganh Da Dia",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Mười Xí",
+          "address": "Gần Gành Đá Đĩa",
+          "spokenAs": "muoi xi",
+          "rating": 4.5
+        },
+        {
+          "name": "Seafood",
+          "place": "Hải sản Làng Chài",
+          "address": "Tuy An Đông",
+          "spokenAs": "lang chai",
+          "rating": 4.6
+        },
+        {
+          "name": "Rice, seafood",
+          "place": "Quán Gió Biển",
+          "address": "Phú Lương, Tuy An",
+          "spokenAs": "gio bien",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Chive noodle soup",
+          "place": "Bánh Canh Hẹ Cô Hai",
+          "address": "near Ganh Den, Tuy An Đông",
+          "rating": 5
+        },
+        {
+          "name": "Seafood on a raft",
+          "place": "Quán Bè Hải Sản Hồng Đức",
+          "address": "96RQ+5FG Vũng Lắm, Tuy An Đông",
+          "rating": 4.8
+        },
+        {
+          "name": "O Loan blood cockles",
+          "place": "Trúc Kiều",
+          "address": "Đầm Ô Loan (near Hon Yen)",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 16
+    },
+    {
+      "id": "day4-vanhoa",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Van Hoa plateau",
+          "lng": 109.1234,
+          "lat": 13.1716
+        },
+        {
+          "name": "Vuc Hom",
+          "lng": 109.1507,
+          "lat": 13.1967
+        },
+        {
+          "name": "Truc Lam monastery",
+          "lng": 109.195,
+          "lat": 13.183
+        },
+        {
+          "name": "Thanh Luong pagoda",
+          "lng": 109.2959,
+          "lat": 13.181
+        }
+      ],
+      "narration": "On the last day, breathe the cool air of the Van Hoa plateau, swim at Vuc Hom falls, then visit Truc Lam monastery and Thanh Luong pagoda. Good restaurants are rare on the plateau, so pick up jackfruit and jackfruit sauce at Don market. At Vuc Hom there is Co 9, and near the pagoda, Duong Phat.",
+      "label": "DAY 4",
+      "caption": "Van Hoa",
+      "points": [
+        "Van Hoa plateau · Vuc Hom falls",
+        "Truc Lam monastery · Thanh Luong pagoda"
+      ],
+      "tip": "Don market opens on Mondays and Fridays",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "Jackfruit & its sauce (to try)",
+          "place": "Chợ Đồn",
+          "address": "Vân Hòa",
+          "spokenAs": "jackfruit sauce"
+        },
+        {
+          "name": "Rice, drinks",
+          "place": "Quán Cô 9",
+          "address": "Bãi xe Vực Hòm",
+          "spokenAs": "co 9",
+          "rating": 4.9
+        },
+        {
+          "name": "Seafood",
+          "place": "Dương Phát",
+          "address": "Mỹ Quang Bắc",
+          "spokenAs": "duong phat",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Free-range chicken, stream fish (to try)",
+          "place": "Roadside eateries, Van Hoa",
+          "address": "suggested by Vinpearl: Van Hoa plateau"
+        },
+        {
+          "name": "Wild fruit, July–September (to try)",
+          "place": "Chợ Đồn",
+          "address": "suggested by VinWonders: Van Hoa plateau"
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 20
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phu-yen-4n3d/images/06-outro.jpg"
+      ],
+      "narration": "Four days still isn't enough for Phu Yen. Every food spot and dish to try is in the description. Save this for your Phu Yen trip!",
+      "label": "COME BACK SOON",
+      "caption": "PHU YEN",
+      "tip": "Four days still isn't enough",
+      "cta": "Save this for your trip!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9.5
+    }
+  ]
+}
