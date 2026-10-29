@@ -1,6 +1,6 @@
 ---
 name: san-xuat-video-du-lich
-description: Quy trình chuẩn sản xuất video du lịch dọc 9:16 (TikTok/Reels) bằng Remotion, từ nghiên cứu blog du lịch, chọn ảnh, tìm quán ăn ≥4.5★ trên Google Maps, viết lời thuyết minh, tạo giọng đọc (Vbee/Edge), dựng và xuất video, tới đăng TikTok. Dùng khi người dùng muốn làm video du lịch cho một địa điểm mới.
+description: Quy trình chuẩn sản xuất video du lịch dọc 9:16 (TikTok/Reels) bằng Remotion, từ nghiên cứu blog du lịch và video, bình luận TikTok, chọn ảnh, tìm quán ăn ≥4.5★ trên Google Maps, viết lời thuyết minh, tạo giọng đọc (Vbee/Edge), dựng và xuất video, tới đăng TikTok. Dùng khi người dùng muốn làm video du lịch cho một địa điểm mới.
 ---
 
 # Sản xuất video du lịch: quy trình chuẩn
@@ -16,7 +16,7 @@ dựng từ cùng một bộ công cụ Remotion. Trả lời người dùng b�
 
 | Giai đoạn | Thời gian | Kết quả |
 |---|---|---|
-| 1. Nghiên cứu lịch trình (blog) | ~25% | `research/itinerary.md` |
+| 1. Nghiên cứu lịch trình (blog, TikTok) | ~25% | `research/itinerary.md`, `research/tiktok.md` |
 | 2. Ảnh và video đẹp | ~20% | ảnh trong `public/videos/<slug>/`, `credits.json` |
 | 3. Món ăn và quán ăn ≥4.5★ | ~25% | `research/food.md`, `dishes` trong `video.json` |
 | 4. Kịch bản và `video.json` | ~10% | `brief.md`, `video.json` |
@@ -49,6 +49,21 @@ dựng từ cùng một bộ công cụ Remotion. Trả lời người dùng b�
 - Lấy toạ độ từ OpenStreetMap (`nominatim.openstreetmap.org/search?q=...&format=json`) để ghim bản đồ khớp.
 
 **Không bịa** giá vé, giờ mở cửa hay số liệu. Con số nào (độ cao, năm xây…) cũng phải có ít nhất một nguồn uy tín.
+
+### 1b. Nghiên cứu trên TikTok: xem video và lướt bình luận
+
+TikTok cho biết điểm nào đang hot, điểm nào đã đóng, chỗ nào chặt chém, nên đi giờ nào. Blog thường chậm hơn vài tháng. Làm bằng Playwright MCP trong trình duyệt đã đăng nhập TikTok:
+
+1. **Tìm video:** mở `https://www.tiktok.com/search/video?q=<từ khoá>`, với nhiều từ khoá: "<nơi> 3n2d", "lịch trình <nơi>", "<nơi> có gì chơi", "<nơi> ăn gì", "review <điểm>", "<nơi> đừng đi". Lấy danh sách bằng `page.evaluate` (link `a[href*="/video/"]`, lượt xem, mô tả). Chọn **6–10 video** nhiều lượt xem, đăng trong khoảng 12 tháng gần đây.
+2. **Xem video:** mở từng link, chụp màn hình (`page.screenshot` của khung video) ở 3–5 thời điểm, vì creator hay ghi tên điểm, giá và giờ thành chữ trên video. Xem ảnh bằng Read và đọc caption.
+3. **Lướt bình luận:** bấm `[data-e2e="comment-icon"]`, cuộn khung `[class*="DivCommentListContainer"]` (đặt `scrollTop`, đừng lăn chuột vì trang sẽ nhảy sang video kế), rồi lấy chữ trong `[class*="DivCommentContentWrapper"]` → `[data-e2e="comment-level-1"]`. Ngày đăng tính từ ID video: `BigInt(id) >> 32n` là giây Unix. Ghép ảnh chụp thành một tấm (Pillow trong venv của VoiceStudio) để xem nhanh. Ghi lại:
+   - điểm người xem gợi ý thêm;
+   - cảnh báo: đóng cửa, đang sửa, chặt chém, đông, bị lừa;
+   - mẹo về giờ đẹp, mùa đẹp, cách đi;
+   - quán và món được khen nhiều.
+4. **Ghi vào `research/tiktok.md`:** link, tài khoản, lượt xem, ngày đăng, các ý chính, và các bình luận đáng chú ý (tóm tắt, không chép tên người bình luận).
+5. **Kiểm chứng trước khi dùng:** TikTok là nguồn gợi ý. Quán thì vẫn phải đạt ≥4.5★ trên Google Maps. Điểm đóng cửa hay giá vé thì kiểm tra thêm báo hoặc trang chính thức. Thông tin chỉ có trên TikTok thì ghi "theo review trên TikTok", không đưa thành số liệu chắc chắn.
+6. **Không lấy** khung hình, nhạc hay lời thoại của creator vào video của mình (bản quyền). Ảnh chụp chỉ để nghiên cứu, để trong thư mục tạm, không commit. Không like, follow hay bình luận khi nghiên cứu.
 
 ## 2. Ảnh và video đẹp (~20%)
 
@@ -169,7 +184,7 @@ npm run lint
 ```
 
 - Sau mỗi lần sửa: **xoá video cũ, render lại `final.mp4`**, báo đường dẫn. Chỉ commit khi người dùng bảo.
-- Trích khung hình để tự kiểm tra, rồi xem bằng Read. Trên Windows, gọi thẳng `node_modules\@remotion\compositor-win32-x64-msvc\ffmpeg.exe`, vì `npx` (cmd) cắt tham số tại dấu phẩy. Bản ffmpeg này không có bộ lọc `pad`, `tile`, `drawtext` và `volumedetect`; chỉ dùng `scale`. Những điểm cần xem: chữ có tràn không, có đè lên vùng nút của TikTok không (lề phải 140px), phụ đề có nằm đáy không, ảnh có đúng nơi không.
+- Trích khung hình để tự kiểm tra, rồi xem bằng Read. Trên Windows, gọi thẳng `node_modules\@remotion\compositor-win32-x64-msvc\ffmpeg.exe`, vì `npx` (cmd) cắt tham số tại dấu phẩy. Bản ffmpeg này không có bộ lọc `pad`, `tile`, `drawtext` và `volumedetect`; chỉ dùng `scale`. Những điểm cần xem: **tiêu đề cảnh (`caption`) phải nằm trên một dòng** (khoảng ≤ 16 ký tự; nếu xuống dòng, quán thứ ba bị phụ đề che, ví dụ "Tháp Bà · Hòn Chồng" phải rút thành "Tháp Bà Ponagar"), chữ có tràn không, có đè lên vùng nút của TikTok không (lề phải 140px), phụ đề có nằm đáy không, ảnh có đúng nơi không.
 - Đo âm lượng: giọng phải to hơn nhạc và đỉnh không vượt -0.5 dBFS.
 - Đi hết **Review checklist** trong README.
 
@@ -198,6 +213,8 @@ npm run lint
    - Ảnh bìa: bấm **Edit cover → Upload cover → chọn cover.jpg → Save**.
    - Cài đặt: chế độ hiển thị (mặc định Everyone), bình luận bật. Nhãn AI để tắt, trừ khi người dùng muốn bật.
    - **Tự bấm Post, không cần hỏi lại** (người dùng dặn ngày 29/10/2026): video đã xuất và xem khung hình ổn là đăng luôn, cả bản tiếng Việt lẫn tiếng Anh. Nếu hiện hộp "Continue to post?" thì chọn "Post now".
+   - **Giới hạn 4.000 ký tự tính cả hashtag.** TikTok đếm nhiều hơn số ký tự của file một chút; khi chạm trần, các hashtag cuối không gõ vào được. Giữ phần dán (không kể hashtag) dưới khoảng 3.800 ký tự và kiểm tra bộ đếm `x/4000` trước khi bấm Post.
+   - Đừng `page.goto` lại trang upload khi trang đang có bản nháp: hộp "rời trang?" (beforeunload) làm lệnh bị huỷ. Mở trang bằng `browser_navigate` rồi chạy script không có `goto`. Không chạy hai script gõ phím cùng lúc vào ô caption (chữ sẽ lẫn vào nhau).
    - Kiểm tra ở `tiktokstudio/content`. Bài đăng khi phần kiểm tra nội dung chưa xong có thể bị "Content under review", tạm hiện "Only me"; sau khi duyệt sẽ tự chuyển công khai.
 
 ---
@@ -207,5 +224,6 @@ npm run lint
 - **Đúng sự thật:** địa điểm khớp ảnh, quán có thật và còn mở cửa, sao và địa chỉ đã kiểm tra trên Google Maps. Không bịa.
 - **Bản quyền:** chỉ dùng ảnh và video có giấy phép, và ghi nguồn đầy đủ.
 - **An toàn tài khoản:** không nhập mật khẩu, OTP hay captcha thay người dùng; không in token; không bấm thanh toán hay nâng cấp; bí mật để trong `.env`.
-- **Hỏi trước** khi làm việc khó hoàn tác hoặc hướng ra bên ngoài (đăng bài, tiêu điểm Vbee nhiều).
+- **Hỏi trước** khi làm việc khó hoàn tác hoặc hướng ra bên ngoài (tiêu điểm Vbee nhiều…). Riêng việc đăng TikTok video đã kiểm tra thì tự đăng (mục 7).
+- **Làm trọn gói** (người dùng dặn ngày 29/10/2026): khi được giao làm video cho một nơi, tự làm từ nghiên cứu tới đăng TikTok, cả bản tiếng Việt và tiếng Anh, không chờ duyệt. Chỉ dừng lại hỏi khi có sự cố nghiêm trọng (mất đăng nhập, cần thanh toán, dữ liệu có thể mất).
 - Commit chỉ khi người dùng nói "Commit giúp tôi".
