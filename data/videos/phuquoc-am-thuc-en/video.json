@@ -1,0 +1,423 @@
+{
+  "id": "phuquoc-am-thuc-en",
+  "title": "Phu Quoc food: 5 dishes to try",
+  "language": "en",
+  "region": "Đặc khu Phú Quốc, An Giang, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#5fd3c6",
+    "brand": "PHU QUOC FOOD"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "What to eat in Phu Quoc? Here are five dishes you have to try, with where they come from, how they are made, how to eat them, and places checked on Google Maps. Flip each card with me!",
+      "label": "REGIONAL FOOD",
+      "caption": "PHU QUOC",
+      "badge": "5 DISHES",
+      "tip": "Origin · How it's made · How to eat · Where",
+      "stickers": [
+        "🦀",
+        "🥢",
+        "🐟",
+        "🍜",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 11.5
+    },
+    {
+      "id": "goi-ca-trich",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/01-goica.jpg"
+      ],
+      "narration": "Dish one, herring salad. According to VnExpress, islanders once made salads from many kinds of fish after a trip at sea, and over time chose herring as the best. Very fresh herring is cut into two fillets, mixed with a sour dressing, then topped with herbs, shallots, chili and grated coconut. To eat, roll the fish in rice paper with wild greens and herbs, and dip it in Phu Quoc fish sauce with peanuts. Try the Lobster Cave, Dao Hai San, or Phuong Hoang.",
+      "caption": "Gỏi cá trích",
+      "accent": "#5fd3c6",
+      "stickers": [
+        "🐟",
+        "🥥",
+        "🌿",
+        "🌶️",
+        "🥜"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Herring salad, the island classic",
+        "background": "waves",
+        "backgroundTo": "#9be7ff",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "After fishing trips, islanders tried many fish · herring won",
+            "cue": "after a trip at sea"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Fresh herring fillets in a sour dressing · herbs, shallot, chili, coconut",
+            "cue": "two fillets"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Roll in rice paper with wild greens · dip in fish sauce with peanuts",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Gỏi cá trích",
+                "place": "Hải sản Động Tôm Hùm",
+                "address": "1 Bạch Đằng",
+                "rating": 4.8
+              },
+              {
+                "name": "Gỏi cá trích",
+                "place": "Đảo Hải Sản",
+                "address": "Hẻm 111 Trần Phú",
+                "rating": 4.7
+              },
+              {
+                "name": "Gỏi cá trích",
+                "place": "Hải Sản Phượng Hoàng",
+                "address": "127G Trần Hưng Đạo",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 31
+    },
+    {
+      "id": "bun-quay",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/02-bunquay-1.jpg",
+        "videos/phuquoc-am-thuc/images/02-bunquay-3.jpg"
+      ],
+      "narration": "Dish two, bun quay, or stirred noodles. Its origin has several versions: some say it came to the island from central Vietnam, others that the Kien Xay shop near Dinh Cau made it famous. Fresh noodles are pressed on the spot, covered in broth, with shrimp paste and fish balls. It is called stirred noodles because to eat, you stir your own dipping sauce of sugar, kumquat, chili and fish sauce to taste. Try Bach Dang, Thien My, or Co Tham.",
+      "caption": "Bún quậy",
+      "accent": "#ffb14d",
+      "stickers": [
+        "🍜",
+        "🦐",
+        "🍋",
+        "🌶️",
+        "🥄"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Stir your own dipping sauce",
+        "background": "stripes",
+        "backgroundTo": "#ffe08a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Several versions: from central Vietnam · Kien Xay near Dinh Cau made it famous",
+            "cue": "several versions"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Fresh noodles pressed on the spot · shrimp paste, fish balls",
+            "cue": "fresh noodles"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Stir your own dip: sugar, kumquat, chili, fish sauce",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún quậy",
+                "place": "Bún Quậy Bạch Đằng",
+                "address": "32A Bạch Đằng",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún quậy",
+                "place": "Bún quậy Thiện Mỹ",
+                "address": "103 Trần Hưng Đạo",
+                "rating": 4.7
+              },
+              {
+                "name": "Bún quậy",
+                "place": "Bún Quậy Cô Thắm",
+                "address": "Xóm Làng Chài",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 29.5
+    },
+    {
+      "id": "nhum-nuong",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/03-nhum.jpg",
+        "videos/phuquoc-am-thuc/images/03b-ocnuong.jpg"
+      ],
+      "narration": "Dish three, grilled sea urchin with scallion oil. Nhum is the local name for sea urchin, gathered fresh around the island. Each one is cut in half, drizzled with scallion oil and grilled over charcoal, then topped with fried shallots and roasted peanuts. To eat, spoon out the rich, creamy meat; some places also make sea urchin porridge. Tip: ask whether it is sea urchin or murex snail, since some menus mix them up. Try Hau Nuong Nhum Nuong eight K, or Thuan Kieu.",
+      "caption": "Nhum nướng mỡ hành",
+      "accent": "#b48cff",
+      "stickers": [
+        "🔥",
+        "🧅",
+        "🥜",
+        "🌊"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Grilled sea urchin",
+        "background": "gingham",
+        "backgroundTo": "#ffc2e0",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Nhum is the local name for sea urchin · gathered fresh around the island",
+            "cue": "sea urchin"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Cut in half, scallion oil, charcoal grilled · fried shallots, peanuts",
+            "cue": "cut in half"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Spoon out the creamy meat · ask: sea urchin or murex snail?",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Nhum nướng mỡ hành",
+                "place": "Hàu – Nhum nướng 8K",
+                "address": "Trần Hưng Đạo",
+                "rating": 5
+              },
+              {
+                "name": "Nhum nướng mỡ hành",
+                "place": "Hải sản Thuận Kiều 2",
+                "address": "70B Trần Hưng Đạo",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 32.5
+    },
+    {
+      "id": "hai-san",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/04-tomhum.jpg",
+        "videos/phuquoc-am-thuc/images/04c-be.jpg",
+        "videos/phuquoc-am-thuc/images/04b-quay.jpg"
+      ],
+      "narration": "Dish four is seafood you pick live from the tank. Phu Quoc has many fishing villages, and the most famous catch is Ham Ninh crab from the east coast, caught close to shore, so the meat is firm, sweet and full of roe. At the night market and seafood restaurants, you choose a live one from the tank, it is weighed, and the kitchen boils, steams or grills it. To eat, crab with salt, pepper and lime is all you need. Tip: ask the price per kilo and the cooking fee first. Try MYLA, Su and Bee seafood, or KTIN.",
+      "caption": "Hải sản chọn tại bể",
+      "accent": "#ff7a8a",
+      "stickers": [
+        "🦀",
+        "🦞",
+        "🍋",
+        "⚓"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Pick it live: crab, lobster, snails",
+        "background": "stars",
+        "backgroundTo": "#ffb38a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Fishing villages all over · Ham Ninh crab: firm, sweet, full of roe",
+            "cue": "fishing villages"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Pick a live one from the tank, weighed · boiled, steamed or grilled",
+            "cue": "choose a live one"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Crab with salt, pepper and lime · ask price per kilo and cooking fee",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "MYLA Seafood",
+                "address": "98 Trần Hưng Đạo",
+                "rating": 4.9
+              },
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "Vựa hải sản nhà Su & Bee",
+                "address": "30 Bạch Đằng",
+                "rating": 4.5
+              },
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "Ốc Hải Sản KTIN 1",
+                "address": "147a Trần Hưng Đạo",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 33.5
+    },
+    {
+      "id": "nuoc-mam",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/07b-thung.jpg",
+        "videos/phuquoc-am-thuc/images/07-nuocmam.jpg"
+      ],
+      "narration": "Number five is the one to take home, Phu Quoc fish sauce. Fish sauce making in Phu Quoc is recognised as national intangible cultural heritage. Fresh anchovies are layered with salt in big wooden vats for twelve to eighteen months before the first sauce is drawn off. To eat, use it as the dip for fish salad, noodle soup and seafood. Buy it at the Huynh Khoa or Thanh Khoa fish sauce houses, or the Khai Hoan specialty centre.",
+      "caption": "Nước mắm Phú Quốc",
+      "accent": "#e8a04c",
+      "stickers": [
+        "🐟",
+        "🧂",
+        "🛢️",
+        "🎁"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "The one to take home",
+        "background": "hearts",
+        "backgroundTo": "#ffd39a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Phu Quoc fish sauce making: national intangible cultural heritage",
+            "cue": "heritage"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Anchovies and salt aged 12–18 months in wooden vats",
+            "cue": "anchovies"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "The dip for fish salad, noodle soup, seafood · a great gift",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to buy",
+            "cue": "buy it",
+            "places": [
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Nước mắm Huỳnh Khoa",
+                "address": "Dương Đông",
+                "rating": 4.9
+              },
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Nước mắm Thành Khoa",
+                "address": "Dương Đông",
+                "rating": 4.9
+              },
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Đặc sản Khải Hoàn",
+                "address": "289 TL47",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 27
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "These five dishes are a full food tour of the pearl island. All the addresses are in the description. Which one would you try first? Save this for your trip!",
+      "label": "EAT LIKE A LOCAL",
+      "caption": "PHU QUOC",
+      "tip": "Which one would you try first?",
+      "cta": "Save it for your trip!",
+      "stickers": [
+        "😋",
+        "🏝️",
+        "💛",
+        "🦀"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 10.5
+    }
+  ]
+}
