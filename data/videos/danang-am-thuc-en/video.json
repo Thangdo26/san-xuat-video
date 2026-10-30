@@ -1,0 +1,489 @@
+{
+  "id": "danang-am-thuc-en",
+  "title": "Da Nang food: 6 dishes to try",
+  "language": "en",
+  "region": "Đà Nẵng, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffc24d",
+    "brand": "DA NANG FOOD"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/danang-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "What to eat in Da Nang? Here are six dishes you have to try, with where they come from, how they are made, how to eat them, and places checked on Google Maps.",
+      "label": "REGIONAL FOOD",
+      "caption": "DA NANG",
+      "badge": "6 DISHES",
+      "tip": "Origin · How it's made · How to eat · Where",
+      "stickers": [
+        "🍜",
+        "🥢",
+        "🐟",
+        "🌶️",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 9.5
+    },
+    {
+      "id": "mi-quang",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/01-mi.jpg",
+        "videos/danang-am-thuc/images/01b-mi.jpg",
+        "videos/danang-am-thuc/images/01c-mi.jpg"
+      ],
+      "narration": "Dish one, mi Quang. Its origin is still debated, but it is tied to noodle villages on the Thu Bon river, such as Phu Chiem. The rice noodles are steamed as sheets, cut wide and often tinted yellow with turmeric. There is only a splash of broth, with shrimp and pork or chicken. To eat it, crumble a sesame rice cracker on top, add herbs, peanuts, lime and chili, and mix it all. Try Hong Nga, Co Sau, or My Son.",
+      "caption": "Mì Quảng",
+      "accent": "#ffc24d",
+      "stickers": [
+        "🍜",
+        "🦐",
+        "🥚",
+        "🥜",
+        "🌶️"
+      ],
+      "story": {
+        "number": 1,
+        "total": 6,
+        "tagline": "The soul of Quang Nam cooking",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Debated, but tied to Phu Chiem and other noodle villages on the Thu Bon river",
+            "cue": "origin"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Steamed rice sheets cut wide, tinted with turmeric · just a splash of broth",
+            "cue": "rice noodles"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Crumble a sesame cracker, add herbs, peanuts, lime and chili, mix",
+            "cue": "to eat it"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Mì Quảng",
+                "place": "Mì Quảng Sứa Hồng Nga",
+                "address": "67 Yên Bái",
+                "rating": 4.9
+              },
+              {
+                "name": "Mì Quảng",
+                "place": "Mỳ Quảng Cô Sáu",
+                "address": "397 Trần Hưng Đạo",
+                "rating": 4.5
+              },
+              {
+                "name": "Mì Quảng",
+                "place": "Mì Quảng Mỹ Sơn",
+                "address": "155 Đỗ Bá",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 28.5
+    },
+    {
+      "id": "banh-trang-cuon",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/02-btc.jpg",
+        "videos/danang-am-thuc/images/02b-btc.jpg"
+      ],
+      "narration": "Dish two, pork rice paper rolls. Nobody knows who first made them. They were once known only in Quang Nam and Da Nang, and are now a local specialty. Pork is boiled or steamed and sliced thin, best with dew-softened rice paper from Dai Loc. To eat, lay out the rice paper, add herbs and pork, roll it tight, and dip it in fermented fish sauce with pineapple and chili. Try Com Dai Loc, Donald Trung, or Bep Be Anh.",
+      "caption": "Bánh tráng cuốn thịt heo",
+      "accent": "#9fe07a",
+      "stickers": [
+        "🐷",
+        "🥬",
+        "🌯",
+        "🍍",
+        "🌿"
+      ],
+      "story": {
+        "number": 2,
+        "total": 6,
+        "tagline": "Pork rolls you wrap yourself",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Nobody knows who first made it · once known only in Quang Nam and Da Nang",
+            "cue": "nobody knows"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Pork boiled or steamed, sliced thin · dew-softened Dai Loc rice paper",
+            "cue": "boiled or steamed"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Rice paper + herbs + pork, roll tight, dip in mắm nêm with pineapple",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Quán Cốm Đại Lộc",
+                "address": "103 Trưng Nữ Vương",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Donald Trung",
+                "address": "352 Hải Phòng",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Bếp Bé Anh",
+                "address": "04 Mai Thúc Lân",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 28
+    },
+    {
+      "id": "bun-cha-ca",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/03-bcc.jpg",
+        "videos/danang-am-thuc/images/03b-bcc.jpg"
+      ],
+      "narration": "Dish three, fish cake noodle soup. Da Nang sits right by the sea, so fresh fish is everywhere and fish cake became a breakfast staple. Mackerel or lizardfish is pounded with seasoning, kneaded until springy, then steamed or fried golden. The broth is simmered from fish bones with pumpkin, pineapple and tomato. To eat, add pickled shallots and chili garlic, and a little shrimp paste if you like. Try Di Tam or Ma Hai.",
+      "caption": "Bún chả cá",
+      "accent": "#ffa36b",
+      "stickers": [
+        "🐟",
+        "🎃",
+        "🍅",
+        "🌶️",
+        "🧅"
+      ],
+      "story": {
+        "number": 3,
+        "total": 6,
+        "tagline": "A seaside breakfast",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Right by the sea, fresh fish everywhere · a local breakfast staple",
+            "cue": "by the sea"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Mackerel or lizardfish pounded, steamed or fried · fish bone broth with pumpkin",
+            "cue": "pounded"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Add pickled shallots, chili garlic, a little shrimp paste if you like",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Chả Cá Dì Tấm",
+                "address": "583 Trần Cao Vân",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Chả Cá Má Hai",
+                "address": "66 An Trung 1",
+                "rating": 5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 28
+    },
+    {
+      "id": "bun-mam-nem",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/04-bm.jpg"
+      ],
+      "narration": "Dish four, noodles with fermented fish sauce. Mam nem is a specialty of the central coast, made from sea fish salted and fermented for a long time. The bowl has boiled pork, roast pork, pork roll, shredded papaya, young jackfruit and herbs. To eat, pour on the sauce mixed with pineapple and chili, then toss everything well. Try Liem, Hong, or Be Ha.",
+      "caption": "Bún mắm nêm",
+      "accent": "#d9a7ff",
+      "stickers": [
+        "🐟",
+        "🐷",
+        "🥗",
+        "🌶️",
+        "🍍"
+      ],
+      "story": {
+        "number": 4,
+        "total": 6,
+        "tagline": "Bold, funky, addictive",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Mắm nêm: a central coast specialty, sea fish salted and fermented",
+            "cue": "central coast"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Boiled and roast pork, pork roll, green papaya, young jackfruit, herbs",
+            "cue": "the bowl"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Pour on the sauce with pineapple and chili, toss well",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Liêm",
+                "address": "41 Đoàn Thị Điểm",
+                "rating": 4.8
+              },
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Hồng heo quay",
+                "address": "23/6 Trần Kế Xương",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Bé Hà",
+                "address": "130 Bùi Hữu Nghĩa",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 25
+    },
+    {
+      "id": "banh-xeo",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/05-bx.jpg",
+        "videos/danang-am-thuc/images/05b-bx.jpg"
+      ],
+      "narration": "Dish five, central style crispy pancakes, smaller and crunchier than the southern kind. Rice batter with turmeric goes into a hot pan with shrimp, pork and bean sprouts, and fries until golden. What sets them apart is the thick dipping sauce made from liver, peanuts and sesame. To eat, wrap a pancake in rice paper with herbs and grilled pork skewers, then dip. Try Banh Xeo seventy six, a Michelin Bib Gourmand pick, Ba Tuyet, or Banh Xeo Lang.",
+      "caption": "Bánh xèo",
+      "accent": "#ffd84d",
+      "stickers": [
+        "🥞",
+        "🦐",
+        "🌿",
+        "🥜",
+        "🔥"
+      ],
+      "story": {
+        "number": 5,
+        "total": 6,
+        "tagline": "Small, crispy, central style",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Central style: smaller and crunchier than the southern kind",
+            "cue": "central style"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Rice batter with turmeric, shrimp, pork, sprouts · liver and peanut dip",
+            "cue": "rice batter"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Wrap in rice paper with herbs and pork skewers, then dip",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo 76",
+                "address": "85A Lê Văn Hưu",
+                "rating": 4.6
+              },
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo Bà Tuyết",
+                "address": "25/16 Trần Quốc Toản",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo Làng",
+                "address": "58 Trần Quốc Toản",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 30.5
+    },
+    {
+      "id": "goi-ca",
+      "layout": "dish",
+      "narration": "Dish six, Nam O raw fish salad, from the fishing village of Nam O at the foot of the Hai Van pass. Fresh herring is boned and sliced, then marinated with ginger, galangal, garlic and toasted rice powder. The dip is cooked from the fish juices with Nam O fish sauce, chili and tapioca starch, topped with sesame and peanuts. To eat, roll the fish with wild herbs in rice paper and dip. Try A Sinh, Co Hong, or Goi Ca Mien Trung.",
+      "caption": "Gỏi cá Nam Ô",
+      "accent": "#7fd3ff",
+      "stickers": [
+        "🐟",
+        "🌊",
+        "🌿",
+        "🥢"
+      ],
+      "story": {
+        "number": 6,
+        "total": 6,
+        "tagline": "A fishing village classic",
+        "illustration": [
+          "🐟",
+          "🌿",
+          "🫚",
+          "🌶️",
+          "🥜",
+          "🍃"
+        ],
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "From the Nam O fishing village at the foot of the Hai Van pass",
+            "cue": "fishing village"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Fresh herring sliced, marinated with ginger, galangal, garlic · dip from fish juices",
+            "cue": "fresh herring"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Roll the fish with wild herbs in rice paper, then dip",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Gỏi cá Nam Ô A. Sinh",
+                "address": "130 Huỳnh Thúc Kháng",
+                "rating": 4.8
+              },
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Quán Cô Hồng",
+                "address": "38 Lê Hồng Phong",
+                "rating": 4.5
+              },
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Gỏi Cá Miền Trung",
+                "address": "28 Nguyễn Phong Sắc",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 30
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/danang-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "These six dishes are a full food tour of Da Nang. All the addresses are in the description. Which one would you try first? Save this for your trip!",
+      "label": "EAT LIKE A LOCAL",
+      "caption": "ĐÀ NẴNG",
+      "tip": "Which one would you try first?",
+      "cta": "Save it for your trip!",
+      "stickers": [
+        "😋",
+        "🍜",
+        "💛",
+        "🥢"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 10
+    }
+  ]
+}
