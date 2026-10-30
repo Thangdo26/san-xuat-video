@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Rendered videos (draft.mp4 / final.mp4)
+output
+
+# Render / synthesis logs
+*.log
+*.err
+*.done
+
+# Raw voice clips; the imported copies live in public/videos/<slug>/voice
+omnivoice-clips*/
+vbee-clips/

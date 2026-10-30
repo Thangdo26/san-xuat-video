@@ -1,0 +1,485 @@
+{
+  "id": "nhatrang-am-thuc-en",
+  "title": "Nha Trang food: 6 dishes to try",
+  "language": "en",
+  "region": "Nha Trang, Khánh Hòa, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#4fc3f7",
+    "brand": "NHA TRANG FOOD"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "What to eat in Nha Trang? Here are six dishes you have to try, with where they come from, how they are made, how to eat them, and places checked on Google Maps.",
+      "label": "REGIONAL FOOD",
+      "caption": "NHA TRANG",
+      "badge": "6 DISHES",
+      "tip": "Origin · How it's made · How to eat · Where",
+      "stickers": [
+        "🍢",
+        "🥢",
+        "🐟",
+        "🦀",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 10
+    },
+    {
+      "id": "nem-nuong",
+      "layout": "dish",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/01c-nem.jpg",
+        "videos/nhatrang-am-thuc/images/01b-nem.jpg"
+      ],
+      "narration": "Dish one, Ninh Hoa grilled pork. No one knows exactly when it first appeared, but elders in Ninh Hoa say settlers from Thanh Hoa brought the recipe. Lean pork is ground with garlic, pepper, fish sauce and sugar, wrapped around bamboo sticks and grilled over charcoal. The star is a thick dipping sauce simmered from sticky rice, soybean paste, tomato, pork, pig liver, shrimp and peanuts. To eat, roll the pork in crispy fried rice paper with herbs, cucumber, green banana and star fruit, then dip. Try Hong Vu, A Long, or Ba Muoi.",
+      "caption": "Nem nướng Ninh Hòa",
+      "accent": "#ff8a65",
+      "stickers": [
+        "🍢",
+        "🔥",
+        "🌿",
+        "🥒",
+        "🌶️"
+      ],
+      "story": {
+        "number": 1,
+        "total": 6,
+        "tagline": "Grilled pork rolls from Ninh Hoa",
+        "background": "gingham",
+        "backgroundTo": "#ffcf8a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Date unknown · elders say settlers from Thanh Hoa brought it to Ninh Hoa",
+            "cue": "no one knows"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Lean pork with garlic, pepper, fish sauce, charcoal grilled · thick rice and liver dip",
+            "cue": "lean pork"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Roll in crispy rice paper with herbs, cucumber, green banana, star fruit",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Nem nướng Ninh Hòa",
+                "place": "Nem Nướng Hồng Vũ",
+                "address": "89 Nhị Hà",
+                "rating": 4.9
+              },
+              {
+                "name": "Nem nướng Ninh Hòa",
+                "place": "Nem Nướng A Long",
+                "address": "27 Phù Đổng",
+                "rating": 4.8
+              },
+              {
+                "name": "Nem nướng Ninh Hòa",
+                "place": "Nem Bà Mười Ninh Hòa",
+                "address": "7A Bạch Đằng",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 36
+    },
+    {
+      "id": "bun-cha-ca",
+      "layout": "dish",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/02-bcc.jpg"
+      ],
+      "narration": "Dish two, Nha Trang fish cake noodle soup. This is a seaside city, so the broth is simmered from sea fish and fish bones, clear and light, never greasy. The fish cakes are made from mackerel, barracuda or lizardfish, pounded smooth, then steamed or fried. Add crunchy jellyfish and it becomes bun sua, a bowl you rarely find anywhere else. To eat, add herbs, bean sprouts, chili, a squeeze of lime and a little chili fish sauce. Try Bun Ca seventy nine, Hanh Nhien, or Co Hanh.",
+      "caption": "Bún chả cá, bún sứa",
+      "accent": "#4fc3f7",
+      "stickers": [
+        "🐟",
+        "🍅",
+        "🌊",
+        "🌶️",
+        "🍋"
+      ],
+      "story": {
+        "number": 2,
+        "total": 6,
+        "tagline": "The sweetness of the sea",
+        "background": "waves",
+        "backgroundTo": "#b2f0e8",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "A seaside city: broth from sea fish and fish bones · clear, light, never greasy",
+            "cue": "seaside city"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Mackerel or barracuda fish cakes · add jellyfish and it becomes bún sứa",
+            "cue": "fish cakes are made"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Add herbs, bean sprouts, chili, lime and a little chili fish sauce",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún chả cá, bún sứa",
+                "place": "Bún Cá Nha Trang 79",
+                "address": "15 Nguyễn Chánh",
+                "rating": 4.7
+              },
+              {
+                "name": "Bún chả cá, bún sứa",
+                "place": "Bún Cá Hạnh Nhiên",
+                "address": "32C Lê Đại Hành",
+                "rating": 4.5
+              },
+              {
+                "name": "Bún chả cá, bún sứa",
+                "place": "Bún cá sứa Cô Hạnh",
+                "address": "53/8 Nguyễn Thiện Thuật",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 34.5
+    },
+    {
+      "id": "banh-can",
+      "layout": "dish",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/03b-bc.jpg",
+        "videos/nhatrang-am-thuc/images/03-bc.jpg"
+      ],
+      "narration": "Dish three, banh can, little rice cakes. Their origin is disputed: some sources credit the Cham people of Ninh Thuan, others link them to Da Lat and the Central Highlands. The batter is just rice and water, poured into clay molds over charcoal, topped with quail egg, shrimp or squid, and baked one by one under a lid. To eat, dip them in sweet and sour fish sauce or fermented fish sauce, with shredded green mango and herbs. Go early, many stalls sell only in the morning. Try Ut Lien, Banh Can So Tam, or Co Ly.",
+      "caption": "Bánh căn",
+      "accent": "#ffc94d",
+      "stickers": [
+        "🥚",
+        "🦑",
+        "🦐",
+        "🔥",
+        "🥭"
+      ],
+      "story": {
+        "number": 3,
+        "total": 6,
+        "tagline": "Baked one by one in clay",
+        "background": "dots",
+        "backgroundTo": "#ff9f6b",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Disputed: the Cham of Ninh Thuan, or Da Lat and the Central Highlands",
+            "cue": "disputed"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Rice and water batter in clay molds over charcoal · quail egg, shrimp, squid",
+            "cue": "just rice"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Dip in sweet and sour fish sauce · green mango, herbs · go early",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh căn",
+                "place": "Út Liên – Bánh Căn",
+                "address": "977 Đường 2/4",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh căn",
+                "place": "Bánh căn Số 8",
+                "address": "08 Phan Đình Phùng",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh căn",
+                "place": "Bánh Căn Cô Ly",
+                "address": "186 Thống Nhất",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 35
+    },
+    {
+      "id": "goi-ca-mai",
+      "layout": "dish",
+      "narration": "Dish four, goi ca mai, a lime-cured fish salad. No one knows who first made it. Ca mai is a tiny sea fish the size of a thumb, with clear white flesh and no fishy smell. The fish is boned, cured in lime juice or vinegar, then tossed with toasted rice powder, ginger, onion and peanuts. The thick dip is cooked from the fish bones, and some places add pig liver and peanuts. To eat, wrap the fish in rice paper with herbs, green banana, star fruit and cucumber, dip, and enjoy it with grilled rice crackers. Try Goi Ca Ha Ra.",
+      "caption": "Gỏi cá mai",
+      "accent": "#7fd3ff",
+      "stickers": [
+        "🐟",
+        "🍋",
+        "🌊",
+        "🥢"
+      ],
+      "story": {
+        "number": 4,
+        "total": 6,
+        "tagline": "Lime-cured fish, rolled in herbs",
+        "illustration": [
+          "🐟",
+          "🍋",
+          "🌿",
+          "🍌",
+          "🥜",
+          "🌶️"
+        ],
+        "background": "stars",
+        "backgroundTo": "#a78bfa",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Origin unknown · ca mai: thumb-sized, clear white flesh, no fishy smell",
+            "cue": "no one knows"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Boned, cured in lime or vinegar, tossed with rice powder · dip from fish bones",
+            "cue": "is boned"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Wrap in rice paper with herbs, green banana, star fruit · with rice crackers",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Gỏi cá mai",
+                "place": "Gỏi Cá Hà Ra",
+                "address": "997 Đường 2/4",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 36
+    },
+    {
+      "id": "banh-canh",
+      "layout": "dish",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/05-bcanh.jpg",
+        "videos/nhatrang-am-thuc/images/05b-bcanh.jpg"
+      ],
+      "narration": "Dish five, banh canh, a thick rice noodle soup. It is common all over central Vietnam, but Nha Trang is known for versions with fish cake or blue crab, and some shops even use lobster. The chewy noodles are made from rice flour, the broth is simmered with daikon and charred onion, and the fish cakes are fried or steamed. To eat, add scallions, pepper and chili, and dip the fish cake in Khanh Hoa fish sauce with green chili. Try Quan Nho, Co Ba Mien Bien, or Ba Thua.",
+      "caption": "Bánh canh chả cá, ghẹ",
+      "accent": "#ffab91",
+      "stickers": [
+        "🦀",
+        "🦞",
+        "🐟",
+        "🌶️",
+        "🧅"
+      ],
+      "story": {
+        "number": 5,
+        "total": 6,
+        "tagline": "Chewy noodles, sweet broth",
+        "background": "stripes",
+        "backgroundTo": "#ffe082",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Common all over central Vietnam · Nha Trang: fish cake, blue crab, lobster",
+            "cue": "common all over"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Chewy rice noodles · broth with daikon and charred onion · fish cakes",
+            "cue": "chewy noodles"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Add scallions, pepper, chili · dip in Khanh Hoa fish sauce, green chili",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh canh chả cá, ghẹ",
+                "place": "Quán Nhỏ – Bánh canh tôm hùm",
+                "address": "8B Đường 12A, Hà Quang 2",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh canh chả cá, ghẹ",
+                "place": "Bánh canh ghẹ Cô Ba Miền Biển",
+                "address": "5 Thái Nguyên",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh canh chả cá, ghẹ",
+                "place": "Bánh canh bà Thừa 2",
+                "address": "19 Cửu Long",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 30
+    },
+    {
+      "id": "banh-uot",
+      "layout": "dish",
+      "narration": "Dish six, the last one, Dien Khanh steamed rice sheets. Dien Khanh had an old rice paper craft in Phu Loc village, and over time banh uot kitchens lined the highway, earning it the name banh uot street. Rice is ground into a batter, steamed paper thin, lifted off with bamboo chopsticks, then brushed with scallion oil and sprinkled with shrimp floss and mung beans. To eat, dip it in sweet and sour fish sauce or fermented fish sauce, with pork roll, chili and garlic. Each plate holds just one sheet, so people often eat ten plates. Try Banh Uot Que on 23 October Street.",
+      "caption": "Bánh ướt Diên Khánh",
+      "accent": "#ffb3c7",
+      "stickers": [
+        "🍽️",
+        "🍚",
+        "🦐",
+        "🧅"
+      ],
+      "story": {
+        "number": 6,
+        "total": 6,
+        "tagline": "Ten plates is normal",
+        "illustration": [
+          "🍚",
+          "🧅",
+          "🦐",
+          "🥢",
+          "🌶️",
+          "🍽️"
+        ],
+        "background": "hearts",
+        "backgroundTo": "#ffd6a5",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "From the old Phu Loc rice paper craft · now a whole banh uot street",
+            "cue": "rice paper craft"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Steamed paper thin, lifted with bamboo chopsticks · scallion oil, shrimp floss",
+            "cue": "paper thin"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Dip in sweet and sour fish sauce, with pork roll · ten plates is normal",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh ướt Diên Khánh",
+                "place": "Bánh ướt Quế",
+                "address": "708 Đường 23/10",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 39
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/nhatrang-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "These six dishes are a full food tour of Nha Trang. All the addresses are in the description. Which one would you try first? Save this for your trip!",
+      "label": "EAT LIKE A LOCAL",
+      "caption": "NHA TRANG",
+      "tip": "Which one would you try first?",
+      "cta": "Save it for your trip!",
+      "stickers": [
+        "😋",
+        "🌊",
+        "💛",
+        "🥢"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 10.5
+    }
+  ]
+}
