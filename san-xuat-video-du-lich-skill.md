@@ -170,7 +170,16 @@ Các công cụ có sẵn trong bộ công cụ (`video.json`):
 | **Nền đổi theo cảnh** | Quầng sáng sau chữ lấy màu `accent` của từng cảnh | Mỗi ngày một màu nhấn |
 | **Bản đồ lộ trình trong ngày** | Cảnh `point` có `"route": [{name,lng,lat}, …]`: camera zoom vừa khung các điểm, ghim đánh số rơi lần lượt, đường chấm nối điểm trước tới điểm sau (`src/RouteMap.tsx`). Có `gallery` thì bản đồ chạy 4,5 giây rồi tới ảnh; **không có `gallery` thì bản đồ giữ cả cảnh**. | Dùng cho ngày nhiều điểm, và **cho điểm không có ảnh tự do** (Vân Hòa, Vực Hòm, Hòn Yến… không có ảnh CC trên Wikimedia/Openverse): thà dùng bản đồ còn hơn dùng ảnh nơi khác. Hai điểm cách nhau dưới ~1,5 km thì gộp thành một ghim ("Mỏm Cá Mập · Gành Đèn") để nhãn không đè nhau. Điểm phải nằm trong `map` plate (cách mép ≥100px). |
 
+### Mỗi video phải có điểm mới về dựng (người dùng yêu cầu 30/10/2026)
+- **Đừng làm video nào cũng một kiểu.** Mỗi điểm đến mới phải **thêm hoặc chỉnh ít nhất một điểm** về hiệu ứng, chuyển cảnh hay cách dựng, sao cho sáng tạo và hợp với nơi đó.
+  - Gợi ý: hiệu ứng con trỏ chuột bấm chuyển cảnh, giống bên video ẩm thực Nha Trang (`src/DishScene.tsx`: `Cursor`, `NextButton`).
+  - **Đây chỉ là gợi ý, không bắt buộc.** Con trỏ chuột hay bất kỳ hiệu ứng nào khác đều linh hoạt theo từng video. Cứ thoải mái sáng tạo: chọn cái hợp với địa điểm, có thể bỏ, đổi hoặc nghĩ cái mới.
+  - Hoặc: kiểu nền và hoa văn khác nhau, kiểu chuyển cảnh mới, nhịp cắt khác, hay một trong các ý tưởng bên dưới.
+- Ghi điểm mới vào bảng trên, kèm tên điểm đến, để lần sau tránh lặp lại.
+- Giữ nhất quán **trong** một video (một kiểu bản đồ, một bảng màu), nhưng **giữa các video** thì phải khác nhau.
+
 Ý tưởng cho lần sau (chưa làm):
+- Con trỏ chuột "bấm" vào ghim trên bản đồ để mở cảnh điểm đó (dùng lại `Cursor` của video ẩm thực).
 - Cắt "whip pan" (lia nhanh có nhoè) giữa hai cảnh cùng một ngày.
 - Mở đầu bằng "scale reveal": bắt đầu cận cảnh, kéo ra toàn cảnh.
 - Thêm footage video có giấy phép (Pexels, Pixabay) xen giữa các ảnh tĩnh.
@@ -189,6 +198,13 @@ npm run lint
 - Đi hết **Review checklist** trong README.
 
 ## 7. Đăng TikTok (~5%)
+
+> **Quy tắc xuyên suốt khi làm một địa điểm mới (người dùng yêu cầu 30/10/2026):**
+> - Mỗi địa điểm mới làm **cả video du lịch** (3N2Đ và 4N3Đ, VI và EN, theo skill này) **lẫn video khám phá ẩm thực** (VI và EN, theo skill `san-xuat-video-am-thuc`). Tổng cộng 6 video.
+> - Làm xong hết rồi mới đăng, **đúng thứ tự**:
+>   1. Du lịch 3N2Đ: bản VI, rồi bản EN.
+>   2. Ẩm thực: bản VI, rồi bản EN.
+>   3. Du lịch 4N3Đ: bản VI, rồi bản EN.
 
 1. **Caption** `output/<slug>/tiktok-caption.txt`, **dưới 4.000 ký tự**, gồm:
    - một câu hook ngắn có emoji;
