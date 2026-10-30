@@ -1,0 +1,464 @@
+{
+  "id": "phu-quoc-3n2d",
+  "title": "Phú Quốc 3 ngày 2 đêm",
+  "language": "vi",
+  "region": "Đặc khu Phú Quốc, An Giang, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fe0d8",
+    "brand": "PHÚ QUỐC · 3N2Đ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/phu-quoc-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      103.97,
+      10.19
+    ],
+    "zoom": 10.6,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/phu-quoc-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      106.3,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/01-hook.jpg"
+      ],
+      "narration": "Có ba ngày ở Phú Quốc? Lưu ngay lịch trình ba ngày hai đêm này: Bãi Sao, cáp treo vượt biển, hoàng hôn Dinh Cậu, và hải sản tươi rói.",
+      "label": "ĐẢO NGỌC · VIỆT NAM",
+      "caption": "PHÚ QUỐC",
+      "badge": "3N2Đ",
+      "tip": "Bãi Sao · Cáp treo · Dinh Cậu · Hải sản",
+      "frame": "full",
+      "durationSec": 8.5
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Từ Hà Nội hay Thành phố Hồ Chí Minh đều có chuyến bay thẳng tới sân bay Phú Quốc, nằm giữa đảo, đi về nam hay bắc đảo đều tiện.",
+      "label": "ĐƯỜNG ĐẾN",
+      "caption": "Bay tới Phú Quốc",
+      "flight": {
+        "to": {
+          "name": "Phú Quốc",
+          "lng": 103.9922,
+          "lat": 10.1727
+        },
+        "from": [
+          {
+            "name": "Hà Nội",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "TP.HCM",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 8.5
+    },
+    {
+      "id": "day1-sang",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Chùa Hộ Quốc",
+          "lng": 104.0275,
+          "lat": 10.1092
+        },
+        {
+          "name": "Bãi Sao",
+          "lng": 104.0352,
+          "lat": 10.0525
+        },
+        {
+          "name": "Nhà tù Phú Quốc",
+          "lng": 104.0188,
+          "lat": 10.0435
+        }
+      ],
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/03b-hoquoc.jpg",
+        "videos/phu-quoc-4n3d/images/02-baisao.jpg",
+        "videos/phu-quoc-4n3d/images/02c-baisao.jpg",
+        "videos/phu-quoc-4n3d/images/03-nhatu.jpg"
+      ],
+      "narration": "Ngày đầu khám phá nam đảo: ghé chùa Hộ Quốc nhìn ra biển, tắm Bãi Sao cát trắng mịn, rồi vào Nhà tù Phú Quốc tìm hiểu lịch sử. Gần đây có Đồng Hương quán, ốc Cồ, và quán ăn Tuệ Anh.",
+      "label": "NGÀY 1 · SÁNG",
+      "caption": "Nam đảo",
+      "points": [
+        "Chùa Hộ Quốc nhìn ra biển",
+        "Bãi Sao cát trắng mịn",
+        "Nhà tù Phú Quốc"
+      ],
+      "tip": "Bãi Sao đẹp nhất buổi sáng, trước khi đông",
+      "accent": "#7fe0d8",
+      "dishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "Đồng Hương Quán",
+          "address": "409 Nguyễn Văn Cừ",
+          "spokenAs": "đồng hương",
+          "rating": 4.6
+        },
+        {
+          "name": "Ốc các loại",
+          "place": "Ốc Cồ 39k",
+          "address": "ĐT 975, An Thới",
+          "spokenAs": "ốc cồ",
+          "rating": 4.7
+        },
+        {
+          "name": "Quán ăn bình dân",
+          "place": "Quán ăn Tuệ Anh",
+          "address": "An Thới",
+          "spokenAs": "tuệ anh",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Quán ăn",
+          "place": "Phương Đông quán",
+          "address": "Nguyễn Văn Cừ, An Thới",
+          "rating": 4.5
+        },
+        {
+          "name": "Hải sản",
+          "place": "Ann Seafood",
+          "address": "KB-03 KĐT Bãi Khem",
+          "rating": 4.8
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 11
+    },
+    {
+      "id": "day1-toi",
+      "layout": "point",
+      "map": {
+        "name": "Sunset Town",
+        "lng": 104.0083,
+        "lat": 10.0294
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/04-sunset.jpg",
+        "videos/phu-quoc-4n3d/images/04d-town.jpg",
+        "videos/phu-quoc-4n3d/images/04c-show.jpg"
+      ],
+      "narration": "Tối qua Sunset Town ở An Thới: ngắm hoàng hôn ở Cầu Hôn, dạo phố kiểu Địa Trung Hải, rồi xem show Nụ hôn của biển khoảng chín giờ tối. Ăn tối ở Crab Easy, Madam Khánh, hay The Gangs.",
+      "label": "NGÀY 1 · TỐI",
+      "caption": "Sunset Town",
+      "points": [
+        "Hoàng hôn ở Cầu Hôn",
+        "Show Nụ hôn của biển ~21h"
+      ],
+      "tip": "Vào Sunset Town không mất vé",
+      "accent": "#ffb48a",
+      "dishes": [
+        {
+          "name": "Cua",
+          "place": "Crab Easy",
+          "address": "152 Đ. Amalfi",
+          "spokenAs": "crab easy",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản",
+          "place": "Madam Khánh 2",
+          "address": "A164 Đ. Amalfi",
+          "spokenAs": "madam khánh",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản",
+          "place": "The Gangs Sunset",
+          "address": "65 Đ. Amalfi",
+          "spokenAs": "the gangs",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Đồ nướng",
+          "place": "Phố Nướng",
+          "address": "AT60, Sunset Town",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản",
+          "place": "Mai Huong Restaurant",
+          "address": "AT119-127 New An Thới",
+          "rating": 5
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 11.5
+    },
+    {
+      "id": "day2-captreo",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Ga cáp treo",
+          "lng": 104.012,
+          "lat": 10.024
+        },
+        {
+          "name": "Hòn Thơm",
+          "lng": 104.0176,
+          "lat": 9.9543
+        }
+      ],
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/05-captreo.jpg",
+        "videos/phu-quoc-4n3d/images/05b-captreo.jpg",
+        "videos/phu-quoc-4n3d/images/04b-sunset.jpg"
+      ],
+      "narration": "Ngày hai đi cáp treo Hòn Thơm, vượt biển ngắm cả quần đảo An Thới từ trên cao. Mẹo nhỏ: đi buổi sáng cho đỡ nắng, và xem trước giờ chạy vì có ngày tạm nghỉ trưa. Trưa ăn trên đảo ở buffet Mango, Taste of Vietnam, hay Santo Beach Club.",
+      "label": "NGÀY 2 · SÁNG",
+      "caption": "Cáp treo Hòn Thơm",
+      "points": [
+        "Cáp treo vượt biển ra Hòn Thơm",
+        "Ngắm quần đảo An Thới từ trên cao"
+      ],
+      "tip": "Xem giờ chạy trước, có ngày nghỉ trưa",
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Buffet",
+          "place": "Nhà hàng Buffet Mango",
+          "address": "Sun World Hòn Thơm",
+          "spokenAs": "buffet mango",
+          "rating": 4.5
+        },
+        {
+          "name": "Món Việt",
+          "place": "Taste of Vietnam",
+          "address": "Sun World Hòn Thơm",
+          "spokenAs": "taste of vietnam",
+          "rating": 4.5
+        },
+        {
+          "name": "Bar biển, món ăn",
+          "place": "Santo Beach Club",
+          "address": "Hòn Thơm",
+          "spokenAs": "santo beach club",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món ăn nhanh",
+          "place": "Slice of Paradise",
+          "address": "Hòn Thơm",
+          "rating": 5
+        },
+        {
+          "name": "Bún mai cua",
+          "place": "Hợp bún mai cua",
+          "address": "Đường Cáp Treo, An Thới",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản, món Việt",
+          "place": "6 Lua Restaurant",
+          "address": "53 Nguyễn Trường Tộ, An Thới",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 15
+    },
+    {
+      "id": "day2-dinhcau",
+      "layout": "point",
+      "map": {
+        "name": "Dinh Cậu",
+        "lng": 103.9564,
+        "lat": 10.2172
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/06-dinhcau.jpg",
+        "videos/phu-quoc-4n3d/images/06b-chodem.jpg",
+        "videos/phu-quoc-4n3d/images/06c-haisan.jpg"
+      ],
+      "narration": "Chiều về Dương Đông ngắm hoàng hôn ở Dinh Cậu, ngôi miếu trên ghềnh đá, rồi dạo chợ đêm. Hải sản ngon có Động Tôm Hùm, MYLA, và Thuận Kiều.",
+      "label": "NGÀY 2 · CHIỀU",
+      "caption": "Dinh Cậu",
+      "points": [
+        "Hoàng hôn ở Dinh Cậu",
+        "Dạo chợ đêm Dương Đông"
+      ],
+      "tip": "Chợ đêm có xáo trộn năm 2026, hỏi lại trước khi đi",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Động Tôm Hùm",
+          "address": "1 Bạch Đằng",
+          "spokenAs": "động tôm hùm",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản",
+          "place": "MYLA Seafood",
+          "address": "98 Trần Hưng Đạo",
+          "spokenAs": "myla",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản",
+          "place": "Thuận Kiều 2",
+          "address": "70B Trần Hưng Đạo",
+          "spokenAs": "thuận kiều",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản",
+          "place": "Đảo Hải Sản",
+          "address": "Hẻm 111 Trần Phú",
+          "rating": 4.7
+        },
+        {
+          "name": "Ốc, hải sản",
+          "place": "Ốc Hải Sản KTIN 1",
+          "address": "147a Trần Hưng Đạo",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản, bar biển",
+          "place": "Aloha Beach Bar",
+          "address": "68 Trần Hưng Đạo",
+          "rating": 4.7
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 9
+    },
+    {
+      "id": "last-duongdong",
+      "layout": "point",
+      "map": {
+        "name": "Dương Đông",
+        "lng": 103.9612,
+        "lat": 10.2205
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/08-nuocmam.jpg",
+        "videos/phu-quoc-4n3d/images/06c-haisan.jpg"
+      ],
+      "narration": "Ngày cuối ở Dương Đông: ăn sáng bún quậy Bạch Đằng, bánh canh Cô Út, hay bánh canh cua ba trăm năm mươi, rồi ghé nhà thùng nước mắm xem cá cơm ủ muối, mua làm quà trước khi ra sân bay.",
+      "label": "NGÀY 3",
+      "caption": "Dương Đông",
+      "points": [
+        "Ăn sáng bún quậy, bánh canh",
+        "Nhà thùng nước mắm"
+      ],
+      "tip": "Nước mắm mang lên máy bay cần đóng gói kỹ, hỏi hãng trước",
+      "accent": "#ff9f8a",
+      "dishes": [
+        {
+          "name": "Bún quậy",
+          "place": "Bún Quậy Bạch Đằng",
+          "address": "32A Bạch Đằng",
+          "spokenAs": "bún quậy bạch đằng",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh canh chả cá",
+          "place": "Bánh canh Cô Út",
+          "address": "7 Nguyễn Đình Chiểu",
+          "spokenAs": "cô út",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh canh cua",
+          "place": "Cua 350",
+          "address": "38 Đường 30/4",
+          "spokenAs": "cua ba trăm năm mươi",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bún quậy",
+          "place": "Bún quậy Thiện Mỹ",
+          "address": "103 Trần Hưng Đạo",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh canh",
+          "place": "Bánh Canh Hạnh",
+          "address": "44 Bạch Đằng",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm tấm",
+          "place": "Cơm tấm Nhị",
+          "address": "1 Nguyễn Trung Trực",
+          "rating": 4.6
+        },
+        {
+          "name": "Bún kèn",
+          "place": "Bún kèn 87",
+          "address": "87 Đường 30/4",
+          "rating": 4.6
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 11.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/09-outro.jpg"
+      ],
+      "narration": "Ba ngày ở Phú Quốc trôi nhanh lắm. Địa chỉ quán mình để ở phần mô tả. Lưu lại cho chuyến đi đảo sắp tới nhé!",
+      "label": "HẸN QUAY LẠI",
+      "caption": "PHÚ QUỐC",
+      "tip": "Ba ngày trôi nhanh lắm",
+      "cta": "Lưu lại để lên kế hoạch nhé!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 7.5
+    }
+  ]
+}

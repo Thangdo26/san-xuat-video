@@ -1,0 +1,17 @@
+{
+  "_note": "Google Maps list scan 30/10/2026 around Hòn Thơm (Sun World) and An Thới cable car station, ≥4.5★.",
+  "spoken": [
+    ["Buffet", "Buffet", "Nhà hàng Buffet Mango", "Sun World Hòn Thơm", 4.5, "buffet mango", "mango buffet"],
+    ["Món Việt", "Vietnamese food", "Taste of Vietnam", "Sun World Hòn Thơm", 4.5, "taste of vietnam", "taste of vietnam"],
+    ["Bar biển, món ăn", "Beach club", "Santo Beach Club", "Hòn Thơm", 5.0, "santo beach club", "santo beach club"]
+  ],
+  "more": [
+    ["Món ăn nhanh", "Snacks", "Slice of Paradise", "Hòn Thơm", 5.0],
+    ["Bún mai cua", "Crab noodle soup", "Hợp bún mai cua", "Đường Cáp Treo, An Thới", 4.8],
+    ["Hải sản, món Việt", "Seafood & Vietnamese", "6 Lua Restaurant", "53 Nguyễn Trường Tộ, An Thới", 4.7]
+  ],
+  "narration": {
+    "vi": "Trưa ăn trên đảo ở buffet Mango, Taste of Vietnam, hay Santo Beach Club.",
+    "en": "For lunch on the island, try the Mango buffet, Taste of Vietnam, or Santo Beach Club."
+  }
+}
