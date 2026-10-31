@@ -1,0 +1,434 @@
+{
+  "id": "quy-nhon-3n2d-en",
+  "title": "Quy Nhon in 3 days, 2 nights",
+  "language": "en",
+  "region": "Quy Nhơn, Gia Lai, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#6fe3d6",
+    "brand": "QUY NHON · 3D2N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/quy-nhon-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.245,
+      13.765
+    ],
+    "zoom": 10.9,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/quy-nhon-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      106.6,
+      15.6
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/00-hook.jpg",
+        "videos/quy-nhon-4n3d/images/00b-hook.jpg"
+      ],
+      "narration": "Three days in Quy Nhon? Save this itinerary: ancient Cham towers, windy Eo Gio, the turquoise water of Ky Co, and the fishing village at Hon Kho.",
+      "label": "BINH DINH COAST · VIETNAM",
+      "caption": "QUY NHON",
+      "badge": "3D2N",
+      "tip": "Cham towers · Eo Gio · Ky Co · Hon Kho",
+      "frame": "full",
+      "durationSec": 12
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "There are direct flights from Hanoi and Ho Chi Minh City to Phu Cat airport, then a drive into the seaside city of Quy Nhon.",
+      "label": "GETTING THERE",
+      "caption": "Fly to Quy Nhon",
+      "flight": {
+        "to": {
+          "name": "Phu Cat (Quy Nhon)",
+          "lng": 109.0424,
+          "lat": 13.955
+        },
+        "from": [
+          {
+            "name": "Hanoi",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "HCMC",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 8.5
+    },
+    {
+      "id": "thapdoi",
+      "layout": "point",
+      "map": {
+        "name": "Twin Towers",
+        "lng": 109.2111,
+        "lat": 13.7868
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/01-thapdoi.jpg",
+        "videos/quy-nhon-4n3d/images/01b-thapdoi.jpg",
+        "videos/quy-nhon-4n3d/images/01c-thapdoi.jpg"
+      ],
+      "narration": "Day one starts at the Twin Towers, right in the city: two Cham brick towers built around the twelfth century. Nearby, try jumping shrimp pancakes at Anh Tu, Phuoc Son, or the fresh rolls at Nau Cuon.",
+      "label": "DAY 1 · MORNING",
+      "caption": "Twin Towers",
+      "points": [
+        "Two 12th-century Cham towers",
+        "Right in the city"
+      ],
+      "tip": "Go early for soft light and fewer people",
+      "accent": "#ffb27a",
+      "dishes": [
+        {
+          "name": "Jumping shrimp pancakes",
+          "place": "Bánh xèo Anh Tú",
+          "address": "105 Đống Đa",
+          "spokenAs": "anh tu",
+          "rating": 4.9
+        },
+        {
+          "name": "Jumping shrimp pancakes",
+          "place": "Bánh xèo Phước Sơn",
+          "address": "122 Đống Đa",
+          "spokenAs": "phuoc son",
+          "rating": 4.9
+        },
+        {
+          "name": "Fresh rolls",
+          "place": "Nẫu Cuốn",
+          "address": "84-86 Đống Đa",
+          "spokenAs": "nau cuon",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Binh Dinh specialties",
+          "place": "Đặc Sản Ông Bảy",
+          "address": "23 Phan Văn Lân",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood pub",
+          "place": "Quán Nhậu Biển Hồ",
+          "address": "31 Trương Vĩnh Ký",
+          "rating": 4.6
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 13.5
+    },
+    {
+      "id": "ghenhrang",
+      "layout": "point",
+      "map": {
+        "name": "Ghenh Rang",
+        "lng": 109.2148,
+        "lat": 13.7433
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/02-datrung.jpg",
+        "videos/quy-nhon-4n3d/images/02b-hanmactu.jpg"
+      ],
+      "narration": "In the afternoon, head to Ghenh Rang to see the egg-shaped stones of Queen's beach, said to be where Empress Nam Phuong once swam, and the grave of the poet Han Mac Tu. For dinner, try Ca Khoi, Mister Moc seafood, or Ha Noi Quan.",
+      "label": "DAY 1 · AFTERNOON",
+      "caption": "Ghenh Rang",
+      "points": [
+        "Egg stones of Queen's beach",
+        "Poet Han Mac Tu's grave"
+      ],
+      "tip": "The egg-stone beach is for looking, not swimming",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Fish & Vietnamese food",
+          "place": "Nhà Hàng Cá Khói",
+          "address": "04 Nguyễn Trung Tín",
+          "spokenAs": "ca khoi",
+          "rating": 4.9
+        },
+        {
+          "name": "Seafood",
+          "place": "Hải Sản Mr Mộc",
+          "address": "56 Nguyễn Thị Định",
+          "spokenAs": "mister moc",
+          "rating": 4.8
+        },
+        {
+          "name": "Northern food",
+          "place": "Hà Nội Quán",
+          "address": "08 Nguyễn Trung Tín",
+          "spokenAs": "ha noi quan",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Rice dishes",
+          "place": "Cơm Ngon Mr Mộc",
+          "address": "57 Nguyễn Thị Định",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood buffet",
+          "place": "Buffet Hải Sản Ố Lè",
+          "address": "Lô D5 Nguyễn Trung Tín",
+          "rating": 4.7
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 16.5
+    },
+    {
+      "id": "eogio",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Eo Gio",
+          "lng": 109.292,
+          "lat": 13.8849
+        },
+        {
+          "name": "Ky Co",
+          "lng": 109.2923,
+          "lat": 13.8501
+        }
+      ],
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/03-eogio.jpg",
+        "videos/quy-nhon-4n3d/images/03b-eogio.jpg",
+        "videos/quy-nhon-4n3d/images/03c-nhonly.jpg"
+      ],
+      "narration": "On day two, get up early for sunrise at Eo Gio in Nhon Ly, a cliff path above the sea. Go early, because there is almost no shade after nine. For seafood, try Cat Vang, Phuong Trang, or Anh Khoi.",
+      "label": "DAY 2 · SUNRISE",
+      "caption": "Eo Gio",
+      "points": [
+        "Sunrise in Nhon Ly",
+        "A cliff path above the sea"
+      ],
+      "tip": "Almost no shade after 9 am",
+      "accent": "#ff9fb0",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Hải sản Cát Vàng",
+          "address": "KDL Eo Gió",
+          "spokenAs": "cat vang",
+          "rating": 5
+        },
+        {
+          "name": "Home cooking & seafood",
+          "place": "Phương Trang",
+          "address": "Thôn Lý Lương",
+          "spokenAs": "phuong trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Seafood",
+          "place": "Hải sản Anh Khôi",
+          "address": "Mặt biển Lý Hưng",
+          "spokenAs": "anh khoi",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Family cooking",
+          "place": "Quán ăn Duy Phương",
+          "address": "Thôn Lý Chánh",
+          "rating": 4.7
+        },
+        {
+          "name": "Seafood",
+          "place": "Coco Jambo",
+          "address": "Lý Hưng, Nhơn Lý",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 15.5
+    },
+    {
+      "id": "kyco",
+      "layout": "point",
+      "map": {
+        "name": "Ky Co",
+        "lng": 109.2923,
+        "lat": 13.8501
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/04-kyco.jpg",
+        "videos/quy-nhon-4n3d/images/04b-nhonly.jpg"
+      ],
+      "narration": "Then head down to Ky Co, turquoise water often called the Maldives of Vietnam. You can now go by road and ride an electric shuttle down to the beach. There are no lifeguards, so stay close to shore. For lunch, try Coco Jambo, Hoa Bien, or Phuong Nghia.",
+      "label": "DAY 2 · MIDDAY",
+      "caption": "Ky Co",
+      "points": [
+        "Turquoise water",
+        "By road, then an e-shuttle"
+      ],
+      "tip": "No lifeguards, stay close to shore",
+      "accent": "#6fe3d6",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Coco Jambo",
+          "address": "Lý Hưng, Nhơn Lý",
+          "spokenAs": "coco jambo",
+          "rating": 4.7
+        },
+        {
+          "name": "Seafood",
+          "place": "Hoa Biển Kỳ Co",
+          "address": "Thôn Lý Hòa",
+          "spokenAs": "hoa bien",
+          "rating": 4.6
+        },
+        {
+          "name": "Seafood",
+          "place": "Quán Phương Nghĩa",
+          "address": "01 Dốc quán Lý Lương",
+          "spokenAs": "phuong nghia",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Family cooking",
+          "place": "Quán ăn Duy Phương",
+          "address": "Thôn Lý Chánh",
+          "rating": 4.7
+        },
+        {
+          "name": "Seafood",
+          "place": "Hải sản Anh Khôi",
+          "address": "Mặt biển Lý Hưng",
+          "rating": 4.8
+        }
+      ],
+      "frame": "full",
+      "transition": "wipe",
+      "durationSec": 18
+    },
+    {
+      "id": "honkho",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Nhon Hai",
+          "lng": 109.288,
+          "lat": 13.769
+        },
+        {
+          "name": "Hon Kho",
+          "lng": 109.2993,
+          "lat": 13.7644
+        }
+      ],
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/05-nhonhai.jpg"
+      ],
+      "narration": "On the last day, go to the fishing village of Nhon Hai and take a short boat ride to Hon Kho. From May to July, golden seaweed fields grow under the water. Eat at Rong Mo, or the pancakes at Reu Xanh or Co Ba.",
+      "label": "LAST DAY",
+      "caption": "Hon Kho",
+      "points": [
+        "Nhon Hai fishing village",
+        "Boat ride to Hon Kho"
+      ],
+      "tip": "Seaweed fields peak May–July",
+      "accent": "#ffe08a",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Nhà hàng Rong Mơ",
+          "address": "Hải Nam, Nhơn Hải",
+          "spokenAs": "rong mo",
+          "rating": 4.8
+        },
+        {
+          "name": "Banh xeo",
+          "place": "Bánh Xèo Rêu Xanh",
+          "address": "Thôn Hải Bắc",
+          "spokenAs": "reu xanh",
+          "rating": 5
+        },
+        {
+          "name": "Banh xeo",
+          "place": "Bánh Xèo Cô Ba",
+          "address": "Hải Nam, Nhơn Hải",
+          "spokenAs": "co ba",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood",
+          "place": "Hải sản Nhơn Hải",
+          "address": "Nhơn Hải",
+          "rating": 4.9
+        },
+        {
+          "name": "Banh xeo",
+          "place": "Bánh Xèo Cô Tư",
+          "address": "Hải Đông, Nhơn Hải",
+          "rating": 4.7
+        }
+      ],
+      "transition": "fade",
+      "durationSec": 15.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/07-outro.jpg",
+        "videos/quy-nhon-4n3d/images/07b-night.jpg"
+      ],
+      "narration": "Three days in Quy Nhon fly by. All the addresses are in the description. Save this for your next beach trip!",
+      "label": "SEE YOU AGAIN",
+      "caption": "QUY NHON",
+      "tip": "Three days fly by",
+      "cta": "Save it for your trip!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9
+    }
+  ]
+}

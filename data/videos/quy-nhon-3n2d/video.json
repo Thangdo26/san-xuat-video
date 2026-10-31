@@ -1,0 +1,433 @@
+{
+  "id": "quy-nhon-3n2d",
+  "title": "Quy Nhơn 3 ngày 2 đêm",
+  "language": "vi",
+  "region": "Quy Nhơn, Gia Lai, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#6fe3d6",
+    "brand": "QUY NHƠN · 3N2Đ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/quy-nhon-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.245,
+      13.765
+    ],
+    "zoom": 10.9,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/quy-nhon-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      106.6,
+      15.6
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/00-hook.jpg",
+        "videos/quy-nhon-4n3d/images/00b-hook.jpg"
+      ],
+      "narration": "Có ba ngày ở Quy Nhơn? Lưu ngay lịch trình ba ngày hai đêm này: tháp Chăm cổ, Eo Gió lộng gió, biển Kỳ Co xanh ngọc, và làng chài Hòn Khô.",
+      "label": "XỨ NẪU · VIỆT NAM",
+      "caption": "QUY NHƠN",
+      "badge": "3N2Đ",
+      "tip": "Tháp Chăm · Eo Gió · Kỳ Co · Hòn Khô",
+      "frame": "full",
+      "durationSec": 9
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Từ Hà Nội hay Thành phố Hồ Chí Minh đều có chuyến bay thẳng tới sân bay Phù Cát, rồi đi xe về thành phố biển Quy Nhơn.",
+      "label": "ĐƯỜNG ĐẾN",
+      "caption": "Bay tới Quy Nhơn",
+      "flight": {
+        "to": {
+          "name": "Phù Cát (Quy Nhơn)",
+          "lng": 109.0424,
+          "lat": 13.955
+        },
+        "from": [
+          {
+            "name": "Hà Nội",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "TP.HCM",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 8
+    },
+    {
+      "id": "thapdoi",
+      "layout": "point",
+      "map": {
+        "name": "Tháp Đôi",
+        "lng": 109.2111,
+        "lat": 13.7868
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/01-thapdoi.jpg",
+        "videos/quy-nhon-4n3d/images/01b-thapdoi.jpg",
+        "videos/quy-nhon-4n3d/images/01c-thapdoi.jpg"
+      ],
+      "narration": "Ngày đầu ghé Tháp Đôi ngay giữa thành phố, hai ngọn tháp Chăm được xây khoảng thế kỷ mười hai. Gần đó có bánh xèo tôm nhảy Anh Tú, Phước Sơn, hoặc quán Nẫu Cuốn.",
+      "label": "NGÀY 1 · SÁNG",
+      "caption": "Tháp Đôi",
+      "points": [
+        "Hai tháp Chăm thế kỷ XII",
+        "Ngay giữa thành phố"
+      ],
+      "tip": "Đi sáng sớm cho đẹp nắng, chụp ảnh đỡ đông",
+      "accent": "#ffb27a",
+      "dishes": [
+        {
+          "name": "Bánh xèo tôm nhảy",
+          "place": "Bánh xèo Anh Tú",
+          "address": "105 Đống Đa",
+          "spokenAs": "anh tú",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh xèo tôm nhảy",
+          "place": "Bánh xèo Phước Sơn",
+          "address": "122 Đống Đa",
+          "spokenAs": "phước sơn",
+          "rating": 4.9
+        },
+        {
+          "name": "Món cuốn",
+          "place": "Nẫu Cuốn",
+          "address": "84-86 Đống Đa",
+          "spokenAs": "nẫu cuốn",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Đặc sản Bình Định",
+          "place": "Đặc Sản Ông Bảy",
+          "address": "23 Phan Văn Lân",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản, quán nhậu",
+          "place": "Quán Nhậu Biển Hồ",
+          "address": "31 Trương Vĩnh Ký",
+          "rating": 4.6
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 10.5
+    },
+    {
+      "id": "ghenhrang",
+      "layout": "point",
+      "map": {
+        "name": "Ghềnh Ráng",
+        "lng": 109.2148,
+        "lat": 13.7433
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/02-datrung.jpg",
+        "videos/quy-nhon-4n3d/images/02b-hanmactu.jpg"
+      ],
+      "narration": "Chiều qua Ghềnh Ráng, ngắm bãi Đá Trứng, tương truyền Nam Phương hoàng hậu từng chọn làm bãi tắm, rồi viếng mộ thi sĩ Hàn Mặc Tử. Tối ăn ở Cá Khói, hải sản Mr Mộc, hay Hà Nội quán.",
+      "label": "NGÀY 1 · CHIỀU",
+      "caption": "Ghềnh Ráng",
+      "points": [
+        "Bãi Đá Trứng · bãi Hoàng Hậu",
+        "Mộ thi sĩ Hàn Mặc Tử"
+      ],
+      "tip": "Bãi Đá Trứng để ngắm, không nên tắm",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Cá, món Việt",
+          "place": "Nhà Hàng Cá Khói",
+          "address": "04 Nguyễn Trung Tín",
+          "spokenAs": "cá khói",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản",
+          "place": "Hải Sản Mr Mộc",
+          "address": "56 Nguyễn Thị Định",
+          "spokenAs": "mr mộc",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Bắc",
+          "place": "Hà Nội Quán",
+          "address": "08 Nguyễn Trung Tín",
+          "spokenAs": "hà nội quán",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "Cơm Ngon Mr Mộc",
+          "address": "57 Nguyễn Thị Định",
+          "rating": 4.8
+        },
+        {
+          "name": "Buffet hải sản",
+          "place": "Buffet Hải Sản Ố Lè",
+          "address": "Lô D5 Nguyễn Trung Tín",
+          "rating": 4.7
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 11.5
+    },
+    {
+      "id": "eogio",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Eo Gió",
+          "lng": 109.292,
+          "lat": 13.8849
+        },
+        {
+          "name": "Kỳ Co",
+          "lng": 109.2923,
+          "lat": 13.8501
+        }
+      ],
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/03-eogio.jpg",
+        "videos/quy-nhon-4n3d/images/03b-eogio.jpg",
+        "videos/quy-nhon-4n3d/images/03c-nhonly.jpg"
+      ],
+      "narration": "Ngày hai dậy sớm ra Eo Gió ở Nhơn Lý, đón bình minh trên con đường ven vách đá. Nhớ đi sớm, vì sau chín giờ gần như không có bóng mát. Ăn hải sản ở Cát Vàng, Phương Trang, hoặc Anh Khôi.",
+      "label": "NGÀY 2 · BÌNH MINH",
+      "caption": "Eo Gió",
+      "points": [
+        "Đón bình minh ở Nhơn Lý",
+        "Đường đi bộ ven vách đá"
+      ],
+      "tip": "Sau 9h gần như không có bóng mát",
+      "accent": "#ff9fb0",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Cát Vàng",
+          "address": "KDL Eo Gió",
+          "spokenAs": "cát vàng",
+          "rating": 5
+        },
+        {
+          "name": "Cơm quê, hải sản",
+          "place": "Phương Trang",
+          "address": "Thôn Lý Lương",
+          "spokenAs": "phương trang",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Anh Khôi",
+          "address": "Mặt biển Lý Hưng",
+          "spokenAs": "anh khôi",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm gia đình",
+          "place": "Quán ăn Duy Phương",
+          "address": "Thôn Lý Chánh",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Coco Jambo",
+          "address": "Lý Hưng, Nhơn Lý",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 11.5
+    },
+    {
+      "id": "kyco",
+      "layout": "point",
+      "map": {
+        "name": "Kỳ Co",
+        "lng": 109.2923,
+        "lat": 13.8501
+      },
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/04-kyco.jpg",
+        "videos/quy-nhon-4n3d/images/04b-nhonly.jpg"
+      ],
+      "narration": "Rồi xuống Kỳ Co, nước xanh ngọc được ví như Maldives của Việt Nam. Giờ có thể đi đường bộ, rồi đi xe điện xuống bãi. Biển không có cứu hộ, chỉ tắm gần bờ thôi nhé. Trưa ăn ở Coco Jambo, Hoa Biển, hay Phương Nghĩa.",
+      "label": "NGÀY 2 · TRƯA",
+      "caption": "Kỳ Co",
+      "points": [
+        "Nước xanh ngọc",
+        "Đường bộ + xe điện xuống bãi"
+      ],
+      "tip": "Không có cứu hộ, chỉ tắm gần bờ",
+      "accent": "#6fe3d6",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Coco Jambo",
+          "address": "Lý Hưng, Nhơn Lý",
+          "spokenAs": "coco jambo",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Hoa Biển Kỳ Co",
+          "address": "Thôn Lý Hòa",
+          "spokenAs": "hoa biển",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản",
+          "place": "Quán Phương Nghĩa",
+          "address": "01 Dốc quán Lý Lương",
+          "spokenAs": "phương nghĩa",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm gia đình",
+          "place": "Quán ăn Duy Phương",
+          "address": "Thôn Lý Chánh",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Anh Khôi",
+          "address": "Mặt biển Lý Hưng",
+          "rating": 4.8
+        }
+      ],
+      "frame": "full",
+      "transition": "wipe",
+      "durationSec": 13
+    },
+    {
+      "id": "honkho",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Nhơn Hải",
+          "lng": 109.288,
+          "lat": 13.769
+        },
+        {
+          "name": "Hòn Khô",
+          "lng": 109.2993,
+          "lat": 13.7644
+        }
+      ],
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/05-nhonhai.jpg"
+      ],
+      "narration": "Ngày cuối qua làng chài Nhơn Hải, đi cano vài phút ra Hòn Khô. Từ tháng năm đến tháng bảy còn có mùa rong mơ vàng óng dưới nước. Ăn ở nhà hàng Rong Mơ, bánh xèo Rêu Xanh, hoặc Cô Ba.",
+      "label": "NGÀY CUỐI",
+      "caption": "Hòn Khô",
+      "points": [
+        "Làng chài Nhơn Hải",
+        "Cano ra Hòn Khô"
+      ],
+      "tip": "Rong mơ đẹp nhất tháng 5–7",
+      "accent": "#ffe08a",
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Nhà hàng Rong Mơ",
+          "address": "Hải Nam, Nhơn Hải",
+          "spokenAs": "rong mơ",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh xèo",
+          "place": "Bánh Xèo Rêu Xanh",
+          "address": "Thôn Hải Bắc",
+          "spokenAs": "rêu xanh",
+          "rating": 5
+        },
+        {
+          "name": "Bánh xèo",
+          "place": "Bánh Xèo Cô Ba",
+          "address": "Hải Nam, Nhơn Hải",
+          "spokenAs": "cô ba",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Nhơn Hải",
+          "address": "Nhơn Hải",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh xèo",
+          "place": "Bánh Xèo Cô Tư",
+          "address": "Hải Đông, Nhơn Hải",
+          "rating": 4.7
+        }
+      ],
+      "transition": "fade",
+      "durationSec": 11.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/quy-nhon-4n3d/images/07-outro.jpg",
+        "videos/quy-nhon-4n3d/images/07b-night.jpg"
+      ],
+      "narration": "Ba ngày ở Quy Nhơn trôi nhanh lắm. Địa chỉ quán mình để ở phần mô tả. Lưu lại cho chuyến đi biển sắp tới nhé!",
+      "label": "HẸN QUAY LẠI",
+      "caption": "QUY NHƠN",
+      "tip": "Ba ngày trôi nhanh lắm",
+      "cta": "Lưu lại để lên kế hoạch nhé!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 7.5
+    }
+  ]
+}
