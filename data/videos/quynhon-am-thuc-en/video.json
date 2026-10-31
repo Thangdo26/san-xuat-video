@@ -1,0 +1,430 @@
+{
+  "id": "quynhon-am-thuc-en",
+  "title": "Quy Nhon food: 5 dishes to try",
+  "language": "en",
+  "region": "Quy Nhơn, Gia Lai, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb347",
+    "brand": "QUY NHON FOOD"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "What to eat in Quy Nhon? Here are five dishes you have to try, with where they come from, how they are made, how to eat them, and places checked on Google Maps. Watch each photo develop!",
+      "label": "REGIONAL FOOD",
+      "caption": "QUY NHON",
+      "badge": "5 DISHES",
+      "tip": "Origin · How it's made · How to eat · Where",
+      "stickers": [
+        "🦐",
+        "🥢",
+        "🐟",
+        "🍜",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 12
+    },
+    {
+      "id": "banh-xeo",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/01-banhxeo.jpg",
+        "videos/quynhon-am-thuc/images/01b-banhxeo.jpg"
+      ],
+      "narration": "Dish one, jumping shrimp pancakes. The name comes from the fresh little river shrimp, which jump as soon as they hit the hot mould. According to VnExpress, only My Cang, about twenty kilometres from the city, used to make them; now they are all over Quy Nhon. Rice batter with turmeric goes into small moulds, so each pancake is crispy and palm sized. To eat, roll it in rice paper with herbs and green mango, and dip it in garlic chili fish sauce. Try Anh Tu, Phuoc Son, or Ngoc Lien.",
+      "caption": "Bánh xèo tôm nhảy",
+      "accent": "#ffb347",
+      "stickers": [
+        "🦐",
+        "🥬",
+        "🥭",
+        "🌶️",
+        "🔥"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Pancakes with jumping shrimp",
+        "background": "dots",
+        "backgroundTo": "#ffe08a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Fresh river shrimp jump in the hot mould · once only made in My Cang",
+            "cue": "river shrimp"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Rice batter with turmeric in small moulds · crispy, palm sized",
+            "cue": "rice batter"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Roll in rice paper with herbs, green mango · garlic chili fish sauce",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh xèo tôm nhảy Anh Tú",
+                "address": "105 Đống Đa",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh Xèo Tôm Nhảy Phước Sơn",
+                "address": "122 Đống Đa",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh Xèo Ngọc Liên",
+                "address": "63/13 Thanh Niên",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 32.5
+    },
+    {
+      "id": "bun-cha-ca",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/02-buncha.jpg",
+        "videos/quynhon-am-thuc/images/02c-chaca.jpg",
+        "videos/quynhon-am-thuc/images/02b-buncha.jpg"
+      ],
+      "narration": "Dish two, fish cake noodle soup, the classic Quy Nhon breakfast. A seaside city has fresh fish every morning, so the fish cakes are made on the spot. The fish is pounded by hand, then either fried golden or steamed, and the broth is simmered from fish bones and heads, so it is clear and lightly sweet. To eat, add fresh herbs, a little chili and lime, and sip the hot broth. Try Bun Thuy, run by three generations, Bun Ca Tuoi, or Van.",
+      "caption": "Bún chả cá",
+      "accent": "#5fc8e8",
+      "stickers": [
+        "🐟",
+        "🍜",
+        "🌿",
+        "🌶️",
+        "🥢"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Breakfast by the sea",
+        "background": "waves",
+        "backgroundTo": "#a8ecff",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Fresh fish every morning · fish cakes made on the spot",
+            "cue": "fresh fish"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Hand-pounded fish cakes, fried or steamed · broth from fish bones",
+            "cue": "pounded by hand"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Add herbs, chili and lime · sip the hot broth",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Thùy",
+                "address": "261 Tăng Bạt Hổ",
+                "rating": 4.5
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Cá Tươi Quy Nhơn",
+                "address": "42 Nguyễn Văn Bé",
+                "rating": 4.8
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún cá Vân Quy Nhơn",
+                "address": "169A Lê Lợi",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 31
+    },
+    {
+      "id": "banh-hoi",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/03-banhhoi.jpg",
+        "videos/quynhon-am-thuc/images/03b-banhhoi.jpg",
+        "videos/quynhon-am-thuc/images/03c-banhhoi.jpg"
+      ],
+      "narration": "Dish three, banh hoi with offal congee. According to VnExpress, banh hoi is a Binh Dinh specialty, and the best comes from Dieu Tri. Rice batter is pressed into very fine threads that weave into thin mats, topped with scallion oil. The congee is cooked thin from bone and pork offal broth. To eat, pick up the noodle mats with offal and herbs, dip them in chili fish sauce, then take a spoon of hot congee. Try ninety four Nguyen Hue, Thuy, or Co Huong.",
+      "caption": "Bánh hỏi cháo lòng",
+      "accent": "#9fd86b",
+      "stickers": [
+        "🍚",
+        "🧅",
+        "🥣",
+        "🌿",
+        "🌶️"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Rice vermicelli mats & congee",
+        "background": "gingham",
+        "backgroundTo": "#e2f7b5",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "A Binh Dinh specialty · best from Dieu Tri (VnExpress)",
+            "cue": "dieu tri"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Fine rice threads woven into mats, scallion oil · bone & offal congee",
+            "cue": "very fine threads"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Noodle mats with offal, herbs, chili fish sauce · then hot congee",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Cháo lòng bánh hỏi Quy Nhơn",
+                "address": "94 Nguyễn Huệ",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Bánh hỏi cháo lòng Thùy",
+                "address": "187 Nguyễn Huệ",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Bánh hỏi cháo lòng cô Hương",
+                "address": "17 Phan Bội Châu",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 31.5
+    },
+    {
+      "id": "banh-can",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/04-banhcan.jpg",
+        "videos/quynhon-am-thuc/images/04c-banhcan.jpg",
+        "videos/quynhon-am-thuc/images/04b-banhcan.jpg"
+      ],
+      "narration": "Dish four, banh can, which looks like the southern banh khot but comes from central Vietnam. Rice batter goes into clay moulds, covered over glowing charcoal, until the top is full of little holes and the bottom is golden. Fillings include egg, squid or shrimp. In Quy Nhon you can also eat them with a fish broth. To eat, dip them in sweet and sour garlic chili fish sauce, with fresh herbs. Try Co Du for the fish broth, or Co Nam for squid.",
+      "caption": "Bánh căn",
+      "accent": "#ff8a7a",
+      "stickers": [
+        "🥚",
+        "🦑",
+        "🔥",
+        "🌶️",
+        "🧄"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Clay moulds over charcoal",
+        "background": "stripes",
+        "backgroundTo": "#ffd0c2",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "Looks like southern banh khot · a central Vietnamese dish",
+            "cue": "central vietnam"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Rice batter in clay moulds over charcoal · egg, squid, shrimp",
+            "cue": "clay moulds"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Sweet & sour garlic chili fish sauce, herbs · or with fish broth",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to eat",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh căn",
+                "place": "Bánh căn nước cá Cô Dư",
+                "address": "63/1 Nguyễn Huệ",
+                "rating": 4.6
+              },
+              {
+                "name": "Bánh căn",
+                "place": "Bánh căn mực tươi Cô Năm",
+                "address": "67/10 Đặng Văn Ngữ",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 29.5
+    },
+    {
+      "id": "nem-cho-huyen",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/05-nem.jpg",
+        "videos/quynhon-am-thuc/images/05b-nem.jpg",
+        "videos/quynhon-am-thuc/images/05c-nem.jpg"
+      ],
+      "narration": "Dish five, Cho Huyen nem. The craft of making nem is tied to Cho Huyen market in Phuoc Loc, Tuy Phuoc, and spread across Binh Dinh. Lean pork is pounded fine, wrapped in guava leaves and then banana leaves, and left to ferment for a few days until it turns sour. To eat, grill it over charcoal, or roll it in rice paper with herbs, star fruit and green banana, dipped in fish sauce with peanuts. Buy it at Moc Lan, Lam Qua, or Ong Bay.",
+      "caption": "Nem chợ Huyện",
+      "accent": "#ff6f91",
+      "stickers": [
+        "🐖",
+        "🍃",
+        "🧄",
+        "🌶️",
+        "🎁"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Cured pork from a craft village",
+        "background": "hearts",
+        "backgroundTo": "#ffc4d6",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "text": "A nem-making craft village at Cho Huyen, Tuy Phuoc",
+            "cue": "cho huyen"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "text": "Lean pork pounded fine · guava & banana leaves, fermented a few days",
+            "cue": "pounded fine"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "text": "Grilled, or rolled with herbs, star fruit, banana · peanut fish sauce",
+            "cue": "to eat"
+          },
+          {
+            "part": "where",
+            "title": "Where to buy & eat",
+            "cue": "buy it",
+            "places": [
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Nem Chợ Huyện Mộc Lan",
+                "address": "52 Trần Phú",
+                "rating": 4.6
+              },
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Đặc Sản Quy Nhơn: Làm Quà",
+                "address": "03a Võ Lai",
+                "rating": 4.9
+              },
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Đặc Sản Bình Định Ông Bảy",
+                "address": "23 Phan Văn Lân",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 28.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "These five dishes are a full food tour of Quy Nhon. All the addresses are in the description. Which one would you try first? Save this for your trip!",
+      "label": "EAT LIKE A LOCAL",
+      "caption": "QUY NHON",
+      "tip": "Which one would you try first?",
+      "cta": "Save it for your trip!",
+      "stickers": [
+        "😋",
+        "🌊",
+        "💛",
+        "🦐"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 10
+    }
+  ]
+}
