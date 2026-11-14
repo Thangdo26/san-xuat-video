@@ -26,7 +26,6 @@ const TXT = {
     ask: "Bạn sẽ đi Nha Trang mấy ngày? 👇",
     photos: "Ảnh: Wikimedia Commons",
     map: "Bản đồ: © OpenMapTiles © OpenStreetMap contributors",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất",
     tags: { 3: "#nhatrang #dulichnhatrang #lichtrinhdulich #nhatrang3n2d #honmun #khanhhoa #dulichvietnam #reviewdulich #ancungtiktok #fyp", 4: "#nhatrang #dulichnhatrang #lichtrinhdulich #nhatrang4n3d #vinwonders #doclet #dulichvietnam #reviewdulich #ancungtiktok #fyp" },
   },
   en: {
@@ -38,7 +37,6 @@ const TXT = {
     ask: "How many days would you spend in Nha Trang? 👇",
     photos: "Photos: Wikimedia Commons",
     map: "Map: © OpenMapTiles © OpenStreetMap contributors",
-    voice: "AI voice: Microsoft Edge TTS · Original music",
     tags: { 3: "#nhatrang #vietnam #vietnamtravel #nhatrangvietnam #khanhhoa #centralvietnam #travelvietnam #traveltok #foodtok #fyp", 4: "#nhatrang #vietnam #vietnamtravel #nhatrangvietnam #vinwonders #centralvietnam #travelvietnam #traveltok #foodtok #fyp" },
   },
 };
@@ -65,7 +63,7 @@ for (const lang of ["vi", "en"]) {
     lines.push(t.rating, days === 4 ? t.weather.split(". ")[0] + "." : t.weather, "", t.ask, "", "—", t.photos);
     const credited = credits.filter((c) => !/public domain|CC0/i.test(c.license));
     for (const c of credited) lines.push(`• ${c.author.replace(/ \(thảo luận\)$/, "")} · ${c.license} · ${c.title.replace(/^File:/, "")}`);
-    lines.push(t.map, t.voice, "", t.tags[days]);
+    lines.push(t.map, "", t.tags[days]);
     const text = lines.join("\n") + "\n";
     mkdirSync(`output/${slug}`, { recursive: true });
     writeFileSync(`output/${slug}/tiktok-caption.txt`, text);
