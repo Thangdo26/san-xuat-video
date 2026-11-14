@@ -19,7 +19,6 @@ const TXT = {
     rating: "⭐ Điểm Google Maps kiểm tra ngày 31/10/2026 (≥4.5★). Nguồn: VnExpress, Vietnam Coracle, Greensm, Mia.vn, Báo Nông nghiệp & Môi trường.",
     ask: "Bạn sẽ thử món nào đầu tiên? 👇",
     photos: "Ảnh: Wikimedia Commons (ảnh minh hoạ đúng món, phần lớn không chụp tại Quy Nhơn)",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất",
     tags: "#amthucquynhon #quynhonangi #dacsanbinhdinh #banhxeotomnhay #quynhon #ancungtiktok #reviewanngon #amthucvietnam #foodtour #fyp",
   },
   en: {
@@ -36,7 +35,6 @@ const TXT = {
     rating: "⭐ Google Maps ratings checked 31 Oct 2026 (4.5★+). Sources: VnExpress, Vietnam Coracle, Greensm, Mia.vn, Nong nghiep & Moi truong.",
     ask: "Which one would you try first? 👇",
     photos: "Photos: Wikimedia Commons (illustrative photos of each dish, mostly not taken in Quy Nhon)",
-    voice: "AI voice: Microsoft Edge TTS · Original music",
     tags: "#quynhonfood #vietnamesefood #quynhon #vietnam #foodtok #streetfood #vietnamtravel #traveltok #foodie #fyp",
   },
 };
@@ -54,7 +52,7 @@ for (const lang of ["vi", "en"]) {
   lines.push("", t.famous, t.extra, "", t.rating, "", t.ask, "", "—", t.photos);
   const credits = read(`data/videos/${slug}/credits.json`).filter((c) => !/public domain|CC0/i.test(c.license));
   for (const c of credits) lines.push(`• ${c.author.replace(/ \(thảo luận\)$/, "")} · ${c.license} · ${c.title.replace(/^File:/, "")}${c.note ? (lang === "vi" ? " (đã cắt)" : " (cropped)") : ""}`);
-  lines.push(t.voice, "", t.tags);
+  lines.push("", t.tags);
   const text = lines.join("\n") + "\n";
   mkdirSync(`output/${slug}`, { recursive: true });
   writeFileSync(`output/${slug}/tiktok-caption.txt`, text);
