@@ -1,0 +1,22 @@
+{
+  "name": "cat-ba",
+  "private": true,
+  "type": "module",
+  "description": "Cat Ba travel short, rendered with HyperFrames",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@andresaya/edge-tts": "1.9.1",
+    "puppeteer-core": "^24.43.1"
+  },
+  "scripts": {
+    "video:validate": "node scripts/validate.mjs",
+    "video:voice": "node scripts/voice.mjs",
+    "video:import-voice": "node scripts/import-voice.mjs",
+    "video:fetch-image": "node scripts/fetch-commons.mjs",
+    "video:build": "node hf/build.mjs",
+    "video:render": "node hf/render.mjs"
+  }
+}
+

@@ -1,0 +1,8 @@
+node_modules/
+output/
+build/
+omni-*/
+*.log
+research/raw/
+public/videos/cat-ba/footage/raw
+synth.done
