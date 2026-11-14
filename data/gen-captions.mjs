@@ -21,7 +21,6 @@ const TRAVEL = {
     ask: "Bạn sẽ đi Waterbus hay Củ Chi trước? 👇",
     photos: "Ảnh: Wikimedia Commons",
     map: "Ảnh vệ tinh: Esri, Maxar, Earthstar Geographics",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất · Dựng bằng HyperFrames",
     tags: {
       3: "#saigon #dulichsaigon #lichtrinhdulich #saigon3n2d #saigondidau #waterbus #dulichvietnam #reviewdulich #ancungtiktok #fyp",
       4: "#saigon #dulichsaigon #lichtrinhdulich #saigon4n3d #saigondidau #cangio #dulichvietnam #reviewdulich #ancungtiktok #fyp",
@@ -40,7 +39,6 @@ const TRAVEL = {
     ask: "Waterbus or Cu Chi first? 👇",
     photos: "Photos: Wikimedia Commons",
     map: "Satellite imagery: Esri, Maxar, Earthstar Geographics",
-    voice: "AI voice: Microsoft Edge TTS · Original music · Made with HyperFrames",
     tags: {
       3: "#saigon #hochiminhcity #vietnam #vietnamtravel #saigontravel #waterbus #travelvietnam #traveltok #foodtok #fyp",
       4: "#saigon #hochiminhcity #vietnam #vietnamtravel #saigontravel #cangio #travelvietnam #traveltok #foodtok #fyp",
@@ -79,7 +77,7 @@ for (const lang of ["vi", "en"]) {
       const rest = all.slice(3).map((d) => `${d.place} ★${d.rating.toFixed(1)}`).join(" · ");
       if (rest) lines.push(`➕ ${rest}`);
     }
-    lines.push("", t.tips, t.research, t.rating, t.oldies, "", t.ask, "", "—", t.photos, ...credits(slug), t.map, t.voice, "", t.tags[days]);
+    lines.push("", t.tips, t.research, t.rating, t.oldies, "", t.ask, "", "—", t.photos, ...credits(slug), t.map, "", t.tags[days]);
     save(slug, lines);
   }
 }
@@ -92,7 +90,6 @@ const FOOD = {
     rating: "⭐ Điểm Google Maps kiểm tra ngày 31/10/2026 (≥4.5★). Món chọn theo 6 video TikTok ẩm thực nhiều tim nhất và bình luận.",
     ask: "Bạn chọn món nào đầu tiên? 👇",
     photos: "Ảnh: Wikimedia Commons",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất · Dựng bằng HyperFrames",
     tags: "#amthucsaigon #saigonangi #comtam #banhmi #hutieu #ancungtiktok #reviewanngon #amthucvietnam #foodtour #fyp",
   },
   en: {
@@ -102,7 +99,6 @@ const FOOD = {
     rating: "⭐ Google Maps ratings checked 31 Oct 2026 (4.5★+). Dishes picked from the 6 most-liked Saigon food TikToks and their comments.",
     ask: "Which one first? 👇",
     photos: "Photos: Wikimedia Commons",
-    voice: "AI voice: Microsoft Edge TTS · Original music · Made with HyperFrames",
     tags: "#saigonfood #vietnamesefood #banhmi #saigon #vietnam #foodtok #streetfood #vietnamtravel #foodie #fyp",
   },
 };
@@ -118,6 +114,6 @@ for (const lang of ["vi", "en"]) {
     lines.push(`${DISH_EMOJI[s.id]} ${s.caption}: ${origin.text}. ${eat.text}`);
     lines.push(`   📍 ${where.places.map((p) => `${p.place} · ${p.address} ★${p.rating.toFixed(1)}`).join(" | ")}`);
   }
-  lines.push("", t.oldies, t.note, t.rating, "", t.ask, "", "—", t.photos, ...credits(slug), t.voice, "", t.tags);
+  lines.push("", t.oldies, t.note, t.rating, "", t.ask, "", "—", t.photos, ...credits(slug), "", t.tags);
   save(slug, lines);
 }
