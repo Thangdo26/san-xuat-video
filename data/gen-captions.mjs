@@ -19,7 +19,6 @@ const TXT = {
     rating: "⭐ Điểm Google Maps kiểm tra ngày 29/10/2026 (≥4.5★). Nguồn gốc, cách làm tổng hợp từ Báo Văn Hóa, Nhân Dân, Báo Pháp Luật, VnExpress, Đà Nẵng Fantasticity và bình luận TikTok.",
     ask: "Bạn mê món nào nhất? 👇",
     photos: "Ảnh: Wikimedia Commons (gỏi cá Nam Ô là hình minh hoạ vì chưa có ảnh tự do)",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất",
     tags: "#amthucdanang #danangangi #dacsandanang #miquang #danang #ancungtiktok #reviewanngon #amthucvietnam #foodtour #fyp",
   },
   en: {
@@ -36,7 +35,6 @@ const TXT = {
     rating: "⭐ Google Maps ratings checked 29 Oct 2026 (4.5★+). Origins and recipes from Vietnamese press, the Da Nang tourism site and local TikTok comments.",
     ask: "Which one would you try first? 👇",
     photos: "Photos: Wikimedia Commons (the Nam O fish salad is an illustration; no free photo exists yet)",
-    voice: "AI voice: Microsoft Edge TTS · Original music",
     tags: "#danangfood #vietnamesefood #danang #vietnam #foodtok #streetfood #vietnamtravel #traveltok #foodie #fyp",
   },
 };
@@ -54,7 +52,7 @@ for (const lang of ["vi", "en"]) {
   lines.push("", t.famous, "", t.rating, "", t.ask, "", "—", t.photos);
   const credits = read(`data/videos/${slug}/credits.json`).filter((c) => !/public domain|CC0/i.test(c.license));
   for (const c of credits) lines.push(`• ${c.author.replace(/ \(thảo luận\)$/, "")} · ${c.license} · ${c.title.replace(/^File:/, "")}`);
-  lines.push(t.voice, "", t.tags);
+  lines.push("", t.tags);
   const text = lines.join("\n") + "\n";
   mkdirSync(`output/${slug}`, { recursive: true });
   writeFileSync(`output/${slug}/tiktok-caption.txt`, text);
