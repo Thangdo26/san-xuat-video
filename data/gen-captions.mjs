@@ -19,7 +19,6 @@ const TXT = {
     rating: "⭐ Điểm Google Maps kiểm tra ngày 30/10/2026 (≥4.5★). Nguồn: VnExpress, Báo Văn Hóa, Vinpearl, VinWonders, Sun Paradise Land.",
     ask: "Bạn sẽ lật thẻ món nào đầu tiên? 👇",
     photos: "Ảnh: Wikimedia Commons (ảnh gỏi cá trích là ảnh minh hoạ món, không rõ nơi chụp)",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất",
     tags: "#amthucphuquoc #phuquocangi #dacsanphuquoc #bunquay #phuquoc #ancungtiktok #reviewanngon #amthucvietnam #foodtour #fyp",
   },
   en: {
@@ -36,7 +35,6 @@ const TXT = {
     rating: "⭐ Google Maps ratings checked 30 Oct 2026 (4.5★+). Sources: VnExpress, Bao Van Hoa, Vinpearl, VinWonders, Sun Paradise Land.",
     ask: "Which card would you flip first? 👇",
     photos: "Photos: Wikimedia Commons (the herring salad photo is illustrative, location unknown)",
-    voice: "AI voice: Microsoft Edge TTS · Original music",
     tags: "#phuquocfood #vietnamesefood #phuquoc #vietnam #foodtok #streetfood #vietnamtravel #traveltok #foodie #fyp",
   },
 };
@@ -54,7 +52,7 @@ for (const lang of ["vi", "en"]) {
   lines.push("", t.famous, t.extra, "", t.rating, "", t.ask, "", "—", t.photos);
   const credits = read(`data/videos/${slug}/credits.json`).filter((c) => !/public domain|CC0/i.test(c.license));
   for (const c of credits) lines.push(`• ${c.author.replace(/ \(thảo luận\)$/, "")} · ${c.license} · ${c.title.replace(/^File:/, "")}${c.note ? (lang === "vi" ? " (đã cắt)" : " (cropped)") : ""}`);
-  lines.push(t.voice, "", t.tags);
+  lines.push("", t.tags);
   const text = lines.join("\n") + "\n";
   mkdirSync(`output/${slug}`, { recursive: true });
   writeFileSync(`output/${slug}/tiktok-caption.txt`, text);
