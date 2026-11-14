@@ -27,7 +27,6 @@ const TXT = {
     ask: "Bạn sẽ đi Phú Quốc mấy ngày? 👇",
     photos: "Ảnh: Wikimedia Commons",
     map: "Bản đồ: © OpenMapTiles © OpenStreetMap contributors",
-    voice: "Giọng đọc AI · Nhạc nền tự sản xuất",
     tags: { 3: "#phuquoc #dulichphuquoc #lichtrinhdulich #phuquoc3n2d #captreohonthom #sunsettown #dulichvietnam #reviewdulich #ancungtiktok #fyp", 4: "#phuquoc #dulichphuquoc #lichtrinhdulich #phuquoc4n3d #grandworld #rachvem #dulichvietnam #reviewdulich #ancungtiktok #fyp" },
   },
   en: {
@@ -40,7 +39,6 @@ const TXT = {
     ask: "How many days would you spend in Phu Quoc? 👇",
     photos: "Photos: Wikimedia Commons",
     map: "Map: © OpenMapTiles © OpenStreetMap contributors",
-    voice: "AI voice: Microsoft Edge TTS · Original music",
     tags: { 3: "#phuquoc #vietnam #vietnamtravel #phuquocisland #sunsettown #islandlife #travelvietnam #traveltok #foodtok #fyp", 4: "#phuquoc #vietnam #vietnamtravel #phuquocisland #grandworld #islandlife #travelvietnam #traveltok #foodtok #fyp" },
   },
 };
@@ -69,7 +67,7 @@ for (const lang of ["vi", "en"]) {
     lines.push(t.rating, t.oldies, t.notes, "", t.ask, "", "—", t.photos);
     const credited = credits.filter((c) => !/public domain|CC0/i.test(c.license));
     for (const c of credited) lines.push(`• ${c.author.replace(/ \(thảo luận\)$/, "")} · ${c.license} · ${c.title.replace(/^File:/, "")}`);
-    lines.push(t.map, t.voice, "", t.tags[days]);
+    lines.push(t.map, "", t.tags[days]);
     const text = lines.join("\n") + "\n";
     mkdirSync(`output/${slug}`, { recursive: true });
     writeFileSync(`output/${slug}/tiktok-caption.txt`, text);
