@@ -1,0 +1,517 @@
+{
+  "id": "hue-4n3d",
+  "title": "Huế 4N3Đ",
+  "language": "vi",
+  "region": "Thành phố Huế, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e8c170",
+    "highlight": "#f5d58a",
+    "brand": "HUẾ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "dive": "videos/shared/map/dive-hue",
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HUẾ",
+      "kicker": "CỐ ĐÔ · LỊCH TRÌNH TỪ TIKTOK",
+      "label": "4N3Đ",
+      "sub": "Đại Nội · Thiên Mụ · sông Hương lúc hoàng hôn",
+      "kind": "dive",
+      "narration": "Có bốn ngày ở Huế? Lịch trình này gom từ những video TikTok được thả tim nhiều nhất, thêm hoàng hôn phá Tam Giang. Lưu lại nhé!",
+      "durationSec": 8.5
+    },
+    {
+      "id": "dainoi",
+      "layout": "point",
+      "caption": "Đại Nội Huế",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#e8c170",
+      "points": [
+        "Ngọ Môn, điện Thái Hòa",
+        "Vé 200 nghìn, đi trước 10 giờ"
+      ],
+      "narration": "Ngày một, vào Đại Nội thật sớm. Qua Ngọ Môn tới điện Thái Hòa, nơi triều Nguyễn thiết triều. Vé hai trăm nghìn, nên đi trước mười giờ, vì trong Kinh thành nắng mà ít gió. Trưa làm tô bún bò ở O Thư hoặc O Mai, ngay gần đó.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/hue/images/dainoi-1.jpg",
+        "videos/hue/images/dainoi-2.jpg",
+        "videos/hue/images/dainoi-3.jpg",
+        "videos/hue/images/dainoi-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4677,
+        "lng": 107.5791
+      },
+      "dishes": [
+        {
+          "name": "Bún bò",
+          "place": "Bún bò O Thư",
+          "address": "41 Ông Ích Khiêm",
+          "rating": 4.5,
+          "spokenAs": "bún bò"
+        },
+        {
+          "name": "Bún bò",
+          "place": "Bún bò Huế O Mai",
+          "address": "29 Lê Thánh Tôn",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Huế",
+          "place": "36 Quán",
+          "address": "36 Đinh Tiên Hoàng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bún, cơm nguội",
+          "place": "Bún cơm nguội Cảnh Vân",
+          "address": "198B kiệt 4 Chi Lăng",
+          "rating": 4.5
+        },
+        {
+          "name": "Bún, cơm nguội",
+          "place": "Cơm nguội và Bún O Liễu",
+          "address": "206A kiệt 4 Chi Lăng",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "thienmu",
+      "layout": "point",
+      "caption": "Chùa Thiên Mụ",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#f2a65a",
+      "points": [
+        "Tháp Phước Duyên bảy tầng",
+        "Hoàng hôn bên sông Hương"
+      ],
+      "narration": "Chiều lên chùa Thiên Mụ, ngôi chùa có từ năm mười sáu trăm lẻ một, với tháp Phước Duyên bảy tầng nhìn ra sông Hương. Người Huế khuyên lên lúc chiều, hoàng hôn ở đây rất đẹp. Gần chùa có Mandarin và Chạmm Garden.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/hue/images/thienmu-1.jpg",
+        "videos/hue/images/thienmu-2.jpg",
+        "videos/hue/images/thienmu-3.jpg",
+        "videos/hue/images/thienmu-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4537,
+        "lng": 107.5446
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "Mandarin Coffee & Restaurant",
+          "address": "06 Bà Nguyễn Đình Chi",
+          "rating": 4.8,
+          "spokenAs": "Mandarin"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Chạmm Garden",
+          "address": "18 Nguyễn Phúc Nguyên",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Huế",
+          "place": "Nhà Vườn Xuân Đài",
+          "address": "22 Thanh Nghị",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món chay",
+          "place": "Tâm Vegan",
+          "address": "74 Nguyễn Phúc Nguyên",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh Huế",
+          "place": "Quán bánh O Lé",
+          "address": "kiệt 104 Kim Long",
+          "rating": 4.5
+        },
+        {
+          "name": "Bánh nậm, lọc",
+          "place": "Bánh Nậm Lọc O Ân",
+          "address": "kiệt 104 Kim Long",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "layout": "point",
+      "caption": "Sông Hương lúc hoàng hôn",
+      "label": "Ngày 1 · Hoàng hôn",
+      "accent": "#ff8a5b",
+      "points": [
+        "Đi thuyền lúc chiều, đừng đi tối",
+        "Du thuyền trà chiều khoảng 490 nghìn"
+      ],
+      "narration": "Rồi xuống thuyền trên sông Hương lúc hoàng hôn. Bình luận TikTok dặn đi lúc chiều, vì thuyền rồng buổi tối gần như không thấy cảnh. Du thuyền trà chiều khoảng bốn trăm chín mươi nghìn một người. Tối ăn món Huế ở Vị Huế hoặc Madam Thu.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/hue/images/song-1.jpg",
+        "videos/hue/images/song-2.jpg",
+        "videos/hue/images/song-3.jpg",
+        "videos/hue/images/song-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4689,
+        "lng": 107.5889
+      },
+      "dishes": [
+        {
+          "name": "Món Huế",
+          "place": "Vị Huế Restaurant",
+          "address": "61 Võ Thị Sáu",
+          "rating": 4.9,
+          "spokenAs": "món Huế"
+        },
+        {
+          "name": "Món Huế",
+          "place": "Madam Thu 2",
+          "address": "04 Võ Thị Sáu",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm Niêu Khải Hoàn",
+          "address": "90 Lê Lợi",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh Huế",
+          "place": "Nhà hàng Bánh Gánh Huế",
+          "address": "51A Võ Thị Sáu",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Cơm Cườm",
+          "address": "20/11 Lý Thường Kiệt",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "truongtien",
+      "layout": "point",
+      "caption": "Cầu Trường Tiền về đêm",
+      "label": "Ngày 1 · Tối",
+      "accent": "#b98cff",
+      "points": [
+        "Cầu đổi màu, cầu gỗ ven sông",
+        "Gửi xe dưới chân cầu"
+      ],
+      "narration": "Tối dạo cầu Trường Tiền đổi màu, cầu gỗ ven sông và Phu Văn Lâu lên đèn. Người Huế nhắc, đoạn bờ nam đường Lê Lợi cấm đậu xe, nên gửi xe dưới chân cầu. Đói thì ghé quán Món ăn đặc sản Huế, hơn hai nghìn lượt đánh giá.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/hue/images/truongtien-1.jpg",
+        "videos/hue/images/truongtien-2.jpg",
+        "videos/hue/images/truongtien-3.jpg",
+        "videos/hue/images/truongtien-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4689,
+        "lng": 107.5889
+      },
+      "dishes": [
+        {
+          "name": "Đặc sản Huế",
+          "place": "Món ăn đặc sản Huế",
+          "address": "kiệt 42 Nguyễn Công Trứ",
+          "rating": 4.9,
+          "spokenAs": "đặc sản Huế"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Quán ăn An Tâm",
+          "address": "kiệt 33 Nguyễn Công Trứ",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm quê",
+          "place": "Cơm Quê Mự Hải",
+          "address": "20 Nguyễn Thái Học",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm niêu Chạn",
+          "address": "19 Nguyễn Thái Học",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Nhà Nâu",
+          "address": "45 Hàn Thuyên",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "tuduc",
+      "layout": "point",
+      "caption": "Lăng Tự Đức",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#7fc8a9",
+      "points": [
+        "Hồ Lưu Khiêm, rừng thông cuối hồ",
+        "Vé 150 nghìn"
+      ],
+      "narration": "Ngày hai, đi lăng Tự Đức, đẹp như một khu vườn thơ bên hồ Lưu Khiêm. Men theo hồ tới cuối là rừng thông mà dân TikTok rất mê. Có bình luận cho biết chính điện đang tu sửa. Trưa ăn ở Không Gian Xưa, bốn chấm chín sao, ngay gần đó.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/hue/images/tuduc-1.jpg",
+        "videos/hue/images/tuduc-2.jpg",
+        "videos/hue/images/tuduc-3.jpg",
+        "videos/hue/images/tuduc-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.433,
+        "lng": 107.5655
+      },
+      "dishes": [
+        {
+          "name": "Món Huế",
+          "place": "Nhà Hàng Không Gian Xưa",
+          "address": "98 Minh Mạng",
+          "rating": 4.9,
+          "spokenAs": "Không Gian Xưa"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Maison Trang 2",
+          "address": "94 Huyền Trân Công Chúa",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh ép",
+          "place": "Bánh ép Huệ",
+          "address": "118 Lê Ngô Cát",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Hello Restaurant",
+          "address": "40 Đoàn Nhữ Hải",
+          "rating": 5
+        },
+        {
+          "name": "Bún bò",
+          "place": "Bún Bò Huế Cố Đô",
+          "address": "268D Điện Biên Phủ",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "khaidinh",
+      "layout": "point",
+      "caption": "Lăng Khải Định",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#c9a0dc",
+      "points": [
+        "Pha kiến trúc Đông và Tây",
+        "Cung Thiên Định khảm sành sứ"
+      ],
+      "narration": "Chiều sang lăng Khải Định, xây mất mười một năm, pha kiến trúc Đông và Tây. Bên trong cung Thiên Định khảm sành sứ và thủy tinh lấp lánh. Quanh lăng ít quán, nên ăn trên đường về, ở La Pines hoặc Không Gian Xưa đường Điện Biên Phủ.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/hue/images/khaidinh-1.jpg",
+        "videos/hue/images/khaidinh-2.jpg",
+        "videos/hue/images/khaidinh-3.jpg",
+        "videos/hue/images/khaidinh-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.399,
+        "lng": 107.5903
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "La Pines – Lá Thông",
+          "address": "94 Minh Mạng",
+          "rating": 4.6,
+          "spokenAs": "La Pines"
+        },
+        {
+          "name": "Món Huế",
+          "place": "Không Gian Xưa",
+          "address": "205 Điện Biên Phủ",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Việt",
+          "place": "Pinetree House",
+          "address": "Thủy Tiên",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món chay",
+          "place": "Tĩnh Garden",
+          "address": "140 Phan Bội Châu",
+          "rating": 4.9
+        },
+        {
+          "name": "Món chay",
+          "place": "Chay Mây",
+          "address": "248 Phan Bội Châu",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "tamgiang",
+      "layout": "point",
+      "caption": "Phá Tam Giang",
+      "label": "Ngày 3 · Hoàng hôn",
+      "accent": "#4fb3bf",
+      "points": [
+        "Hệ đầm phá lớn nhất Đông Nam Á",
+        "Hoàng hôn ở đầm Chuồn"
+      ],
+      "narration": "Ngày ba, ra phá Tam Giang, hệ đầm phá lớn nhất Đông Nam Á. Chiều ngồi đầm Chuồn ngắm hoàng hôn giữa những chòi lưới, rồi ăn hải sản ở Đầm Chuồn Hội Quán hoặc ốc ở Thuận An.",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/hue/images/tamgiang-1.jpg",
+        "videos/hue/images/tamgiang-2.jpg",
+        "videos/hue/images/tamgiang-3.jpg",
+        "videos/hue/images/tamgiang-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.5226,
+        "lng": 107.6383
+      },
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Đầm Chuồn Hội Quán",
+          "address": "đầm Chuồn",
+          "rating": 4.5,
+          "spokenAs": "hải sản"
+        },
+        {
+          "name": "Ốc",
+          "place": "Quán Ốc Thành Mập",
+          "address": "Thuận An",
+          "rating": 4.7
+        },
+        {
+          "name": "Ốc",
+          "place": "Ốc Truyền Nam",
+          "address": "Thuận An",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh xèo cá kình",
+          "place": "Bánh Xèo Cá Kình O Lợi",
+          "address": "Thuận An",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "dongba",
+      "layout": "point",
+      "caption": "Chợ Đông Ba",
+      "label": "Ngày 4",
+      "accent": "#ff6f61",
+      "points": [
+        "Mè xửng, tôm chua, hạt sen làm quà",
+        "Bánh bèo, nậm, lọc gần chợ"
+      ],
+      "narration": "Ngày bốn, trước khi ra sân bay Phú Bài, ghé chợ Đông Ba mua mè xửng, tôm chua, hạt sen làm quà. Quán bánh bèo nậm lọc Huế Xưa ngay gần đó, bốn chấm tám sao với hơn một nghìn sáu trăm đánh giá.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/hue/images/dongba-1.jpg",
+        "videos/hue/images/dongba-2.jpg",
+        "videos/hue/images/dongba-3.jpg",
+        "videos/hue/images/dongba-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4724,
+        "lng": 107.5886
+      },
+      "dishes": [
+        {
+          "name": "Bánh bèo, nậm, lọc",
+          "place": "Bánh Bèo Nậm Lọc Huế Xưa",
+          "address": "1 Nguyễn Bỉnh Khiêm",
+          "rating": 4.8,
+          "spokenAs": "bánh bèo"
+        },
+        {
+          "name": "Bèo, lọc, nậm",
+          "place": "Quán Trung Bộ",
+          "address": "16 Tô Hiến Thành",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh lọc",
+          "place": "Bánh lọc Huế Hương Cau",
+          "address": "4 Nguyễn Bỉnh Khiêm",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh canh Nam Phổ",
+          "place": "Rin – Bánh canh Nam Phổ",
+          "address": "15 Hàn Mặc Tử",
+          "rating": 5
+        },
+        {
+          "name": "Bánh canh Nam Phổ",
+          "place": "Quán Hằng",
+          "address": "9 Phó Đức Chính",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Huế",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Huế chậm thôi mà thương. Đi tháng ba là đẹp nhất, né mùa mưa từ tháng chín tới tháng mười một. Địa chỉ quán mình để ở phần mô tả, lưu lại nhé!",
+      "durationSec": 9,
+      "gallery": [
+        "videos/hue/images/outro-1.jpg",
+        "videos/hue/images/outro-2.jpg"
+      ]
+    }
+  ]
+}

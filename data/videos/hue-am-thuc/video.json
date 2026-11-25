@@ -1,0 +1,379 @@
+{
+  "id": "hue-am-thuc",
+  "title": "Ẩm thực Huế: 5 món",
+  "language": "vi",
+  "region": "Thành phố Huế, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e8c170",
+    "highlight": "#f5d58a",
+    "brand": "HUẾ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HUẾ ĂN GÌ",
+      "kicker": "ẨM THỰC · TIKTOK KHEN",
+      "label": "5 MÓN",
+      "narration": "Đến Huế ăn gì? Đây là năm món dân TikTok khen nhiều nhất, kèm nguồn gốc, cách ăn và quán trên bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/hue/images/bunbo-1.jpg",
+        "videos/hue/images/comhen-1.jpg",
+        "videos/hue/images/banhbeo-1.jpg",
+        "videos/hue/images/banhnam-1.jpg",
+        "videos/hue/images/che-1.jpg"
+      ]
+    },
+    {
+      "id": "bunbo",
+      "layout": "point",
+      "caption": "Bún bò Huế",
+      "label": "1/5",
+      "accent": "#e85d3f",
+      "narration": "Món thứ nhất, bún bò. Ở Huế, người ta gọi là bún bò giò chả, còn nguồn gốc thì chỉ có giai thoại. Nước dùng nấu xương với sả và mắm ruốc, ăn cùng giò heo, chả cua. Khi ăn, thêm sa tế và rau sống. Quán ngon: bún bò Sen, Nhà An và O Tý.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/hue/images/bunbo-1.jpg",
+        "videos/hue/images/bunbo-2.jpg",
+        "videos/hue/images/bunbo-3.jpg",
+        "videos/hue/images/bunbo-4.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Ở Huế gọi là bún bò giò chả",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "giai thoại",
+            "text": "Nguồn gốc chỉ có giai thoại, chưa có tài liệu chắc chắn"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "mắm ruốc",
+            "text": "Nước xương nấu sả và mắm ruốc · giò heo, chả cua, bắp bò"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Thêm sa tế, rau sống; dân Huế dặn chọn quán nồi nhôm to"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún bò",
+                "place": "Bún Bò Huế Sen",
+                "address": "69 Võ Thị Sáu",
+                "rating": 4.7
+              },
+              {
+                "name": "Bún bò",
+                "place": "Bún Bò Huế Nhà An",
+                "address": "45 Nguyễn Công Trứ",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún bò",
+                "place": "Bún bò O Tý",
+                "address": "5 Nguyễn Du",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comhen",
+      "layout": "point",
+      "caption": "Cơm hến",
+      "label": "2/5",
+      "accent": "#d4a373",
+      "narration": "Món thứ hai, cơm hến, món bình dân gắn với cồn Hến giữa sông Hương. Cơm nguội trộn hến xào, tóp mỡ, đậu phộng và rau sống. Khi ăn, trộn đều rồi chan nước hến nóng, giá chỉ khoảng mười lăm nghìn. Quán ngon: cơm hến Hàn Mặc Tử, Bà Đen và Hương Xưa.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/hue/images/comhen-1.jpg",
+        "videos/hue/images/comhen-2.jpg",
+        "videos/hue/images/comhen-3.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Món bình dân của cồn Hến",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "cồn hến",
+            "text": "Món bình dân gắn với cồn Hến giữa sông Hương"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "tóp mỡ",
+            "text": "Cơm nguội, hến xào, tóp mỡ, đậu phộng, rau sống"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Trộn đều, chan nước hến nóng; chỉ khoảng 15 nghìn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cơm hến",
+                "place": "Cơm hến 05 Hàn Mặc Tử",
+                "address": "05 Hàn Mặc Tử",
+                "rating": 4.8
+              },
+              {
+                "name": "Cơm hến",
+                "place": "Cơm Hến Bà Đen",
+                "address": "31 Trần Quang Khải",
+                "rating": 4.6
+              },
+              {
+                "name": "Cơm hến",
+                "place": "Cơm hến Hương Xưa",
+                "address": "30/7 Ưng Bình",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhbeo",
+      "layout": "point",
+      "caption": "Bánh bèo chén",
+      "label": "3/5",
+      "accent": "#f4c95d",
+      "narration": "Món thứ ba, bánh bèo chén, kiểu bánh nhỏ xíu rất riêng của Huế. Bột gạo hấp ngay trong chén, rắc tôm chấy và mỡ hành. Khi ăn, chan nước mắm ngọt và ăn lúc bánh còn nóng. Quán ngon: Huế Xưa, Quán Trung Bộ và Quán Ngỏ.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/hue/images/banhbeo-1.jpg",
+        "videos/hue/images/banhbeo-2.jpg",
+        "videos/hue/images/banhbeo-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Nhỏ xíu, rất riêng của Huế",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "rất riêng",
+            "text": "Bánh bèo hấp trong chén nhỏ là kiểu riêng của Huế"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "tôm chấy",
+            "text": "Bột gạo hấp trong chén · tôm chấy, mỡ hành"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chan nước mắm ngọt, ăn khi bánh còn nóng"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh bèo",
+                "place": "Bánh Bèo Nậm Lọc Huế Xưa",
+                "address": "1 Nguyễn Bỉnh Khiêm",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh bèo",
+                "place": "Quán Trung Bộ",
+                "address": "16 Tô Hiến Thành",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh bèo",
+                "place": "Quán Ngỏ",
+                "address": "30 Phú Mộng",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhnam",
+      "layout": "point",
+      "caption": "Bánh nậm, bánh lọc",
+      "label": "4/5",
+      "accent": "#9ccc65",
+      "narration": "Món thứ tư, bánh nậm và bánh lọc. Tương truyền bánh nậm có từ làng Nam Phổ, ven Huế. Nậm là bột gạo mỏng gói lá chuối, còn bánh lọc làm từ bột năng trong veo, nhân tôm thịt. Khi ăn, chấm nước mắm ớt. Quán ngon: Hương Cau, Rin và Hue Cuisine.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/hue/images/banhnam-1.jpg",
+        "videos/hue/images/banhnam-2.jpg",
+        "videos/hue/images/banhnam-3.jpg",
+        "videos/hue/images/banhnam-4.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Gói lá chuối, trong veo",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "nam phổ",
+            "text": "Tương truyền bánh nậm có từ làng Nam Phổ, ven Huế"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "bột năng",
+            "text": "Nậm: bột gạo mỏng gói lá · Lọc: bột năng trong, nhân tôm thịt"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chấm nước mắm ớt, gọi chung với bánh bèo"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh lọc",
+                "place": "Bánh lọc Huế Hương Cau",
+                "address": "4 Nguyễn Bỉnh Khiêm",
+                "rating": 4.7
+              },
+              {
+                "name": "Bèo, nậm, lọc",
+                "place": "Rin – Bánh canh Nam Phổ",
+                "address": "15 Hàn Mặc Tử",
+                "rating": 5
+              },
+              {
+                "name": "Bèo, nậm, lọc",
+                "place": "Hue Cuisine",
+                "address": "44 Hoàng Quốc Việt",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "che",
+      "layout": "point",
+      "caption": "Chè Huế",
+      "label": "5/5",
+      "accent": "#c08fd8",
+      "narration": "Món thứ năm, chè Huế, nổi tiếng với chè hạt sen kiểu cung đình. Có cả chè bột lọc bọc thịt heo quay, món gây tranh cãi nhất trên TikTok, người mê người chê. Khi ăn, gọi một mâm nhiều loại để thử. Quán ngon: chè Thanh, Ngọc Chè Bưởi và chè ông Lạc.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/hue/images/che-1.jpg",
+        "videos/hue/images/che-2.jpg",
+        "videos/hue/images/che-3.jpg",
+        "videos/hue/images/che-4.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Hạt sen cung đình và heo quay",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "hạt sen",
+            "text": "Nổi tiếng với chè hạt sen kiểu cung đình"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "heo quay",
+            "text": "Hạt sen, đậu xanh, bột lọc bọc thịt heo quay"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Gọi một mâm nhiều loại; chè heo quay người mê, người chê"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Chè",
+                "place": "Chè Thanh",
+                "address": "76-78 Mai Thúc Loan",
+                "rating": 4.6
+              },
+              {
+                "name": "Chè",
+                "place": "Ngọc Chè Bưởi",
+                "address": "07 Trương Định",
+                "rating": 4.6
+              },
+              {
+                "name": "Chè",
+                "place": "Chè ông Lạc",
+                "address": "36 Thanh Tịnh",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Ăn sập Huế",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Đồ Huế cay và mặn, bụng yếu thì dặn quán ít cay nha. Quán nổi tiếng dưới bốn sao rưỡi, mình ghi ở phần mô tả. Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/hue/images/outro-food.jpg"
+      ]
+    }
+  ]
+}
