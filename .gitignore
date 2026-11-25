@@ -18,3 +18,17 @@ output
 omnivoice-clips*/
 vbee-clips/
 omni-*/
+node_modules/
+output/
+build/
+pickup-voice/
+synth.done
+# Video/audio footage (creators' TikTok clips, renders) is not redistributed here.
+*.mp4
+*.mov
+*.webm
+*.m4a
+research/raw*/
+research/proof/
+research/sheets/
+public/videos/*/footage/
