@@ -1,0 +1,465 @@
+{
+  "id": "phu-quoc-3n2d-en",
+  "title": "Phu Quoc in 3 days, 2 nights",
+  "language": "en",
+  "region": "Đặc khu Phú Quốc, An Giang, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fe0d8",
+    "brand": "PHU QUOC · 3D2N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/phu-quoc-4n3d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      103.97,
+      10.19
+    ],
+    "zoom": 10.6,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/phu-quoc-4n3d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      106.3,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/01-hook.jpg"
+      ],
+      "narration": "Three days in Phu Quoc? Save this itinerary: Sao beach, a cable car over the sea, sunset at Dinh Cau, and fresh seafood every night.",
+      "label": "THE PEARL ISLAND · VIETNAM",
+      "caption": "PHU QUOC",
+      "badge": "3D2N",
+      "tip": "Sao beach · Cable car · Dinh Cau · Seafood",
+      "frame": "full",
+      "durationSec": 11
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "There are direct flights from Hanoi and Ho Chi Minh City to Phu Quoc airport, right in the middle of the island, so both the south and the north are easy to reach.",
+      "label": "GETTING THERE",
+      "caption": "Fly to Phu Quoc",
+      "flight": {
+        "to": {
+          "name": "Phu Quoc",
+          "lng": 103.9922,
+          "lat": 10.1727
+        },
+        "from": [
+          {
+            "name": "Hanoi",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "HCMC",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 9.5
+    },
+    {
+      "id": "day1-sang",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Ho Quoc pagoda",
+          "lng": 104.0275,
+          "lat": 10.1092
+        },
+        {
+          "name": "Sao beach",
+          "lng": 104.0352,
+          "lat": 10.0525
+        },
+        {
+          "name": "Phu Quoc prison",
+          "lng": 104.0188,
+          "lat": 10.0435
+        }
+      ],
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/03b-hoquoc.jpg",
+        "videos/phu-quoc-4n3d/images/02-baisao.jpg",
+        "videos/phu-quoc-4n3d/images/02c-baisao.jpg",
+        "videos/phu-quoc-4n3d/images/03-nhatu.jpg"
+      ],
+      "narration": "Day one is the south: start at Ho Quoc pagoda above the sea, swim at Sao beach with its soft white sand, then learn the history at Phu Quoc prison. Nearby, try Dong Huong, the snails at Oc Co, or Tue Anh.",
+      "label": "DAY 1 · MORNING",
+      "caption": "The south",
+      "points": [
+        "Ho Quoc pagoda above the sea",
+        "Soft white sand at Sao beach",
+        "Phu Quoc prison"
+      ],
+      "tip": "Sao beach is best in the morning, before the crowds",
+      "accent": "#7fe0d8",
+      "dishes": [
+        {
+          "name": "Vietnamese home cooking",
+          "place": "Đồng Hương Quán",
+          "address": "409 Nguyễn Văn Cừ",
+          "spokenAs": "dong huong",
+          "rating": 4.6
+        },
+        {
+          "name": "Sea snails",
+          "place": "Ốc Cồ 39k",
+          "address": "ĐT 975, An Thới",
+          "spokenAs": "snails",
+          "rating": 4.7
+        },
+        {
+          "name": "Local eatery",
+          "place": "Quán ăn Tuệ Anh",
+          "address": "An Thới",
+          "spokenAs": "tue anh",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Local eatery",
+          "place": "Phương Đông quán",
+          "address": "Nguyễn Văn Cừ, An Thới",
+          "rating": 4.5
+        },
+        {
+          "name": "Seafood",
+          "place": "Ann Seafood",
+          "address": "KB-03 KĐT Bãi Khem",
+          "rating": 4.8
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 15
+    },
+    {
+      "id": "day1-toi",
+      "layout": "point",
+      "map": {
+        "name": "Sunset Town",
+        "lng": 104.0083,
+        "lat": 10.0294
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/04-sunset.jpg",
+        "videos/phu-quoc-4n3d/images/04d-town.jpg",
+        "videos/phu-quoc-4n3d/images/04c-show.jpg"
+      ],
+      "narration": "In the evening, head to Sunset Town in An Thoi: watch the sunset from the Kiss Bridge, wander the Mediterranean style streets, and catch the Kiss of the Sea show at around nine. For dinner, try Crab Easy, Madam Khanh, or The Gangs.",
+      "label": "DAY 1 · EVENING",
+      "caption": "Sunset Town",
+      "points": [
+        "Sunset from the Kiss Bridge",
+        "Kiss of the Sea show ~9 pm"
+      ],
+      "tip": "Sunset Town itself is free to enter",
+      "accent": "#ffb48a",
+      "dishes": [
+        {
+          "name": "Crab",
+          "place": "Crab Easy",
+          "address": "152 Đ. Amalfi",
+          "spokenAs": "crab easy",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "Madam Khánh 2",
+          "address": "A164 Đ. Amalfi",
+          "spokenAs": "madam khanh",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "The Gangs Sunset",
+          "address": "65 Đ. Amalfi",
+          "spokenAs": "the gangs",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Barbecue",
+          "place": "Phố Nướng",
+          "address": "AT60, Sunset Town",
+          "rating": 4.6
+        },
+        {
+          "name": "Seafood",
+          "place": "Mai Huong Restaurant",
+          "address": "AT119-127 New An Thới",
+          "rating": 5
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 16
+    },
+    {
+      "id": "day2-captreo",
+      "layout": "point",
+      "route": [
+        {
+          "name": "Cable car station",
+          "lng": 104.012,
+          "lat": 10.024
+        },
+        {
+          "name": "Hon Thom island",
+          "lng": 104.0176,
+          "lat": 9.9543
+        }
+      ],
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/05-captreo.jpg",
+        "videos/phu-quoc-4n3d/images/05b-captreo.jpg",
+        "videos/phu-quoc-4n3d/images/04b-sunset.jpg"
+      ],
+      "narration": "Day two, ride the Hon Thom cable car across the sea and see the An Thoi islands from above. Tip: go in the morning before the heat, and check the timetable, since some days it pauses at midday. For lunch on the island, try the Mango buffet, Taste of Vietnam, or Santo Beach Club.",
+      "label": "DAY 2 · MORNING",
+      "caption": "Hon Thom cable car",
+      "points": [
+        "Cable car over the sea to Hon Thom",
+        "The An Thoi islands from above"
+      ],
+      "tip": "Check the timetable, some days it pauses at midday",
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Buffet",
+          "place": "Nhà hàng Buffet Mango",
+          "address": "Sun World Hòn Thơm",
+          "spokenAs": "mango buffet",
+          "rating": 4.5
+        },
+        {
+          "name": "Vietnamese food",
+          "place": "Taste of Vietnam",
+          "address": "Sun World Hòn Thơm",
+          "spokenAs": "taste of vietnam",
+          "rating": 4.5
+        },
+        {
+          "name": "Beach club",
+          "place": "Santo Beach Club",
+          "address": "Hòn Thơm",
+          "spokenAs": "santo beach club",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Snacks",
+          "place": "Slice of Paradise",
+          "address": "Hòn Thơm",
+          "rating": 5
+        },
+        {
+          "name": "Crab noodle soup",
+          "place": "Hợp bún mai cua",
+          "address": "Đường Cáp Treo, An Thới",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood & Vietnamese",
+          "place": "6 Lua Restaurant",
+          "address": "53 Nguyễn Trường Tộ, An Thới",
+          "rating": 4.7
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 18.5
+    },
+    {
+      "id": "day2-dinhcau",
+      "layout": "point",
+      "map": {
+        "name": "Dinh Cau",
+        "lng": 103.9564,
+        "lat": 10.2172
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/06-dinhcau.jpg",
+        "videos/phu-quoc-4n3d/images/06b-chodem.jpg",
+        "videos/phu-quoc-4n3d/images/06c-haisan.jpg"
+      ],
+      "narration": "In the afternoon, go back to Duong Dong for sunset at Dinh Cau, the little shrine on the rocks, then walk the night market. For seafood, try the Lobster Cave, MYLA, or Thuan Kieu.",
+      "label": "DAY 2 · AFTERNOON",
+      "caption": "Dinh Cau",
+      "points": [
+        "Sunset at Dinh Cau",
+        "Duong Dong night market"
+      ],
+      "tip": "The night market changed in 2026, ask locally first",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Hải sản Động Tôm Hùm",
+          "address": "1 Bạch Đằng",
+          "spokenAs": "lobster cave",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "MYLA Seafood",
+          "address": "98 Trần Hưng Đạo",
+          "spokenAs": "myla",
+          "rating": 4.9
+        },
+        {
+          "name": "Seafood",
+          "place": "Thuận Kiều 2",
+          "address": "70B Trần Hưng Đạo",
+          "spokenAs": "thuan kieu",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood",
+          "place": "Đảo Hải Sản",
+          "address": "Hẻm 111 Trần Phú",
+          "rating": 4.7
+        },
+        {
+          "name": "Snails & seafood",
+          "place": "Ốc Hải Sản KTIN 1",
+          "address": "147a Trần Hưng Đạo",
+          "rating": 4.6
+        },
+        {
+          "name": "Beach bar & seafood",
+          "place": "Aloha Beach Bar",
+          "address": "68 Trần Hưng Đạo",
+          "rating": 4.7
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 13.5
+    },
+    {
+      "id": "last-duongdong",
+      "layout": "point",
+      "map": {
+        "name": "Duong Dong",
+        "lng": 103.9612,
+        "lat": 10.2205
+      },
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/08-nuocmam.jpg",
+        "videos/phu-quoc-4n3d/images/06c-haisan.jpg"
+      ],
+      "narration": "On the last morning, eat breakfast in Duong Dong: bun quay at Bach Dang, fish cake noodle soup at Co Ut, or crab noodles at Cua three fifty. Then visit a fish sauce house, where anchovies age in salt, and buy a bottle to take home.",
+      "label": "DAY 3",
+      "caption": "Duong Dong",
+      "points": [
+        "Bun quay and noodle soup breakfast",
+        "A fish sauce house"
+      ],
+      "tip": "Ask your airline before flying with fish sauce",
+      "accent": "#ff9f8a",
+      "dishes": [
+        {
+          "name": "Bun quay",
+          "place": "Bún Quậy Bạch Đằng",
+          "address": "32A Bạch Đằng",
+          "spokenAs": "bun quay",
+          "rating": 4.9
+        },
+        {
+          "name": "Fish cake noodle soup",
+          "place": "Bánh canh Cô Út",
+          "address": "7 Nguyễn Đình Chiểu",
+          "spokenAs": "fish cake",
+          "rating": 4.9
+        },
+        {
+          "name": "Crab noodle soup",
+          "place": "Cua 350",
+          "address": "38 Đường 30/4",
+          "spokenAs": "crab",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bun quay",
+          "place": "Bún quậy Thiện Mỹ",
+          "address": "103 Trần Hưng Đạo",
+          "rating": 4.7
+        },
+        {
+          "name": "Noodle soup",
+          "place": "Bánh Canh Hạnh",
+          "address": "44 Bạch Đằng",
+          "rating": 4.6
+        },
+        {
+          "name": "Broken rice",
+          "place": "Cơm tấm Nhị",
+          "address": "1 Nguyễn Trung Trực",
+          "rating": 4.6
+        },
+        {
+          "name": "Bun ken",
+          "place": "Bún kèn 87",
+          "address": "87 Đường 30/4",
+          "rating": 4.6
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 17
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phu-quoc-4n3d/images/09-outro.jpg"
+      ],
+      "narration": "Three days in Phu Quoc fly by. All the addresses are in the description. Save this for your next island trip!",
+      "label": "SEE YOU AGAIN",
+      "caption": "PHU QUOC",
+      "tip": "Three days fly by",
+      "cta": "Save it for your trip!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9
+    }
+  ]
+}

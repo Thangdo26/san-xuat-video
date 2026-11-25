@@ -1,0 +1,34 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Rendered videos (draft.mp4 / final.mp4)
+output
+
+# Render / synthesis logs
+*.log
+*.err
+*.done
+
+# Raw voice clips; the imported copies live in public/videos/<slug>/voice
+omnivoice-clips*/
+vbee-clips/
+omni-*/
+node_modules/
+output/
+build/
+pickup-voice/
+synth.done
+# Video/audio footage (creators' TikTok clips, renders) is not redistributed here.
+*.mp4
+*.mov
+*.webm
+*.m4a
+research/raw*/
+research/proof/
+research/sheets/
+public/videos/*/footage/
