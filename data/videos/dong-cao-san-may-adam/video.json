@@ -1,0 +1,292 @@
+{
+  "id": "dong-cao-san-may-adam",
+  "title": "Săn mây Đồng Cao 2N1Đ",
+  "language": "vi",
+  "region": "Đồng Cao, Vân Sơn, Bắc Ninh, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ff9e7a",
+    "highlight": "#ffd9a0",
+    "brand": "ĐỒNG CAO"
+  },
+  "narrator": {
+    "provider": "elevenlabs",
+    "voice": "Adam"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Mây Coffee Phượng Sơn": "may-coffee",
+    "F5. Tiệm trà bờ hồ": "f5-tra",
+    "Cao nguyên Đồng Cao": "dong-cao",
+    "Nhà nghỉ Đại Dương": "dai-duong",
+    "Bản Meo Homestay": "ban-meo"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "ĐỒNG CAO",
+      "label": "SĂN MÂY 2N1Đ",
+      "kicker": "BẮC NINH · GIỮA THÁNG 11",
+      "voiceDelay": 6.2,
+      "cold": [
+        "videos/dong-cao/footage/cloud-river.mp4",
+        "videos/dong-cao/footage/drone-mist.mp4",
+        "videos/dong-cao/footage/td-sea.mp4",
+        "videos/dong-cao/footage/xk-sea.mp4",
+        "videos/dong-cao/footage/sunrise-rocks.mp4"
+      ],
+      "narration": "Hello hô lê các con vợ! Không phải Tà Xùa đâu nha, đây là Đồng Cao, Bắc Ninh, cách Hà Nội có một trăm năm mươi cây số thôi. Sáng mười bốn tháng mười một vừa rồi biển mây ở đây đẹp xỉu up xỉu down luôn. Lưu ngay lịch trình hai ngày một đêm này kẻo lạc trôi nha!",
+      "gallery": [
+        "videos/dong-cao/footage/drone-peak.mp4",
+        "videos/dong-cao/footage/td-silhouette.mp4"
+      ],
+      "durationSec": 24
+    },
+    {
+      "id": "route",
+      "layout": "point",
+      "label": "Ngày 1 · Chiều",
+      "clock": "14:00",
+      "caption": "Đường lên Đồng Cao",
+      "badge": "Vân Sơn",
+      "points": [
+        "Cao tốc → QL31 → An Châu → Vân Sơn",
+        "Bê tông tới chân đồi, dốc cuối gắt"
+      ],
+      "narration": "Đường đi dễ như ăn kẹo: cao tốc Hà Nội Bắc Giang, rẽ quốc lộ ba mốt qua Chũ, tới An Châu rồi quẹo vào Vân Sơn. Đường bê tông tới tận chân đồi, ô tô xe máy chơi tất. Riêng con dốc cuối hơi bị gắt, tay lái non thì gửi xe nhà dân rồi cuốc bộ mười lăm phút, coi như tập thể dục. Dọc đường ghé Mây Coffee năm sao sống ảo, hay tiệm trà ép năm ở Chũ, nhớ xách thêm mì Chũ lên nấu nha.",
+      "gallery": [
+        "videos/dong-cao/footage/road-1.mp4",
+        "videos/dong-cao/footage/road-2.mp4",
+        "videos/dong-cao/footage/dirt-road.mp4",
+        "videos/dong-cao/footage/suv-slope.mp4",
+        "videos/dong-cao/footage/drone-path.mp4",
+        "videos/dong-cao/footage/green-hills.mp4"
+      ],
+      "cardTitle": "DỌC QL31",
+      "dishes": [
+        {
+          "name": "Cà phê",
+          "place": "Mây Coffee Phượng Sơn",
+          "address": "QL31, Phượng Sơn",
+          "rating": 5,
+          "spokenAs": "Mây Coffee"
+        },
+        {
+          "name": "Đồ uống",
+          "place": "F5. Tiệm trà bờ hồ",
+          "address": "Lê Duẩn, Chũ",
+          "rating": 4.6
+        },
+        {
+          "name": "Mì Chũ",
+          "place": "Mì Chũ mang lên nấu",
+          "address": "mua ở Chũ, Lục Ngạn"
+        }
+      ],
+      "durationSec": 27.5
+    },
+    {
+      "id": "camp",
+      "layout": "point",
+      "label": "Ngày 1 · Tối",
+      "clock": "18:00",
+      "caption": "Cắm trại trên đồi",
+      "badge": "Đỉnh Đồng Cao",
+      "points": [
+        "Lều 4 người 200k, 6 người 300k",
+        "Gà nướng, lẩu: gọi đặt từ trưa"
+      ],
+      "narration": "Tối thì cắm trại luôn cho tiện săn mây. Nhà Hoa Hồng, Hoa Thuận dưới chân đồi cho thuê lều, còn vác lên dựng giúp, đỉnh của chóp: lều bốn người hai trăm nghìn, sáu người ba trăm nghìn. Thèm gà nướng hay lẩu thì gọi đặt từ trưa nha. Cảnh báo nhẹ: trên đỉnh không có quán, không có nhà vệ sinh, gió thổi cả đêm lạnh run cầm cập, nên nhớ mang áo ấm. Bù lại trời quang thì nằm ngắm Ngân Hà, chill hết nấc.",
+      "gallery": [
+        "videos/dong-cao/footage/chill-tent.mp4",
+        "videos/dong-cao/footage/horses-dusk.mp4",
+        "videos/dong-cao/footage/sunset-group.mp4",
+        "videos/dong-cao/footage/campfire.mp4",
+        "videos/dong-cao/footage/night-tent.mp4",
+        "videos/dong-cao/footage/milkyway.mp4"
+      ],
+      "cardTitle": "ĂN TỐI TRÊN ĐỒI",
+      "dishes": [
+        {
+          "name": "Gà nướng, lẩu",
+          "place": "Đặt nhà cho thuê lều",
+          "address": "gọi trước từ trưa",
+          "spokenAs": "gà nướng"
+        },
+        {
+          "name": "Mì hộp, nước, củi",
+          "place": "Tạp hoá chân đồi",
+          "address": "chân đồi"
+        },
+        {
+          "name": "Bún 30k",
+          "place": "Chợ phiên Quế Sơn",
+          "address": "Đại Sơn"
+        }
+      ],
+      "durationSec": 28.5
+    },
+    {
+      "id": "clouds",
+      "layout": "point",
+      "label": "Ngày 2 · Bình minh",
+      "clock": "04:30",
+      "caption": "Săn biển mây",
+      "badge": "Mây 5h–8h",
+      "points": [
+        "Hôm trước mưa, sáng khô ráo",
+        "Sương mù dưới thung = có mây"
+      ],
+      "narration": "Bốn rưỡi sáng bật dậy, leo mười lăm phút lên đỉnh. Mây lên từ năm giờ, đẹp tới tám giờ. Bí kíp của dân địa phương nè: hôm trước mưa, sáng hôm sau khô ráo, dưới thung có sương mù là gần như chắc kèo có mây. Gió to thì mây chạy mất dép. Mười bốn tháng mười một mây phủ kín mít, sáng mười lăm thì không còn một cọng, nên ở đây gọi là test nhân phẩm đó các con vợ.",
+      "gallery": [
+        "videos/dong-cao/footage/crowd.mp4",
+        "videos/dong-cao/footage/pov-orange.mp4",
+        "videos/dong-cao/footage/xk-people.mp4",
+        "videos/dong-cao/footage/drone-cliff.mp4",
+        "videos/dong-cao/footage/meadow-rocks.mp4",
+        "videos/dong-cao/footage/drone-green.mp4"
+      ],
+      "cardTitle": "TRÊN GOOGLE MAPS",
+      "dishes": [
+        {
+          "name": "Điểm săn mây",
+          "place": "Cao nguyên Đồng Cao",
+          "address": "Vân Sơn, Bắc Ninh",
+          "rating": 4.6,
+          "spokenAs": "Đồng Cao"
+        }
+      ],
+      "durationSec": 26
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Ngủ ở đâu?",
+      "zones": [
+        {
+          "title": "Lều trên đồi",
+          "note": "Mở lều là thấy mây · 150–300k/lều",
+          "picks": [
+            [
+              "Nhà Hoa Hồng, Hoa Thuận",
+              null,
+              "chân đồi"
+            ]
+          ]
+        },
+        {
+          "title": "Thị trấn Chũ (~35 km)",
+          "note": "3h sáng chạy lên",
+          "picks": [
+            [
+              "Nhà nghỉ Đại Dương",
+              4.7,
+              "QL31, Chũ"
+            ],
+            [
+              "Bản Meo Homestay",
+              4.8,
+              "Nam Dương"
+            ]
+          ]
+        }
+      ],
+      "tip": "Hoặc đi đêm từ Hà Nội lúc 0–1h, tới nơi 4–5h sáng",
+      "cues": [
+        "ngủ lều",
+        "thị trấn chũ",
+        "đi đêm"
+      ],
+      "narration": "Ngủ đâu bây giờ? Xịn nhất là ngủ lều ngay trên đồi, mở lều ra là mây ùa vào mặt. Không quen cắm trại thì ngủ ở thị trấn Chũ, cách chừng ba lăm cây, như nhà nghỉ Đại Dương bốn chấm bảy sao, rồi ba giờ sáng phi lên. Còn máu hơn nữa thì đi đêm từ Hà Nội, tới nơi đúng bốn năm giờ sáng.",
+      "gallery": [
+        "videos/dong-cao/footage/chill-ridge.mp4",
+        "videos/dong-cao/footage/crowd-sun.mp4"
+      ],
+      "durationSec": 20.5
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "receiptTitle": "SĂN MÂY 2N1Đ · 1 NGƯỜI",
+      "total": "330–500k",
+      "totalCue": "tổng cộng",
+      "stamp": "THAM KHẢO 16/11/2026",
+      "note": "Xe máy 2 người · nguồn: review TikTok, Báo Văn Hoá",
+      "items": [
+        {
+          "k": "Vé lên đồi",
+          "note": "không thu phí",
+          "v": "0đ",
+          "n": [
+            0,
+            0
+          ]
+        },
+        {
+          "k": "Xăng ~300 km khứ hồi",
+          "note": "RON95 ~21–22k/lít · 2 người/xe",
+          "v": "80–100k",
+          "n": [
+            80,
+            100
+          ]
+        },
+        {
+          "k": "Thuê lều + bạt",
+          "note": "lều 4 người 200k · chia 4",
+          "v": "50–100k",
+          "n": [
+            50,
+            100
+          ]
+        },
+        {
+          "k": "Ăn tối, ăn sáng",
+          "note": "nướng, lẩu đặt trước",
+          "v": "200–300k",
+          "n": [
+            200,
+            300
+          ]
+        }
+      ],
+      "narration": "Còn ví tiền thì sao? Lên đồi không mất vé, nghe đã chưa. Đi xe máy, xăng tầm tám mươi tới một trăm nghìn mỗi người, lều chia nhau năm mươi tới một trăm nghìn, ăn tối với ăn sáng hai tới ba trăm nghìn. Tổng cộng chỉ tầm ba trăm ba mươi tới năm trăm nghìn một người, quá hời luôn.",
+      "gallery": [
+        "videos/dong-cao/footage/dusk-sky.mp4",
+        "videos/dong-cao/footage/phung-meadow.mp4"
+      ],
+      "durationSec": 19
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn một sáng có mây",
+      "kicker": "3 LƯU Ý",
+      "cta": "Lưu lại nhé!",
+      "tips": [
+        "Áo ấm: đêm gió rất lạnh",
+        "Đồ để cỏ may không bám",
+        "Mang rác về"
+      ],
+      "narration": "Ba điều người đi trước dặn nè: mang áo ấm vì đêm lạnh xỉu, mặc đồ để cỏ may không bám, và mang rác về nha, đừng để đoàn thanh niên ở đây đi nhặt hộ nữa. Clip trong video là của các bạn TikToker, nguồn mình để ở phần mô tả. Lưu lại rồi rủ cạ cứng đi test nhân phẩm liền đi các con vợ!",
+      "gallery": [
+        "videos/dong-cao/footage/man-cloud.mp4",
+        "videos/dong-cao/footage/vf9-road.mp4"
+      ],
+      "durationSec": 19.5
+    }
+  ]
+}
