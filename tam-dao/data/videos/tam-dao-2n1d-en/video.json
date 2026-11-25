@@ -1,0 +1,353 @@
+{
+  "id": "tam-dao-2n1d-en",
+  "title": "Tam Dao in 2 days",
+  "language": "en",
+  "region": "Tam Đảo, Phú Thọ, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#9ad1b0",
+    "highlight": "#ffd28a",
+    "brand": "TAM ĐẢO"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "kind": "road",
+      "caption": "TAM DAO",
+      "kicker": "HANOI'S HILL TOWN · FROM TIKTOK",
+      "label": "2 DAYS",
+      "road": {
+        "from": "Hanoi",
+        "via": "Vinh Yen",
+        "to": "Tam Dao",
+        "km": "~80 km · 2 hrs",
+        "pass": "13 km pass",
+        "cool": "4–5°C cooler"
+      },
+      "narration": "Need a weekend escape from the heat? Tam Dao is about eighty kilometres from Hanoi and four to five degrees cooler. Here's a two-day plan built from TikTok. Save it!",
+      "durationSec": 11.5,
+      "gallery": [
+        "videos/tam-dao/candidates/town-5.jpg"
+      ]
+    },
+    {
+      "id": "town",
+      "layout": "point",
+      "caption": "The town in the mist",
+      "label": "Day 1 · Noon",
+      "accent": "#9ad1b0",
+      "points": [
+        "Main square, the 1937 stone church",
+        "Go on a weekday for fewer crowds"
+      ],
+      "narration": "Day one, thirteen kilometres of mountain pass bring you to a town wrapped in mist. Stroll the main square, then the stone church built in nineteen thirty-seven. For lunch, order garlicky chayote shoots and hill chicken at Thong Do, rated four point nine, right by the square.",
+      "durationSec": 18,
+      "gallery": [
+        "videos/tam-dao/candidates/town-1.jpg",
+        "videos/tam-dao/candidates/town-3.jpg",
+        "videos/tam-dao/candidates/town-6.jpg",
+        "videos/tam-dao/candidates/town-2.jpg"
+      ],
+      "geo": {
+        "lat": 21.4562,
+        "lng": 105.645
+      },
+      "dishes": [
+        {
+          "name": "Chayote, hill chicken",
+          "place": "Nhà Hàng Thông Đỏ",
+          "address": "79 Tây Thiên",
+          "rating": 4.9,
+          "spokenAs": "chayote"
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Nhà Hàng Tam Đảo Núi",
+          "address": "Tổ 1, trung tâm",
+          "rating": 4.8
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Nhà Hàng Phố Mưa",
+          "address": "16 phố Tây Thiên",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Cơm Thố Anh Nguyễn",
+          "address": "Khu 1",
+          "rating": 4.6
+        },
+        {
+          "name": "Món Á",
+          "place": "Nhà Hàng Dương Xỉ",
+          "address": "trung tâm",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Thiên Hương",
+          "address": "Tổ dân phố 1",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "den",
+      "layout": "point",
+      "caption": "Ba Chua Temple",
+      "label": "Day 1 · Afternoon",
+      "accent": "#e8b86b",
+      "points": [
+        "A few hundred stone steps through bamboo",
+        "Dress modestly at the temple"
+      ],
+      "narration": "In the afternoon, climb a few hundred stone steps through the bamboo to Ba Chua Thuong Ngan temple, and dress modestly. Strong legs? Keep going, almost fourteen hundred steps to the TV tower. Back down, warm up at Mufa or Coco.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/tam-dao/candidates/den-1.jpg",
+        "videos/tam-dao/candidates/den-2.jpg",
+        "videos/tam-dao/candidates/den-4.jpg",
+        "videos/tam-dao/candidates/den-3.jpg"
+      ],
+      "geo": {
+        "lat": 21.4596,
+        "lng": 105.6481
+      },
+      "dishes": [
+        {
+          "name": "Asian fusion, craft beer",
+          "place": "Mufa Restaurant",
+          "address": "Võ Nguyên Giáp, Khu 1",
+          "rating": 4.9,
+          "spokenAs": "Mufa"
+        },
+        {
+          "name": "Café",
+          "place": "Coco Tam Đảo",
+          "address": "58 Võ Nguyên Giáp",
+          "rating": 4.9
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Tam Đảo Mạc Quán",
+          "address": "Phạm Văn Đồng",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Tuấn Hương",
+          "address": "Khu 1",
+          "rating": 4.5
+        },
+        {
+          "name": "Món Việt",
+          "place": "Góc Hội An",
+          "address": "trung tâm",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "castle",
+      "layout": "point",
+      "caption": "Castle at sunset",
+      "label": "Day 1 · Sunset",
+      "accent": "#ffb36b",
+      "points": [
+        "The castle on the western slope",
+        "Nov to Jan: best chance of a cloud sea"
+      ],
+      "narration": "At golden hour, head to the castle on the western slope for the sunset. From November to January, when the sun comes out after a day of rain, you may get a sea of clouds. For dinner, grill your own at Mo Mang, then grab corn and chestnuts at the market slope.",
+      "durationSec": 17,
+      "gallery": [
+        "videos/tam-dao/candidates/castle-2.jpg",
+        "videos/tam-dao/candidates/castle-1.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg",
+        "videos/tam-dao/candidates/castle-3.jpg",
+        "videos/tam-dao/candidates/castle-5.jpg"
+      ],
+      "geo": {
+        "lat": 21.451,
+        "lng": 105.6389
+      },
+      "dishes": [
+        {
+          "name": "Barbecue",
+          "place": "Tiệm Nướng Mơ Màng",
+          "address": "sườn tây thị trấn",
+          "rating": 4.7,
+          "spokenAs": "grill"
+        },
+        {
+          "name": "Barbecue",
+          "place": "May Rooftop & BBQ",
+          "address": "30 Võ Nguyên Giáp",
+          "rating": 4.7
+        },
+        {
+          "name": "View café",
+          "place": "La May Coffee & Tea",
+          "address": "22 Trần Quốc Tuấn",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Kumo Chan",
+          "address": "Nguyễn Tất Thành",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm lam",
+          "place": "Trường Mai Quán",
+          "address": "Võ Nguyên Giáp",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "layout": "point",
+      "caption": "Chasing clouds",
+      "label": "Day 2 · Sunrise",
+      "accent": "#b8c8ff",
+      "points": [
+        "Up at 5, head to the west slope or Heaven's Gate",
+        "Optional: Tay Thien on the way home"
+      ],
+      "narration": "Day two, wake at five and head to the western slope or Heaven's Gate for sunrise; with luck, clouds fill the whole valley. Have breakfast at Thach Ban, rated four point six, then rest, check out and drive back to Hanoi. Got spare time? Tay Thien makes an optional stop on the way.",
+      "durationSec": 19.5,
+      "gallery": [
+        "videos/tam-dao/candidates/town-4.jpg",
+        "videos/tam-dao/candidates/cloud-2.jpg",
+        "videos/tam-dao/candidates/cloud-3.jpg"
+      ],
+      "geo": {
+        "lat": 21.4535,
+        "lng": 105.6395
+      },
+      "dishes": [
+        {
+          "name": "Breakfast",
+          "place": "Nhà hàng Thạch Bàn",
+          "address": "trung tâm thị trấn",
+          "rating": 4.6,
+          "spokenAs": "Thach Ban"
+        },
+        {
+          "name": "Vietnamese, breakfast",
+          "place": "Nhà Hàng Tuấn Hương",
+          "address": "Khu 1",
+          "rating": 4.5
+        },
+        {
+          "name": "Cloud-view café",
+          "place": "Sound Of Mountains",
+          "address": "Triệu Thái, thôn 2",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Dân Tộc Quán",
+          "address": "Km13 QL2B (nếu ghé Tây Thiên)",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Việt",
+          "place": "Mộc Quán Tây Thiên",
+          "address": "khu du lịch Tây Thiên",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Where to stay?",
+      "accent": "#9ad1b0",
+      "zones": [
+        {
+          "title": "Around the square",
+          "note": "Walk to food; best for a first trip",
+          "picks": [
+            [
+              "Chân Mây Tam Đảo",
+              4.6,
+              "trung tâm"
+            ],
+            [
+              "Khách sạn Quỳnh Hoa",
+              4.8,
+              "Khu 1"
+            ]
+          ]
+        },
+        {
+          "title": "West-slope homestays",
+          "note": "Valley views, cloud seas; often a climb",
+          "picks": [
+            [
+              "Samma Stay",
+              4.9,
+              "thôn 2, QL2B"
+            ],
+            [
+              "Nhím Homestay",
+              4.9,
+              "ngõ cụ Ty, thôn 2"
+            ]
+          ]
+        }
+      ],
+      "tip": "Book ahead for weekends",
+      "cues": [
+        "around the square",
+        "western slope",
+        "book ahead"
+      ],
+      "narration": "Where to stay? First time, stay around the square and walk to dinner, at Chan May or Quynh Hoa. Chasing clouds? Pick a homestay on the western slope like Samma Stay, but ask how many steps you'll climb. Book ahead for weekends.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/tam-dao/candidates/town-3.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Greetings from Tam Dao",
+      "cta": "Save it for your weekend!",
+      "narration": "Pack a warm layer and shoes with grip; the roads get slippery in the rain. All the addresses are in the description. Save it for your weekend!",
+      "durationSec": 9.5,
+      "gallery": [
+        "videos/tam-dao/candidates/castle-1.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg"
+      ]
+    }
+  ]
+}
