@@ -1,0 +1,422 @@
+{
+  "id": "phuquoc-am-thuc",
+  "title": "Ẩm thực Phú Quốc: 5 món phải thử",
+  "language": "vi",
+  "region": "Đặc khu Phú Quốc, An Giang, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#5fd3c6",
+    "brand": "ẨM THỰC PHÚ QUỐC"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "Ra Phú Quốc ăn gì? Đây là năm món phải thử, kèm nguồn gốc, cách làm, cách ăn, và quán ngon đã kiểm tra trên Google Maps. Lật từng thẻ nhé!",
+      "label": "ẨM THỰC VÙNG MIỀN",
+      "caption": "PHÚ QUỐC",
+      "badge": "5 MÓN",
+      "tip": "Nguồn gốc · Cách làm · Cách ăn · Quán ngon",
+      "stickers": [
+        "🦀",
+        "🥢",
+        "🐟",
+        "🍜",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 9
+    },
+    {
+      "id": "goi-ca-trich",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/01-goica.jpg"
+      ],
+      "narration": "Món thứ nhất, gỏi cá trích. Theo VnExpress, sau mỗi chuyến biển, người Phú Quốc từng làm gỏi từ nhiều loại cá, dần dà chọn cá trích là ngon nhất. Cá trích thật tươi được lóc hai miếng phi lê, trộn sốt chua từ giấm, rồi phủ rau răm, hành tím, ớt và dừa nạo. Khi ăn, cuốn cá với bánh tráng, rau rừng, rau sống, chấm nước mắm Phú Quốc pha đậu phộng. Quán ngon: Động Tôm Hùm, Đảo Hải Sản, và Phượng Hoàng.",
+      "caption": "Gỏi cá trích",
+      "accent": "#5fd3c6",
+      "stickers": [
+        "🐟",
+        "🥥",
+        "🌿",
+        "🌶️",
+        "🥜"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Món nhậu đầu bảng của đảo",
+        "background": "waves",
+        "backgroundTo": "#9be7ff",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Sau chuyến biển, dân đảo làm gỏi nhiều loại cá · dần chọn cá trích ngon nhất",
+            "cue": "sau mỗi chuyến biển"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cá tươi lóc phi lê, trộn sốt chua · phủ rau răm, hành tím, ớt, dừa nạo",
+            "cue": "lóc hai miếng"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Cuốn bánh tráng, rau rừng · chấm nước mắm Phú Quốc pha đậu phộng",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Gỏi cá trích",
+                "place": "Hải sản Động Tôm Hùm",
+                "address": "1 Bạch Đằng",
+                "rating": 4.8
+              },
+              {
+                "name": "Gỏi cá trích",
+                "place": "Đảo Hải Sản",
+                "address": "Hẻm 111 Trần Phú",
+                "rating": 4.7
+              },
+              {
+                "name": "Gỏi cá trích",
+                "place": "Hải Sản Phượng Hoàng",
+                "address": "127G Trần Hưng Đạo",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 23.5
+    },
+    {
+      "id": "bun-quay",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/02-bunquay-1.jpg",
+        "videos/phuquoc-am-thuc/images/02-bunquay-3.jpg"
+      ],
+      "narration": "Món thứ hai, bún quậy. Nguồn gốc còn nhiều cách kể: có bài nói món này từ miền Trung mang ra đảo, có bài nói quán Kiến Xây gần Dinh Cậu là nơi làm nổi tiếng. Bún tươi làm tại chỗ, chan nước dùng, thả chả tôm, chả cá viên. Gọi là bún quậy vì khi ăn, bạn tự quậy chén nước chấm gồm bột ngọt, đường, tắc, ớt và nước mắm theo khẩu vị. Quán ngon: bún quậy Bạch Đằng, Thiện Mỹ, và cô Thắm.",
+      "caption": "Bún quậy",
+      "accent": "#ffb14d",
+      "stickers": [
+        "🍜",
+        "🦐",
+        "🍋",
+        "🌶️",
+        "🥄"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Tự quậy chén nước chấm",
+        "background": "stripes",
+        "backgroundTo": "#ffe08a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Nhiều cách kể: từ miền Trung ra đảo · Kiến Xây gần Dinh Cậu làm nổi tiếng",
+            "cue": "nhiều cách kể"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bún tươi làm tại chỗ, chan nước dùng · chả tôm, chả cá viên",
+            "cue": "bún tươi"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Tự quậy chén chấm: đường, tắc, ớt, nước mắm theo khẩu vị",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún quậy",
+                "place": "Bún Quậy Bạch Đằng",
+                "address": "32A Bạch Đằng",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún quậy",
+                "place": "Bún quậy Thiện Mỹ",
+                "address": "103 Trần Hưng Đạo",
+                "rating": 4.7
+              },
+              {
+                "name": "Bún quậy",
+                "place": "Bún Quậy Cô Thắm",
+                "address": "Xóm Làng Chài",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 22
+    },
+    {
+      "id": "nhum-nuong",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/03-nhum.jpg",
+        "videos/phuquoc-am-thuc/images/03b-ocnuong.jpg"
+      ],
+      "narration": "Món thứ ba, nhum nướng mỡ hành. Nhum là tên dân biển gọi con cầu gai, hay nhím biển, khai thác tươi quanh đảo. Nhum được cắt đôi, giữ phần thịt bên trong, rưới mỡ hành rồi nướng trên than, rắc thêm hành phi và đậu phộng rang. Khi ăn, múc từng muỗng thịt nhum béo ngậy, có quán còn nấu cháo nhum. Mẹo nhỏ: hỏi rõ là nhum hay ốc gai, vì nhiều nơi gọi lẫn. Quán ngon: hàu nướng nhum nướng tám K, và Thuận Kiều.",
+      "caption": "Nhum nướng mỡ hành",
+      "accent": "#b48cff",
+      "stickers": [
+        "🔥",
+        "🧅",
+        "🥜",
+        "🌊"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Nhím biển của chợ đêm",
+        "background": "gingham",
+        "backgroundTo": "#ffc2e0",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Nhum là cầu gai, hay nhím biển · khai thác tươi quanh đảo",
+            "cue": "cầu gai"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cắt đôi, rưới mỡ hành, nướng than · rắc hành phi, đậu phộng",
+            "cue": "cắt đôi"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Múc từng muỗng thịt béo · hỏi rõ nhum hay ốc gai khi gọi",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Nhum nướng mỡ hành",
+                "place": "Hàu – Nhum nướng 8K",
+                "address": "Trần Hưng Đạo",
+                "rating": 5
+              },
+              {
+                "name": "Nhum nướng mỡ hành",
+                "place": "Hải sản Thuận Kiều 2",
+                "address": "70B Trần Hưng Đạo",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 23.5
+    },
+    {
+      "id": "hai-san",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/04-tomhum.jpg",
+        "videos/phuquoc-am-thuc/images/04c-be.jpg",
+        "videos/phuquoc-am-thuc/images/04b-quay.jpg"
+      ],
+      "narration": "Món thứ tư là hải sản chọn tại bể. Phú Quốc có nhiều làng chài, nổi tiếng nhất là ghẹ Hàm Ninh ở bờ đông đảo, đánh bắt gần bờ nên thịt chắc, ngọt, nhiều gạch. Ở chợ đêm và quán hải sản, bạn chọn con còn sống trong bể, cân ký, rồi nhờ quán luộc, hấp hay nướng. Khi ăn, ghẹ chấm muối tiêu chanh là đủ ngọt. Mẹo nhỏ: hỏi giá theo ký và tiền chế biến trước khi chọn. Quán ngon: MYLA, vựa hải sản Su và Bee, và ốc hải sản Kờ Tin.",
+      "caption": "Hải sản chọn tại bể",
+      "accent": "#ff7a8a",
+      "stickers": [
+        "🦀",
+        "🦞",
+        "🍋",
+        "⚓"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Ghẹ Hàm Ninh, tôm hùm, ốc",
+        "background": "stars",
+        "backgroundTo": "#ffb38a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Làng chài khắp đảo · ghẹ Hàm Ninh bờ đông: chắc thịt, nhiều gạch",
+            "cue": "làng chài"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Chọn con còn sống trong bể, cân ký · luộc, hấp hay nướng",
+            "cue": "chọn con còn sống"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Ghẹ chấm muối tiêu chanh · hỏi giá ký và tiền chế biến trước",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "MYLA Seafood",
+                "address": "98 Trần Hưng Đạo",
+                "rating": 4.9
+              },
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "Vựa hải sản nhà Su & Bee",
+                "address": "30 Bạch Đằng",
+                "rating": 4.5
+              },
+              {
+                "name": "Hải sản chọn tại bể",
+                "place": "Ốc Hải Sản KTIN 1",
+                "address": "147a Trần Hưng Đạo",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 24
+    },
+    {
+      "id": "nuoc-mam",
+      "layout": "dish",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/07b-thung.jpg",
+        "videos/phuquoc-am-thuc/images/07-nuocmam.jpg"
+      ],
+      "narration": "Món thứ năm là đặc sản để mang về, nước mắm Phú Quốc. Nghề làm nước mắm Phú Quốc đã được công nhận là di sản văn hóa phi vật thể quốc gia. Cá cơm tươi ủ với muối trong thùng gỗ lớn từ mười hai tới mười tám tháng, rồi mới rút lấy nước mắm nhĩ. Khi ăn, dùng làm nước chấm cho gỏi cá, bánh canh, hải sản. Nơi mua: nhà thùng Huỳnh Khoa, Thành Khoa, và trung tâm đặc sản Khải Hoàn.",
+      "caption": "Nước mắm Phú Quốc",
+      "accent": "#e8a04c",
+      "stickers": [
+        "🐟",
+        "🧂",
+        "🛢️",
+        "🎁"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Đặc sản mang về",
+        "background": "hearts",
+        "backgroundTo": "#ffd39a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Nghề làm nước mắm Phú Quốc: di sản văn hóa phi vật thể quốc gia",
+            "cue": "di sản"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cá cơm ủ muối trong thùng gỗ 12–18 tháng · rồi rút nước mắm nhĩ",
+            "cue": "cá cơm"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Làm nước chấm cho gỏi cá, bánh canh, hải sản · mua làm quà",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Nơi mua",
+            "cue": "nơi mua",
+            "places": [
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Nước mắm Huỳnh Khoa",
+                "address": "Dương Đông",
+                "rating": 4.9
+              },
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Nước mắm Thành Khoa",
+                "address": "Dương Đông",
+                "rating": 4.9
+              },
+              {
+                "name": "Nước mắm Phú Quốc",
+                "place": "Đặc sản Khải Hoàn",
+                "address": "289 TL47",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 22
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phuquoc-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "Năm món này đủ cho một chuyến ăn sập đảo ngọc. Địa chỉ quán mình để ở phần mô tả. Bạn thích món nào nhất? Lưu lại nhé!",
+      "label": "ĂN SẬP PHÚ QUỐC",
+      "caption": "PHÚ QUỐC",
+      "tip": "Bạn thích món nào nhất?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "stickers": [
+        "😋",
+        "🏝️",
+        "💛",
+        "🦀"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 7.5
+    }
+  ]
+}
