@@ -1,0 +1,379 @@
+{
+  "id": "tam-dao-am-thuc",
+  "title": "Ẩm thực Tam Đảo: 5 món",
+  "language": "vi",
+  "region": "Tam Đảo, Phú Thọ, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#9ad1b0",
+    "highlight": "#ffd28a",
+    "brand": "TAM ĐẢO"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "TAM ĐẢO ĂN GÌ?",
+      "kicker": "ẨM THỰC PHỐ NÚI",
+      "label": "5 MÓN",
+      "narration": "Lên Tam Đảo ăn gì? Đây là năm món phố núi được nhắc nhiều nhất, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-1.jpg",
+        "videos/tam-dao/candidates/ga-5.jpg",
+        "videos/tam-dao/candidates/comlam-1.jpg",
+        "videos/tam-dao/candidates/nuong-1.jpg",
+        "videos/tam-dao/candidates/dem-2.jpg"
+      ]
+    },
+    {
+      "id": "susu",
+      "layout": "point",
+      "caption": "Ngọn su su",
+      "label": "1/5",
+      "accent": "#8fd18a",
+      "narration": "Món thứ nhất, ngọn su su, loại rau trồng khắp thị trấn nhờ khí hậu mát. Ngọn non đem xào tỏi lửa lớn, hoặc luộc chấm mắm tôm. Khi ăn, gọi một đĩa đi kèm đồ nướng, về thì mua vài bó làm quà. Quán ngon: Phố Mưa, Tam Đảo Núi và Cơm Thố Anh Nguyễn.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-1.jpg",
+        "videos/tam-dao/candidates/susu-4.jpg",
+        "videos/tam-dao/candidates/susu-3.jpg",
+        "videos/tam-dao/candidates/susu-5.jpg",
+        "videos/tam-dao/candidates/susu-2.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Rau trồng khắp phố núi",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "trồng khắp",
+            "text": "Su su trồng khắp thị trấn nhờ khí hậu mát quanh năm"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "xào tỏi",
+            "text": "Ngọn non xào tỏi lửa lớn, hoặc luộc chấm mắm tôm"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Gọi kèm đồ nướng; về mua vài bó làm quà (VnExpress: 50k/4 bó)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Su su",
+                "place": "Nhà Hàng Phố Mưa",
+                "address": "16 phố Tây Thiên",
+                "rating": 4.8
+              },
+              {
+                "name": "Su su",
+                "place": "Nhà Hàng Tam Đảo Núi",
+                "address": "Tổ 1, trung tâm",
+                "rating": 4.8
+              },
+              {
+                "name": "Su su",
+                "place": "Cơm Thố Anh Nguyễn",
+                "address": "Khu 1",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ga",
+      "layout": "point",
+      "caption": "Gà đồi",
+      "label": "2/5",
+      "accent": "#f2c46b",
+      "narration": "Món thứ hai, gà đồi, được xem là đặc sản nổi tiếng nhất. Gà bọc lá sen và đất sét, nướng trên than hồng tới khi đất nứt là chín, nhiều quán làm luộc hay hấp. Khi ăn, chấm muối tiêu chanh lúc còn nóng. Quán ngon: Thông Đỏ, Thiên Hương và Tuấn Hương.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/tam-dao/candidates/ga-5.jpg",
+        "videos/tam-dao/candidates/ga-1.jpg",
+        "videos/tam-dao/candidates/ga-2.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Đặc sản nổi tiếng nhất",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "nổi tiếng nhất",
+            "text": "Gà thả đồi, được xem là đặc sản nổi tiếng nhất Tam Đảo"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "đất sét",
+            "text": "Bọc lá sen và đất sét, nướng than tới khi đất nứt; hoặc luộc, hấp"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng, chấm muối tiêu chanh"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Thông Đỏ",
+                "address": "79 Tây Thiên",
+                "rating": 4.9
+              },
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Thiên Hương",
+                "address": "Tổ dân phố 1",
+                "rating": 4.7
+              },
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Tuấn Hương",
+                "address": "Khu 1",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comlam",
+      "layout": "point",
+      "caption": "Cơm lam",
+      "label": "3/5",
+      "accent": "#c9d77a",
+      "narration": "Món thứ ba, cơm lam, gạo nếp nướng trong ống tre, món quen của vùng núi. Nếp ngâm kỹ cho vào ống tre, nướng trên than tới khi vỏ cháy sém. Khi ăn, chẻ ống, chấm muối vừng, ăn cùng gà hay thịt nướng. Quán ngon: Trường Mai Quán, hoặc hàng nướng ở dốc chợ.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/tam-dao/candidates/comlam-1.jpg",
+        "videos/tam-dao/candidates/comlam-4.jpg",
+        "videos/tam-dao/candidates/comlam-2.jpg",
+        "videos/tam-dao/candidates/comlam-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Xôi nướng trong ống tre",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "ống tre",
+            "text": "Gạo nếp nướng trong ống tre, món quen của vùng núi"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "cháy sém",
+            "text": "Nếp ngâm kỹ cho vào ống tre, nướng trên than tới khi vỏ cháy sém"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chẻ ống, chấm muối vừng, ăn cùng gà hay thịt nướng"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cơm lam",
+                "place": "Trường Mai Quán",
+                "address": "Võ Nguyên Giáp, Khu 1",
+                "rating": 4.6
+              },
+              {
+                "name": "Cơm lam nướng",
+                "place": "Hàng nướng dốc chợ",
+                "address": "gợi ý từ MoMo",
+                "rating": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nuong",
+      "layout": "point",
+      "caption": "Thịt nướng cuốn su su",
+      "label": "4/5",
+      "accent": "#ff9f6b",
+      "narration": "Món thứ tư, thịt nướng cuốn su su, món nướng đặc trưng của phố núi. Thịt cuốn ngọn su su rồi nướng trên than hoa. Khi ăn, đi nhóm thì gọi set, nướng ngay tại bàn cho ấm. Quán ngon: Tiệm Nướng Mơ Màng, May Rooftop và Mufa.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/tam-dao/candidates/nuong-1.jpg",
+        "videos/tam-dao/candidates/nuong-2.jpg",
+        "videos/tam-dao/candidates/nuong-4.jpg",
+        "videos/tam-dao/candidates/nuong-3.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Tối nào phố núi cũng thơm mùi nướng",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "phố núi",
+            "text": "Món nướng đặc trưng của phố núi (VnExpress)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "than hoa",
+            "text": "Thịt cuốn ngọn su su, nướng trên than hoa"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Đi nhóm gọi set, nướng ngay tại bàn cho ấm"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Đồ nướng",
+                "place": "Tiệm Nướng Mơ Màng",
+                "address": "sườn tây thị trấn",
+                "rating": 4.7
+              },
+              {
+                "name": "Đồ nướng",
+                "place": "May Rooftop & BBQ",
+                "address": "30 Võ Nguyên Giáp",
+                "rating": 4.7
+              },
+              {
+                "name": "Món lai Á",
+                "place": "Mufa Restaurant",
+                "address": "Võ Nguyên Giáp, Khu 1",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dem",
+      "layout": "point",
+      "caption": "Ngô, hạt dẻ nướng",
+      "label": "5/5",
+      "accent": "#e0a3ff",
+      "narration": "Món thứ năm, quà vặt đêm. Trời lạnh xuống là dốc chợ bày hàng nướng. Ngô, khoai nướng trên than, hạt dẻ rang thơm lừng. Khi ăn, cầm túi hạt dẻ vừa ăn vừa dạo quảng trường. Ở đâu: dốc chợ Tam Đảo, rồi ngồi ấm ở Coco hay La May.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/tam-dao/candidates/dem-2.jpg",
+        "videos/tam-dao/candidates/dem-3.jpg",
+        "videos/tam-dao/candidates/dem-1.jpg",
+        "videos/tam-dao/candidates/dem-4.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Quà vặt đêm ở dốc chợ",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "dốc chợ",
+            "text": "Đêm xuống lạnh, dốc chợ bày hàng nướng (MoMo, VnExpress)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "hạt dẻ",
+            "text": "Ngô, khoai nướng than; hạt dẻ rang bơ mật ong"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Cầm túi hạt dẻ, vừa ăn vừa dạo quảng trường"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "ở đâu",
+            "places": [
+              {
+                "name": "Ngô, hạt dẻ",
+                "place": "Dốc chợ Tam Đảo",
+                "address": "hàng đêm, gợi ý từ MoMo",
+                "rating": null
+              },
+              {
+                "name": "Café",
+                "place": "Coco Tam Đảo",
+                "address": "58 Võ Nguyên Giáp",
+                "rating": 4.9
+              },
+              {
+                "name": "Café",
+                "place": "La May Coffee & Tea",
+                "address": "22 Trần Quốc Tuấn",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Lẩu cá tầm cũng được khen nhiều, quán có món này mình để ở phần mô tả. Bạn muốn thử món nào trước? Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-4.jpg",
+        "videos/tam-dao/candidates/ga-1.jpg",
+        "videos/tam-dao/candidates/comlam-4.jpg",
+        "videos/tam-dao/candidates/nuong-2.jpg",
+        "videos/tam-dao/candidates/dem-3.jpg"
+      ]
+    }
+  ]
+}

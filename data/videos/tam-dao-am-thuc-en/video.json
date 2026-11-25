@@ -1,0 +1,380 @@
+{
+  "id": "tam-dao-am-thuc-en",
+  "title": "Tam Dao food: 5 dishes",
+  "language": "en",
+  "region": "Tam Đảo, Phú Thọ, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#9ad1b0",
+    "highlight": "#ffd28a",
+    "brand": "TAM ĐẢO"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "TAM DAO EATS",
+      "kicker": "HILL-TOWN FOOD",
+      "label": "5 DISHES",
+      "narration": "What to eat in Tam Dao? Here are the five hill-town dishes people talk about most, with how to eat them and places rated four and a half stars or more.",
+      "durationSec": 9.5,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-1.jpg",
+        "videos/tam-dao/candidates/ga-5.jpg",
+        "videos/tam-dao/candidates/comlam-1.jpg",
+        "videos/tam-dao/candidates/nuong-1.jpg",
+        "videos/tam-dao/candidates/dem-2.jpg"
+      ]
+    },
+    {
+      "id": "susu",
+      "layout": "point",
+      "caption": "Chayote shoots",
+      "label": "1/5",
+      "accent": "#8fd18a",
+      "narration": "Dish number one, chayote shoots, grown all over town thanks to the cool air. The young tips are stir-fried with lots of garlic, or boiled and dipped in shrimp paste. To eat, order a plate with your barbecue, and take a few bunches home. Try Pho Mua, Tam Dao Nui or Com Tho Anh Nguyen.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-1.jpg",
+        "videos/tam-dao/candidates/susu-4.jpg",
+        "videos/tam-dao/candidates/susu-3.jpg",
+        "videos/tam-dao/candidates/susu-5.jpg",
+        "videos/tam-dao/candidates/susu-2.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "The vine that grows all over town",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "grown all over",
+            "text": "Chayote grows all over town thanks to the cool climate"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "garlic",
+            "text": "Young shoots stir-fried with garlic, or boiled with shrimp paste"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Order a plate with the barbecue; buy a few bunches to take home"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Su su",
+                "place": "Nhà Hàng Phố Mưa",
+                "address": "16 phố Tây Thiên",
+                "rating": 4.8
+              },
+              {
+                "name": "Su su",
+                "place": "Nhà Hàng Tam Đảo Núi",
+                "address": "Tổ 1, trung tâm",
+                "rating": 4.8
+              },
+              {
+                "name": "Su su",
+                "place": "Cơm Thố Anh Nguyễn",
+                "address": "Khu 1",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ga",
+      "layout": "point",
+      "caption": "Hill chicken",
+      "label": "2/5",
+      "accent": "#f2c46b",
+      "narration": "Dish number two, hill chicken, Tam Dao's best-known specialty. It's wrapped in lotus leaf and clay and baked on hot coals until the clay cracks; many places boil or steam it too. To eat, dip it in salt, pepper and lime while it's hot. Try Thong Do, Thien Huong or Tuan Huong.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/tam-dao/candidates/ga-5.jpg",
+        "videos/tam-dao/candidates/ga-1.jpg",
+        "videos/tam-dao/candidates/ga-2.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Tam Dao's most famous dish",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "best-known",
+            "text": "Free-range hill chicken, Tam Dao's best-known specialty"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "clay",
+            "text": "Wrapped in lotus leaf and clay, baked on coals till the clay cracks; or boiled"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Eat it hot with salt, pepper and lime"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Thông Đỏ",
+                "address": "79 Tây Thiên",
+                "rating": 4.9
+              },
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Thiên Hương",
+                "address": "Tổ dân phố 1",
+                "rating": 4.7
+              },
+              {
+                "name": "Gà đồi",
+                "place": "Nhà Hàng Tuấn Hương",
+                "address": "Khu 1",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comlam",
+      "layout": "point",
+      "caption": "Com lam",
+      "label": "3/5",
+      "accent": "#c9d77a",
+      "narration": "Dish number three, com lam, sticky rice roasted inside bamboo, a mountain classic. Soaked rice goes into the tube and roasts over coals until the bamboo chars. To eat, split it open and dip it in sesame salt, with chicken or grilled meat. Try Truong Mai Quan, or the grill stalls on the market slope.",
+      "durationSec": 21.5,
+      "gallery": [
+        "videos/tam-dao/candidates/comlam-1.jpg",
+        "videos/tam-dao/candidates/comlam-4.jpg",
+        "videos/tam-dao/candidates/comlam-2.jpg",
+        "videos/tam-dao/candidates/comlam-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Sticky rice roasted in bamboo",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "inside bamboo",
+            "text": "Sticky rice roasted inside bamboo, a mountain classic"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "chars",
+            "text": "Soaked rice packed into bamboo, roasted on coals until the shell chars"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Split the tube, dip in sesame salt, eat with chicken or grilled meat"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Cơm lam",
+                "place": "Trường Mai Quán",
+                "address": "Võ Nguyên Giáp, Khu 1",
+                "rating": 4.6
+              },
+              {
+                "name": "Cơm lam nướng",
+                "place": "Hàng nướng dốc chợ",
+                "address": "gợi ý từ MoMo",
+                "rating": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nuong",
+      "layout": "point",
+      "caption": "Chayote-wrapped BBQ",
+      "label": "4/5",
+      "accent": "#ff9f6b",
+      "narration": "Dish number four, meat wrapped around chayote shoots, the hill town's signature barbecue. It's rolled up and grilled over charcoal. To eat, order a set for the group and grill right at the table to stay warm. Try Mo Mang, May Rooftop or Mufa.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/tam-dao/candidates/nuong-1.jpg",
+        "videos/tam-dao/candidates/nuong-2.jpg",
+        "videos/tam-dao/candidates/nuong-4.jpg",
+        "videos/tam-dao/candidates/nuong-3.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Every night smells of the grill",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "signature",
+            "text": "The hill town's signature barbecue (VnExpress)"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "charcoal",
+            "text": "Meat rolled around chayote shoots, grilled over charcoal"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Order a set for the group and grill at the table to keep warm"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Đồ nướng",
+                "place": "Tiệm Nướng Mơ Màng",
+                "address": "sườn tây thị trấn",
+                "rating": 4.7
+              },
+              {
+                "name": "Đồ nướng",
+                "place": "May Rooftop & BBQ",
+                "address": "30 Võ Nguyên Giáp",
+                "rating": 4.7
+              },
+              {
+                "name": "Món lai Á",
+                "place": "Mufa Restaurant",
+                "address": "Võ Nguyên Giáp, Khu 1",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dem",
+      "layout": "point",
+      "caption": "Corn & chestnuts",
+      "label": "5/5",
+      "accent": "#e0a3ff",
+      "narration": "Dish number five, night snacks. When the air turns cold, grill stalls line the market slope. Corn and sweet potato on charcoal, and fragrant roasted chestnuts. To eat, grab a bag and stroll the square. Where: the market slope, then warm up at Coco or La May.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/tam-dao/candidates/dem-2.jpg",
+        "videos/tam-dao/candidates/dem-3.jpg",
+        "videos/tam-dao/candidates/dem-1.jpg",
+        "videos/tam-dao/candidates/dem-4.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Night snacks on the market slope",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "market slope",
+            "text": "When it gets cold, grill stalls line the market slope"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "chestnuts",
+            "text": "Corn and sweet potato on charcoal; roasted chestnuts"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Grab a bag of chestnuts and stroll the square"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "where",
+            "places": [
+              {
+                "name": "Ngô, hạt dẻ",
+                "place": "Dốc chợ Tam Đảo",
+                "address": "hàng đêm, gợi ý từ MoMo",
+                "rating": null
+              },
+              {
+                "name": "Café",
+                "place": "Coco Tam Đảo",
+                "address": "58 Võ Nguyên Giáp",
+                "rating": 4.9
+              },
+              {
+                "name": "Café",
+                "place": "La May Coffee & Tea",
+                "address": "22 Trần Quốc Tuấn",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Which one first?",
+      "cta": "Save it for your trip!",
+      "narration": "Sturgeon hotpot gets lots of love too; places that serve it are in the description. Which dish would you try first? Save it!",
+      "durationSec": 9,
+      "gallery": [
+        "videos/tam-dao/candidates/susu-4.jpg",
+        "videos/tam-dao/candidates/ga-1.jpg",
+        "videos/tam-dao/candidates/comlam-4.jpg",
+        "videos/tam-dao/candidates/nuong-2.jpg",
+        "videos/tam-dao/candidates/dem-3.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "tam-dao-2n1d",
+  "title": "Tam Đảo 2N1Đ",
+  "language": "vi",
+  "region": "Tam Đảo, Phú Thọ, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#9ad1b0",
+    "highlight": "#ffd28a",
+    "brand": "TAM ĐẢO"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "kind": "road",
+      "caption": "TAM ĐẢO",
+      "kicker": "PHỐ NÚI GẦN HÀ NỘI · TỪ TIKTOK",
+      "label": "2N1Đ",
+      "road": {
+        "from": "Hà Nội",
+        "via": "Vĩnh Yên",
+        "to": "Tam Đảo",
+        "km": "~80 km · 2 giờ",
+        "pass": "13 km đèo",
+        "cool": "mát hơn 4–5°C"
+      },
+      "narration": "Cuối tuần muốn trốn nóng? Tam Đảo cách Hà Nội chừng tám mươi cây số, mát hơn bốn, năm độ. Đây là lịch trình hai ngày một đêm, gom từ TikTok. Lưu lại nhé!",
+      "durationSec": 10,
+      "gallery": [
+        "videos/tam-dao/candidates/town-5.jpg"
+      ]
+    },
+    {
+      "id": "town",
+      "layout": "point",
+      "caption": "Thị trấn trong sương",
+      "label": "Ngày 1 · Trưa",
+      "accent": "#9ad1b0",
+      "points": [
+        "Quảng trường, nhà thờ Đá năm 1937",
+        "Đi ngày thường cho vắng"
+      ],
+      "narration": "Ngày một, qua mười ba cây số đèo là tới thị trấn trong sương. Dạo quảng trường, rồi ghé nhà thờ Đá xây từ năm một chín ba bảy. Trưa gọi đĩa su su xào tỏi với gà đồi ở Thông Đỏ, bốn chấm chín sao, ngay gần quảng trường.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/tam-dao/candidates/town-1.jpg",
+        "videos/tam-dao/candidates/town-3.jpg",
+        "videos/tam-dao/candidates/town-6.jpg",
+        "videos/tam-dao/candidates/town-2.jpg"
+      ],
+      "geo": {
+        "lat": 21.4562,
+        "lng": 105.645
+      },
+      "dishes": [
+        {
+          "name": "Su su, gà đồi",
+          "place": "Nhà Hàng Thông Đỏ",
+          "address": "79 Tây Thiên",
+          "rating": 4.9,
+          "spokenAs": "su su"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Tam Đảo Núi",
+          "address": "Tổ 1, trung tâm",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Phố Mưa",
+          "address": "16 phố Tây Thiên",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Cơm Thố Anh Nguyễn",
+          "address": "Khu 1",
+          "rating": 4.6
+        },
+        {
+          "name": "Món Á",
+          "place": "Nhà Hàng Dương Xỉ",
+          "address": "trung tâm",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Thiên Hương",
+          "address": "Tổ dân phố 1",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "den",
+      "layout": "point",
+      "caption": "Đền Bà Chúa",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#e8b86b",
+      "points": [
+        "Vài trăm bậc đá qua rừng trúc",
+        "Mặc kín đáo khi vào đền"
+      ],
+      "narration": "Chiều leo vài trăm bậc đá qua rừng trúc lên đền Bà Chúa Thượng Ngàn, nhớ mặc kín đáo. Chân khỏe thì leo tiếp gần một nghìn bốn trăm bậc lên tháp truyền hình. Xuống núi, ngồi Mufa hoặc Coco cho ấm bụng.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/tam-dao/candidates/den-1.jpg",
+        "videos/tam-dao/candidates/den-2.jpg",
+        "videos/tam-dao/candidates/den-4.jpg",
+        "videos/tam-dao/candidates/den-3.jpg"
+      ],
+      "geo": {
+        "lat": 21.4596,
+        "lng": 105.6481
+      },
+      "dishes": [
+        {
+          "name": "Món lai Á, bia",
+          "place": "Mufa Restaurant",
+          "address": "Võ Nguyên Giáp, Khu 1",
+          "rating": 4.9,
+          "spokenAs": "Mufa"
+        },
+        {
+          "name": "Café, món ăn",
+          "place": "Coco Tam Đảo",
+          "address": "58 Võ Nguyên Giáp",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Việt",
+          "place": "Tam Đảo Mạc Quán",
+          "address": "Phạm Văn Đồng",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Tuấn Hương",
+          "address": "Khu 1",
+          "rating": 4.5
+        },
+        {
+          "name": "Món Việt",
+          "place": "Góc Hội An",
+          "address": "trung tâm",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "castle",
+      "layout": "point",
+      "caption": "Hoàng hôn lâu đài",
+      "label": "Ngày 1 · Hoàng hôn",
+      "accent": "#ffb36b",
+      "points": [
+        "Lâu đài trên sườn núi phía tây",
+        "Tháng 11 tới tháng 1 dễ có biển mây"
+      ],
+      "narration": "Chiều tà, sang phía lâu đài trên sườn núi phía tây ngắm hoàng hôn. Từ tháng mười một tới tháng một, sau một ngày mưa mà trời hửng nắng là dễ gặp biển mây. Tối ăn đồ nướng ở Mơ Màng, rồi ra dốc chợ ăn ngô, hạt dẻ nướng.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/tam-dao/candidates/castle-2.jpg",
+        "videos/tam-dao/candidates/castle-1.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg",
+        "videos/tam-dao/candidates/castle-3.jpg",
+        "videos/tam-dao/candidates/castle-5.jpg"
+      ],
+      "geo": {
+        "lat": 21.451,
+        "lng": 105.6389
+      },
+      "dishes": [
+        {
+          "name": "Đồ nướng",
+          "place": "Tiệm Nướng Mơ Màng",
+          "address": "sườn tây thị trấn",
+          "rating": 4.7,
+          "spokenAs": "đồ nướng"
+        },
+        {
+          "name": "Đồ nướng",
+          "place": "May Rooftop & BBQ",
+          "address": "30 Võ Nguyên Giáp",
+          "rating": 4.7
+        },
+        {
+          "name": "Café view",
+          "place": "La May Coffee & Tea",
+          "address": "22 Trần Quốc Tuấn",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Nhà Hàng Kumo Chan",
+          "address": "Nguyễn Tất Thành",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm lam",
+          "place": "Trường Mai Quán",
+          "address": "Võ Nguyên Giáp",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "layout": "point",
+      "caption": "Săn mây sớm",
+      "label": "Ngày 2 · Bình minh",
+      "accent": "#b8c8ff",
+      "points": [
+        "Dậy 5 giờ, ra sườn tây hoặc Cổng Trời",
+        "Tuỳ chọn: ghé Tây Thiên trên đường về"
+      ],
+      "narration": "Ngày hai, dậy từ năm giờ, ra sườn núi phía tây hoặc Cổng Trời đón bình minh, may mắn sẽ thấy mây phủ kín thung lũng. Ăn sáng ở Thạch Bàn, bốn chấm sáu sao, rồi về nghỉ ngơi, trả phòng và về Hà Nội. Còn thời gian thì ghé Tây Thiên trên đường về, tuỳ bạn.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/tam-dao/candidates/town-4.jpg",
+        "videos/tam-dao/candidates/cloud-2.jpg",
+        "videos/tam-dao/candidates/cloud-3.jpg"
+      ],
+      "geo": {
+        "lat": 21.4535,
+        "lng": 105.6395
+      },
+      "dishes": [
+        {
+          "name": "Ăn sáng",
+          "place": "Nhà hàng Thạch Bàn",
+          "address": "trung tâm thị trấn",
+          "rating": 4.6,
+          "spokenAs": "Thạch Bàn"
+        },
+        {
+          "name": "Món Việt, ăn sáng",
+          "place": "Nhà Hàng Tuấn Hương",
+          "address": "Khu 1",
+          "rating": 4.5
+        },
+        {
+          "name": "Café view mây",
+          "place": "Sound Of Mountains",
+          "address": "Triệu Thái, thôn 2",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Dân Tộc Quán",
+          "address": "Km13 QL2B (nếu ghé Tây Thiên)",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Việt",
+          "place": "Mộc Quán Tây Thiên",
+          "address": "khu du lịch Tây Thiên",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#9ad1b0",
+      "zones": [
+        {
+          "title": "Quanh quảng trường",
+          "note": "Đi bộ ra quán, lần đầu đi",
+          "picks": [
+            [
+              "Chân Mây Tam Đảo",
+              4.6,
+              "trung tâm"
+            ],
+            [
+              "Khách sạn Quỳnh Hoa",
+              4.8,
+              "Khu 1"
+            ]
+          ]
+        },
+        {
+          "title": "Homestay sườn tây",
+          "note": "View thung lũng, săn mây; hay phải leo dốc",
+          "picks": [
+            [
+              "Samma Stay",
+              4.9,
+              "thôn 2, QL2B"
+            ],
+            [
+              "Nhím Homestay",
+              4.9,
+              "ngõ cụ Ty, thôn 2"
+            ]
+          ]
+        }
+      ],
+      "tip": "Cuối tuần nhớ đặt phòng trước",
+      "cues": [
+        "quảng trường",
+        "sườn phía tây",
+        "cuối tuần"
+      ],
+      "narration": "Nên ở đâu? Lần đầu đi thì ở quanh quảng trường, đi bộ ra quán ăn, như Chân Mây hay Quỳnh Hoa. Muốn săn mây thì chọn homestay sườn phía tây như Samma Stay, nhưng hỏi kỹ có phải leo dốc nhiều không. Cuối tuần nhớ đặt phòng trước.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/tam-dao/candidates/town-3.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Gửi từ Tam Đảo",
+      "cta": "Lưu lại cho chuyến cuối tuần nhé!",
+      "narration": "Mang theo áo ấm và giày đế bám, vì đường trơn khi mưa. Địa chỉ quán và chỗ ở mình để ở phần mô tả. Lưu lại cho chuyến cuối tuần nhé!",
+      "durationSec": 8.5,
+      "gallery": [
+        "videos/tam-dao/candidates/castle-1.jpg",
+        "videos/tam-dao/candidates/castle-4.jpg"
+      ]
+    }
+  ]
+}
