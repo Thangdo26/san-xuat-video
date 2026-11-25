@@ -1,0 +1,418 @@
+{
+  "id": "ninh-binh-am-thuc",
+  "title": "Ẩm thực Ninh Bình: 5 món",
+  "language": "vi",
+  "region": "Ninh Bình, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#2bb39a",
+    "highlight": "#f5c26b",
+    "brand": "NINH BÌNH"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Nhà hàng Cường Dê": "cuong-de",
+    "Chef Dung Restaurant": "chef-dung",
+    "Trang An Local": "trangan-local",
+    "Nhà hàng Thùy Dương": "thuy-duong",
+    "Nhà hàng Hà Tú": "ha-tu",
+    "Garden Food & Drink": "garden-food",
+    "Hoa Lư Quán": "hoalu-quan",
+    "Pizza Sen Ninh Bình": "pizza-sen",
+    "Cơm Chuồn Chuồn Xưa": "chuon-chuon",
+    "Cờ Lau Ninh Bình": "co-lau",
+    "An Tam Coc Restaurant": "an-tamcoc",
+    "Cơm Niêu Tam Cốc": "com-nieu-tc",
+    "Tam Coc Kitchen": "tamcoc-kitchen",
+    "Nhà hàng Đức Dẫn": "duc-dan",
+    "Monalisa Restaurant": "monalisa",
+    "The Family Garden": "family-garden",
+    "Cơm Niêu Việt Xưa": "viet-xua-bd",
+    "Viet's Choice": "viets-choice",
+    "Bánh Mì 1998": "banhmi-1998",
+    "Nhà hàng Năm Dê": "nam-de",
+    "Dê Hoàng Phương 2": "hoang-phuong",
+    "Nhà hàng Sen Tràng An": "sen-trangan",
+    "Bánh cuốn chả quạt 35": "bc-35",
+    "Bánh cuốn Lý Tuyên": "ly-tuyen",
+    "Leo Quán cơ sở 3": "leo-quan",
+    "Bún chả quạt Cố Đô": "cha-co-do",
+    "Bún chả quạt Ngõ 5": "ngo5",
+    "Bún chả Chung An": "chung-an"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "NINH BÌNH ĂN GÌ?",
+      "kicker": "ẨM THỰC ĐẤT CỐ ĐÔ",
+      "label": "5 MÓN",
+      "narration": "Về Ninh Bình ăn gì? Đây là năm món được nhắc nhiều nhất trên TikTok và báo, từ dê núi, cơm cháy tới bún chả quạt, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/ninh-binh/candidates/f-de-2.jpg",
+        "videos/ninh-binh/candidates/f-cc-1.jpg",
+        "videos/ninh-binh/candidates/f-nem-1.jpg",
+        "videos/ninh-binh/food/34314598.jpg",
+        "videos/ninh-binh/food/3858270.jpg"
+      ],
+      "names": [
+        "Dê núi",
+        "Cơm cháy",
+        "Nem chua Yên Mạc",
+        "Bánh cuốn Phủ Lý",
+        "Bún chả quạt"
+      ],
+      "tags": [
+        "Dê tái chanh",
+        "Sốt nóng rưới lên",
+        "Gói lá ổi",
+        "Chả nướng than",
+        "Thịt băm vo viên"
+      ]
+    },
+    {
+      "id": "de",
+      "layout": "point",
+      "caption": "Dê núi",
+      "label": "1/5",
+      "accent": "#e0a458",
+      "narration": "Món thứ nhất, dê núi. Dê ở đây được thả trên núi đá, đi lại nhiều nên thịt chắc và thơm. Món nổi nhất là dê tái chanh: thịt hấp sả tới tái, thái mỏng, trộn chanh, gừng, sả và vừng. Khi ăn, cuốn với lá sung, rau thơm, chấm tương. Quán ngon: Cường Dê, bốn chấm tám sao, và Năm Dê.",
+      "durationSec": 16.5,
+      "gallery": [
+        "videos/ninh-binh/candidates/f-de-2.jpg",
+        "videos/ninh-binh/food/28273396.jpg",
+        "videos/ninh-binh/candidates/f-de-1.jpg",
+        "videos/ninh-binh/candidates/f-cc-2.jpg",
+        "videos/ninh-binh/candidates/f-de-6.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Dê thả trên núi đá",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "núi đá",
+            "text": "Dê thả trên núi đá, đi lại nhiều nên thịt chắc, thơm (VnExpress)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "tái chanh",
+            "text": "Dê tái chanh: hấp sả tới tái, thái mỏng, trộn chanh, gừng, sả, vừng"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Cuốn lá sung, rau thơm, khế, chuối xanh; chấm tương"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Dê núi",
+                "place": "Nhà hàng Cường Dê",
+                "address": "Tràng An",
+                "rating": 4.8
+              },
+              {
+                "name": "Dê núi",
+                "place": "Nhà hàng Năm Dê",
+                "address": "ĐT491, Hoa Lư",
+                "rating": 4.7
+              },
+              {
+                "name": "Dê núi",
+                "place": "Dê Hoàng Phương 2",
+                "address": "253 Lê Thái Tổ",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comchay",
+      "layout": "point",
+      "caption": "Cơm cháy",
+      "label": "2/5",
+      "accent": "#f5c26b",
+      "narration": "Món thứ hai, cơm cháy, thường đi cặp với dê núi, nổi tiếng từ lâu nhưng nguồn gốc chưa rõ. Lớp cơm sát đáy nồi gang được giữ lửa cho cháy mỏng, phơi khô rồi chiên giòn. Khi ăn, rưới nước sốt nóng lên cho xèo xèo, hoặc chấm sốt dê. Quán ngon: Hoa Lư Quán, bốn chấm bảy sao, và nhà hàng Sen Tràng An.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/ninh-binh/candidates/f-cc-1.jpg",
+        "videos/ninh-binh/candidates/f-cc-3.jpg",
+        "videos/ninh-binh/candidates/f-cc-5.jpg",
+        "videos/ninh-binh/candidates/f-cc-4.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Giòn rụm, đi cặp với dê",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món thứ hai",
+            "text": "Đặc sản nổi tiếng từ lâu của Ninh Bình; nguồn gốc chưa rõ"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "đáy nồi",
+            "text": "Lớp cơm sát đáy nồi gang giữ lửa cho cháy mỏng, phơi khô, chiên giòn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Rưới sốt nóng lên cho xèo xèo, hoặc chấm sốt dê (VnExpress)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Dê, cơm cháy",
+                "place": "Hoa Lư Quán",
+                "address": "ĐT491, Hoa Lư",
+                "rating": 4.7
+              },
+              {
+                "name": "Dê, cơm cháy",
+                "place": "Nhà hàng Sen Tràng An",
+                "address": "62 Phạm Văn Nghị",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nem",
+      "layout": "point",
+      "caption": "Nem chua Yên Mạc",
+      "label": "3/5",
+      "accent": "#f08aa8",
+      "narration": "Món thứ ba, nem chua Yên Mạc, đặc sản làng Yên Mạc ở Yên Mô. Thịt nạc mông lọc mỡ, trộn bì lợn và thính, gói lá ổi rồi bọc lá chuối, ủ cho chua. Khi ăn, chấm nước mắm chanh tỏi. Quán ngon thì chưa có cửa hàng nào đủ đánh giá, nên mua ngay ở làng Yên Mạc.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/ninh-binh/candidates/f-nem-1.jpg",
+        "videos/ninh-binh/candidates/f-nem-2.jpg",
+        "videos/ninh-binh/candidates/f-nem-3.jpg",
+        "videos/ninh-binh/candidates/f-nem-4.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Đặc sản làng Yên Mạc",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món thứ ba",
+            "text": "Đặc sản làng Yên Mạc, Yên Mô; khác nem chua Thanh Hóa (VnExpress)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nạc mông",
+            "text": "Thịt nạc mông lọc mỡ, bì lợn, thính; gói lá ổi, bọc lá chuối"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chấm nước mắm chanh tỏi"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Nem chua",
+                "place": "Làng Yên Mạc, Yên Mô",
+                "address": "theo VnExpress"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhcuon",
+      "layout": "point",
+      "caption": "Bánh cuốn Phủ Lý",
+      "label": "4/5",
+      "accent": "#7fc8a9",
+      "narration": "Món thứ tư, bánh cuốn Phủ Lý, từ Hà Nam cũ, nay cùng tỉnh Ninh Bình. Bánh tráng từ bột gạo, rắc hành phi và chút mỡ, thường không có nhân. Khi ăn, kèm chả thịt nướng than hoa, chấm nước chua cay có dưa góp. Quán ngon: Lý Tuyên ở Phủ Lý, và quán ba mươi lăm ở thành phố Ninh Bình, bốn chấm chín sao.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/ninh-binh/food/34314598.jpg",
+        "videos/ninh-binh/candidates/f-bc-1.jpg",
+        "videos/ninh-binh/candidates/f-bc-3.jpg",
+        "videos/ninh-binh/candidates/f-bc-2.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Từ Hà Nam cũ, nay cùng tỉnh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "hà nam",
+            "text": "Từ Phủ Lý, Hà Nam cũ, nay thuộc tỉnh Ninh Bình (MIA.vn)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "hành phi",
+            "text": "Bột gạo tráng mỏng vừa, rắc hành phi, chút mỡ; thường không có nhân"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn kèm chả thịt nướng than hoa, nước chấm chua cay, dưa góp"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh cuốn Phủ Lý",
+                "place": "Bánh cuốn Lý Tuyên",
+                "address": "386 Trần Hưng Đạo, Phủ Lý",
+                "rating": 4.5
+              },
+              {
+                "name": "Bánh cuốn Phủ Lý",
+                "place": "Leo Quán cơ sở 3",
+                "address": "142 Lê Công Thanh, Phủ Lý",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh cuốn chả quạt",
+                "place": "Bánh cuốn chả quạt 35",
+                "address": "206 Lê Thái Tổ",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "buncha",
+      "layout": "point",
+      "caption": "Bún chả quạt",
+      "label": "5/5",
+      "accent": "#ff8a5c",
+      "narration": "Món thứ năm, bún chả quạt. Khác Hà Nội, chả ở đây làm từ thịt băm vo viên hoặc miếng vuông, kẹp vỉ nướng trên than hồng, quạt đều tay. Khi ăn, dùng bún lá, chấm nước mắm chua ngọt với đu đủ xanh. Quán ngon: bún chả quạt Cố Đô, bốn chấm chín sao, và Ngõ Năm.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/ninh-binh/food/3858270.jpg",
+        "videos/ninh-binh/food/36868235.jpg",
+        "videos/ninh-binh/food/34888273.jpg",
+        "videos/ninh-binh/food/34888274.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Chả nướng, quạt tay",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món thứ năm",
+            "text": "Khác Hà Nội: chả làm từ thịt băm vo viên hoặc miếng vuông (MIA.vn)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "than hồng",
+            "text": "Kẹp vỉ nướng trên than hồng, quạt đều tay cho chả mềm, thơm"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Bún lá cắt miếng; chấm nước mắm chua ngọt, đu đủ xanh, rau sống"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún chả quạt",
+                "place": "Bún chả quạt Cố Đô",
+                "address": "502 Hải Thượng Lãn Ông",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún chả quạt",
+                "place": "Bún chả quạt Ngõ 5",
+                "address": "283 Xuân Thành",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún chả quạt",
+                "place": "Bún chả Chung An",
+                "address": "ngõ 9 Phạm Hồng Thái",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Gỏi cá nhệch Kim Sơn, miến lươn và kem xôi cũng nên thử, mình để ở phần mô tả. Bạn chọn món nào trước?",
+      "durationSec": 8,
+      "gallery": [
+        "videos/ninh-binh/candidates/f-de-2.jpg",
+        "videos/ninh-binh/candidates/f-cc-1.jpg",
+        "videos/ninh-binh/candidates/f-nem-1.jpg",
+        "videos/ninh-binh/food/34314598.jpg",
+        "videos/ninh-binh/food/3858270.jpg"
+      ],
+      "names": [
+        "Dê núi",
+        "Cơm cháy",
+        "Nem chua Yên Mạc",
+        "Bánh cuốn Phủ Lý",
+        "Bún chả quạt"
+      ]
+    }
+  ]
+}
