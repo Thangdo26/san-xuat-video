@@ -1,0 +1,459 @@
+{
+  "id": "ninh-binh-2n1d",
+  "title": "Ninh Bình 2N1Đ",
+  "language": "vi",
+  "region": "Ninh Bình, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#2bb39a",
+    "highlight": "#f5c26b",
+    "brand": "NINH BÌNH"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Nhà hàng Cường Dê": "cuong-de",
+    "Chef Dung Restaurant": "chef-dung",
+    "Trang An Local": "trangan-local",
+    "Nhà hàng Thùy Dương": "thuy-duong",
+    "Nhà hàng Hà Tú": "ha-tu",
+    "Garden Food & Drink": "garden-food",
+    "Hoa Lư Quán": "hoalu-quan",
+    "Pizza Sen Ninh Bình": "pizza-sen",
+    "Cơm Chuồn Chuồn Xưa": "chuon-chuon",
+    "Cờ Lau Ninh Bình": "co-lau",
+    "An Tam Coc Restaurant": "an-tamcoc",
+    "Cơm Niêu Tam Cốc": "com-nieu-tc",
+    "Tam Coc Kitchen": "tamcoc-kitchen",
+    "Nhà hàng Đức Dẫn": "duc-dan",
+    "Monalisa Restaurant": "monalisa",
+    "The Family Garden": "family-garden",
+    "Cơm Niêu Việt Xưa": "viet-xua-bd",
+    "Viet's Choice": "viets-choice",
+    "Bánh Mì 1998": "banhmi-1998",
+    "Nhà hàng Năm Dê": "nam-de",
+    "Dê Hoàng Phương 2": "hoang-phuong",
+    "Nhà hàng Sen Tràng An": "sen-trangan",
+    "Bánh cuốn chả quạt 35": "bc-35",
+    "Bánh cuốn Lý Tuyên": "ly-tuyen",
+    "Leo Quán cơ sở 3": "leo-quan",
+    "Bún chả quạt Cố Đô": "cha-co-do",
+    "Bún chả quạt Ngõ 5": "ngo5",
+    "Bún chả Chung An": "chung-an"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "NINH BÌNH",
+      "kicker": "CỐ ĐÔ & NON NƯỚC · TỪ TIKTOK",
+      "label": "2N1Đ",
+      "narration": "Có hai ngày rảnh? Về Ninh Bình, chỉ cách Hà Nội chừng hai tiếng. Đây là lịch trình hai ngày một đêm gom từ TikTok: Tràng An, Hang Múa, phố cổ Hoa Lư và Tam Cốc, kèm quán từ bốn sao rưỡi và chi phí từng khoản. Lưu lại nhé!",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ninh-binh/pexels/36703376.jpg",
+        "videos/ninh-binh/pexels/38295436.jpg",
+        "videos/ninh-binh/pexels/31003644.jpg",
+        "videos/ninh-binh/pexels/37457669.jpg"
+      ]
+    },
+    {
+      "id": "trangan",
+      "layout": "point",
+      "caption": "Tràng An",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#2bb39a",
+      "points": [
+        "Vé 300k, đã gồm thuyền",
+        "Đi sớm 7h, mua vé online"
+      ],
+      "narration": "Đi Tràng An thật sớm, khoảng bảy giờ cho mát. Vé ba trăm nghìn đã gồm thuyền, ngồi chừng hai tiếng rưỡi tới ba tiếng, xuyên qua những hang đá và thủy đình giữa núi. Trưa ăn dê núi ở nhà hàng Cường Dê, bốn chấm tám sao.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ninh-binh/pexels/38245597.jpg",
+        "videos/ninh-binh/pexels/34997380.jpg",
+        "videos/ninh-binh/pexels/38093155.jpg",
+        "videos/ninh-binh/pexels/29819078.jpg",
+        "videos/ninh-binh/pexels/38017051.jpg"
+      ],
+      "geo": {
+        "lat": 20.2536,
+        "lng": 105.9142
+      },
+      "dishes": [
+        {
+          "name": "Dê núi",
+          "place": "Nhà hàng Cường Dê",
+          "address": "Tràng An",
+          "rating": 4.8,
+          "spokenAs": "Cường Dê"
+        },
+        {
+          "name": "Cơm, món Việt",
+          "place": "Chef Dung Restaurant",
+          "address": "Tây Hoa Lư",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm, món Việt",
+          "place": "Trang An Local",
+          "address": "Trường Yên",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, dê",
+          "place": "Nhà hàng Phố Xưa",
+          "address": "gần bến Tràng An",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm",
+          "place": "Trang An Riverside garden",
+          "address": "Tràng An",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "hangmua",
+      "layout": "point",
+      "caption": "Hang Múa",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#ff8a5c",
+      "points": [
+        "Gần 500 bậc đá lên đỉnh",
+        "Vé 150k, đẹp lúc hoàng hôn"
+      ],
+      "narration": "Leo Hang Múa, gần năm trăm bậc đá lên đỉnh Ngọa Long có tượng rồng, ngắm đồng lúa Tam Cốc lúc hoàng hôn. Vé một trăm năm mươi nghìn từ tháng tư năm nay. Xuống núi ăn ở nhà hàng Đức Dẫn, bốn chấm tám sao.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ninh-binh/pexels/29874550.jpg",
+        "videos/ninh-binh/pexels/38236281.jpg",
+        "videos/ninh-binh/pexels/39054237.jpg",
+        "videos/ninh-binh/pexels/8775540.jpg",
+        "videos/ninh-binh/pexels/37273050.jpg"
+      ],
+      "geo": {
+        "lat": 20.2287,
+        "lng": 105.9352
+      },
+      "dishes": [
+        {
+          "name": "Cơm, dê",
+          "place": "Nhà hàng Đức Dẫn",
+          "address": "cạnh Tam Cốc",
+          "rating": 4.8,
+          "spokenAs": "Đức Dẫn"
+        },
+        {
+          "name": "Cơm, đồ Tây",
+          "place": "Monalisa Restaurant",
+          "address": "Hang Múa",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm, đồ uống",
+          "place": "The Family Garden",
+          "address": "Khê Hạ",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Father Cooking",
+          "address": "Tam Cốc",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm",
+          "place": "Haven Hang Mua",
+          "address": "Hang Múa",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "phoco",
+      "layout": "point",
+      "caption": "Phố cổ Hoa Lư",
+      "label": "Ngày 1 · Tối",
+      "accent": "#f08aa8",
+      "points": [
+        "Vào cửa miễn phí",
+        "Đông vui nhất 19h30–22h"
+      ],
+      "narration": "Tối ra phố cổ Hoa Lư dưới chân núi Kỳ Lân, vào cửa miễn phí, đông vui nhất từ bảy rưỡi tới mười giờ tối. Ăn pizza sen ngắm phố lên đèn, bốn chấm chín sao với gần năm nghìn lượt đánh giá, hoặc cơm quê ở Chuồn Chuồn Xưa.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ninh-binh/pexels/31003644.jpg",
+        "videos/ninh-binh/pexels/40580502.jpg",
+        "videos/ninh-binh/pexels/38093157.jpg",
+        "videos/ninh-binh/pexels/38093154.jpg",
+        "videos/ninh-binh/pexels/38093098.jpg"
+      ],
+      "geo": {
+        "lat": 20.264,
+        "lng": 105.9675
+      },
+      "dishes": [
+        {
+          "name": "Pizza, view phố cổ",
+          "place": "Pizza Sen Ninh Bình",
+          "address": "01 Trần Hưng Đạo",
+          "rating": 4.9,
+          "spokenAs": "pizza sen"
+        },
+        {
+          "name": "Cơm quê",
+          "place": "Cơm Chuồn Chuồn Xưa",
+          "address": "ngõ 125 Đô Thiên",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm, món Việt",
+          "place": "Cờ Lau Ninh Bình",
+          "address": "01 Tràng An",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Đồ chay, trà",
+          "place": "Vị An Heritage",
+          "address": "phố cổ Hoa Lư",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm",
+          "place": "Út Hân Phố Cổ",
+          "address": "phố cổ Hoa Lư",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "tamcoc",
+      "layout": "point",
+      "caption": "Tam Cốc – Bích Động",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#f5c26b",
+      "points": [
+        "Vé 120k + đò 150k/chuyến",
+        "Hoa súng nở trước 9h"
+      ],
+      "narration": "Đi Tam Cốc trước chín giờ, khi hoa súng còn nở. Đò đi qua ba hang giữa đồng lúa, cuối tháng năm là mùa lúa vàng. Vé thắng cảnh một trăm hai mươi nghìn, đò một trăm năm mươi nghìn một chuyến. Ăn ở An Tam Cốc, bốn chấm tám sao.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ninh-binh/pexels/6531912.jpg",
+        "videos/ninh-binh/pexels/19757775.jpg",
+        "videos/ninh-binh/pexels/30564720.jpg",
+        "videos/ninh-binh/pexels/37715574.jpg",
+        "videos/ninh-binh/pexels/3000978.jpg"
+      ],
+      "geo": {
+        "lat": 20.216,
+        "lng": 105.9326
+      },
+      "dishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "An Tam Coc Restaurant",
+          "address": "đường Tam Cốc",
+          "rating": 4.8,
+          "spokenAs": "An Tam Cốc"
+        },
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm Niêu Tam Cốc",
+          "address": "Nam Hoa Lư",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm, món Việt",
+          "place": "Tam Coc Kitchen",
+          "address": "thôn Tuân Cáo",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Tam Coc Vintage",
+          "address": "Tam Cốc",
+          "rating": 4.9
+        },
+        {
+          "name": "Bún chả quạt",
+          "place": "Hà Ngân Tam Cốc",
+          "address": "Tam Cốc",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#2bb39a",
+      "zones": [
+        {
+          "title": "Quanh phố cổ Hoa Lư",
+          "note": "Tối đi bộ ra phố cổ, nhiều quán ăn",
+          "picks": [
+            [
+              "Hoa Lu City Hotel",
+              4.9,
+              "TP Ninh Bình"
+            ],
+            [
+              "OLong Phố cổ Hotel",
+              4.9,
+              "phố cổ"
+            ]
+          ]
+        },
+        {
+          "title": "Tam Cốc",
+          "note": "Yên tĩnh, đồng lúa, gần Hang Múa",
+          "picks": [
+            [
+              "Tam Coc Minh Hung Homestay",
+              4.8,
+              "Tam Cốc"
+            ],
+            [
+              "Tamcoc Tropical Homestay",
+              4.9,
+              "Tam Cốc"
+            ]
+          ]
+        },
+        {
+          "title": "Ven sông Tràng An",
+          "note": "Sáng ra bến sớm; xa phố cổ",
+          "picks": [
+            [
+              "Trang An Hana Homestay",
+              5,
+              "Tràng An"
+            ],
+            [
+              "Trang An Luxury Homestay",
+              5,
+              "Tràng An"
+            ]
+          ]
+        }
+      ],
+      "tip": "Homestay thường nhận phòng lúc 14h",
+      "cues": [
+        "phố cổ",
+        "tam cốc",
+        "ven sông",
+        "nhận phòng"
+      ],
+      "narration": "Nên ở đâu? Ở quanh phố cổ Hoa Lư cho tối tiện đi chơi, như Hoa Lư City Hotel, bốn chấm chín sao. Thích yên tĩnh thì ở homestay Tam Cốc gần Hang Múa, hoặc ven sông Tràng An để sáng ra bến sớm. Nhớ hỏi giờ nhận phòng, thường là hai giờ chiều.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/ninh-binh/pexels/31188623.jpg",
+        "videos/ninh-binh/pexels/37859904.jpg",
+        "videos/ninh-binh/pexels/31188624.jpg"
+      ]
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "accent": "#f5c26b",
+      "receiptTitle": "CHI PHÍ 2N1Đ · 1 NGƯỜI",
+      "items": [
+        {
+          "k": "Xe Hà Nội ⇄ Ninh Bình",
+          "note": "limousine, xe khách · khứ hồi",
+          "v": "300–500k"
+        },
+        {
+          "k": "Phòng 1 đêm",
+          "note": "homestay, khách sạn · ở 2 người",
+          "v": "180–350k"
+        },
+        {
+          "k": "Thuê xe máy 2 ngày",
+          "note": "120–180k/ngày · đi 2 người",
+          "v": "120–180k"
+        },
+        {
+          "k": "Xăng",
+          "v": "~50k"
+        },
+        {
+          "k": "Vé Tràng An, Hang Múa, Tam Cốc",
+          "note": "300k + 150k + 195–250k",
+          "v": "645–700k"
+        },
+        {
+          "k": "Ăn uống 2 ngày",
+          "note": "theo TikTok và MIA.vn",
+          "v": "400–600k"
+        }
+      ],
+      "total": "1,7–2,4 triệu",
+      "stamp": "THAM KHẢO 11/2026",
+      "totalCue": "tổng cộng",
+      "note": "2 người đi chung · nguồn: VnExpress, Znews, MIA.vn, TikTok",
+      "narration": "Hết bao nhiêu tiền? Tính cho một người, đi hai người: xe limousine khứ hồi khoảng ba tới năm trăm nghìn, vé Tràng An ba trăm nghìn, Hang Múa một trăm năm mươi nghìn. Tổng cộng khoảng một phẩy bảy tới hai phẩy bốn triệu một người.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ninh-binh/pexels/38295550.jpg",
+        "videos/ninh-binh/pexels/17574200.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Ninh Bình",
+      "kicker": "LƯU LẠI CHO CHUYẾN ĐI",
+      "cta": "Lưu lại nhé!",
+      "narration": "Đi Ninh Bình nhớ xem dự báo thời tiết, mưa lớn Tràng An có thể tạm dừng đò, và chuẩn bị chút tiền tip cho cô lái đò. Địa chỉ quán và bảng chi phí mình để ở phần mô tả. Lưu lại nhé!",
+      "durationSec": 11,
+      "gallery": [
+        "videos/ninh-binh/pexels/27356559.jpg"
+      ],
+      "credits": [
+        [
+          "Ngày 1 · Sáng",
+          "Tràng An"
+        ],
+        [
+          "Ngày 1 · Chiều",
+          "Hang Múa"
+        ],
+        [
+          "Ngày 1 · Tối",
+          "Phố cổ Hoa Lư"
+        ],
+        [
+          "Ngày 2 · Sáng",
+          "Tam Cốc – Bích Động"
+        ]
+      ]
+    }
+  ]
+}
