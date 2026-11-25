@@ -10,3 +10,12 @@ research/proof/
 research/sheets/
 public/videos/doi-bo/footage/
 public/videos/doi-bo/recap/
+pickup-voice/
+.env
+# Video/audio footage (creators' TikTok clips, renders) is not redistributed here.
+*.mp4
+*.mov
+*.webm
+*.m4a
+research/raw*/
+public/videos/*/footage/
