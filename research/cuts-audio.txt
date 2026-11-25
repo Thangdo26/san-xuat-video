@@ -1,0 +1,9 @@
+# Đoạn ngắm cảnh giữ NGUYÊN âm thanh gốc (người dùng yêu cầu 22/11/2026). Chỉ chọn clip có tiếng tự nhiên (thác, rừng, lời
+# người quay), không có nhạc nền (đo độ "tonal" ~5–20 trong research, xem tiktok.md).
+b1-trail | raw-tiktok/t72__thach_vita_89__7654221243691896085.mp4 | 18.5 | 3.6 | lối đá rêu xuống thác, tiếng rừng
+b1-falls | raw-tiktok/t72__vanquan_life__7710258569894972678.mp4 | 146 | 6 | cuối cầu sắt → thác, tiếng thác + người quay
+b2-hello | raw-tiktok/t72__manhtienkhoi___7707159726420659474.mp4 | 0.8 | 3.8 | "đang ở thác Đắk G'lung, hôm nay 12/11/2026" (che mặt)
+b2-falls | raw-tiktok/t72__manhtienkhoi___7707159726420659474.mp4 | 7.4 | 2.8 | thác, "đẹp dã man"
+b2-falls2 | raw-tiktok/t72__manhtienkhoi___7707159726420659474.mp4 | 18.2 | 4 | thác, "có cả cầu vồng"
+b3-walk | raw-tiktok/t72__thach_vita_89__7654221243691896085.mp4 | 54.5 | 4 | đoàn đi xuống thung lũng sương
+b3-view | raw-tiktok/t72__thach_vita_89__7654221243691896085.mp4 | 61 | 5 | thác sau rặng cây, tiếng thác

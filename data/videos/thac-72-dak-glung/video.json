@@ -1,0 +1,294 @@
+{
+  "id": "thac-72-dak-glung",
+  "title": "Thác 72 Đắk Glung: Tây Nguyên hoang sơ",
+  "language": "vi",
+  "region": "Tuy Đức, Lâm Đồng (Đắk Nông cũ)",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#d9a441",
+    "highlight": "#ffd27a",
+    "brand": "THÁC 72 · TÂY NGUYÊN"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-taynguyen.mp3",
+    "volume": 0.8
+  },
+  "maps": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "THÁC 72",
+      "label": "Đắk Glung · Tây Nguyên",
+      "kicker": "HOT NHẤT TIKTOK · THÁNG 11/2026",
+      "voiceDelay": 5.6,
+      "cold": [
+        "videos/thac-72/footage/c-rainbow.mp4",
+        "videos/thac-72/footage/c-aerial.mp4",
+        "videos/thac-72/footage/c-bridge.mp4",
+        "videos/thac-72/footage/c-fall.mp4"
+      ],
+      "narration": "Thác bảy hai, hay thác Đắk Glung, đang là con thác hot nhất TikTok mùa này. Cao gần sáu mươi mét, giữa hơn một nghìn héc ta rừng Tây Nguyên. Đi thế nào, vé bao nhiêu, mùa nào đẹp? Lưu lại nhé!",
+      "gallery": [
+        "videos/thac-72/footage/h-wide.mp4",
+        "videos/thac-72/footage/h-mist.mp4",
+        "videos/thac-72/footage/h-top.mp4"
+      ],
+      "durationSec": 17.5
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "1",
+      "label": "Chặng 1 · Đường tới thác",
+      "caption": "Về Tuy Đức",
+      "badge": "~50 km từ Gia Nghĩa",
+      "points": [
+        "Xe Thu Hà / Đức Phong · BX Miền Đông",
+        "Đoạn cuối: ổ gà, đất đỏ"
+      ],
+      "narration": "Thác nằm ở xã Tuy Đức, Lâm Đồng, tức Đắk Nông cũ, cách Gia Nghĩa khoảng năm mươi cây số. Từ Sài Gòn, ra bến xe Miền Đông bắt xe Thu Hà hoặc Đức Phong về Tuy Đức là gần thác nhất. Ô tô, xe máy vào tận bãi xe, nhưng đoạn cuối nhiều ổ gà, đất đỏ bụi mù, nên đi chậm và hỏi người dân đường dễ nhất.",
+      "gallery": [
+        "videos/thac-72/footage/r-aerial.mp4",
+        "videos/thac-72/footage/r-sign.mp4",
+        "videos/thac-72/footage/r-dirt.mp4",
+        "videos/thac-72/footage/r-trail.mp4"
+      ],
+      "recap": [
+        "h-wide",
+        "r-aerial",
+        "r-trail",
+        "c-bridge"
+      ],
+      "recapLabel": "Chặng 1",
+      "durationSec": 20,
+      "recapSec": 3
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "2",
+      "label": "Chặng 2 · Xuống chân thác",
+      "caption": "Cầu sắt, hang đá",
+      "badge": "vé ~90k · mở 7h",
+      "points": [
+        "Bậc đá rêu trơn: mang giày bám",
+        "Hang đá có bàn thờ Phật"
+      ],
+      "narration": "Khu du lịch mở cửa từ bảy giờ sáng, vé khoảng chín mươi nghìn một người. Đường xuống là bậc đá dốc, rêu trơn, nhớ mang giày bám. Bạn sẽ đi qua cây cầu sắt phủ rêu hơi rung rung, và một hang đá có bàn thờ Phật, nơi thắp nhang cho các chiến sĩ. Sau đây là vài thước phim trên đường xuống thác.",
+      "gallery": [
+        "videos/thac-72/footage/x-bridge.mp4",
+        "videos/thac-72/footage/x-stairs.mp4",
+        "videos/thac-72/footage/x-mist.mp4",
+        "videos/thac-72/footage/x-cave.mp4",
+        "videos/thac-72/footage/x-lotus.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/thac-72/footage/b1-trail.mp4",
+          "audio": "videos/thac-72/footage/b1-trail.m4a",
+          "dur": 3.6
+        },
+        {
+          "src": "videos/thac-72/footage/b1-falls.mp4",
+          "audio": "videos/thac-72/footage/b1-falls.m4a",
+          "dur": 6
+        }
+      ],
+      "breatheTitle": "Đường xuống thác",
+      "durationSec": 27.1,
+      "breatheSec": 9.6
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "3",
+      "label": "Chặng 3 · Chân thác",
+      "caption": "Săn cầu vồng",
+      "badge": "đẹp nhất T10–T11",
+      "points": [
+        "Nắng gần trưa có cầu vồng",
+        "Đi ngày thường, né chủ nhật"
+      ],
+      "narration": "Tới chân thác, hôm nào có nắng, gần trưa hơi nước sẽ dựng lên một dải cầu vồng ngay giữa thác. Thác nhiều nước nhất tháng mười và tháng mười một, giữa tháng này nước vẫn còn dồi dào. Tháng mười hai còn mưa thì vẫn đẹp. Đi ngày thường cho vắng, chủ nhật đông lắm. Sau đây là vài thước phim ở chân thác, quay ngày mười hai tháng mười một vừa rồi.",
+      "gallery": [
+        "videos/thac-72/footage/v-lotus.mp4",
+        "videos/thac-72/footage/v-arc.mp4",
+        "videos/thac-72/footage/v-big.mp4",
+        "videos/thac-72/footage/v-drone.mp4",
+        "videos/thac-72/footage/t-rail.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/thac-72/footage/b2-hello.mp4",
+          "audio": "videos/thac-72/footage/b2-hello.m4a",
+          "dur": 3.8
+        },
+        {
+          "src": "videos/thac-72/footage/b2-falls.mp4",
+          "audio": "videos/thac-72/footage/b2-falls.m4a",
+          "dur": 2.8
+        },
+        {
+          "src": "videos/thac-72/footage/b2-falls2.mp4",
+          "audio": "videos/thac-72/footage/b2-falls2.m4a",
+          "dur": 4
+        }
+      ],
+      "breatheTitle": "Chân thác · 12/11/2026",
+      "recap": [
+        "v-big",
+        "x-bridge",
+        "v-drone",
+        "x-lotus"
+      ],
+      "recapLabel": "Chặng 3",
+      "durationSec": 33.6,
+      "breatheSec": 10.6,
+      "recapSec": 3
+    },
+    {
+      "id": "stay",
+      "layout": "extra",
+      "style": "stay",
+      "caption": "Ăn gì, ở đâu?",
+      "kicker": "QUANH THÁC ÍT QUÁN · CHỌN THẾ NÀY",
+      "items": [
+        {
+          "t": "Gà nướng · cơm lam",
+          "s": "nhà hàng trong khu (theo review Maps)",
+          "cue": "gà nướng"
+        },
+        {
+          "t": "Chòi nướng ~200k",
+          "s": "ngày thường · được mang đồ vào",
+          "cue": "thuê chòi"
+        },
+        {
+          "t": "Sky Garden ★4.6",
+          "s": "món Tây Nguyên · Gia Nghĩa",
+          "cue": "sky garden",
+          "maps": "sky-garden"
+        },
+        {
+          "t": "Robin Hotel ★4.8",
+          "s": "Gia Nghĩa · hoặc Đức Lộc Phát ★4.5, Kiến Đức",
+          "cue": "robin",
+          "maps": [
+            "robin",
+            "duc-loc-phat"
+          ]
+        }
+      ],
+      "narration": "Trong khu có nhà hàng, món gà nướng được khen nhiều. Hoặc thuê chòi, khoảng hai trăm nghìn ngày thường, mang đồ vào tự nướng. Muốn ăn món Tây Nguyên thì về Gia Nghĩa, quán Sky Garden được bốn phẩy sáu sao. Ngủ lại thì ở Gia Nghĩa, Robin Hotel bốn phẩy tám sao, hoặc ở Kiến Đức cho gần thác hơn.",
+      "gallery": [
+        "videos/thac-72/footage/s-boats.mp4",
+        "videos/thac-72/footage/s-cave.mp4",
+        "videos/thac-72/footage/s-bridge.mp4"
+      ],
+      "durationSec": 17.5
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu?",
+      "kicker": "TỰ TÚC TỪ SÀI GÒN · 2N1Đ · 1 NGƯỜI",
+      "total": "1,6–2,1 triệu",
+      "totalCue": "một phẩy sáu",
+      "stamp": "THAM KHẢO 11/2026",
+      "note": "chưa gồm ăn uống, xe Gia Nghĩa ⇄ thác · tour ghép kèm Tà Đùng ~2,29tr",
+      "items": [
+        {
+          "k": "Xe khách SG ⇄ Gia Nghĩa",
+          "v": "540k–1tr"
+        },
+        {
+          "k": "Phòng Gia Nghĩa (ở 2)",
+          "v": "~900k"
+        },
+        {
+          "k": "Vé thác + gửi xe",
+          "v": "100–110k"
+        },
+        {
+          "k": "Chòi nướng (chia 4)",
+          "v": "~50k"
+        }
+      ],
+      "narration": "Đi tự túc từ Sài Gòn, hai ngày một đêm, mỗi người khoảng một phẩy sáu đến hai phẩy một triệu, chưa tính ăn uống. Tốn nhất là xe khách khứ hồi và tiền phòng. Ngại tự đi thì có tour ghép hai ngày một đêm kèm hồ Tà Đùng, khoảng hai phẩy ba triệu.",
+      "gallery": [
+        "videos/thac-72/footage/k-flow.mp4",
+        "videos/thac-72/footage/k-wide.mp4"
+      ],
+      "durationSec": 14.5
+    },
+    {
+      "id": "truth",
+      "layout": "extra",
+      "caption": "Nói thật nè",
+      "kicker": "NGƯỜI ĐI TRƯỚC DẶN",
+      "items": [
+        {
+          "t": "Ngoài đời nhỏ hơn flycam",
+          "s": "hoang sơ, đừng kỳ vọng quá",
+          "cue": "ngoài đời"
+        },
+        {
+          "t": "Đường vào xấu",
+          "s": "trò chơi trong khu thu tiền riêng",
+          "cue": "đường vào"
+        },
+        {
+          "t": "Mùa khô ít nước",
+          "s": "đẹp nhất tháng 10–11",
+          "cue": "mùa khô"
+        }
+      ],
+      "narration": "Nói thật nè: ngoài đời thác nhỏ và hoang sơ hơn trong mấy clip flycam. Đường vào khá xấu, các trò chơi trong khu thu tiền riêng. Còn mùa khô, thác chỉ còn vài dòng nước mảnh. Sau đây là vài thước phim cuối, nghe tiếng rừng Tây Nguyên nhé.",
+      "gallery": [
+        "videos/thac-72/footage/t-flood.mp4",
+        "videos/thac-72/footage/t-dry.mp4",
+        "videos/thac-72/footage/t-dryrb.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/thac-72/footage/b3-walk.mp4",
+          "audio": "videos/thac-72/footage/b3-walk.m4a",
+          "dur": 4
+        },
+        {
+          "src": "videos/thac-72/footage/b3-view.mp4",
+          "audio": "videos/thac-72/footage/b3-view.m4a",
+          "dur": 5
+        }
+      ],
+      "breatheTitle": "Tiếng rừng Tây Nguyên",
+      "durationSec": 23.5,
+      "breatheSec": 9
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn ở thác 72",
+      "cta": "Lưu lại nhé!",
+      "narration": "Bạn có muốn tới thác bảy hai một lần không? Nguồn clip mình để ở phần mô tả. Lưu lại và rủ người đi cùng nhé!",
+      "gallery": [
+        "videos/thac-72/footage/o-aerial.mp4",
+        "videos/thac-72/footage/o-rain.mp4",
+        "videos/thac-72/footage/o-wide.mp4"
+      ],
+      "durationSec": 8.5
+    }
+  ]
+}
