@@ -1,0 +1,429 @@
+{
+  "id": "quynhon-am-thuc",
+  "title": "Ẩm thực Quy Nhơn: 5 món phải thử",
+  "language": "vi",
+  "region": "Quy Nhơn, Gia Lai, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb347",
+    "brand": "ẨM THỰC QUY NHƠN"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "Về Quy Nhơn ăn gì? Đây là năm món phải thử của xứ Nẫu, kèm nguồn gốc, cách làm, cách ăn, và quán ngon đã kiểm tra trên Google Maps. Xem ảnh hiện dần nhé!",
+      "label": "ẨM THỰC VÙNG MIỀN",
+      "caption": "QUY NHƠN",
+      "badge": "5 MÓN",
+      "tip": "Nguồn gốc · Cách làm · Cách ăn · Quán ngon",
+      "stickers": [
+        "🦐",
+        "🥢",
+        "🐟",
+        "🍜",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 9.5
+    },
+    {
+      "id": "banh-xeo",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/01-banhxeo.jpg",
+        "videos/quynhon-am-thuc/images/01b-banhxeo.jpg"
+      ],
+      "narration": "Món thứ nhất, bánh xèo tôm nhảy. Cái tên đến từ con tôm đất còn tươi, vừa thả vào khuôn nóng là nhảy tanh tách. Theo VnExpress, xưa chỉ Mỹ Cang cách thành phố khoảng hai mươi cây số có quán, giờ thì khắp Quy Nhơn. Bột gạo pha nghệ, đổ trong khuôn nhỏ, bánh giòn và chỉ to cỡ bàn tay. Khi ăn, cuốn bánh tráng với rau và xoài chua, chấm nước mắm tỏi ớt. Quán ngon: Anh Tú, Phước Sơn, và Ngọc Liên.",
+      "caption": "Bánh xèo tôm nhảy",
+      "accent": "#ffb347",
+      "stickers": [
+        "🦐",
+        "🥬",
+        "🥭",
+        "🌶️",
+        "🔥"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Tôm còn nhảy trong khuôn",
+        "background": "dots",
+        "backgroundTo": "#ffe08a",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Tôm đất còn tươi thả vào khuôn nóng là nhảy · xưa nổi tiếng ở Mỹ Cang",
+            "cue": "tôm đất"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bột gạo pha nghệ, đổ khuôn nhỏ · bánh giòn, cỡ bàn tay",
+            "cue": "bột gạo"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Cuốn bánh tráng, rau, xoài chua · chấm nước mắm tỏi ớt",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh xèo tôm nhảy Anh Tú",
+                "address": "105 Đống Đa",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh Xèo Tôm Nhảy Phước Sơn",
+                "address": "122 Đống Đa",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh xèo tôm nhảy",
+                "place": "Bánh Xèo Ngọc Liên",
+                "address": "63/13 Thanh Niên",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 23
+    },
+    {
+      "id": "bun-cha-ca",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/02-buncha.jpg",
+        "videos/quynhon-am-thuc/images/02c-chaca.jpg",
+        "videos/quynhon-am-thuc/images/02b-buncha.jpg"
+      ],
+      "narration": "Món thứ hai, bún chả cá, bữa sáng quen thuộc của người Quy Nhơn. Thành phố biển có cá tươi mỗi sáng, nên chả cá làm ngay tại chỗ. Cá được giã tay thành chả, có loại chiên vàng, có loại hấp, nước dùng ninh từ xương và đầu cá nên trong và ngọt thanh. Khi ăn, thêm rau sống, chút ớt và chanh, rồi húp nước dùng nóng. Quán ngon: bún Thùy, ba đời bán bún cá, bún cá tươi Quy Nhơn, và quán Vân.",
+      "caption": "Bún chả cá",
+      "accent": "#5fc8e8",
+      "stickers": [
+        "🐟",
+        "🍜",
+        "🌿",
+        "🌶️",
+        "🥢"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Bữa sáng của dân biển",
+        "background": "waves",
+        "backgroundTo": "#a8ecff",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Thành phố biển có cá tươi mỗi sáng · chả làm ngay tại chỗ",
+            "cue": "cá tươi"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cá giã tay thành chả chiên, chả hấp · nước dùng ninh xương, đầu cá",
+            "cue": "giã tay"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Thêm rau sống, ớt, chanh · húp nước dùng nóng",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Thùy",
+                "address": "261 Tăng Bạt Hổ",
+                "rating": 4.5
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Cá Tươi Quy Nhơn",
+                "address": "42 Nguyễn Văn Bé",
+                "rating": 4.8
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún cá Vân Quy Nhơn",
+                "address": "169A Lê Lợi",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 22.5
+    },
+    {
+      "id": "banh-hoi",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/03-banhhoi.jpg",
+        "videos/quynhon-am-thuc/images/03b-banhhoi.jpg",
+        "videos/quynhon-am-thuc/images/03c-banhhoi.jpg"
+      ],
+      "narration": "Món thứ ba, bánh hỏi cháo lòng. Theo VnExpress, bánh hỏi là đặc sản Bình Định, ngon nhất ở Diêu Trì. Bột gạo được ép thành những sợi rất mảnh, đan vào nhau thành từng tấm, rưới mỡ hành. Cháo nấu loãng từ nước hầm xương và lòng heo. Khi ăn, gắp bánh hỏi với lòng heo, rau thơm, chấm nước mắm ớt, rồi húp thêm thìa cháo nóng. Quán ngon: cháo lòng bánh hỏi chín mươi bốn Nguyễn Huệ, quán Thùy, và cô Hương.",
+      "caption": "Bánh hỏi cháo lòng",
+      "accent": "#9fd86b",
+      "stickers": [
+        "🍚",
+        "🧅",
+        "🥣",
+        "🌿",
+        "🌶️"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Bánh hỏi Diêu Trì trứ danh",
+        "background": "gingham",
+        "backgroundTo": "#e2f7b5",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Đặc sản Bình Định · bánh hỏi ngon nhất ở Diêu Trì (VnExpress)",
+            "cue": "diêu trì"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bột gạo ép sợi mảnh đan thành tấm, rưới mỡ hành · cháo hầm xương, lòng",
+            "cue": "sợi rất mảnh"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Bánh hỏi với lòng heo, rau, nước mắm ớt · húp thêm cháo nóng",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Cháo lòng bánh hỏi Quy Nhơn",
+                "address": "94 Nguyễn Huệ",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Bánh hỏi cháo lòng Thùy",
+                "address": "187 Nguyễn Huệ",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh hỏi cháo lòng",
+                "place": "Bánh hỏi cháo lòng cô Hương",
+                "address": "17 Phan Bội Châu",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 23.5
+    },
+    {
+      "id": "banh-can",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/04-banhcan.jpg",
+        "videos/quynhon-am-thuc/images/04c-banhcan.jpg",
+        "videos/quynhon-am-thuc/images/04b-banhcan.jpg"
+      ],
+      "narration": "Món thứ tư, bánh căn, nhìn giống bánh khọt nhưng là món của miền Trung. Bột gạo xay đổ vào khuôn đất nung, đậy nắp trên than hồng, chờ đến khi mặt bánh rỗ và đáy vàng giòn. Nhân có trứng, mực hoặc tôm. Ở Quy Nhơn còn có kiểu ăn bánh căn với nước cá. Khi ăn, chấm nước mắm tỏi ớt chua ngọt, kèm rau sống. Quán ngon: bánh căn nước cá cô Dư, và bánh căn mực cô Năm.",
+      "caption": "Bánh căn",
+      "accent": "#ff8a7a",
+      "stickers": [
+        "🥚",
+        "🦑",
+        "🔥",
+        "🌶️",
+        "🧄"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Khuôn đất trên than hồng",
+        "background": "stripes",
+        "backgroundTo": "#ffd0c2",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Giống bánh khọt miền Nam · nhưng là món của miền Trung",
+            "cue": "miền trung"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bột gạo đổ khuôn đất nung trên than · nhân trứng, mực, tôm",
+            "cue": "khuôn đất"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Chấm nước mắm tỏi ớt chua ngọt, rau sống · Quy Nhơn còn có nước cá",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh căn",
+                "place": "Bánh căn nước cá Cô Dư",
+                "address": "63/1 Nguyễn Huệ",
+                "rating": 4.6
+              },
+              {
+                "name": "Bánh căn",
+                "place": "Bánh căn mực tươi Cô Năm",
+                "address": "67/10 Đặng Văn Ngữ",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 22
+    },
+    {
+      "id": "nem-cho-huyen",
+      "layout": "dish",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/05-nem.jpg",
+        "videos/quynhon-am-thuc/images/05b-nem.jpg",
+        "videos/quynhon-am-thuc/images/05c-nem.jpg"
+      ],
+      "narration": "Món thứ năm, nem chợ Huyện. Nghề làm nem chả gắn với chợ Huyện ở xã Phước Lộc, Tuy Phước, rồi lan khắp Bình Định. Thịt heo nạc giã nhuyễn, gói lá ổi bên trong, lá chuối bên ngoài, để lên men tự nhiên vài ngày cho chua. Khi ăn, có thể nướng than, cuốn bánh tráng với rau thơm, khế, chuối chát, chấm nước mắm pha đậu phộng. Nơi mua: nem chợ Huyện Mộc Lan, đặc sản Quy Nhơn Làm Quà, và quán Ông Bảy.",
+      "caption": "Nem chợ Huyện",
+      "accent": "#ff6f91",
+      "stickers": [
+        "🐖",
+        "🍃",
+        "🧄",
+        "🌶️",
+        "🎁"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Nem chua của làng nghề Tuy Phước",
+        "background": "hearts",
+        "backgroundTo": "#ffc4d6",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Làng nghề nem chả chợ Huyện, Phước Lộc, Tuy Phước",
+            "cue": "chợ huyện"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Thịt nạc giã nhuyễn · gói lá ổi, lá chuối, lên men vài ngày",
+            "cue": "giã nhuyễn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Nướng than hoặc cuốn bánh tráng, rau, khế, chuối chát · chấm mắm đậu phộng",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Nơi mua, nơi ăn",
+            "cue": "nơi mua",
+            "places": [
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Nem Chợ Huyện Mộc Lan",
+                "address": "52 Trần Phú",
+                "rating": 4.6
+              },
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Đặc Sản Quy Nhơn: Làm Quà",
+                "address": "03a Võ Lai",
+                "rating": 4.9
+              },
+              {
+                "name": "Nem chợ Huyện",
+                "place": "Đặc Sản Bình Định Ông Bảy",
+                "address": "23 Phan Văn Lân",
+                "rating": 4.8
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 23
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/quynhon-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "Năm món này đủ cho một chuyến ăn sập xứ Nẫu. Địa chỉ quán mình để ở phần mô tả. Bạn thích món nào nhất? Lưu lại nhé!",
+      "label": "ĂN SẬP QUY NHƠN",
+      "caption": "QUY NHƠN",
+      "tip": "Bạn thích món nào nhất?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "stickers": [
+        "😋",
+        "🌊",
+        "💛",
+        "🦐"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 7.5
+    }
+  ]
+}
