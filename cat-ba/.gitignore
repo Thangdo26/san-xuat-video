@@ -1,0 +1,19 @@
+node_modules/
+output/
+build/
+omni-*/
+*.log
+research/raw/
+public/videos/cat-ba/footage/raw
+synth.done
+pickup-voice/
+.env
+# Video/audio footage (creators' TikTok clips, renders) is not redistributed here.
+*.mp4
+*.mov
+*.webm
+*.m4a
+research/raw*/
+research/proof/
+research/sheets/
+public/videos/*/footage/

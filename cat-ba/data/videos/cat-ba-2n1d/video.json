@@ -1,0 +1,494 @@
+{
+  "id": "cat-ba-2n1d",
+  "title": "Cát Bà mùa lạnh 2N1Đ",
+  "language": "vi",
+  "region": "Cát Bà, Hải Phòng, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#4fd1c5",
+    "highlight": "#ffd36e",
+    "brand": "CÁT BÀ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Quán Bà Béo": "ba-beo",
+    "Bánh đa cua Bà Kỵ": "ba-ky",
+    "Bánh đa cua Lý Phình": "ly-phinh",
+    "The.Mangrove Café": "mangrove",
+    "Green Garden Café & Bistro": "green-garden",
+    "Dining garden": "dining-garden",
+    "Bún Chả Phên Trân Châu": "bun-cha-phen",
+    "Madame Lan Restaurant": "madame-lan",
+    "Lẩu Hà": "lau-ha",
+    "Nhà hàng Làng Chài": "lang-chai",
+    "Nhà hàng Hải Yến": "hai-yen",
+    "The Little Leaf": "little-leaf",
+    "Đặc sản Huế Hoàng Hà": "hoang-ha",
+    "Nhà hàng nổi Mai Hoa": "mai-hoa",
+    "Nhà hàng nổi Nhật Anh": "nhat-anh",
+    "Nhà bè Trường Phát": "truong-phat",
+    "Sun Garden Cat Ba": "sun-garden",
+    "Quán Gió": "quan-gio",
+    "Lan Happy Restaurant": "lan-happy",
+    "Handak Chicken": "handak"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "CÁT BÀ",
+      "kicker": "MÙA LẠNH · NHỮNG CUNG ĐƯỜNG",
+      "label": "2N1Đ",
+      "narration": "Cát Bà mùa lạnh không phải để tắm biển, mà để chạy xe. Đảo vắng, trời mát, nước vịnh xanh trong. Đây là lịch trình hai ngày một đêm qua những cung đường đẹp nhất của đảo, gom từ TikTok. Lưu lại nhé!",
+      "durationSec": 12,
+      "gallery": [
+        "videos/cat-ba/footage/karst.mp4",
+        "videos/cat-ba/footage/bay-boats.mp4"
+      ],
+      "nav": [
+        [
+          "up",
+          "Cầu Tân Vũ – Lạch Huyện",
+          "5,44 km"
+        ],
+        [
+          "left",
+          "Cáp treo vượt biển",
+          "3.955 m"
+        ],
+        [
+          "right",
+          "Đường ven biển 356",
+          "~25 km"
+        ]
+      ],
+      "trip": "Hà Nội → Cát Bà · khoảng 160 km"
+    },
+    {
+      "id": "duongra",
+      "layout": "point",
+      "caption": "Đường ra đảo",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#4fd1c5",
+      "points": [
+        "Cầu vượt biển 5,44 km",
+        "Cáp treo nghỉ thứ Ba"
+      ],
+      "gauge": "km 0",
+      "narration": "Sáng ngày đầu, từ Hải Phòng lên cầu Tân Vũ, Lạch Huyện, cây cầu vượt biển dài nhất Việt Nam, năm phẩy bốn bốn cây số giữa biển. Sang Cát Hải thì qua đảo bằng cáp treo, mùa này vắng, hai người một cabin. Cáp treo nghỉ thứ Ba, hôm đó thì đi phà Đồng Bài. Ăn sáng bánh đa cua ở quán Bà Béo, năm sao.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/cat-ba/candidates/br-1.jpg",
+        "videos/cat-ba/candidates/fe-2.jpg",
+        "videos/cat-ba/candidates/fe-3.jpg",
+        "videos/cat-ba/candidates/fe-1.jpg"
+      ],
+      "geo": {
+        "lat": 20.8,
+        "lng": 106.83
+      },
+      "dishes": [
+        {
+          "name": "Bánh đa cua",
+          "place": "Quán Bà Béo",
+          "address": "KCN Đình Vũ, gần cầu",
+          "rating": 5,
+          "spokenAs": "Bà Béo"
+        },
+        {
+          "name": "Bánh đa cua",
+          "place": "Bánh đa cua Bà Kỵ",
+          "address": "96 Lạch Tray",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh đa cua",
+          "place": "Bánh đa cua Lý Phình",
+          "address": "143 ngõ Lý Tiêm",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": []
+    },
+    {
+      "id": "venbien",
+      "layout": "point",
+      "pano": true,
+      "caption": "Đường ven biển",
+      "label": "Ngày 1 · Trưa",
+      "accent": "#ffb454",
+      "points": [
+        "~25 km, Cái Viềng → thị trấn",
+        "Hoa giấy nở quanh năm"
+      ],
+      "gauge": "km 25",
+      "narration": "Từ bến Cái Viềng vào thị trấn là khoảng hai mươi lăm cây số đường ven biển, được gọi là cung đường biển đẹp nhất miền Bắc. Một bên vách núi đá, một bên là biển, hoa giấy nở dọc đường. Nhiều cua nên chạy chậm thôi, ghé bãi Chút Chít chụp ảnh, không mất phí. Ăn trưa ở Dining garden, năm sao.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/cat-ba/flickr/road-curve.jpg",
+        "videos/cat-ba/candidates/rd-3.jpg",
+        "videos/cat-ba/pexels/6876803.jpg",
+        "videos/cat-ba/candidates/rd-6.jpg"
+      ],
+      "geo": {
+        "lat": 20.77,
+        "lng": 107
+      },
+      "dishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "Dining garden",
+          "address": "Hải Sơn, Khe Sâu",
+          "rating": 5,
+          "spokenAs": "Dining garden"
+        },
+        {
+          "name": "Cơm, cà phê",
+          "place": "The.Mangrove Café",
+          "address": "Phù Long",
+          "rating": 5
+        },
+        {
+          "name": "Bún chả",
+          "place": "Bún Chả Phên Trân Châu",
+          "address": "thôn Bến",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cà phê, đồ ăn",
+          "place": "Green Garden Café & Bistro",
+          "address": "Gia Luận",
+          "rating": 5
+        },
+        {
+          "name": "Cơm",
+          "place": "Madame Lan Restaurant",
+          "address": "Liên Hoà",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "catco",
+      "layout": "point",
+      "caption": "Cát Cò",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#ff7a8a",
+      "points": [
+        "Lối đi bộ men vách đá",
+        "Hoàng hôn trên vịnh"
+      ],
+      "gauge": "km 27",
+      "narration": "Chiều đi bộ con đường men vách đá nối bãi Cát Cò một sang Cát Cò ba, hơi mỏi chân nhưng rất đẹp. Mùa này nước lạnh, cứ ngồi ngắm biển là đủ. Gần năm giờ ra vịnh đón hoàng hôn. Tối ăn lẩu hải sản ở Lẩu Hà, bốn chấm tám sao, rồi ra quảng trường ăn ngô nướng cho ấm.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/cat-ba/candidates/cc-1.jpg",
+        "videos/cat-ba/pexels/24701013.jpg",
+        "videos/cat-ba/flickr/town-bay.jpg",
+        "videos/cat-ba/candidates/tw-1.jpg"
+      ],
+      "geo": {
+        "lat": 20.716,
+        "lng": 107.054
+      },
+      "dishes": [
+        {
+          "name": "Lẩu hải sản",
+          "place": "Lẩu Hà",
+          "address": "72 Tùng Dinh",
+          "rating": 4.8,
+          "spokenAs": "Lẩu Hà"
+        },
+        {
+          "name": "Hải sản",
+          "place": "Nhà hàng Làng Chài",
+          "address": "256 đường 1/4",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản",
+          "place": "Nhà hàng Hải Yến",
+          "address": "258 đường 1/4",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "The Little Leaf",
+          "address": "224 đường 1/4",
+          "rating": 4.6
+        },
+        {
+          "name": "Bún, món Huế",
+          "place": "Đặc sản Huế Hoàng Hà",
+          "address": "160 Núi Ngọc",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "lanha",
+      "layout": "point",
+      "caption": "Vịnh Lan Hạ",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#3fb6e8",
+      "points": [
+        "Tàu đi từ bến Bèo",
+        "Mùa lạnh: chèo kayak"
+      ],
+      "gauge": "km 29",
+      "narration": "Sáng hôm sau ra bến Bèo đi tàu ghép vịnh Lan Hạ, qua làng chài Cái Bèo và những đảo đá vôi. Mùa lạnh không tắm biển, thay bằng chèo kayak, nhớ mang áo gió. Muốn tự ăn thì về bến ăn hải sản ở Mai Hoa, bốn chấm tám sao.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/cat-ba/footage/boat.mp4",
+        "videos/cat-ba/pexels/6348812.jpg",
+        "videos/cat-ba/pexels/34635623.jpg",
+        "videos/cat-ba/pexels/34635616.jpg",
+        "videos/cat-ba/pexels/1018475.jpg"
+      ],
+      "geo": {
+        "lat": 20.728,
+        "lng": 107.066
+      },
+      "dishes": [
+        {
+          "name": "Hải sản",
+          "place": "Nhà hàng nổi Mai Hoa",
+          "address": "Cái Bèo",
+          "rating": 4.8,
+          "spokenAs": "Mai Hoa"
+        },
+        {
+          "name": "Hải sản",
+          "place": "Nhà hàng nổi Nhật Anh",
+          "address": "bến Bèo",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Nhà bè Trường Phát",
+          "address": "bến Bèo",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, đồ uống",
+          "place": "Sun Garden Cat Ba",
+          "address": "bến Bèo",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "xuyendao",
+      "layout": "point",
+      "pano": true,
+      "caption": "Đường xuyên đảo",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#c9e27a",
+      "points": [
+        "Qua Vườn quốc gia Cát Bà",
+        "Hoa lau tháng 11–12"
+      ],
+      "gauge": "km 55",
+      "narration": "Chiều về thì đổi sang đường xuyên đảo, đi qua rừng của vườn quốc gia. Từ đầu tháng mười một tới cuối tháng mười hai, hoa lau phủ hai bên đường. Ghé Quán Gió nghỉ chân, rồi ra phà Cái Viềng trước chuyến cuối, ngắm hoàng hôn trên phà về.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/cat-ba/candidates/rd-1.jpg",
+        "videos/cat-ba/candidates/np-1.jpg",
+        "videos/cat-ba/candidates/vh-1.jpg",
+        "videos/cat-ba/candidates/rd-2.jpg",
+        "videos/cat-ba/candidates/np-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.8,
+        "lng": 107
+      },
+      "dishes": [
+        {
+          "name": "Đồ ăn, đồ uống",
+          "place": "Quán Gió",
+          "address": "gần Xuân Đám",
+          "rating": 4.8,
+          "spokenAs": "Quán Gió"
+        },
+        {
+          "name": "Cơm",
+          "place": "Lan Happy Restaurant",
+          "address": "đường xuyên đảo",
+          "rating": 4.9
+        },
+        {
+          "name": "Gà, cơm",
+          "place": "Handak Chicken",
+          "address": "176 Hà Sen",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": []
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#4fd1c5",
+      "zones": [
+        {
+          "title": "Trung tâm, đường 1/4",
+          "note": "Ra biển, bến tàu vài phút; nhiều quán",
+          "picks": [
+            [
+              "Giếng Ngọc Cát Bà Hotel",
+              4.7,
+              "240 đường 1/4"
+            ],
+            [
+              "Gia Cat Long Boutique",
+              4.6,
+              "238 đường 1/4"
+            ]
+          ]
+        },
+        {
+          "title": "Bãi Cát Cò",
+          "note": "Ngay bãi biển, gần lối đi vách đá",
+          "picks": [
+            [
+              "Flamingo Cát Bà Beach Resort",
+              4.8,
+              "Cát Cò 1, 2"
+            ]
+          ]
+        },
+        {
+          "title": "Thung lũng ven đường 356",
+          "note": "Yên tĩnh; xa trung tâm, tối đường vắng",
+          "picks": [
+            [
+              "Catba Papillon Garden",
+              4.8,
+              "ven đường 356"
+            ],
+            [
+              "The Eden Cat Ba",
+              4.8,
+              "đường 356"
+            ]
+          ]
+        }
+      ],
+      "tip": "Mùa vắng phòng rẻ, vẫn nên đặt trước khi ra đảo",
+      "cues": [
+        "trung tâm",
+        "flamingo",
+        "thung lũng",
+        "mùa này"
+      ],
+      "narration": "Nên ở đâu? Lần đầu thì ở trung tâm, đường một tháng tư, như Giếng Ngọc, bốn chấm bảy sao, ra biển và bến tàu chỉ vài phút. Thích biển thì ở Flamingo ngay bãi Cát Cò. Muốn yên tĩnh thì ở thung lũng ven đường ba năm sáu, nhưng tối đường khá vắng. Mùa này phòng rẻ, vẫn nên đặt trước.",
+      "durationSec": 16.5,
+      "gallery": [
+        "videos/cat-ba/candidates/tw-5.jpg",
+        "videos/cat-ba/pexels/6876856.jpg",
+        "videos/cat-ba/candidates/lh-4.jpg"
+      ]
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "accent": "#ffd36e",
+      "receiptTitle": "CHI PHÍ 2N1Đ · 1 NGƯỜI",
+      "items": [
+        {
+          "k": "Xe Hà Nội ⇄ Cát Bà",
+          "note": "limousine, xe khách · khứ hồi, gồm phà",
+          "v": "500–700k"
+        },
+        {
+          "k": "Cáp treo vượt biển",
+          "note": "1 chiều, kèm xe bus · nghỉ thứ Ba",
+          "v": "100–130k"
+        },
+        {
+          "k": "Phòng 1 đêm",
+          "note": "mùa vắng · ở 2 người",
+          "v": "250–300k"
+        },
+        {
+          "k": "Thuê xe máy",
+          "note": "120–200k/ngày · đi 2 người",
+          "v": "60–100k"
+        },
+        {
+          "k": "Tour ghép vịnh Lan Hạ",
+          "note": "tàu, vé, kayak, bữa trưa",
+          "v": "650–700k"
+        },
+        {
+          "k": "Ăn uống",
+          "note": "theo TikTok",
+          "v": "200–400k"
+        }
+      ],
+      "total": "1,8–2,3 triệu",
+      "stamp": "THAM KHẢO 11/2026",
+      "totalCue": "tổng cộng",
+      "note": "2 người đi chung · nguồn: Vietnamtourism, Sun World, tour Cát Bà, TikTok",
+      "narration": "Hết bao nhiêu tiền? Tính cho một người, đi hai người: xe khứ hồi khoảng năm tới bảy trăm nghìn, tour ghép vịnh Lan Hạ khoảng sáu trăm rưỡi tới bảy trăm nghìn, đã gồm kayak và bữa trưa. Tổng cộng khoảng một phẩy tám tới hai phẩy ba triệu một người.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/cat-ba/pexels/6876848.jpg",
+        "videos/cat-ba/candidates/tw-3.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Cát Bà",
+      "kicker": "TỔNG KẾT HÀNH TRÌNH",
+      "cta": "Lưu lại nhé!",
+      "narration": "Cát Bà mùa lạnh vắng, mát và đẹp theo một kiểu rất riêng. Trước khi đi, xem lịch phà, cáp treo và dự báo gió, gió to phà có thể dừng. Địa chỉ quán và bảng chi phí mình để ở phần mô tả. Lưu lại cho chuyến đi sắp tới nhé!",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/cat-ba/footage/karst-boat.mp4"
+      ],
+      "stats": [
+        [
+          "Cầu vượt biển",
+          "5,44 km"
+        ],
+        [
+          "Cáp treo vượt biển",
+          "3.955 m"
+        ],
+        [
+          "Đường ven biển",
+          "~25 km"
+        ],
+        [
+          "Hoa lau xuyên đảo",
+          "T11 – T12"
+        ]
+      ]
+    }
+  ]
+}

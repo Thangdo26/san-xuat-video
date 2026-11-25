@@ -1,0 +1,230 @@
+[
+  {
+    "slot": "br-1",
+    "file": "videos/cat-ba/candidates/br-1.jpg",
+    "title": "File:Dinh Vu - Cat Hai Bridge.jpg",
+    "author": "Thu Hà Nội",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADinh_Vu_-_Cat_Hai_Bridge.jpg"
+  },
+  {
+    "slot": "cc-1",
+    "file": "videos/cat-ba/candidates/cc-1.jpg",
+    "title": "File:Cat Co 1 Beach-Cát Bà Island-Andres Larin.jpg",
+    "author": "Saaremees",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Co_1_Beach-C%C3%A1t_B%C3%A0_Island-Andres_Larin.jpg"
+  },
+  {
+    "slot": "fe-1",
+    "file": "videos/cat-ba/candidates/fe-1.jpg",
+    "title": "File:Bến phà Cái Viềng.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%E1%BA%BFn_ph%C3%A0_C%C3%A1i_Vi%E1%BB%81ng.jpg"
+  },
+  {
+    "slot": "fe-2",
+    "file": "videos/cat-ba/candidates/fe-2.jpg",
+    "title": "File:Cat Ba from a ferry going to Cat Hai.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Ba_from_a_ferry_going_to_Cat_Hai.jpg"
+  },
+  {
+    "slot": "fe-3",
+    "file": "videos/cat-ba/candidates/fe-3.jpg",
+    "title": "File:Arrival on Cat Ba.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AArrival_on_Cat_Ba.jpg"
+  },
+  {
+    "slot": "lh-4",
+    "file": "videos/cat-ba/candidates/lh-4.jpg",
+    "title": "File:Cát Bà Island.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AC%C3%A1t_B%C3%A0_Island.jpg"
+  },
+  {
+    "slot": "np-1",
+    "file": "videos/cat-ba/candidates/np-1.jpg",
+    "title": "File:Cat Ba National Park 01.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Ba_National_Park_01.jpg"
+  },
+  {
+    "slot": "np-3",
+    "file": "videos/cat-ba/candidates/np-3.jpg",
+    "title": "File:Cat Ba National Park 267.JPG",
+    "author": "Schwede66",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Ba_National_Park_267.JPG"
+  },
+  {
+    "slot": "rd-1",
+    "file": "videos/cat-ba/candidates/rd-1.jpg",
+    "title": "File:Duong xuyen dao Cat Ba 1.JPG",
+    "author": "Bình Giang",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADuong_xuyen_dao_Cat_Ba_1.JPG"
+  },
+  {
+    "slot": "rd-2",
+    "file": "videos/cat-ba/candidates/rd-2.jpg",
+    "title": "File:Road to Việt Hải, Cát Bà Island, Vietnam, 20240131 1323 4619.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARoad_to_Vi%E1%BB%87t_H%E1%BA%A3i%2C_C%C3%A1t_B%C3%A0_Island%2C_Vietnam%2C_20240131_1323_4619.jpg"
+  },
+  {
+    "slot": "rd-3",
+    "file": "videos/cat-ba/candidates/rd-3.jpg",
+    "title": "File:Duong len Cat Ba.JPG",
+    "author": "Viethavvh at vi.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADuong_len_Cat_Ba.JPG"
+  },
+  {
+    "slot": "rd-6",
+    "file": "videos/cat-ba/candidates/rd-6.jpg",
+    "title": "File:Droga do świątyni na brzegu wyspy Cat Ba w Wietnamie, 20240130 1403 4373.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADroga_do_%C5%9Bwi%C4%85tyni_na_brzegu_wyspy_Cat_Ba_w_Wietnamie%2C_20240130_1403_4373.jpg"
+  },
+  {
+    "slot": "tw-1",
+    "file": "videos/cat-ba/candidates/tw-1.jpg",
+    "title": "File:Sunset from Cat Ba Town.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASunset_from_Cat_Ba_Town.jpg"
+  },
+  {
+    "slot": "tw-3",
+    "file": "videos/cat-ba/candidates/tw-3.jpg",
+    "title": "File:Cat Ba Town in the evening.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Ba_Town_in_the_evening.jpg"
+  },
+  {
+    "slot": "tw-5",
+    "file": "videos/cat-ba/candidates/tw-5.jpg",
+    "title": "File:Cat Ba Town 1.jpg",
+    "author": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACat_Ba_Town_1.jpg"
+  },
+  {
+    "slot": "vh-1",
+    "file": "videos/cat-ba/candidates/vh-1.jpg",
+    "title": "File:Việt Hải, Cát Bà Island, Vietnam, 20240131 1211 4613.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVi%E1%BB%87t_H%E1%BA%A3i%2C_C%C3%A1t_B%C3%A0_Island%2C_Vietnam%2C_20240131_1211_4613.jpg"
+  },
+  {
+    "file": "videos/cat-ba/pexels/1018475.jpg",
+    "source": "https://www.pexels.com/photo/1018475/",
+    "author": "Binh Ho",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/24701013.jpg",
+    "source": "https://www.pexels.com/photo/24701013/",
+    "author": "Đạt Nguyễn",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/34635616.jpg",
+    "source": "https://www.pexels.com/photo/34635616/",
+    "author": "Ama Journey",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/34635623.jpg",
+    "source": "https://www.pexels.com/photo/34635623/",
+    "author": "Ama Journey",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/6348812.jpg",
+    "source": "https://www.pexels.com/photo/6348812/",
+    "author": "Quang Nguyen Vinh",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/6876803.jpg",
+    "source": "https://www.pexels.com/photo/6876803/",
+    "author": "Quang Nguyen Vinh",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/6876848.jpg",
+    "source": "https://www.pexels.com/photo/6876848/",
+    "author": "Quang Nguyen Vinh",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/pexels/6876856.jpg",
+    "source": "https://www.pexels.com/photo/6876856/",
+    "author": "Quang Nguyen Vinh",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/footage/karst.mp4",
+    "source": "https://www.pexels.com/video/37887206/",
+    "author": "Spanish AV Company.",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/footage/bay-boats.mp4",
+    "source": "https://www.pexels.com/video/37887206/",
+    "author": "Spanish AV Company.",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/footage/boat.mp4",
+    "source": "https://www.pexels.com/video/37887198/",
+    "author": "Spanish AV Company.",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/footage/karst-boat.mp4",
+    "source": "https://www.pexels.com/video/37887197/",
+    "author": "Spanish AV Company.",
+    "license": "Pexels License"
+  },
+  {
+    "file": "videos/cat-ba/flickr/road-curve.jpg",
+    "source": "https://www.flickr.com/photos/xucxic/26727868892/",
+    "author": "Hoài Sơn Lý",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "file": "videos/cat-ba/flickr/town-bay.jpg",
+    "source": "https://www.flickr.com/photos/18261299@N00/4867146791/",
+    "author": "sweet_redbird",
+    "license": "CC BY-SA 2.0"
+  }
+]
