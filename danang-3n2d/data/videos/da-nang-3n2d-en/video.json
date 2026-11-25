@@ -1,0 +1,285 @@
+{
+  "id": "da-nang-3n2d-en",
+  "title": "Da Nang in 3 days, 2 nights",
+  "language": "en",
+  "region": "Đà Nẵng, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffd27a",
+    "brand": "DA NANG · 3D2N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/da-nang-3n2d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      108.165,
+      16
+    ],
+    "zoom": 10.8,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/da-nang-3n2d/images/01-hook.jpg"
+      ],
+      "narration": "Only three days in Da Nang? Save this itinerary for beaches, mountains, and one really chill night out.",
+      "label": "CENTRAL VIETNAM",
+      "caption": "DA NANG",
+      "badge": "3D2N",
+      "tip": "Beach · Mountains · One chill night",
+      "durationSec": 8
+    },
+    {
+      "id": "day1-beach",
+      "layout": "point",
+      "map": {
+        "lng": 108.2469,
+        "lat": 16.0756,
+        "name": "My Khe Beach"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/02-my-khe-beach.jpg"
+      ],
+      "narration": "Day one, slow down on My Khe Beach. For lunch, grab fresh seafood at Be Man, or a bowl of fish cake noodle soup at Bun Cha Ca 109.",
+      "label": "DAY 1",
+      "caption": "My Khe Beach",
+      "points": [
+        "Spend a slow morning on the beach",
+        "Best early morning or late afternoon"
+      ],
+      "accent": "#ffd27a",
+      "durationSec": 11,
+      "dishes": [
+        {
+          "name": "Seafood",
+          "place": "Hải sản Bé Mặn",
+          "address": "Lô 8 Võ Nguyên Giáp",
+          "spokenAs": "fresh seafood"
+        },
+        {
+          "name": "Fish cake noodle soup",
+          "image": "videos/da-nang-3n2d/food/bun-cha-ca.jpg",
+          "place": "Bún chả cá 109",
+          "address": "109 Nguyễn Chí Thanh"
+        }
+      ]
+    },
+    {
+      "id": "day1-sontra",
+      "layout": "point",
+      "map": {
+        "lng": 108.2779,
+        "lat": 16.1003,
+        "name": "Linh Ung Pagoda · Son Tra"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/02d-linh-ung.jpg",
+        "videos/da-nang-3n2d/images/02e-tra-tac.jpg",
+        "videos/da-nang-3n2d/images/02c-son-tra.jpg"
+      ],
+      "narration": "In the afternoon, head up Son Tra Peninsula to Linh Ung Pagoda and its 67-metre Lady Buddha. Then order an iced kumquat tea, and take in the whole city and the sea from above.",
+      "label": "DAY 1 · AFTERNOON",
+      "caption": "Son Tra Peninsula",
+      "points": [
+        "Linh Ung Pagoda · 67m Lady Buddha",
+        "Kumquat tea with a city view"
+      ],
+      "tip": "Go late afternoon to catch the sunset",
+      "accent": "#8fe0b0",
+      "durationSec": 13
+    },
+    {
+      "id": "day1-evening",
+      "layout": "point",
+      "map": {
+        "lng": 108.2279,
+        "lat": 16.0612,
+        "name": "Dragon Bridge · Han River"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/03-han-river-night.jpg",
+        "videos/da-nang-3n2d/images/03b-dragon-bridge.jpg"
+      ],
+      "narration": "In the evening, head back downtown, stroll along the Han River and see Dragon Bridge lit up at night. For dinner, try Mi Quang noodles at 1A, crispy banh xeo at Ba Duong, or pork rice paper rolls at Quan Tran.",
+      "label": "DAY 1 · EVENING",
+      "caption": "Han River at night",
+      "points": [
+        "Stroll along the Han River",
+        "Dragon Bridge lit up at night"
+      ],
+      "accent": "#ffb978",
+      "durationSec": 14.5,
+      "dishes": [
+        {
+          "name": "Mi Quang noodles",
+          "image": "videos/da-nang-3n2d/food/mi-quang.jpg",
+          "place": "Mì Quảng 1A",
+          "address": "1A Hải Phòng"
+        },
+        {
+          "name": "Banh xeo · crispy pancakes",
+          "image": "videos/da-nang-3n2d/food/banh-xeo.jpg",
+          "place": "Bánh xèo Bà Dưỡng",
+          "address": "K280/23 Hoàng Diệu",
+          "spokenAs": "crispy banh xeo"
+        },
+        {
+          "name": "Pork rice paper rolls",
+          "image": "videos/da-nang-3n2d/food/banh-trang-cuon.jpg",
+          "place": "Quán Trần",
+          "address": "4 Lê Duẩn"
+        }
+      ]
+    },
+    {
+      "id": "day2-bana",
+      "layout": "point",
+      "map": {
+        "lng": 107.9964,
+        "lat": 15.9951,
+        "name": "Ba Na Hills"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/04-golden-bridge.jpg",
+        "videos/da-nang-3n2d/images/04c-ba-na-cable-car.jpg",
+        "videos/da-nang-3n2d/images/04b-golden-bridge-fog.jpg"
+      ],
+      "narration": "Day two is all about Ba Na Hills. The Golden Bridge is the big photo spot, but allow plenty of travel time, and don't pack in too many other stops. Have lunch up on the mountain, at the Arapang buffet or Beer Plaza in the French Village.",
+      "label": "DAY 2",
+      "caption": "Ba Na Hills",
+      "points": [
+        "A full day at Ba Na",
+        "Golden Bridge · the main photo spot"
+      ],
+      "tip": "Allow for travel time, don't overpack the day",
+      "accent": "#7fe3d4",
+      "durationSec": 16,
+      "dishes": [
+        {
+          "name": "Asian & European buffet",
+          "place": "Arapang",
+          "address": "Du Dôme Square, French Village",
+          "spokenAs": "arapang"
+        },
+        {
+          "name": "BBQ buffet · draught beer",
+          "place": "Beer Plaza",
+          "address": "French Village, Sun World Ba Na Hills",
+          "spokenAs": "beer plaza"
+        }
+      ]
+    },
+    {
+      "id": "day3-marble",
+      "layout": "point",
+      "map": {
+        "lng": 108.2628,
+        "lat": 16.004,
+        "name": "Marble Mountains"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/05-marble-mountains.jpg",
+        "videos/da-nang-3n2d/images/05b-huyen-khong-cave.jpg"
+      ],
+      "narration": "On your last day, start at the Marble Mountains, with limestone peaks, caves and pagodas. Afterwards, have duck at Quan Nhan, or Mi Quang at Ba Mua, right by Tran Thi Ly Bridge.",
+      "label": "DAY 3",
+      "caption": "Marble Mountains",
+      "points": [
+        "Limestone peaks and caves",
+        "Pagodas and shrines"
+      ],
+      "accent": "#ff9d7a",
+      "durationSec": 13.5,
+      "dishes": [
+        {
+          "name": "Boiled duck · duck salad",
+          "place": "Quán Nhân",
+          "address": "83 Phan Tứ",
+          "spokenAs": "duck at quan nhan"
+        },
+        {
+          "name": "Mi Quang noodles",
+          "place": "Mì Quảng Bà Mua",
+          "address": "40 Ngũ Hành Sơn",
+          "spokenAs": "mi quang at ba mua"
+        }
+      ]
+    },
+    {
+      "id": "day3-hoian",
+      "layout": "point",
+      "map": {
+        "lng": 108.326,
+        "lat": 15.8772,
+        "name": "Hoi An Ancient Town"
+      },
+      "gallery": [
+        "videos/da-nang-3n2d/images/06-hoi-an.jpg",
+        "videos/da-nang-3n2d/images/06b-hoi-an-lanterns.jpg",
+        "videos/da-nang-3n2d/images/06c-hoi-an-river.jpg"
+      ],
+      "narration": "Flying out late? Consider a trip to Hoi An Ancient Town. Flying early? Enjoy a slow morning in Da Nang instead of cramming it in. In Hoi An, don't miss chicken rice at Ba Buoi, banh mi at Phuong, and cao lau at Thanh.",
+      "label": "DAY 3 · OPTIONAL",
+      "caption": "Add Hoi An?",
+      "points": [
+        "Late flight: visit Hoi An Ancient Town",
+        "Early flight: a slow Da Nang morning"
+      ],
+      "accent": "#ff9d7a",
+      "durationSec": 15.5,
+      "dishes": [
+        {
+          "name": "Chicken rice",
+          "place": "Cơm gà Bà Buội",
+          "address": "22 Phan Châu Trinh, Hội An"
+        },
+        {
+          "name": "Banh mi",
+          "place": "Bánh mì Phượng",
+          "address": "2B Phan Châu Trinh, Hội An",
+          "spokenAs": "banh mi at phuong"
+        },
+        {
+          "name": "Cao lau noodles",
+          "place": "Cao lầu Thanh",
+          "address": "26 Thái Phiên, Hội An",
+          "spokenAs": "cao lau"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/da-nang-3n2d/images/07-outro.jpg"
+      ],
+      "narration": "An easy-going plan beats rushing to a hundred places. All the addresses are in the description. Save this for your Da Nang trip!",
+      "label": "TAKE IT EASY",
+      "caption": "DA NANG",
+      "tip": "An easy pace beats ticking off every spot",
+      "cta": "Save this for your trip!",
+      "durationSec": 9.5
+    }
+  ]
+}
