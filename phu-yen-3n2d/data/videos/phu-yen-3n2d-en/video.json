@@ -1,0 +1,372 @@
+{
+  "id": "phu-yen-3n2d-en",
+  "title": "Phu Yen in 3 days, 2 nights",
+  "language": "en",
+  "region": "Phú Yên, Đắk Lắk, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fd3ff",
+    "brand": "PHU YEN · 3D2N"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/phu-yen-3n2d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.376,
+      13.126
+    ],
+    "zoom": 10.5,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/phu-yen-3n2d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      107.4,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phu-yen-3n2d/images/01-hook.jpg"
+      ],
+      "narration": "Three days in Phu Yen? Save this itinerary for wild rock coasts, the easternmost sunrise in Vietnam, and seriously good seafood.",
+      "label": "CENTRAL VIETNAM",
+      "caption": "PHU YEN",
+      "badge": "3D2N",
+      "tip": "Rock coasts · Sunrise · Seafood",
+      "frame": "full",
+      "durationSec": 10
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Getting there is easy: direct flights from Hanoi and Ho Chi Minh City land at Tuy Hoa airport.",
+      "label": "GETTING THERE",
+      "caption": "Fly to Tuy Hoa",
+      "flight": {
+        "to": {
+          "name": "Tuy Hoa",
+          "lng": 109.3337,
+          "lat": 13.0496
+        },
+        "from": [
+          {
+            "name": "Hanoi",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "Ho Chi Minh City",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 7.5
+    },
+    {
+      "id": "day1-thapnhan",
+      "layout": "point",
+      "map": {
+        "lng": 109.3016,
+        "lat": 13.0823,
+        "name": "Nhan Tower · Tuy Hoa"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/02-thap-nhan.jpg",
+        "videos/phu-yen-3n2d/images/02b-tuy-hoa-tu-nui-nhan.jpg"
+      ],
+      "narration": "Day one in Tuy Hoa: climb Nhan Hill for an ancient Cham tower and views over the Da Rang River. Hungry? Try chive noodle soup at Quan 129, chicken rice at Com Ga 92, or crispy pancakes at Banh Xeo 58.",
+      "label": "DAY 1",
+      "caption": "Nhan Tower",
+      "points": [
+        "Ancient Cham tower on Nhan Hill",
+        "Views over the Da Rang River"
+      ],
+      "accent": "#ffb978",
+      "dishes": [
+        {
+          "name": "Chive noodle soup",
+          "place": "Quán 129",
+          "address": "129 Lý Thường Kiệt",
+          "rating": 4.7
+        },
+        {
+          "name": "Chicken rice",
+          "place": "Cơm Gà 92",
+          "address": "69 Lý Thường Kiệt",
+          "rating": 4.6
+        },
+        {
+          "name": "Crispy pancakes",
+          "place": "Bánh xèo 58",
+          "address": "58 Lý Tự Trọng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Chive noodle soup",
+          "place": "Bánh Canh Hẹ Thảo Vy",
+          "address": "393 ĐL Hùng Vương, Bình Kiến",
+          "rating": 4.6
+        },
+        {
+          "name": "Home-style Phu Yen food",
+          "place": "Tiệm Cơm Lúa",
+          "address": "39 Đồng Khởi, Tuy Hòa",
+          "rating": 4.8
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 17
+    },
+    {
+      "id": "day1-evening",
+      "layout": "point",
+      "map": {
+        "lng": 109.3073,
+        "lat": 13.1163,
+        "name": "Nghinh Phong Tower · Tuy Hoa Beach"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/03-thap-nhan-dem.jpg",
+        "videos/phu-yen-3n2d/images/03b-bien-tuy-hoa.jpg",
+        "videos/phu-yen-3n2d/images/03c-tuy-hoa-panorama.jpg"
+      ],
+      "narration": "In the evening, stroll Tuy Hoa beach and the Nghinh Phong Tower, inspired by the basalt rocks up north. For dinner, try tuna eyes at Sunviea, the seafood buffet at Mr Moc, or Sala right on the sand.",
+      "label": "DAY 1 · EVENING",
+      "caption": "Tuy Hoa Beach",
+      "points": [
+        "Evening walk on Tuy Hoa beach",
+        "Nghinh Phong Tower square"
+      ],
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Ocean tuna eyes",
+          "place": "Sunviea",
+          "address": "259 Điện Biên Phủ",
+          "spokenAs": "tuna eyes",
+          "rating": 4.5
+        },
+        {
+          "name": "Seafood buffet",
+          "place": "Mr Mộc",
+          "address": "185A Điện Biên Phủ",
+          "rating": 4.9
+        },
+        {
+          "name": "Beachfront seafood",
+          "place": "Sala Beach Club",
+          "address": "51 Độc Lập",
+          "spokenAs": "sala",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Clay-pot rice, seafood",
+          "place": "Nhà Hàng Hoa Vàng",
+          "address": "357-359 ĐL Hùng Vương, Tuy Hòa",
+          "rating": 4.6
+        },
+        {
+          "name": "Live seafood",
+          "place": "Vựa Hải Sản Vị Biển",
+          "address": "Lô B2 Độc Lập, Bình Kiến",
+          "rating": 4.7
+        },
+        {
+          "name": "Seafood",
+          "place": "Casa de Rosa Tuy Hoa",
+          "address": "Đường Độc Lập (bãi tắm), Tuy Hòa",
+          "rating": 4.5
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 15
+    },
+    {
+      "id": "day2-ganhdadia",
+      "layout": "point",
+      "map": {
+        "lng": 109.2938,
+        "lat": 13.3542,
+        "name": "Ganh Da Dia"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/04-ganh-da-dia.jpg",
+        "videos/phu-yen-3n2d/images/04b-ganh-da-dia-thuyen.jpg",
+        "videos/phu-yen-3n2d/images/04c-nha-tho-mang-lang.jpg"
+      ],
+      "narration": "Day two, head north. Get to Ganh Da Dia early to see basalt columns stacked like plates, then stop by Mang Lang Church. For lunch, have blood cockles from O Loan lagoon at Truc Kieu, or seafood at Muoi Xi or Gio Bien.",
+      "label": "DAY 2",
+      "caption": "Ganh Da Dia",
+      "points": [
+        "Basalt columns stacked like plates",
+        "Mang Lang Church"
+      ],
+      "tip": "Go early to beat the midday sun",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "O Loan blood cockles",
+          "place": "Trúc Kiều",
+          "address": "Đầm Ô Loan",
+          "spokenAs": "blood cockles",
+          "rating": 4.7
+        },
+        {
+          "name": "Seafood",
+          "place": "Mười Xí",
+          "address": "Gần Gành Đá Đĩa",
+          "spokenAs": "muoi xi",
+          "rating": 4.5
+        },
+        {
+          "name": "Rice, seafood",
+          "place": "Quán Gió Biển",
+          "address": "Phú Lương, Tuy An",
+          "spokenAs": "gio bien",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood",
+          "place": "Hải sản Làng Chài",
+          "address": "Tuy An Đông",
+          "rating": 4.6
+        },
+        {
+          "name": "Seafood on a raft",
+          "place": "Quán Bè Hải Sản Hồng Đức",
+          "address": "96RQ+5FG Vũng Lắm, Tuy An Đông",
+          "rating": 4.8
+        },
+        {
+          "name": "Seafood",
+          "place": "Homestay Cường Đá Đĩa",
+          "address": "Thôn Phú Hạnh, Tuy An Đông",
+          "rating": 4.6
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 16
+    },
+    {
+      "id": "day3-muidien",
+      "layout": "point",
+      "map": {
+        "lng": 109.4584,
+        "lat": 12.8976,
+        "name": "Dien Cape · Vung Ro Bay"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/05-mui-dien-binh-minh.jpg",
+        "videos/phu-yen-3n2d/images/05b-hai-dang-mui-dien.jpg",
+        "videos/phu-yen-3n2d/images/05c-bai-mon.jpg",
+        "videos/phu-yen-3n2d/images/05d-vung-ro.jpg"
+      ],
+      "narration": "On the last day, catch sunrise at Dien Cape, the easternmost point of mainland Vietnam, then swim at Bai Mon beach. Finish with lunch on the floating rafts of Vung Ro Bay: Huong Bien, Vung Ro Xanh, or Nam Sang.",
+      "label": "DAY 3",
+      "caption": "Dien Cape",
+      "points": [
+        "Sunrise at the easternmost point",
+        "Swim at Bai Mon beach"
+      ],
+      "tip": "Wear sneakers: lots of steps up to the lighthouse",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Floating raft seafood",
+          "place": "Hương Biển",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "huong bien",
+          "rating": 4.7
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Vũng Rô Xanh",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "vung ro xanh",
+          "rating": 4.8
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Năm Sáng",
+          "address": "Bãi Hưởng, Vũng Rô",
+          "spokenAs": "nam sang",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Seafood, boat trips",
+          "place": "Ba Đua Travel",
+          "address": "QL29, Vũng Rô",
+          "rating": 4.9
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Nhà bè Biển Hẹn",
+          "address": "Vũng Rô, Hòa Xuân",
+          "rating": 4.7
+        },
+        {
+          "name": "Floating raft seafood",
+          "place": "Bè hải sản Bốn Thinh",
+          "address": "Hòa Xuân Nam, Vũng Rô",
+          "rating": 4.5
+        }
+      ],
+      "frame": "full",
+      "transition": "wipe",
+      "durationSec": 16
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phu-yen-3n2d/images/06-outro.jpg"
+      ],
+      "narration": "Phu Yen is best enjoyed slowly. Five food spots for every stop are in the description. Save this for your Phu Yen trip!",
+      "label": "TAKE IT SLOW",
+      "caption": "PHU YEN",
+      "tip": "Phu Yen is best enjoyed slowly",
+      "cta": "Save this for your trip!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9
+    }
+  ]
+}

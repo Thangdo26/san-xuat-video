@@ -1,0 +1,371 @@
+{
+  "id": "phu-yen-3n2d",
+  "title": "Phú Yên 3 ngày 2 đêm",
+  "language": "vi",
+  "region": "Phú Yên, Đắk Lắk, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fd3ff",
+    "brand": "PHÚ YÊN · 3N2Đ"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "map": {
+    "plate": "videos/phu-yen-3n2d/map/region.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      109.376,
+      13.126
+    ],
+    "zoom": 10.5,
+    "width": 1600,
+    "height": 1600,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "flightMap": {
+    "plate": "videos/phu-yen-3n2d/map/vietnam.jpg",
+    "style": "https://tiles.openfreemap.org/styles/fiord",
+    "center": [
+      107.4,
+      15.3
+    ],
+    "zoom": 5.9,
+    "width": 1080,
+    "height": 1920,
+    "attribution": "© OpenMapTiles © OpenStreetMap"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/phu-yen-3n2d/images/01-hook.jpg"
+      ],
+      "narration": "Có ba ngày hai đêm ở Phú Yên? Lưu ngay lịch trình này để ngắm gành đá, đón bình minh và ăn hải sản thật đã.",
+      "label": "MIỀN TRUNG · VIỆT NAM",
+      "caption": "PHÚ YÊN",
+      "badge": "3N2Đ",
+      "tip": "Gành đá · Bình minh · Hải sản",
+      "frame": "full",
+      "durationSec": 8.5
+    },
+    {
+      "id": "flight",
+      "layout": "flight",
+      "narration": "Từ Hà Nội hay Thành phố Hồ Chí Minh, đều có chuyến bay thẳng tới sân bay Tuy Hòa.",
+      "label": "ĐƯỜNG ĐẾN",
+      "caption": "Bay tới Tuy Hòa",
+      "flight": {
+        "to": {
+          "name": "Tuy Hòa",
+          "lng": 109.3337,
+          "lat": 13.0496
+        },
+        "from": [
+          {
+            "name": "Hà Nội",
+            "lng": 105.8072,
+            "lat": 21.2212
+          },
+          {
+            "name": "TP.HCM",
+            "lng": 106.652,
+            "lat": 10.8188
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 5.5
+    },
+    {
+      "id": "day1-thapnhan",
+      "layout": "point",
+      "map": {
+        "lng": 109.3016,
+        "lat": 13.0823,
+        "name": "Tháp Nhạn · Tuy Hòa"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/02-thap-nhan.jpg",
+        "videos/phu-yen-3n2d/images/02b-tuy-hoa-tu-nui-nhan.jpg"
+      ],
+      "narration": "Ngày đầu ở Tuy Hòa, lên núi Nhạn ngắm tháp Chăm cổ và toàn cảnh sông Đà Rằng. Đói bụng thì thử bánh canh hẹ quán 129, cơm gà 92, hoặc bánh xèo 58.",
+      "label": "NGÀY 1",
+      "caption": "Tháp Nhạn",
+      "points": [
+        "Tháp Chăm cổ trên núi Nhạn",
+        "Ngắm sông Đà Rằng từ trên cao"
+      ],
+      "accent": "#ffb978",
+      "dishes": [
+        {
+          "name": "Bánh canh hẹ",
+          "place": "Quán 129",
+          "address": "129 Lý Thường Kiệt",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm gà",
+          "place": "Cơm Gà 92",
+          "address": "69 Lý Thường Kiệt",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh xèo",
+          "place": "Bánh xèo 58",
+          "address": "58 Lý Tự Trọng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh canh hẹ",
+          "place": "Bánh Canh Hẹ Thảo Vy",
+          "address": "393 ĐL Hùng Vương, Bình Kiến",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm nhà, món Phú Yên",
+          "place": "Tiệm Cơm Lúa",
+          "address": "39 Đồng Khởi, Tuy Hòa",
+          "rating": 4.8
+        }
+      ],
+      "transition": "wipe",
+      "durationSec": 10.5
+    },
+    {
+      "id": "day1-evening",
+      "layout": "point",
+      "map": {
+        "lng": 109.3073,
+        "lat": 13.1163,
+        "name": "Tháp Nghinh Phong · biển Tuy Hòa"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/03-thap-nhan-dem.jpg",
+        "videos/phu-yen-3n2d/images/03b-bien-tuy-hoa.jpg",
+        "videos/phu-yen-3n2d/images/03c-tuy-hoa-panorama.jpg"
+      ],
+      "narration": "Tối ra biển Tuy Hòa, dạo quanh tháp Nghinh Phong lấy cảm hứng từ Gành Đá Đĩa. Bữa tối thì thử mắt cá ngừ đại dương ở Sunviea, buffet hải sản Mr Mộc, hoặc Sala ngay sát biển.",
+      "label": "NGÀY 1 · TỐI",
+      "caption": "Biển Tuy Hòa",
+      "points": [
+        "Dạo biển Tuy Hòa",
+        "Quảng trường tháp Nghinh Phong"
+      ],
+      "accent": "#7fd3ff",
+      "dishes": [
+        {
+          "name": "Mắt cá ngừ đại dương",
+          "place": "Sunviea",
+          "address": "259 Điện Biên Phủ",
+          "spokenAs": "mắt cá ngừ",
+          "rating": 4.5
+        },
+        {
+          "name": "Buffet hải sản",
+          "place": "Mr Mộc",
+          "address": "185A Điện Biên Phủ",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản sát biển",
+          "place": "Sala Beach Club",
+          "address": "51 Độc Lập",
+          "spokenAs": "sala",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm niêu, hải sản",
+          "place": "Nhà Hàng Hoa Vàng",
+          "address": "357-359 ĐL Hùng Vương, Tuy Hòa",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản tươi sống",
+          "place": "Vựa Hải Sản Vị Biển",
+          "address": "Lô B2 Độc Lập, Bình Kiến",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Casa de Rosa Tuy Hoa",
+          "address": "Đường Độc Lập (bãi tắm), Tuy Hòa",
+          "rating": 4.5
+        }
+      ],
+      "frame": "full",
+      "transition": "fade",
+      "durationSec": 12
+    },
+    {
+      "id": "day2-ganhdadia",
+      "layout": "point",
+      "map": {
+        "lng": 109.2938,
+        "lat": 13.3542,
+        "name": "Gành Đá Đĩa"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/04-ganh-da-dia.jpg",
+        "videos/phu-yen-3n2d/images/04b-ganh-da-dia-thuyen.jpg",
+        "videos/phu-yen-3n2d/images/04c-nha-tho-mang-lang.jpg"
+      ],
+      "narration": "Ngày thứ hai đi về phía bắc. Đến Gành Đá Đĩa thật sớm để ngắm những cột đá bazan xếp như chồng đĩa, rồi ghé nhà thờ Mằng Lăng. Trưa ăn sò huyết đầm Ô Loan ở quán Trúc Kiều, hoặc hải sản Mười Xí, quán Gió Biển.",
+      "label": "NGÀY 2",
+      "caption": "Gành Đá Đĩa",
+      "points": [
+        "Cột đá bazan xếp như chồng đĩa",
+        "Ghé nhà thờ Mằng Lăng"
+      ],
+      "tip": "Đi thật sớm để tránh nắng gắt",
+      "accent": "#8fe0b0",
+      "dishes": [
+        {
+          "name": "Sò huyết Ô Loan",
+          "place": "Trúc Kiều",
+          "address": "Đầm Ô Loan",
+          "spokenAs": "sò huyết",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản",
+          "place": "Mười Xí",
+          "address": "Gần Gành Đá Đĩa",
+          "spokenAs": "hải sản mười xí",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm, hải sản",
+          "place": "Quán Gió Biển",
+          "address": "Phú Lương, Tuy An",
+          "spokenAs": "quán gió biển",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản",
+          "place": "Hải sản Làng Chài",
+          "address": "Tuy An Đông",
+          "rating": 4.6
+        },
+        {
+          "name": "Hải sản trên bè",
+          "place": "Quán Bè Hải Sản Hồng Đức",
+          "address": "96RQ+5FG Vũng Lắm, Tuy An Đông",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản",
+          "place": "Homestay Cường Đá Đĩa",
+          "address": "Thôn Phú Hạnh, Tuy An Đông",
+          "rating": 4.6
+        }
+      ],
+      "transition": "slide",
+      "durationSec": 13
+    },
+    {
+      "id": "day3-muidien",
+      "layout": "point",
+      "map": {
+        "lng": 109.4584,
+        "lat": 12.8976,
+        "name": "Mũi Điện · Vũng Rô"
+      },
+      "gallery": [
+        "videos/phu-yen-3n2d/images/05-mui-dien-binh-minh.jpg",
+        "videos/phu-yen-3n2d/images/05b-hai-dang-mui-dien.jpg",
+        "videos/phu-yen-3n2d/images/05c-bai-mon.jpg",
+        "videos/phu-yen-3n2d/images/05d-vung-ro.jpg"
+      ],
+      "narration": "Ngày cuối, dậy sớm đón bình minh ở Mũi Điện, điểm cực Đông trên đất liền, rồi xuống tắm biển Bãi Môn. Trưa ra vịnh Vũng Rô ăn hải sản trên bè nổi Hương Biển, Vũng Rô Xanh hoặc Năm Sáng.",
+      "label": "NGÀY 3",
+      "caption": "Mũi Điện",
+      "points": [
+        "Bình minh ở cực Đông",
+        "Tắm biển Bãi Môn"
+      ],
+      "tip": "Mang giày thể thao, đường lên hải đăng nhiều bậc",
+      "accent": "#ffd27a",
+      "dishes": [
+        {
+          "name": "Hải sản bè nổi",
+          "place": "Hương Biển",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "hương biển",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản bè nổi",
+          "place": "Vũng Rô Xanh",
+          "address": "Vịnh Vũng Rô",
+          "spokenAs": "vũng rô xanh",
+          "rating": 4.8
+        },
+        {
+          "name": "Hải sản bè nổi",
+          "place": "Năm Sáng",
+          "address": "Bãi Hưởng, Vũng Rô",
+          "spokenAs": "năm sáng",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hải sản, đi cano",
+          "place": "Ba Đua Travel",
+          "address": "QL29, Vũng Rô",
+          "rating": 4.9
+        },
+        {
+          "name": "Hải sản bè nổi",
+          "place": "Nhà bè Biển Hẹn",
+          "address": "Vũng Rô, Hòa Xuân",
+          "rating": 4.7
+        },
+        {
+          "name": "Hải sản bè nổi",
+          "place": "Bè hải sản Bốn Thinh",
+          "address": "Hòa Xuân Nam, Vũng Rô",
+          "rating": 4.5
+        }
+      ],
+      "frame": "full",
+      "transition": "wipe",
+      "durationSec": 12
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/phu-yen-3n2d/images/06-outro.jpg"
+      ],
+      "narration": "Phú Yên đẹp nhất khi đi chậm. Địa chỉ đủ năm quán cho mỗi điểm mình để ở phần mô tả. Lưu lại cho chuyến đi xứ Nẫu nhé!",
+      "label": "ĐI CHẬM THÔI",
+      "caption": "PHÚ YÊN",
+      "tip": "Phú Yên đẹp nhất khi đi chậm",
+      "cta": "Lưu lại để lên kế hoạch nhé!",
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 8
+    }
+  ]
+}
