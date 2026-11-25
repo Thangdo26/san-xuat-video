@@ -1,0 +1,572 @@
+{
+  "id": "cao-bang-4n3d",
+  "title": "Cao Bằng 4N3Đ",
+  "language": "vi",
+  "region": "Cao Bằng, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#4fd1c5",
+    "highlight": "#ffd27a",
+    "brand": "CAO BẰNG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "kind": "flash",
+      "caption": "CAO BẰNG",
+      "kicker": "NON NƯỚC VIỆT BẮC · TỪ TIKTOK",
+      "label": "4N3Đ",
+      "narration": "Có bốn ngày? Đi Cao Bằng thong thả, từ suối Lê Nin, thác Bản Giốc tới sông Quây Sơn, rồi về qua hồ Ba Bể. Đây là lịch trình bốn ngày ba đêm gom từ TikTok. Lưu lại nhé!",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/cao-bang/pexels/37511190.jpg",
+        "videos/cao-bang/candidates/quay-07.jpg",
+        "videos/cao-bang/pexels/40310960.jpg",
+        "videos/cao-bang/candidates/babe-04.jpg",
+        "videos/cao-bang/candidates/pacbo-03.jpg",
+        "videos/cao-bang/pexels/6348323.jpg"
+      ],
+      "names": [
+        "Thác Bản Giốc",
+        "Sông Quây Sơn",
+        "Núi Mắt Thần",
+        "Hồ Ba Bể",
+        "Suối Lê Nin"
+      ]
+    },
+    {
+      "id": "pacbo",
+      "layout": "point",
+      "caption": "Suối Lê Nin",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#4fd1c5",
+      "points": [
+        "Khu di tích Pác Bó, cách TP khoảng 50 km",
+        "Dành khoảng 4 tiếng, tránh ngày lễ"
+      ],
+      "narration": "Xe đêm tới thành phố lúc rạng sáng. Ngày một, chạy chừng năm mươi cây số lên khu di tích Pác Bó, suối Lê Nin xanh như ngọc, là đầu nguồn sông Bằng. Nên dành khoảng bốn tiếng, tránh ngày lễ cho vắng. Trưa ăn cơm bản ở Quán Ngon, năm sao trên bản đồ.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/cao-bang/candidates/pacbo-03.jpg",
+        "videos/cao-bang/candidates/pacbo-07.jpg",
+        "videos/cao-bang/candidates/pacbo-04.jpg",
+        "videos/cao-bang/candidates/pacbo-02.jpg",
+        "videos/cao-bang/candidates/pacbo-01.jpg"
+      ],
+      "geo": {
+        "lat": 22.9805,
+        "lng": 106.0465
+      },
+      "dishes": [
+        {
+          "name": "Cơm bản",
+          "place": "Quán Ngon",
+          "address": "bản Pác Bó",
+          "rating": 5,
+          "spokenAs": "Quán Ngon"
+        },
+        {
+          "name": "Cơm bản",
+          "place": "Nhà hàng Sơn Huệ",
+          "address": "bản Pác Bó",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Nùng",
+          "place": "Nhà hàng Nùng",
+          "address": "bản Pác Bó",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Bếp của Mế",
+          "address": "Trường Hà",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "layout": "point",
+      "caption": "Phố Cao Bằng",
+      "label": "Ngày 1 · Tối",
+      "accent": "#ffc56b",
+      "points": [
+        "Dạo bờ sông Bằng, cầu Bằng Giang lên đèn",
+        "Thử áp chao, vịt quay, bánh cuốn"
+      ],
+      "narration": "Tối về thành phố, dạo bờ sông Bằng lúc cầu Bằng Giang lên đèn. Bữa tối gọi phở vịt, vịt quay ở Dung Thịnh, bốn chấm bảy sao, rồi ghé áp chao cô Hạc mà các bạn trên TikTok hay review. Sáng mai ăn bánh cuốn chan canh trước khi đi.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/candidates/city-03.jpg",
+        "videos/cao-bang/candidates/city-02.jpg",
+        "videos/cao-bang/candidates/city-06.jpg",
+        "videos/cao-bang/candidates/city-01.jpg",
+        "videos/cao-bang/candidates/city-05.jpg"
+      ],
+      "geo": {
+        "lat": 22.6657,
+        "lng": 106.2579
+      },
+      "dishes": [
+        {
+          "name": "Phở vịt, vịt quay",
+          "place": "Phở Vịt Dung Thịnh",
+          "address": "065 Đường 3/10",
+          "rating": 4.7,
+          "spokenAs": "phở vịt"
+        },
+        {
+          "name": "Bánh áp chao",
+          "place": "Áp chao cô Hạc",
+          "address": "124 Hiến Giang",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Yên - Ngon như mẹ nấu",
+          "address": "22 Đường 1-4",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh cuốn Phố Cũ",
+          "address": "59 Phố Cũ",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mỳ Thu Thắng",
+          "address": "119 Kim Đồng",
+          "rating": 4.8
+        },
+        {
+          "name": "Vịt quay",
+          "place": "Vịt quay O Thoa",
+          "address": "121 Kim Đồng",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm, lẩu riêu",
+          "place": "Vị Mế",
+          "address": "139 Kim Đồng",
+          "rating": 4.7
+        },
+        {
+          "name": "Cháo",
+          "place": "Chiêm Cháo",
+          "address": "191 Kim Đồng",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh áp chao",
+          "place": "Áp Chao Cô Ngân",
+          "address": "138 Phố Cũ",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "gioc",
+      "layout": "point",
+      "caption": "Thác Bản Giốc",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#5ee0b0",
+      "points": [
+        "Cách TP khoảng 90 km",
+        "Tới 10h30–13h, đi bè ra gần chân thác"
+      ],
+      "narration": "Ngày hai, chạy chừng chín mươi cây số tới thác Bản Giốc. Theo VnExpress, nên tới khoảng mười giờ rưỡi tới một giờ trưa khi thác nhiều nước, rồi đi bè ra sát chân thác, leo thêm lên chùa Phật Tích Trúc Lâm ngay gần đó. Trưa ăn cơm ở Hoàng Dương, bốn chấm bảy sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/cao-bang/pexels/6348018.jpg",
+        "videos/cao-bang/pexels/37511190.jpg",
+        "videos/cao-bang/candidates/gioc-11.jpg",
+        "videos/cao-bang/pexels/5334888.jpg",
+        "videos/cao-bang/candidates/gioc-12.jpg",
+        "videos/cao-bang/candidates/chua-02.jpg"
+      ],
+      "geo": {
+        "lat": 22.8545,
+        "lng": 106.7225
+      },
+      "dishes": [
+        {
+          "name": "Cơm, phở",
+          "place": "Hoàng Dương",
+          "address": "Đàm Thủy",
+          "rating": 4.7,
+          "spokenAs": "Hoàng Dương"
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Linh Ngoan",
+          "address": "chợ bản Rạ",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh Cuốn Sáng",
+          "address": "làng đá Khuổi Ky",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm Vinh",
+          "address": "bãi xe Ngườm Ngao",
+          "rating": 4.8
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Chinh Lành",
+          "address": "Trùng Khánh",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "nguom",
+      "layout": "point",
+      "caption": "Động Ngườm Ngao",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#ffb15e",
+      "points": [
+        "Cách thác khoảng 3 km",
+        "Đường trong động dài khoảng 2 km"
+      ],
+      "narration": "Chiều ghé động Ngườm Ngao, cách thác chừng ba cây số, lối đi trong động dài khoảng hai cây số với thạch nhũ lấp lánh. Ra khỏi động thì dạo làng đá Khuổi Ky. Tối ngủ homestay gần thác, ăn cơm ở Quán Cơm Vinh, bốn chấm tám sao.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/candidates/nguom-05.jpg",
+        "videos/cao-bang/candidates/nguom-02.jpg",
+        "videos/cao-bang/candidates/nguom-04.jpg",
+        "videos/cao-bang/candidates/nguom-03.jpg"
+      ],
+      "geo": {
+        "lat": 22.8465,
+        "lng": 106.7046
+      },
+      "dishes": [
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm Vinh",
+          "address": "bãi xe Ngườm Ngao",
+          "rating": 4.8,
+          "spokenAs": "Cơm Vinh"
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Chinh Lành",
+          "address": "Trùng Khánh",
+          "rating": 4.9
+        },
+        {
+          "name": "Nhà hàng",
+          "place": "Nhà hàng Cây Khế",
+          "address": "ĐT206, Trùng Khánh",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, phở",
+          "place": "Hoàng Dương",
+          "address": "Đàm Thủy",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh Cuốn Sáng",
+          "address": "làng đá Khuổi Ky",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "quay",
+      "layout": "point",
+      "caption": "Sông Quây Sơn",
+      "label": "Ngày 3 · Sáng",
+      "accent": "#3fc7e0",
+      "points": [
+        "Nước xanh ngọc chảy qua Đàm Thủy",
+        "Đẹp nhất khoảng tháng 8–9"
+      ],
+      "narration": "Ngày ba, dậy sớm thả bộ ven sông Quây Sơn, nước xanh ngọc chảy qua những mái nhà sàn của Đàm Thủy. Theo MIA, sông đẹp nhất vào khoảng tháng tám, tháng chín. Ăn sáng bánh cuốn ở quán Bánh Cuốn Sáng trong làng đá, bốn chấm năm sao.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/candidates/quay-07.jpg",
+        "videos/cao-bang/candidates/quay-05.jpg",
+        "videos/cao-bang/candidates/quay-01.jpg",
+        "videos/cao-bang/candidates/quay-04.jpg"
+      ],
+      "geo": {
+        "lat": 22.852,
+        "lng": 106.7
+      },
+      "dishes": [
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh Cuốn Sáng",
+          "address": "làng đá Khuổi Ky",
+          "rating": 4.5,
+          "spokenAs": "bánh cuốn"
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Linh Ngoan",
+          "address": "chợ bản Rạ",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm, phở",
+          "place": "Hoàng Dương",
+          "address": "Đàm Thủy",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm Vinh",
+          "address": "bãi xe Ngườm Ngao",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "matthan",
+      "layout": "point",
+      "caption": "Núi Mắt Thần",
+      "label": "Ngày 3 · Chiều",
+      "accent": "#9be15d",
+      "points": [
+        "Hang thủng tròn ngay giữa đỉnh núi",
+        "Đường có đoạn lầy, đi xe máy dễ hơn"
+      ],
+      "narration": "Chiều qua đèo Mã Phục tới núi Mắt Thần ở Trà Lĩnh, ngọn núi có hang thủng tròn ngay giữa đỉnh, trâu thong thả gặm cỏ dưới chân. Đường vào có đoạn lầy khi mưa, đi xe máy dễ hơn. Ghé Nhà Mộc Homestay, bốn chấm sáu sao, rồi về thành phố nghỉ đêm.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/cao-bang/pexels/37724043.jpg",
+        "videos/cao-bang/pexels/37511188.jpg",
+        "videos/cao-bang/pexels/40310960.jpg",
+        "videos/cao-bang/pexels/37724044.jpg",
+        "videos/cao-bang/pexels/38622560.jpg"
+      ],
+      "geo": {
+        "lat": 22.78,
+        "lng": 106.31
+      },
+      "dishes": [
+        {
+          "name": "Cơm homestay",
+          "place": "Nhà Mộc Homestay",
+          "address": "Bản Doanh, Trà Lĩnh",
+          "rating": 4.6,
+          "spokenAs": "Nhà Mộc"
+        },
+        {
+          "name": "Nhà hàng",
+          "place": "Nhà hàng Khương Thuỷ",
+          "address": "Quảng Uyên",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mỳ Thu Thắng",
+          "address": "119 Kim Đồng",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm nhà",
+          "place": "Yên - Ngon như mẹ nấu",
+          "address": "22 Đường 1-4",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm, lẩu riêu",
+          "place": "Vị Mế",
+          "address": "139 Kim Đồng",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "babe",
+      "layout": "point",
+      "caption": "Hồ Ba Bể",
+      "label": "Ngày 4 · Sáng",
+      "accent": "#7fd18a",
+      "points": [
+        "Ghé trên đường QL3 về Hà Nội",
+        "Đi thuyền, ăn cơm nhà sàn"
+      ],
+      "narration": "Ngày bốn, trên đường về Hà Nội rẽ qua hồ Ba Bể, ngồi thuyền giữa núi rừng, ngắm người dân chống thuyền độc mộc. Trưa ăn ở Huyền Trang, bốn chấm chín sao, hoặc cơm nhà sàn ở Nặm Pé, rồi lên xe về Hà Nội.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/cao-bang/candidates/babe-04.jpg",
+        "videos/cao-bang/pexels/28137421.jpg",
+        "videos/cao-bang/candidates/babe-06.jpg",
+        "videos/cao-bang/candidates/babe-08.jpg",
+        "videos/cao-bang/pexels/1653982.jpg"
+      ],
+      "geo": {
+        "lat": 22.41,
+        "lng": 105.62
+      },
+      "dishes": [
+        {
+          "name": "Cơm, phở",
+          "place": "Cơm-Phở Huyền Trang",
+          "address": "Bố Lù, Ba Bể",
+          "rating": 4.9,
+          "spokenAs": "Huyền Trang"
+        },
+        {
+          "name": "Cơm nhà sàn",
+          "place": "Nặm Pé Homestay",
+          "address": "ven hồ Ba Bể",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm nhà sàn",
+          "place": "Sơn Lâm Homestay",
+          "address": "ĐT254, Bố Lù",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": []
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#4fd1c5",
+      "zones": [
+        {
+          "title": "Trung tâm thành phố",
+          "note": "Gần bờ sông, quán ăn; xe khách tới đây",
+          "picks": [
+            [
+              "Mina Homestay",
+              4.8,
+              "trung tâm"
+            ],
+            [
+              "Cao Bang Eco House",
+              4.8,
+              "trung tâm"
+            ]
+          ]
+        },
+        {
+          "title": "Đàm Thủy, gần thác",
+          "note": "Ngắm thác sớm, ở làng bản; ít quán",
+          "picks": [
+            [
+              "Lan's Homestay",
+              4.7,
+              "ven sông Quây Sơn"
+            ],
+            [
+              "Minh Khang Homestay",
+              4.9,
+              "làng đá Khuổi Ky"
+            ]
+          ]
+        }
+      ],
+      "tip": "Mùa lúa chín, tam giác mạch: đặt sớm",
+      "cues": [
+        "trung tâm",
+        "đàm thủy",
+        "mùa lúa"
+      ],
+      "narration": "Nên ở đâu? Đêm đầu ở trung tâm thành phố cho gần quán ăn, như Mina Homestay hay Cao Bang Eco House. Đêm hai ngủ homestay ở Đàm Thủy gần thác, như Lan's Homestay hay Minh Khang. Mùa lúa chín và mùa tam giác mạch nhớ đặt phòng sớm.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/candidates/city-01.jpg",
+        "videos/cao-bang/candidates/quay-06.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Lưu lại lịch trình",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "trail": [
+        {
+          "name": "Suối Lê Nin",
+          "label": "Ngày 1 · Sáng",
+          "lat": 22.9805,
+          "lng": 106.0465
+        },
+        {
+          "name": "Phố Cao Bằng",
+          "label": "Ngày 1 · Tối",
+          "lat": 22.6657,
+          "lng": 106.2579
+        },
+        {
+          "name": "Thác Bản Giốc",
+          "label": "Ngày 2 · Sáng",
+          "lat": 22.8545,
+          "lng": 106.7225
+        },
+        {
+          "name": "Động Ngườm Ngao",
+          "label": "Ngày 2 · Chiều",
+          "lat": 22.8465,
+          "lng": 106.7046
+        },
+        {
+          "name": "Sông Quây Sơn",
+          "label": "Ngày 3 · Sáng",
+          "lat": 22.852,
+          "lng": 106.7
+        },
+        {
+          "name": "Núi Mắt Thần",
+          "label": "Ngày 3 · Chiều",
+          "lat": 22.78,
+          "lng": 106.31
+        },
+        {
+          "name": "Hồ Ba Bể",
+          "label": "Ngày 4 · Sáng",
+          "lat": 22.41,
+          "lng": 105.62
+        }
+      ],
+      "narration": "Cao Bằng sáng tối se lạnh, nhớ mang áo khoác và giày đế bám. Đừng quên phở chua, vịt quay và hạt dẻ Trùng Khánh, địa chỉ quán mình để ở phần mô tả. Lưu lại nhé!",
+      "durationSec": 10,
+      "gallery": [
+        "videos/cao-bang/pexels/14776381.jpg"
+      ]
+    }
+  ]
+}
