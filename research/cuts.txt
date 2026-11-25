@@ -1,0 +1,111 @@
+# name | source file (research/raw-*) | start | dur | note   (chọn từ contact sheet 21/11/2026)
+# --- bánh cuốn
+bc-pour | raw-tiktok/banhcuon__dichill.haiminh__7569834444677336338.mp4 | 2.5 | 5 | đổ bột tráng bánh
+bc-fill | raw-tiktok/banhcuon__dichill.haiminh__7569834444677336338.mp4 | 9.5 | 4.5 | cho nhân, cuộn
+bc-soup | raw-tiktok/banhcuon__dichill.haiminh__7569834444677336338.mp4 | 18.5 | 4 | múc nước xương
+bc-roll | raw-tiktok/banhcuon__dichill.haiminh__7707506618816056594.mp4 | 24 | 5 | cuộn bánh trứng
+bc-plate | raw-tiktok/banhcuon__dichill.haiminh__7707506618816056594.mp4 | 0.5 | 3.5 | đĩa bánh + bát nước xương
+bc-steam | raw-tiktok/banhcuon__hagiangcungtu__7650562541617171732.mp4 | 17 | 5 | nồi tráng bánh hơi nước
+bc-bowl | raw-tiktok/banhcuon__hagiangcungtu__7650562541617171732.mp4 | 32 | 4 | bát nước xương
+bc-vendor | raw-tiktok/banhcuon__h.giang.n.g__7700208364151688468.mp4 | 16 | 5 | cô bán tráng bánh (không che)
+bc-eat | raw-tiktok/banhcuon__h.giang.n.g__7700208364151688468.mp4 | 74 | 5 | tay gắp bánh
+bc-bowl2 | raw-tiktok/banhcuon__lutravel.hagiangtour__7651577762385382677.mp4 | 20 | 4 | bát bánh cuốn nước xương
+bc-rolling | raw-tiktok/banhcuon__linh.k.h.giang__7690098981463936277.mp4 | 78 | 5 | chú bán cuộn bánh
+# --- cháo ấu tẩu
+chao-close | raw-tiktok/chao__bandoanvietnam__7585405410404797716.mp4 | 1 | 4 | cận cháo
+chao-tuber | raw-tiktok/chao__bandoanvietnam__7585405410404797716.mp4 | 15 | 4.5 | củ ấu tẩu trên tay
+chao-bowl | raw-tiktok/chao__bandoanvietnam__7585405410404797716.mp4 | 29 | 4 | bát cháo trứng
+chao-root | raw-tiktok/chao__gu.amthuc__7686893896269352210.mp4 | 7 | 4 | bát củ ấu tẩu khô
+chao-bowl2 | raw-tiktok/chao__gu.amthuc__7686893896269352210.mp4 | 28 | 4.5 | bát cháo
+chao-ladle | raw-tiktok/chao__gu.amthuc__7686893896269352210.mp4 | 36 | 6 | cô bán múc cháo, trứng (không che)
+chao-pile | raw-tiktok/chao__gu.amthuc__7686893896269352210.mp4 | 49.5 | 3.5 | đống củ ấu tẩu
+chao-spoon | raw-tiktok/chao__quynhnga.runa__7706172644256697608.mp4 | 13.5 | 5 | múc cháo cận (không chữ)
+# --- phở / chợ phiên Đồng Văn
+pho-stall | raw-tiktok/cho__votrimotxiu__7581515306590276871.mp4 | 0.3 | 6 | quầy phở chợ phiên, khói (người bán, không che)
+pho-market | raw-tiktok/cho__taophotranchau__7619246606763822343.mp4 | 13.5 | 5 | ăn phở giữa chợ phiên
+pho-bowls | raw-tiktok/cho__taophotranchau__7619246606763822343.mp4 | 16.5 | 3.5 | bát phở
+cho-fire | raw-tiktok/cho__taophotranchau__7619246606763822343.mp4 | 0.5 | 4 | chợ sáng sớm, bếp lửa
+cho-walk | raw-tiktok/cho__taophotranchau__7619246606763822343.mp4 | 19.5 | 5.5 | dạo chợ phiên
+# --- thịt cuốn cải / Lô Lô
+cc-grill | raw-tiktok/cuoncai__duyhung.dayy__7692978378839772436.mp4 | 3 | 4.5 | quầy nướng Lô Lô (cô bán)
+cc-skewer | raw-tiktok/cuoncai__duyhung.dayy__7692978378839772436.mp4 | 10.5 | 4.5 | cận xiên cuốn cải
+cc-lolo | raw-tiktok/cuoncai__duyhung.dayy__7692978378839772436.mp4 | 0.2 | 2.6 | quán trong làng Lô Lô
+xoi-make | raw-tiktok/cuoncai__gowithmiles___7709119667276696852.mp4 | 1.2 | 3.4 | cô bán xôi Lô Lô
+# --- phố cổ Đồng Văn ban đêm
+dv-dance | raw-tiktok/dongvan__donglongbongcbvn__7709849402378079508.mp4 | 12 | 6 | múa xoè phố cổ 19/11 (đám đông xa)
+dv-fire | raw-tiktok/dongvan__ha.vy.52643__7688715961502911765.mp4 | 2 | 6 | lửa trại phố cổ toàn cảnh
+dv-crowd | raw-tiktok/dongvan__tl.quyn13__7611939522372275463.mp4 | 1 | 5 | phố cổ lên đèn
+# --- Du Già (ngày 4)
+dg-road | raw-tiktok/dugia__milkywayoday__7687095314586537236.mp4 | 5 | 5 | đường Du Già
+dg-valley | raw-tiktok/dugia__milkywayoday__7687095314586537236.mp4 | 16 | 6 | thung lũng Du Già
+dg-terrace | raw-tiktok/dugia__milkywayoday__7687095314586537236.mp4 | 26 | 6 | ruộng bậc thang, đường uốn
+dg-road2 | raw-tiktok/dugia__millinguyen__7687423757115297045.mp4 | 9 | 6 | đường ven vực Du Già
+# --- thịt treo gác bếp
+gb-hang | raw-tiktok/gacbep__cafecucbac__7684609017750031637.mp4 | 59 | 5 | thịt treo trên bếp củi
+gb-fry | raw-tiktok/gacbep__cafecucbac__7684609017750031637.mp4 | 69 | 4 | xào thịt gác bếp
+# --- lẩu gà đen / thắng dền
+lau-spread | raw-tiktok/laugaden__caonguyendatravel__7703930557075426580.mp4 | 15.5 | 4.5 | mâm lẩu gà đen (chữ "Lẩu gà đen" của creator)
+thangden | raw-tiktok/laugaden__caonguyendatravel__7703930557075426580.mp4 | 82 | 4 | bát thắng dền
+# (bỏ: chủ video lộ mặt cả đoạn) lau-pot | raw-tiktok/laugaden__hanklab__7703986315817258261.mp4 | 75 | 6 | nồi lẩu gà đen ở home Lô Lô
+# --- toàn cảnh, cung đường
+loop-serp | raw-tiktok/loop__check.in.hanoi__7626371088670330132.mp4 | 0.5 | 6 | đường uốn lượn flycam
+loop-road | raw-tiktok/loop__ziile06_hagiang__7637872995549089031.mp4 | 0.5 | 6 | đường đèo trời xanh mây
+mpl-flag | raw-tiktok/loop__travelhagiang23__7694946657942736146.mp4 | 0.5 | 7 | điểm ngắm Nho Quế có cờ đỏ
+mpl-gorge | raw-tiktok/loop__travelhagiang23__7694946657942736146.mp4 | 12 | 6 | hẻm Tu Sản từ trên cao
+mpl-drive | raw-tiktok/loop__trtoan0711__7690610330992446741.mp4 | 16 | 8 | chạy đèo Mã Pì Lèng nhìn xuống sông
+dv-fire2 | raw-tiktok/loop__dieuhanhdulich___7589565577702673671.mp4 | 1 | 6 | lửa trại phố cổ Đồng Văn
+# --- Lũng Cú
+lc-tower | raw-tiktok/lungcu__trungducvlog888__7662367726635093255.mp4 | 0.5 | 6 | flycam cột cờ + làng
+lc-flag | raw-tiktok/lungcu__trungducvlog888__7662367726635093255.mp4 | 13.5 | 7 | cận lá cờ 54 m²
+lc-pond | raw-tiktok/lungcu__trungducvlog888__7662367726635093255.mp4 | 7.5 | 5 | cột cờ + hồ dưới chân
+lc-wide | raw-tiktok/lungcu__dolangthangvn__7614304600266427669.mp4 | 12 | 7 | flycam xa cột cờ (ngang → crop)
+# --- Mã Pì Lèng / Nho Quế
+mpl-cloud | raw-tiktok/mpl__caonguyendatravel__7585879971445460244.mp4 | 24.5 | 3.5 | biển mây hẻm Tu Sản (sau khi người mẫu ra khỏi khung)
+nq-view | raw-tiktok/mpl__dieudepajtravel__7684651726145850645.mp4 | 4.5 | 9 | nhìn xuống sông Nho Quế xanh
+mpl-road | raw-tiktok/mpl__nghuyen151001__7694532007707086132.mp4 | 3 | 6 | đường đèo Mã Pì Lèng
+mpl-fly1 | raw-tiktok/mpl__trungducvlog888__7651931362898873607.mp4 | 0.5 | 9 | flycam sông + đường uốn
+mpl-fly2 | raw-tiktok/mpl__trungducvlog888__7651931362898873607.mp4 | 17 | 9 | flycam con đường chữ M
+# --- sông Nho Quế
+nq-sparkle | raw-tiktok/nhoque___vuongvandiep_99__7706782494569385223.mp4 | 2 | 8 | mặt sông lấp lánh, vách đá (11/11)
+nq-sparkle2 | raw-tiktok/nhoque___vuongvandiep_99__7706782494569385223.mp4 | 20 | 6 | như trên, đoạn sau
+nq-boats | raw-tiktok/nhoque__fb_dinhdang__7707867570694671634.mp4 | 13.5 | 6 | thuyền trong hẻm (14/11)
+nq-gorge | raw-tiktok/nhoque__fb_dinhdang__7707867570694671634.mp4 | 22 | 6 | hẻm vực trời xanh
+nq-tour | raw-tiktok/nhoque__fb_dinhdang__7707867570694671634.mp4 | 41 | 5 | thuyền lớn trên sông
+nq-fleet | raw-tiktok/nhoque__fb_dinhdang__7707867570694671634.mp4 | 48 | 5 | đoàn thuyền
+# --- phở chợ
+pho-stalls | raw-tiktok/pho__hangnguyenhgvn__7635531021487754513.mp4 | 19 | 5 | dãy quán phở chợ phiên
+pho-noodle | raw-tiktok/pho__hangnguyenhgvn__7635531021487754513.mp4 | 35 | 4.5 | nhấc sợi phở gạo đỏ
+pho-bowl | raw-tiktok/pho__hangnguyenhgvn__7635531021487754513.mp4 | 60 | 4 | bát phở gà đen
+pho-pork | raw-tiktok/pho__linh.k.h.giang__7694291021907184917.mp4 | 28.5 | 4.5 | thịt lợn quay da giòn
+pho-chop | raw-tiktok/pho__linh.k.h.giang__7694291021907184917.mp4 | 43.5 | 4.5 | gắp phở (tay)
+pho-ladle | raw-tiktok/pho__luutienthanhhg__7649930066683514132.mp4 | 47 | 4.5 | chan nước phở quán bà Dung
+# --- tam giác mạch
+tgm-village | raw-tiktok/tgm__dieudepajtravel__7674068242666687764.mp4 | 1 | 8 | ruộng tam giác mạch trước làng
+tgm-flower | raw-tiktok/tgm__hoangthaohagiang__7697952528566078727.mp4 | 0.5 | 8 | cận hoa → làng
+tgm-road | raw-tiktok/tgm__motphutmotnoi__7709086384128150804.mp4 | 7.6 | 2.6 | đường đèo viền hoa (18/11)
+tgm-field | raw-tiktok/tgm__vndiu6sau6___7694597689069161735.mp4 | 9 | 7 | cánh đồng tam giác mạch (ngang → crop)
+# --- dốc Thẩm Mã
+tm-fly | raw-tiktok/thamma__trungducvlog888__7654584751231192328.mp4 | 0.5 | 9 | flycam dốc Thẩm Mã
+tm-fly2 | raw-tiktok/thamma__trungducvlog888__7654584751231192328.mp4 | 14 | 9 | cận khúc cua, xe tải
+tm-crowd | raw-tiktok/thamma__09th06.____7707587906671578386.mp4 | 0.5 | 4 | xe máy kẹt ở Thẩm Mã (13/11)
+tm-crowd2 | raw-tiktok/thamma__09th06.____7707587906671578386.mp4 | 19 | 5 | bãi đỗ đông nghịt
+# --- thắng cố
+tc-pot | raw-tiktok/thangco__h.duy.tng11__7619938140005879047.mp4 | 2.5 | 6 | nồi thắng cố sôi
+tc-plate | raw-tiktok/thangco__h.duy.tng11__7619938140005879047.mp4 | 13 | 5 | mẹt đồ nhúng
+tc-pot2 | raw-tiktok/thangco__tungluu07_2003__7637870298716589332.mp4 | 14 | 4.5 | nồi thắng cố ngựa
+tc-dip | raw-tiktok/thangco__tungluu07_2003__7637870298716589332.mp4 | 34 | 4.5 | chấm thịt
+tc-hall | raw-tiktok/thangco__tungluu07_2003__7637870298716589332.mp4 | 3 | 4 | quán đông khách
+tc-boil | raw-tiktok/thangco__trongaden.99__7686487934723280148.mp4 | 38 | 4.5 | nồi thắng cố trên bàn
+tc-horse | raw-tiktok/thangco__trongaden.99__7686487934723280148.mp4 | 53 | 4 | đĩa ngựa xào
+# --- Pexels (giấy phép Pexels, đã xác minh đúng Hà Giang ở bản 15/11)
+px-nq-curve | raw-pexels/17497452.mp4 | 2 | 8 | Sông Nho Quế flycam (I love experience of my life)
+px-thamma | raw-pexels/17566213.mp4 | 10 | 7 | Dốc Thẩm Mã (I love experience of my life)
+px-road | raw-pexels/15799579.mp4 | 12 | 8 | Đường đèo Hà Giang (Q. Hưng Phạm)
+px-nq-ben | raw-pexels/17482073.mp4 | 28 | 7 | Bến thuyền Nho Quế (Anh Tuan)
+px-nq-boat | raw-pexels/17498864.mp4 | 10 | 7 | Thuyền trên sông Nho Quế (I love experience of my life)
+px-nq-gorge | raw-pexels/17566205.mp4 | 12 | 7 | Hẻm sông Nho Quế (I love experience of my life)
+px-mpl-road | raw-pexels/17566209.mp4 | 0.5 | 7 | Đường đèo trên sông Nho Quế (I love experience of my life)
+px-moto | raw-pexels/32875835.mp4 | 40 | 7 | Chạy xe máy đường núi (GIANG VU)
+px-pavi | raw-pexels/17566167.mp4 | 8 | 6 | Làng Pả Vi, Mèo Vạc (I love experience of my life)
+px-nq-wide | raw-pexels/17566204.mp4 | 8 | 7 | Toàn cảnh sông Nho Quế (I love experience of my life)
+px-fog | raw-pexels/32763449.mp4 | 6 | 7 | Đường núi trong sương (GIANG VU)

@@ -1,0 +1,376 @@
+{
+  "id": "ha-giang-3n2d-v2",
+  "title": "Hà Giang 3N2Đ mùa tam giác mạch",
+  "language": "vi",
+  "region": "Hà Giang (Tuyên Quang), Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e2384a",
+    "highlight": "#f5c84c",
+    "brand": "HÀ GIANG"
+  },
+  "narrator": {
+    "provider": "elevenlabs",
+    "voice": "Adam"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-ambient.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Lan Anh Restaurant": "lan-anh",
+    "Ngọc Tuyên": "ngoc-tuyen",
+    "Lalaland Restaurant": "lalaland",
+    "Tu Sản Coffee": "tu-san-coffee",
+    "Thạch Sơn quán": "thach-son",
+    "Thao Linh": "thao-linh",
+    "Nhà hàng Tùng Phúc": "tung-phuc",
+    "Ethnic House": "ethnic",
+    "Ma Pi Leng Homestay": "mpl-home-llc",
+    "Thing 0 Homestay": "thing0",
+    "PiTu Homestay": "pi-tu",
+    "CiCi homestay": "cici"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HÀ GIANG",
+      "label": "3 NGÀY 2 ĐÊM",
+      "kicker": "MÙA TAM GIÁC MẠCH · CUỐI THÁNG 11",
+      "sub": "+ gợi ý ngày 4",
+      "voiceDelay": 6,
+      "cold": [
+        "videos/ha-giang/footage/nq-sparkle.mp4",
+        "videos/ha-giang/footage/tm-fly.mp4",
+        "videos/ha-giang/footage/lc-flag.mp4",
+        "videos/ha-giang/footage/mpl-fly1.mp4",
+        "videos/ha-giang/footage/tgm-flower.mp4"
+      ],
+      "narration": "Hello hô lê các con vợ! Cuối tháng mười một, Hà Giang đang mùa tam giác mạch, sáng tám độ mà cảnh đẹp muốn xỉu. Mình cày hơn sáu chục video TikTok của người vừa đi về để gom lịch trình ba ngày hai đêm này. Lưu lại liền nha!",
+      "gallery": [
+        "videos/ha-giang/footage/mpl-flag.mp4",
+        "videos/ha-giang/footage/tgm-village.mp4",
+        "videos/ha-giang/footage/loop-serp.mp4"
+      ],
+      "durationSec": 17.5
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "N1",
+      "label": "Ngày 1 · QL4C",
+      "caption": "Quản Bạ → Lô Lô",
+      "badge": "~180 km",
+      "points": [
+        "Cây cô đơn = đúng đường Cán Tỷ",
+        "Tới Lô Lô trước 17h, trời tối sớm"
+      ],
+      "narration": "Ngày một, xe đêm tới thành phố lúc ba giờ sáng, ngủ tạm ở chỗ thuê xe rồi chạy: cổng trời Quản Bạ, dốc Thẩm Mã, dốc Chín Khoanh, nhà của Pao. Tối ngủ Lô Lô Chải, tới trước năm giờ chiều vì trời tối sớm lắm.",
+      "gallery": [
+        "videos/ha-giang/footage/px-road.mp4",
+        "videos/ha-giang/footage/loop-road.mp4",
+        "videos/ha-giang/footage/tm-fly2.mp4",
+        "videos/ha-giang/footage/px-thamma.mp4",
+        "videos/ha-giang/footage/tgm-field.mp4",
+        "videos/ha-giang/footage/tm-crowd2.mp4"
+      ],
+      "recap": [
+        "tm-fly",
+        "loop-serp",
+        "tgm-flower",
+        "tm-crowd"
+      ],
+      "recapLabel": "Ngày 1",
+      "cardTitle": "ĂN DỌC ĐƯỜNG",
+      "dishes": [
+        {
+          "name": "Cơm trưa",
+          "place": "Lan Anh Restaurant",
+          "address": "192 QL4C, Quản Bạ",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm, phở",
+          "place": "Ngọc Tuyên",
+          "address": "cổng chào Yên Minh",
+          "rating": 4.9
+        },
+        {
+          "name": "Tối ở Lô Lô",
+          "place": "Lalaland Restaurant",
+          "address": "Lô Lô Chải",
+          "rating": 4.9
+        }
+      ],
+      "durationSec": 15,
+      "recapSec": 3
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "N2",
+      "label": "Ngày 2 · Lũng Cú → Nho Quế",
+      "caption": "Mã Pì Lèng",
+      "badge": "thuyền 150k",
+      "points": [
+        "Maps: \"bến thuyền hẻm Tu Sản\"",
+        "Cơm view sông: tới trước 11h"
+      ],
+      "narration": "Ngày hai lên cột cờ Lũng Cú, rồi đổ đèo Mã Pì Lèng xuống sông Nho Quế. Gõ bến thuyền hẻm Tu Sản chứ đừng gõ sông Nho Quế. Vé thuyền một trăm rưỡi, muốn ăn cơm view sông thì tới trước mười một giờ. Tối về phố cổ Đồng Văn quẩy lửa trại.",
+      "gallery": [
+        "videos/ha-giang/footage/lc-tower.mp4",
+        "videos/ha-giang/footage/lc-pond.mp4",
+        "videos/ha-giang/footage/mpl-fly2.mp4",
+        "videos/ha-giang/footage/nq-view.mp4",
+        "videos/ha-giang/footage/nq-boats.mp4",
+        "videos/ha-giang/footage/px-nq-boat.mp4",
+        "videos/ha-giang/footage/dv-fire.mp4"
+      ],
+      "recap": [
+        "lc-flag",
+        "mpl-gorge",
+        "nq-sparkle2",
+        "dv-dance"
+      ],
+      "recapLabel": "Ngày 2",
+      "cardTitle": "ĂN · NGHỈ CHÂN",
+      "dishes": [
+        {
+          "name": "Cà phê view hẻm",
+          "place": "Tu Sản Coffee",
+          "address": "đèo Mã Pì Lèng",
+          "rating": 4.9
+        },
+        {
+          "name": "Lẩu gà đen, ngựa",
+          "place": "Thạch Sơn quán",
+          "address": "chợ cổ Đồng Văn",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Thao Linh",
+          "address": "phố cổ Đồng Văn",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 16.5,
+      "recapSec": 3
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "N3",
+      "label": "Ngày 3 · Đồng Văn → TP",
+      "caption": "Chợ phiên & về",
+      "badge": "Chủ nhật",
+      "points": [
+        "Về: tìm \"dừng chân dốc Cán Tỷ\"",
+        "Đừng theo Maps vào đường rừng thông"
+      ],
+      "narration": "Ngày ba, Chủ nhật thì ăn bát phở chợ phiên Đồng Văn rồi về. Từ Yên Minh tìm dừng chân dốc Cán Tỷ, không là Maps dắt vào đường rừng, xa thêm hai chục cây.",
+      "gallery": [
+        "videos/ha-giang/footage/cho-fire.mp4",
+        "videos/ha-giang/footage/pho-stall.mp4",
+        "videos/ha-giang/footage/cho-walk.mp4",
+        "videos/ha-giang/footage/px-moto.mp4",
+        "videos/ha-giang/footage/mpl-road.mp4"
+      ],
+      "recap": [
+        "pho-bowls",
+        "px-fog",
+        "mpl-drive"
+      ],
+      "recapLabel": "Ngày 3",
+      "cardTitle": "ĂN SÁNG ĐỒNG VĂN",
+      "dishes": [
+        {
+          "name": "Phở lợn bản",
+          "place": "Phở chợ Đồng Văn",
+          "address": "quán bà Dung, trong chợ",
+          "spokenAs": "phở"
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Nhà hàng Tùng Phúc",
+          "address": "số 135 Đồng Văn",
+          "rating": 4.9
+        },
+        {
+          "name": "Ăn sáng, cà phê",
+          "place": "Ethnic House",
+          "address": "15 Phố Cổ",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "extra",
+      "layout": "extra",
+      "day": "+1",
+      "caption": "Thêm ngày 4?",
+      "kicker": "ĐI 4N3Đ THÌ THÊM",
+      "items": [
+        {
+          "t": "Ngủ Mèo Vạc",
+          "s": "Cao nguyên đá homestay ★4.8",
+          "cue": "Mèo Vạc"
+        },
+        {
+          "t": "Về bằng cung Du Già",
+          "s": "đẹp nhất, đường xấu, vắng",
+          "cue": "Du Già"
+        },
+        {
+          "t": "Đổ đầy bình xăng",
+          "s": "dọc đường ít cây xăng",
+          "cue": "đổ đầy"
+        }
+      ],
+      "narration": "Có thêm ngày thứ tư thì ngủ Mèo Vạc, về bằng cung Du Già. Đẹp nhất mà đường xấu, ít cây xăng, đổ đầy bình rồi hẵng đi.",
+      "gallery": [
+        "videos/ha-giang/footage/dg-road.mp4",
+        "videos/ha-giang/footage/dg-valley.mp4",
+        "videos/ha-giang/footage/px-pavi.mp4",
+        "videos/ha-giang/footage/dg-terrace.mp4",
+        "videos/ha-giang/footage/dg-road2.mp4"
+      ],
+      "durationSec": 8
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Ngủ ở đâu?",
+      "zones": [
+        {
+          "title": "Lô Lô Chải · Thèn Pả",
+          "note": "Đêm 1 · yên tĩnh, gần Lũng Cú",
+          "picks": [
+            [
+              "Ma Pi Leng Homestay",
+              4.9,
+              "Cẳng Tẳng, Lũng Cú"
+            ],
+            [
+              "Thing 0 Homestay",
+              4.9,
+              "Lô Lô Chải"
+            ]
+          ]
+        },
+        {
+          "title": "Phố cổ Đồng Văn",
+          "note": "Đêm 2 · vui, tối thứ 7 lửa trại",
+          "picks": [
+            [
+              "PiTu Homestay",
+              5,
+              "Phố Cổ, Đồng Văn"
+            ],
+            [
+              "CiCi homestay",
+              4.7,
+              "Đồng Văn"
+            ]
+          ]
+        }
+      ],
+      "tip": "Mùa hoa đông lắm: đặt phòng trước",
+      "cues": [
+        "lô lô",
+        "phố cổ",
+        "đặt phòng"
+      ],
+      "narration": "Đêm đầu ở Lô Lô Chải hoặc làng Thèn Pả cho yên, đêm hai ở phố cổ Đồng Văn cho vui. Mùa hoa đông lắm, đặt phòng trước nha.",
+      "gallery": [
+        "videos/ha-giang/footage/lc-wide.mp4",
+        "videos/ha-giang/footage/dv-fire2.mp4",
+        "videos/ha-giang/footage/dv-crowd.mp4"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu?",
+      "kicker": "TỰ TÚC TỪ HÀ NỘI · 1 NGƯỜI",
+      "receiptTitle": "HÀ GIANG 3N2Đ",
+      "total": "2,8–3,3tr",
+      "totalCue": "ba triệu",
+      "stamp": "THAM KHẢO 21/11/2026",
+      "note": "Nguồn: review TikTok 2026, Dân Việt (vé thuyền)",
+      "items": [
+        {
+          "k": "Xe giường nằm khứ hồi",
+          "v": "650–700k"
+        },
+        {
+          "k": "Phòng 2 đêm (ở 2 người)",
+          "v": "500–800k"
+        },
+        {
+          "k": "Thuê Wave 3 ngày + xăng",
+          "v": "350–420k"
+        },
+        {
+          "k": "Vé: thuyền 150k, Lũng Cú 70k…",
+          "v": "≈250k"
+        },
+        {
+          "k": "Ăn uống 3 ngày",
+          "v": "1–1,2tr"
+        }
+      ],
+      "narration": "Tự túc từ Hà Nội hết khoảng ba triệu một người, nặng nhất là xe giường nằm với tiền phòng.",
+      "gallery": [
+        "videos/ha-giang/footage/px-nq-wide.mp4",
+        "videos/ha-giang/footage/px-fog.mp4"
+      ],
+      "durationSec": 9.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hà Giang chờ bạn",
+      "kicker": "3 ĐIỀU NHỚ",
+      "cta": "Lưu lại nhé!",
+      "tips": [
+        "Mang bằng lái",
+        "Giữ xăng đầy bình",
+        "Áo ấm + áo mưa"
+      ],
+      "tipCues": [
+        "bằng lái",
+        "xăng",
+        "áo ấm"
+      ],
+      "routeStops": [
+        "Km0",
+        "Quản Bạ",
+        "Thẩm Mã",
+        "Lô Lô Chải",
+        "Lũng Cú",
+        "Đồng Văn",
+        "Mã Pì Lèng",
+        "Nho Quế"
+      ],
+      "narration": "Nhớ mang bằng lái, giữ xăng đầy bình, áo ấm với áo mưa. Clip là của các bạn TikToker, nguồn mình để ở mô tả. Lưu lại rồi lên Hà Giang đi các con vợ!",
+      "gallery": [
+        "videos/ha-giang/footage/px-nq-gorge.mp4",
+        "videos/ha-giang/footage/px-nq-curve.mp4",
+        "videos/ha-giang/footage/px-nq-ben.mp4"
+      ],
+      "durationSec": 12
+    }
+  ]
+}
