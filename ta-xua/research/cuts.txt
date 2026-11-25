@@ -1,0 +1,36 @@
+# name | source | start | dur | note   (muted picture clips, Tà Xùa 23/11/2026)
+c-loi | raw-tiktok/tx__.loi_dang6868__7688979180247272712.mp4 | 2.5 | 3 | thác mây từ ban công
+c-fly | raw-tiktok/tx__flycamtaxua__7710118030797278516.mp4 | 17 | 3 | flycam thác mây 20/11
+c-tank | raw-tiktok/tx__tank.hoang__7706809153364266246.mp4 | 6.2 | 3 | thác mây qua đỉnh
+c-sea | raw-tiktok/tx__littleforesttaxua__7707881145937005876.mp4 | 3 | 3.5 | biển mây xanh 14/11
+h-khen | raw-tiktok/tx__khencoffeehouse__7698534947954396437.mp4 | 9 | 5 | thác mây Khèn
+h-hilary | raw-tiktok/tx__hilaryvi__7710113147872513298.mp4 | 26 | 5 | thác mây
+h-annuoc | raw-tiktok/tx__annuocthom__7709893715170495764.mp4 | 9 | 5 | Khe Cải 19/11
+r-dawn | raw-tiktok/tx__14yangyangg__7709339579190791445.mp4 | 3 | 5 | bình minh biển mây
+r-traffic | raw-tiktok/tx__dicunguyen99__7710900384834817288.mp4 | 13 | 4.5 | trung tâm 22/11 | zoom
+r-flower | raw-tiktok/tx__hieubosongotaxua__7711149869674581249.mp4 | 30.5 | 4.5 | vườn hoa trong sương 23/11
+r-window | raw-tiktok/tx__nguoi.trenmay__7665673959374867730.mp4 | 6 | 5 | mây từ cửa sổ homestay
+m-mami | raw-tiktok/tx__tungtaxua__7710410628875275572.mp4 | 4 | 5 | đỉnh Gió 21/11
+m-chung | raw-tiktok/tx__chung204ae__7706710184218922247.mp4 | 9 | 5 | Khèn 11/11
+m-diep | raw-tiktok/tx__diephuudattaxua__7706717295820737798.mp4 | 12 | 5 | thác mây 11/11
+m-loi | raw-tiktok/tx__.loi_dang6868__7688979180247272712.mp4 | 9 | 5 | thác mây
+t-grass | raw-tiktok/tx__hi_zuy__7689823962418744584.mp4 | 9 | 4.5 | thảo nguyên
+t-lan | raw-tiktok/tx__duanho0709__7660773225240071444.mp4 | 0.5 | 2.6 | lán cô đơn
+t-dolphin | raw-tiktok/tx__h.duowng21.____7691031955336400149.mp4 | 2 | 5 | mỏm cá heo
+t-lone | raw-tiktok/tx__vumai1802__7708248310783479060.mp4 | 7.3 | 4 | cây cô đơn, hồ
+t-sunset | raw-tiktok/tx__cu_porter__7699077224753827092.mp4 | 3 | 5 | hoàng hôn
+s-flycam | raw-tiktok/tx__flycamtaxua__7710118030797278516.mp4 | 6 | 5 | sống núi trong mây
+s-ridge | raw-tiktok/tx__hoaquynhdalat__7710481949101509895.mp4 | 128 | 5 | lối mòn sống lưng
+s-moto | raw-tiktok/tx__nunnun2109__7698353923551202578.mp4 | 8.5 | 5 | xe ôm đường sống lưng
+s-dawn | raw-tiktok/tx__thanhphieu.vn__7661478560984599828.mp4 | 1 | 5 | bình minh sống lưng
+f-food | raw-tiktok/tx__lavadulich__7698221715632983316.mp4 | 50.5 | 3.5 | bún cá tầm
+f-window | raw-tiktok/tx__nguoi.trenmay__7665673959374867730.mp4 | 12 | 5 | mây tan từ homestay
+f-cloud | raw-tiktok/tx__annuocthom__7709893715170495764.mp4 | 15 | 5 | Khe Cải biển mây
+k-sea | raw-tiktok/tx__littleforesttaxua__7707881145937005876.mp4 | 8 | 6 | biển mây
+k-hilary | raw-tiktok/tx__hilaryvi__7710113147872513298.mp4 | 44 | 6 | thác mây
+x-traffic | raw-tiktok/tx__dicunguyen99__7710900384834817288.mp4 | 19 | 4.5 | tắc đường 22/11 | zoom
+x-mist | raw-tiktok/tx__hieubosongotaxua__7711149869674581249.mp4 | 36 | 4.5 | sương mù 23/11
+x-fog | raw-tiktok/tx__hoaquynhdalat__7710201697448037638.mp4 | 79.5 | 4 | trời mù
+o-sunset | raw-tiktok/tx__cu_porter__7699077224753827092.mp4 | 44 | 5 | hoàng hôn, cây
+o-sea | raw-tiktok/tx__14yangyangg__7709339579190791445.mp4 | 13 | 5 | biển mây
+o-fly | raw-tiktok/tx__flycamtaxua__7710118030797278516.mp4 | 23 | 4.5 | flycam
