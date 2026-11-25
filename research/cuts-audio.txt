@@ -1,0 +1,7 @@
+# name | source | start | dur | note   (clips that KEEP their original audio, user rule 22/11/2026)
+b1-cloud | raw-tiktok/tx__leechieee__7708740889094524166.mp4 | 18.45 | 3.2 | biển mây sau lưng, tiếng người chụp
+b1-boat | raw-tiktok/tx__lavadulich__7710203926380858645.mp4 | 1.5 | 6.5 | thuyền mây Làng Chếu, lời review
+b2-grass | raw-tiktok/tx__leechieee__7709095173074046215.mp4 | 1.0 | 5.5 | thảo nguyên, tiếng người chụp
+b2-dolphin | raw-tiktok/tx__leechieee__7709095173074046215.mp4 | 15.0 | 3.8 | mỏm cá heo trong gió mưa
+b3-xeom | raw-tiktok/tx__nunnun2109__7698353923551202578.mp4 | 0.5 | 7 | xe ôm sống lưng
+b3-dawn | raw-tiktok/tx__thanhphieu.vn__7661478560984599828.mp4 | 12 | 8 | bình minh, gió, người

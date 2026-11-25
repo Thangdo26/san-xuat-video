@@ -1,0 +1,14 @@
+// Lời thoại "Tà Xùa · săn thác mây" (23/11/2026), giọng chuẩn vi-nu-tre-03 (OmniVoice). Mọi ý đều có nguồn trong
+// research/tiktok.md (#n), itinerary.md, cost.md, food-stay.md. Số đọc thành chữ. Câu dẫn "Sau đây là vài thước phim…"
+// mở các đoạn ngắm cảnh giữ nguyên âm thanh gốc của clip TikTok (người dùng yêu cầu 22/11/2026).
+export const LINES = {
+  hook: "Thác mây Tà Xùa đang làm mưa làm gió trên TikTok. Sáng mười một tháng mười một vừa rồi, mây đổ qua sườn núi như một con thác trắng. Đi thế nào, săn mây ra sao, hết bao nhiêu tiền? Lưu lại nhé!",
+  d1: "Tà Xùa thuộc Bắc Yên, Sơn La, cách Hà Nội khoảng hai trăm bốn mươi cây số. Dễ nhất là xe cabin hoặc giường nằm chạy lúc chín rưỡi tối, khứ hồi khoảng năm trăm rưỡi đến bảy trăm nghìn, sáng sớm đã tới trung tâm. Lên tới nơi thì thuê xe máy, khoảng một trăm rưỡi đến hai trăm nghìn một ngày. Đèo từ Bắc Yên lên hẹp và dốc, tay lái yếu thì thuê xe ôm.",
+  d2: "Muốn săn mây, chín giờ tối mở app thời tiết: độ ẩm trên tám mươi lăm phần trăm, gió dưới năm cây số một giờ, thì đặt báo thức năm giờ sáng. Mây đẹp nhất từ năm rưỡi đến bảy rưỡi, ở khu đỉnh Gió, Khe Cải hay Làng Chếu. Đêm trước có mưa, sáng hửng nắng là cơ hội rất cao. Sau đây là vài thước phim săn mây ở Tà Xùa.",
+  d3: "Buổi chiều, chạy cung thảo nguyên, mỏm cá heo và cây cô đơn. Vé thảo nguyên ba mươi lăm nghìn, mỏm cá heo năm nghìn, cây cô đơn hai mươi lăm nghìn. Tháng này hoa ở cây cô đơn đang nở, ở lại ngắm hoàng hôn khoảng năm rưỡi chiều. Sau đây là vài thước phim ở thảo nguyên và mỏm cá heo.",
+  d4: "Sáng hôm sau là sống lưng khủng long, cách trung tâm khoảng mười lăm cây số. Đường vào toàn đá với đất, một bên là vực, nên gửi xe rồi đi xe ôm của người bản địa, khoảng một trăm nghìn cả đi lẫn về. Tháng này hoa đã hết, nhưng bình minh trên biển mây thì vẫn rất đáng. Sau đây là vài thước phim trên đường ra sống lưng khủng long.",
+  stay: "Ăn gì? Phở gà đen ở trung tâm khoảng ba mươi lăm nghìn một bát. Tối thì lẩu gà lá é, quán É ee bốn phẩy chín sao, hoặc cơm ở Bếp ăn Xuân Thì bốn phẩy tám sao. Ở thì chọn homestay ngay trung tâm, có kính và đệm sưởi, như ManDo bốn phẩy tám sao hay Pơ Mu bốn phẩy sáu sao. Cuối tuần mùa mây nhớ đặt phòng trước.",
+  cost: "Đi tự túc hai ngày một đêm từ Hà Nội, mỗi người khoảng một phẩy năm đến hai phẩy hai triệu. Tốn nhất là xe khách khứ hồi, tiền phòng và ăn uống. Ngại tự đi thì có tour hai ngày một đêm khoảng hai phẩy năm triệu.",
+  truth: "Nói thật nè: quán cơm đang viral trên TikTok như Vị Nhà, trên Google Maps mới được ba phẩy tám sao. Cuối tuần tắc đường từ sáng sớm, có lúc mất điện, mất nước. Đêm xuống dưới mười độ, nhớ mang áo ấm. Và mây là chuyện trời cho, có người đi ba lần vẫn chưa gặp.",
+  outro: "Bạn đã săn được mây ở Tà Xùa chưa? Nguồn clip mình để ở phần mô tả. Lưu lại và rủ người đi cùng nhé!",
+};

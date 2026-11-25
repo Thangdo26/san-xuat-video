@@ -1,0 +1,316 @@
+{
+  "id": "ta-xua-san-may",
+  "title": "Tà Xùa: săn thác mây",
+  "language": "vi",
+  "region": "Tà Xùa, Bắc Yên, Sơn La",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#7fb6d9",
+    "highlight": "#e8f4ff",
+    "brand": "TÀ XÙA · SĂN MÂY"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-hmong.mp3",
+    "volume": 0.8
+  },
+  "maps": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "TÀ XÙA",
+      "label": "Thác mây · Bắc Yên, Sơn La",
+      "kicker": "THÁC MÂY 11/11/2026",
+      "voiceDelay": 5.6,
+      "cold": [
+        "videos/ta-xua/footage/c-loi.mp4",
+        "videos/ta-xua/footage/c-fly.mp4",
+        "videos/ta-xua/footage/c-tank.mp4",
+        "videos/ta-xua/footage/c-sea.mp4"
+      ],
+      "narration": "Thác mây Tà Xùa đang làm mưa làm gió trên TikTok. Sáng mười một tháng mười một vừa rồi, mây đổ qua sườn núi như một con thác trắng. Đi thế nào, săn mây ra sao, hết bao nhiêu tiền? Lưu lại nhé!",
+      "gallery": [
+        "videos/ta-xua/footage/h-khen.mp4",
+        "videos/ta-xua/footage/h-hilary.mp4",
+        "videos/ta-xua/footage/h-annuoc.mp4"
+      ],
+      "durationSec": 17.5
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "1",
+      "label": "Chặng 1 · Đường lên",
+      "caption": "Hà Nội → Tà Xùa",
+      "badge": "~240 km · xe đêm 21h30",
+      "points": [
+        "Cabin, giường nằm khứ hồi 550–700k",
+        "Xe máy 150–200k/ngày"
+      ],
+      "narration": "Tà Xùa thuộc Bắc Yên, Sơn La, cách Hà Nội khoảng hai trăm bốn mươi cây số. Dễ nhất là xe cabin hoặc giường nằm chạy lúc chín rưỡi tối, khứ hồi khoảng năm trăm rưỡi đến bảy trăm nghìn, sáng sớm đã tới trung tâm. Lên tới nơi thì thuê xe máy, khoảng một trăm rưỡi đến hai trăm nghìn một ngày. Đèo từ Bắc Yên lên hẹp và dốc, tay lái yếu thì thuê xe ôm.",
+      "gallery": [
+        "videos/ta-xua/footage/r-dawn.mp4",
+        "videos/ta-xua/footage/r-traffic.mp4",
+        "videos/ta-xua/footage/r-flower.mp4",
+        "videos/ta-xua/footage/r-window.mp4"
+      ],
+      "durationSec": 20.5
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "2",
+      "label": "Chặng 2 · Săn mây",
+      "caption": "Đỉnh Gió · Khe Cải",
+      "badge": "5h30–7h30 sáng",
+      "points": [
+        "21h: độ ẩm >85%, gió <5 km/h",
+        "Đêm mưa, sáng nắng: dễ có mây"
+      ],
+      "narration": "Muốn săn mây, chín giờ tối mở app thời tiết: độ ẩm trên tám mươi lăm phần trăm, gió dưới năm cây số một giờ, thì đặt báo thức năm giờ sáng. Mây đẹp nhất từ năm rưỡi đến bảy rưỡi, ở khu đỉnh Gió, Khe Cải hay Làng Chếu. Đêm trước có mưa, sáng hửng nắng là cơ hội rất cao. Sau đây là vài thước phim săn mây ở Tà Xùa.",
+      "gallery": [
+        "videos/ta-xua/footage/m-mami.mp4",
+        "videos/ta-xua/footage/m-chung.mp4",
+        "videos/ta-xua/footage/m-diep.mp4",
+        "videos/ta-xua/footage/m-loi.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/ta-xua/footage/b1-cloud.mp4",
+          "audio": "videos/ta-xua/footage/b1-cloud.m4a",
+          "dur": 3.2
+        },
+        {
+          "src": "videos/ta-xua/footage/b1-boat.mp4",
+          "audio": "videos/ta-xua/footage/b1-boat.m4a",
+          "dur": 6.5
+        }
+      ],
+      "breatheTitle": "Săn mây · Tà Xùa",
+      "recap": [
+        "h-khen",
+        "m-chung",
+        "m-diep",
+        "c-sea"
+      ],
+      "recapLabel": "Chặng 2",
+      "durationSec": 31.2,
+      "breatheSec": 9.7,
+      "recapSec": 3
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "3",
+      "label": "Chặng 3 · Cung thảo nguyên",
+      "caption": "Cây cô đơn",
+      "badge": "hoàng hôn ~17h30",
+      "points": [
+        "Thảo nguyên 35k · mỏm cá heo 5k",
+        "Cây cô đơn 25k, hoa đang nở"
+      ],
+      "narration": "Buổi chiều, chạy cung thảo nguyên, mỏm cá heo và cây cô đơn. Vé thảo nguyên ba mươi lăm nghìn, mỏm cá heo năm nghìn, cây cô đơn hai mươi lăm nghìn. Tháng này hoa ở cây cô đơn đang nở, ở lại ngắm hoàng hôn khoảng năm rưỡi chiều. Sau đây là vài thước phim ở thảo nguyên và mỏm cá heo.",
+      "gallery": [
+        "videos/ta-xua/footage/t-grass.mp4",
+        "videos/ta-xua/footage/t-lan.mp4",
+        "videos/ta-xua/footage/t-dolphin.mp4",
+        "videos/ta-xua/footage/t-lone.mp4",
+        "videos/ta-xua/footage/t-sunset.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/ta-xua/footage/b2-grass.mp4",
+          "audio": "videos/ta-xua/footage/b2-grass.m4a",
+          "dur": 5.5
+        },
+        {
+          "src": "videos/ta-xua/footage/b2-dolphin.mp4",
+          "audio": "videos/ta-xua/footage/b2-dolphin.m4a",
+          "dur": 3.8
+        }
+      ],
+      "breatheTitle": "Thảo nguyên · mỏm cá heo",
+      "durationSec": 26.3,
+      "breatheSec": 9.3
+    },
+    {
+      "id": "d4",
+      "layout": "point",
+      "day": "4",
+      "label": "Chặng 4 · Sống lưng khủng long",
+      "caption": "Bình minh trên mây",
+      "badge": "~15 km · xe ôm ~100k",
+      "points": [
+        "Đường đá, một bên vực",
+        "Gửi xe, đi xe ôm bản địa"
+      ],
+      "narration": "Sáng hôm sau là sống lưng khủng long, cách trung tâm khoảng mười lăm cây số. Đường vào toàn đá với đất, một bên là vực, nên gửi xe rồi đi xe ôm của người bản địa, khoảng một trăm nghìn cả đi lẫn về. Tháng này hoa đã hết, nhưng bình minh trên biển mây thì vẫn rất đáng. Sau đây là vài thước phim trên đường ra sống lưng khủng long.",
+      "gallery": [
+        "videos/ta-xua/footage/s-flycam.mp4",
+        "videos/ta-xua/footage/s-ridge.mp4",
+        "videos/ta-xua/footage/s-moto.mp4",
+        "videos/ta-xua/footage/s-dawn.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/ta-xua/footage/b3-xeom.mp4",
+          "audio": "videos/ta-xua/footage/b3-xeom.m4a",
+          "dur": 7
+        },
+        {
+          "src": "videos/ta-xua/footage/b3-dawn.mp4",
+          "audio": "videos/ta-xua/footage/b3-dawn.m4a",
+          "dur": 8
+        }
+      ],
+      "breatheTitle": "Đường ra sống lưng",
+      "recap": [
+        "t-lone",
+        "t-dolphin",
+        "s-flycam",
+        "t-sunset"
+      ],
+      "recapLabel": "Chặng 3 & 4",
+      "durationSec": 37.5,
+      "breatheSec": 15,
+      "recapSec": 3
+    },
+    {
+      "id": "stay",
+      "layout": "extra",
+      "style": "stay",
+      "caption": "Ăn gì, ở đâu?",
+      "kicker": "≥4.5★ GOOGLE MAPS · CHECK 23/11",
+      "items": [
+        {
+          "t": "Phở gà đen ~35k",
+          "s": "trung tâm · đùi thêm 25k/lạng",
+          "cue": "phở gà đen"
+        },
+        {
+          "t": "Lẩu gà lá é É ee ★4.9",
+          "s": "cổng chào · hoặc Xuân Thì ★4.8",
+          "cue": "lẩu gà",
+          "maps": [
+            "lau-ga-la-e",
+            "xuan-thi"
+          ]
+        },
+        {
+          "t": "ManDo ★4.8 · Pơ Mu ★4.6",
+          "s": "homestay trung tâm, kính, đệm sưởi",
+          "cue": "mando",
+          "maps": [
+            "mando",
+            "pomu"
+          ]
+        },
+        {
+          "t": "Cuối tuần: đặt trước",
+          "s": "mùa mây cháy phòng",
+          "cue": "cuối tuần"
+        }
+      ],
+      "narration": "Ăn gì? Phở gà đen ở trung tâm khoảng ba mươi lăm nghìn một bát. Tối thì lẩu gà lá é, quán É ee bốn phẩy chín sao, hoặc cơm ở Bếp ăn Xuân Thì bốn phẩy tám sao. Ở thì chọn homestay ngay trung tâm, có kính và đệm sưởi, như ManDo bốn phẩy tám sao hay Pơ Mu bốn phẩy sáu sao. Cuối tuần mùa mây nhớ đặt phòng trước.",
+      "gallery": [
+        "videos/ta-xua/footage/f-food.mp4",
+        "videos/ta-xua/footage/f-window.mp4",
+        "videos/ta-xua/footage/f-cloud.mp4"
+      ],
+      "durationSec": 18
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu?",
+      "kicker": "TỰ TÚC TỪ HÀ NỘI · 2N1Đ · 1 NGƯỜI",
+      "total": "1,5–2,2 triệu",
+      "totalCue": "một phẩy năm",
+      "stamp": "THAM KHẢO 11/2026",
+      "note": "tour 2N1Đ từ Hà Nội ~2,48tr (PYS Travel)",
+      "items": [
+        {
+          "k": "Xe khứ hồi (cabin, giường nằm)",
+          "v": "550–700k"
+        },
+        {
+          "k": "Phòng 1 đêm (ở 2)",
+          "v": "250–500k"
+        },
+        {
+          "k": "Xe máy + xăng (chia 2)",
+          "v": "100–150k"
+        },
+        {
+          "k": "Vé điểm + xe ôm sống lưng",
+          "v": "150–200k"
+        },
+        {
+          "k": "Ăn uống, cà phê",
+          "v": "400–600k"
+        }
+      ],
+      "narration": "Đi tự túc hai ngày một đêm từ Hà Nội, mỗi người khoảng một phẩy năm đến hai phẩy hai triệu. Tốn nhất là xe khách khứ hồi, tiền phòng và ăn uống. Ngại tự đi thì có tour hai ngày một đêm khoảng hai phẩy năm triệu.",
+      "gallery": [
+        "videos/ta-xua/footage/k-sea.mp4",
+        "videos/ta-xua/footage/k-hilary.mp4"
+      ],
+      "durationSec": 13
+    },
+    {
+      "id": "truth",
+      "layout": "extra",
+      "caption": "Nói thật nè",
+      "kicker": "NGƯỜI ĐI TRƯỚC DẶN",
+      "items": [
+        {
+          "t": "Quán viral ≠ quán ngon",
+          "s": "Vị Nhà ★3.8 trên Google Maps",
+          "cue": "vị nhà",
+          "maps": "vi-nha"
+        },
+        {
+          "t": "Cuối tuần tắc đường",
+          "s": "có lúc mất điện, mất nước",
+          "cue": "tắc đường"
+        },
+        {
+          "t": "Đêm dưới 10°C",
+          "s": "mây là trời cho, không hứa trước",
+          "cue": "mười độ"
+        }
+      ],
+      "narration": "Nói thật nè: quán cơm đang viral trên TikTok như Vị Nhà, trên Google Maps mới được ba phẩy tám sao. Cuối tuần tắc đường từ sáng sớm, có lúc mất điện, mất nước. Đêm xuống dưới mười độ, nhớ mang áo ấm. Và mây là chuyện trời cho, có người đi ba lần vẫn chưa gặp.",
+      "gallery": [
+        "videos/ta-xua/footage/x-traffic.mp4",
+        "videos/ta-xua/footage/x-mist.mp4",
+        "videos/ta-xua/footage/x-fog.mp4"
+      ],
+      "durationSec": 15.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn ở Tà Xùa",
+      "cta": "Lưu lại nhé!",
+      "narration": "Bạn đã săn được mây ở Tà Xùa chưa? Nguồn clip mình để ở phần mô tả. Lưu lại và rủ người đi cùng nhé!",
+      "gallery": [
+        "videos/ta-xua/footage/o-sunset.mp4",
+        "videos/ta-xua/footage/o-sea.mp4",
+        "videos/ta-xua/footage/o-fly.mp4"
+      ],
+      "durationSec": 8.5
+    }
+  ]
+}
