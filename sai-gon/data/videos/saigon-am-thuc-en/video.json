@@ -1,0 +1,378 @@
+{
+  "id": "saigon-am-thuc-en",
+  "title": "Saigon food: 5 dishes",
+  "language": "en",
+  "region": "Thành phố Hồ Chí Minh, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb547",
+    "brand": "SÀI GÒN"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SAIGON EATS",
+      "label": "5 DISHES",
+      "narration": "What to eat in Saigon? Here are the five dishes TikTok loves most, with where they come from, how to eat them, and places rated four and a half stars or more.",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/sai-gon/images/comtam-3.jpg",
+        "videos/sai-gon/images/banhmi-4.jpg",
+        "videos/sai-gon/images/hutieu-1.jpg",
+        "videos/sai-gon/images/bolalot-3.jpg",
+        "videos/sai-gon/images/botchien-2.jpg"
+      ]
+    },
+    {
+      "id": "comtam",
+      "layout": "point",
+      "caption": "Broken rice",
+      "label": "1/5",
+      "accent": "#ffb347",
+      "narration": "Dish number one, com tam, broken rice. The broken grains were once cheap farmers' rice. Saigon turned them into a plate of charcoal-grilled pork chop, shredded skin and egg meatloaf. To eat, pour on sweet fish sauce. Try Sa Bi Chuong, Com Tam at Two, or Sixty-Seven Tam.",
+      "durationSec": 20.5,
+      "gallery": [
+        "videos/sai-gon/images/comtam-3.jpg",
+        "videos/sai-gon/images/comtam-4.jpg",
+        "videos/sai-gon/images/comtam-2.jpg",
+        "videos/sai-gon/images/comtam-1.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Cracked grains turned icon",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "broken grains",
+            "text": "Tam means broken grains, once the cheap rice of farmers"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "charcoal",
+            "text": "Charcoal pork chop, shredded skin, egg meatloaf"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Pour on sweet fish sauce, add pickles and soup"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Cơm tấm",
+                "place": "Cơm Tấm Sà Bì Chưởng",
+                "address": "160 Phan Xích Long",
+                "rating": 4.8
+              },
+              {
+                "name": "Cơm tấm",
+                "place": "Cơm Tấm @2 Sài Gòn",
+                "address": "48 Trịnh Văn Cấn",
+                "rating": 4.9
+              },
+              {
+                "name": "Cơm tấm",
+                "place": "Tiệm Cơm 67 Tấm",
+                "address": "Võ Văn Tần",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhmi",
+      "layout": "point",
+      "caption": "Banh mi",
+      "label": "2/5",
+      "accent": "#f4a261",
+      "narration": "Dish number two, banh mi. The loaf arrived in French times, and Saigon fills it with pâté, cold cuts, pickles and coriander. To eat, locals say the crust shouldn't be too crunchy. Try Me In, Chim Chay or Banh Mi Oanh.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/sai-gon/images/banhmi-4.jpg",
+        "videos/sai-gon/images/banhmi-2.jpg",
+        "videos/sai-gon/images/banhmi-3.jpg",
+        "videos/sai-gon/images/banhmi-1.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "A French loaf, a Saigon filling",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "french times",
+            "text": "The loaf came with the French; Vietnamese cooks made it their own"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "pâté",
+            "text": "Pâté, cold cuts, grilled pork, pickles, cucumber, coriander"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Locals say the crust shouldn't be too crunchy"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Mẹ Ỉn",
+                "address": "136/13 Lê Thánh Tôn",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Chim Chạy",
+                "address": "97 Nguyễn Gia Trí",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Oanh",
+                "address": "146 Lê Thánh Tôn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hutieu",
+      "layout": "point",
+      "caption": "Hu tieu Nam Vang",
+      "label": "3/5",
+      "accent": "#e9c46a",
+      "narration": "Dish number three, hu tieu Nam Vang. Nam Vang is the old name for Phnom Penh, and the dish came over from Cambodia with Chinese cooks. A bowl holds shrimp, minced pork, liver and quail eggs. To eat, pick soup or dry. Try Hong Phat or Nhan Nghia.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/sai-gon/images/hutieu-1.jpg",
+        "videos/sai-gon/images/hutieu-2.jpg",
+        "videos/sai-gon/images/hutieu-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "A noodle soup named after Phnom Penh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "phnom penh",
+            "text": "Nam Vang is the old Vietnamese name for Phnom Penh"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "quail eggs",
+            "text": "Shrimp, minced pork, liver, quail eggs, bone broth"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Soup or dry, with bean sprouts, chives and lime"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Hủ tiếu",
+                "place": "Hủ Tiếu Hồng Phát",
+                "address": "293 Lý Tự Trọng",
+                "rating": 4.9
+              },
+              {
+                "name": "Hủ tiếu",
+                "place": "Hủ tiếu Nhân Nghĩa",
+                "address": "385/1A Nguyễn Trãi",
+                "rating": 4.9
+              },
+              {
+                "name": "Hủ tiếu",
+                "place": "Hồng Phát Bàn Cờ",
+                "address": "389 Võ Văn Tần",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bolalot",
+      "layout": "point",
+      "caption": "Beef in betel leaves",
+      "label": "4/5",
+      "accent": "#90be6d",
+      "narration": "Dish number four, bo la lot, an evening favourite across Saigon. Minced beef with lemongrass is wrapped in betel leaves, sometimes in caul fat too, then grilled over charcoal. To eat, roll it in rice paper with herbs. Try O Let or Na by the railway.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/sai-gon/images/bolalot-3.jpg",
+        "videos/sai-gon/images/bolalot-1.jpg",
+        "videos/sai-gon/images/bolalot-2.jpg",
+        "videos/sai-gon/images/bolalot-4.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Charcoal smoke and betel leaf",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "evening favourite",
+            "text": "An everyday evening snack across Saigon"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "lemongrass",
+            "text": "Minced beef with lemongrass, wrapped in betel leaves"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Roll in rice paper with herbs, dip in fermented anchovy sauce"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bò lá lốt",
+                "place": "Bò Lá Lốt O Lét",
+                "address": "54 Phan Văn Hân",
+                "rating": 4.7
+              },
+              {
+                "name": "Bò lá lốt",
+                "place": "Bò lá lốt đường ray (Na)",
+                "address": "129/12B Hoàng Văn Thụ",
+                "rating": 4.5
+              },
+              {
+                "name": "Bò lá lốt",
+                "place": "Bún thịt nướng 59",
+                "address": "59 Nguyễn Thái Bình",
+                "rating": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "botchien",
+      "layout": "point",
+      "caption": "Bot chien",
+      "label": "5/5",
+      "accent": "#f9844a",
+      "narration": "Dish number five, bot chien, a snack from Saigon's Chinese community. Rice-flour cakes are fried crisp, then egg is cracked over them. To eat, add pickled papaya and soy sauce. Try Co Hien, Rap Thu Do or Bot Chien Fifty-One.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/sai-gon/images/botchien-2.jpg",
+        "videos/sai-gon/images/botchien-1.jpg",
+        "videos/sai-gon/images/botchien-3.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "A Chinese-Vietnamese street snack",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "chinese community",
+            "text": "A street snack from Saigon's Chinese community"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "fried crisp",
+            "text": "Rice-flour cakes, fried crisp with egg"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "With pickled papaya and soy sauce"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên khoai môn Cô Hiền",
+                "address": "3 Trương Hán Siêu",
+                "rating": 4.9
+              },
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên Rạp Thủ Đô",
+                "address": "35 Lão Tử",
+                "rating": 4.6
+              },
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên 51",
+                "address": "51 Nguyễn Văn Lạc",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Eat your way through Saigon",
+      "cta": "Save it for your trip!",
+      "narration": "Which one would you try first? Famous spots rated under four and a half stars are listed in the description. Save it!",
+      "durationSec": 8.5,
+      "gallery": [
+        "videos/sai-gon/images/nguyenhue-2.jpg"
+      ]
+    }
+  ]
+}

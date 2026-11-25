@@ -1,0 +1,458 @@
+{
+  "id": "saigon-3n2d",
+  "title": "Sài Gòn 3N2Đ",
+  "language": "vi",
+  "region": "Thành phố Hồ Chí Minh, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb547",
+    "brand": "SÀI GÒN"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SÀI GÒN",
+      "label": "3N2Đ",
+      "kind": "dive",
+      "narration": "Lần đầu tới Sài Gòn? Đây là lịch trình ba ngày hai đêm, gom từ những video TikTok được thả tim nhiều nhất và bình luận của dân bản địa. Lưu lại nhé!",
+      "durationSec": 9.5
+    },
+    {
+      "id": "dinhdoclap",
+      "layout": "point",
+      "caption": "Dinh Độc Lập",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#ffb547",
+      "points": [
+        "Phòng họp, phòng chiếu phim xưa",
+        "Đi sớm, vé bán tới 15:30"
+      ],
+      "narration": "Ngày một, mở đầu ở Dinh Độc Lập. Đi sớm để ngắm phòng họp, phòng chiếu phim xưa và bãi cỏ trước dinh. Trưa ăn cơm tấm ngay gần đó, ở cơm tấm A Còng Hai hoặc Sáu Bảy Tấm.",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/sai-gon/images/0-palace.jpg",
+        "videos/sai-gon/images/0-palace-room.jpg",
+        "videos/sai-gon/images/0-palace-cinema.jpg",
+        "videos/sai-gon/images/0-palace-court.jpg"
+      ],
+      "geo": {
+        "lat": 10.777,
+        "lng": 106.6953
+      },
+      "dishes": [
+        {
+          "name": "Cơm tấm",
+          "place": "Cơm Tấm @2 Sài Gòn",
+          "address": "48 Trịnh Văn Cấn",
+          "rating": 4.9,
+          "spokenAs": "cơm tấm"
+        },
+        {
+          "name": "Cơm tấm",
+          "place": "Tiệm Cơm 67 Tấm",
+          "address": "Võ Văn Tần",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mì Chim Chạy",
+          "address": "11/4 Nguyễn Thị Minh Khai",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "Anh Ba Rọi",
+          "address": "66/5 Phạm Ngọc Thạch",
+          "rating": 4.6
+        },
+        {
+          "name": "Hủ tiếu",
+          "place": "Hủ Tiếu Hồng Phát",
+          "address": "293 Lý Tự Trọng",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "buudien",
+      "layout": "point",
+      "caption": "Bưu điện · Nhà thờ",
+      "label": "Ngày 1 · Trưa",
+      "accent": "#ffd166",
+      "points": [
+        "Bưu điện Thành phố, Đường sách",
+        "Nhà thờ Đức Bà trùng tu tới cuối 2027"
+      ],
+      "narration": "Đi bộ vài phút là tới Bưu điện Thành phố và Đường sách. Nhà thờ Đức Bà đang đại trùng tu tới cuối năm hai không hai bảy, nên chỉ ngắm bên ngoài thôi nha. Bánh mì Mẹ Ỉn ở ngay gần đó.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/buudien-1.jpg",
+        "videos/sai-gon/images/buudien-3.jpg",
+        "videos/sai-gon/images/nhatho-2.jpg",
+        "videos/sai-gon/images/nhatho-3.jpg",
+        "videos/sai-gon/images/buudien-2.jpg"
+      ],
+      "geo": {
+        "lat": 10.7799,
+        "lng": 106.6999
+      },
+      "dishes": [
+        {
+          "name": "Bánh mì",
+          "place": "Bánh Mì Mẹ Ỉn",
+          "address": "136/13 Lê Thánh Tôn",
+          "rating": 4.8,
+          "spokenAs": "bánh mì"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Mặn Mòi",
+          "address": "125 Hai Bà Trưng",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Việt",
+          "place": "Gánh",
+          "address": "91 Hai Bà Trưng",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh mì",
+          "place": "Bánh Mì Oanh",
+          "address": "146 Lê Thánh Tôn",
+          "rating": 4.7
+        },
+        {
+          "name": "Căn-tin món Việt",
+          "place": "Dì Mai Căn-tin",
+          "address": "Mplaza, 39 Lê Duẩn",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "benthanh",
+      "layout": "point",
+      "caption": "Chợ Bến Thành",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#ff7a59",
+      "points": [
+        "Mua quà, đặc sản buổi chiều",
+        "Chợ đêm Bến Thành không còn"
+      ],
+      "narration": "Chiều ghé chợ Bến Thành mua quà. Lưu ý, chợ đêm Bến Thành đã không còn mở, nên đi ban ngày nha. Đói thì làm một tô hủ tiếu Hồng Phát, bốn chấm chín sao.",
+      "durationSec": 9.5,
+      "gallery": [
+        "videos/sai-gon/images/benthanh-2.jpg",
+        "videos/sai-gon/images/benthanh-1.jpg",
+        "videos/sai-gon/images/benthanh-3.jpg",
+        "videos/sai-gon/images/benthanh-4.jpg"
+      ],
+      "geo": {
+        "lat": 10.7725,
+        "lng": 106.698
+      },
+      "dishes": [
+        {
+          "name": "Hủ tiếu",
+          "place": "Hủ Tiếu Hồng Phát",
+          "address": "293 Lý Tự Trọng",
+          "rating": 4.9,
+          "spokenAs": "hủ tiếu"
+        },
+        {
+          "name": "Cơm thố",
+          "place": "Cơm Thố Xá Lị",
+          "address": "76/6 Tôn Thất Đạm",
+          "rating": 4.9
+        },
+        {
+          "name": "Ăn vặt",
+          "place": "Hanoi Ngon",
+          "address": "7 Huỳnh Thúc Kháng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh xèo",
+          "place": "XÈO Restaurant",
+          "address": "gần chợ Bến Thành",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh Mì Mẹ Ỉn",
+          "address": "136/13 Lê Thánh Tôn",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "nguyenhue",
+      "layout": "point",
+      "caption": "Phố đi bộ Nguyễn Huệ",
+      "label": "Ngày 1 · Tối",
+      "accent": "#ff4f81",
+      "points": [
+        "Cà phê chung cư 42 Nguyễn Huệ",
+        "Bùi Viện vui nhưng coi chừng giá"
+      ],
+      "narration": "Tối dạo phố đi bộ Nguyễn Huệ, ăn tối ở MANA Station rồi lên chung cư bốn hai Nguyễn Huệ uống cà phê. Bùi Viện vui, nhưng coi chừng giá, có người kể ba xiên nướng tới ba trăm nghìn.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/nguyenhue-2.jpg",
+        "videos/sai-gon/images/nguyenhue-4.jpg",
+        "videos/sai-gon/images/nguyenhue-3.jpg",
+        "videos/sai-gon/images/nguyenhue-1.jpg"
+      ],
+      "geo": {
+        "lat": 10.774,
+        "lng": 106.7038
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "MANA Station",
+          "address": "Hai Bà Trưng",
+          "rating": 4.6,
+          "spokenAs": "MANA Station"
+        },
+        {
+          "name": "Món Việt",
+          "place": "Hoang Yen",
+          "address": "7 Ngô Đức Kế",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm gà",
+          "place": "Cơm Gà Lý Tự Trọng",
+          "address": "31 Lý Tự Trọng",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Ăn vặt",
+          "place": "Hanoi Ngon",
+          "address": "7 Huỳnh Thúc Kháng",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm thố",
+          "place": "Cơm Thố Xá Lị",
+          "address": "76/6 Tôn Thất Đạm",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "cholon",
+      "layout": "point",
+      "caption": "Chợ Lớn",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#e63946",
+      "points": [
+        "Chùa Bà Thiên Hậu, chợ Bình Tây",
+        "Sủi cảo Hà Tôn Quyền"
+      ],
+      "narration": "Ngày hai, về Chợ Lớn. Thắp nhang ở chùa Bà Thiên Hậu, dạo chợ Bình Tây, rồi ăn sủi cảo trên đường Hà Tôn Quyền. Bánh canh cua Bà Ba gần đó vừa được Michelin gọi tên.",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/sai-gon/images/cholon-3.jpg",
+        "videos/sai-gon/images/cholon-2.jpg",
+        "videos/sai-gon/images/cholon-1.jpg",
+        "videos/sai-gon/images/cholon-4.jpg",
+        "videos/sai-gon/images/cholon-5.jpg"
+      ],
+      "geo": {
+        "lat": 10.753,
+        "lng": 106.661
+      },
+      "dishes": [
+        {
+          "name": "Sủi cảo",
+          "place": "Cường Ký · Sủi cảo 157",
+          "address": "157 Hà Tôn Quyền",
+          "rating": 4.6,
+          "spokenAs": "sủi cảo"
+        },
+        {
+          "name": "Bánh canh cua",
+          "place": "Bánh canh cua Bà Ba",
+          "address": "84/6 Nguyễn Biểu",
+          "rating": 4.6
+        },
+        {
+          "name": "Há cảo",
+          "place": "Há Cảo Kiều Ký",
+          "address": "43 Lão Tử",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hủ tiếu Nam Vang",
+          "place": "Hủ tiếu Nhân Nghĩa",
+          "address": "385/1A Nguyễn Trãi",
+          "rating": 4.9
+        },
+        {
+          "name": "Hủ tiếu",
+          "place": "Hủ Tiếu Tân Vinh Nguyên",
+          "address": "345 Nguyễn Chí Thanh",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "layout": "point",
+      "caption": "Sông Sài Gòn về đêm",
+      "label": "Ngày 2 · Hoàng hôn",
+      "accent": "#7b61ff",
+      "points": [
+        "Hoàng hôn ở Công viên bờ sông",
+        "Waterbus 15 nghìn, ngắm cầu Ba Son"
+      ],
+      "narration": "Chiều tối là phần đẹp nhất. Ngắm hoàng hôn ở Công viên bờ sông, rồi đi Waterbus từ bến Bạch Đằng, chỉ mười lăm nghìn, ngắm cầu Ba Son đổi màu và tháp Landmark tám mốt. Đi sớm để có chỗ ngồi nha.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/song-4.jpg",
+        "videos/sai-gon/images/song-1.jpg",
+        "videos/sai-gon/images/song-5.jpg",
+        "videos/sai-gon/images/song-2.jpg",
+        "videos/sai-gon/images/song-3.jpg",
+        "videos/sai-gon/images/song-6.jpg"
+      ],
+      "geo": {
+        "lat": 10.7745,
+        "lng": 106.7065
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "Quán Bụi Central",
+          "address": "1B Ngô Văn Năm",
+          "rating": 4.5
+        },
+        {
+          "name": "Món Huế",
+          "place": "Minh – Món Huế",
+          "address": "6 Thi Sách",
+          "rating": 4.5
+        },
+        {
+          "name": "Nhà hàng nổi",
+          "place": "Elisa Floating",
+          "address": "5 Nguyễn Tất Thành",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Mặn Mòi",
+          "address": "125 Hai Bà Trưng",
+          "rating": 4.7
+        },
+        {
+          "name": "Căn-tin món Việt",
+          "place": "Dì Mai Căn-tin",
+          "address": "Mplaza, 39 Lê Duẩn",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "cuchi",
+      "layout": "point",
+      "caption": "Địa đạo Củ Chi",
+      "label": "Ngày cuối",
+      "accent": "#8ab17d",
+      "points": [
+        "Cách trung tâm khoảng 70 km",
+        "Chui thử đường hầm"
+      ],
+      "narration": "Ngày cuối, đi sớm lên địa đạo Củ Chi, cách trung tâm khoảng bảy mươi cây số. Chui thử một đoạn đường hầm, xem nắp hầm ngụy trang, rồi ăn bò tơ Củ Chi trước khi về. Chiều ra sân bay là vừa.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/cuchi-4.jpg",
+        "videos/sai-gon/images/cuchi-2.jpg",
+        "videos/sai-gon/images/cuchi-3.jpg",
+        "videos/sai-gon/images/cuchi-1.jpg"
+      ],
+      "geo": {
+        "lat": 11.143,
+        "lng": 106.463
+      },
+      "dishes": [
+        {
+          "name": "Bò tơ",
+          "place": "Bò tơ Bảy Biệm",
+          "address": "677 Nguyễn Thị Rành",
+          "rating": 4.7,
+          "spokenAs": "bò tơ"
+        },
+        {
+          "name": "Bò tơ, món quê",
+          "place": "Nhà hàng Trường Lạc",
+          "address": "Trung Lập",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Việt",
+          "place": "Vườn Sinh Thái Ven Sông",
+          "address": "147 Cây Bài",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bò tơ",
+          "place": "Bò tơ Minh Thành",
+          "address": "48 Nguyễn Thị Hẹ",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm niêu Tây Sơn Củ Chi",
+          "address": "1925 Tỉnh Lộ 15",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Sài Gòn",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Sài Gòn không chán đâu, chỉ cần đi đúng giờ. Bạn muốn đi chỗ nào trước? Địa chỉ quán mình để ở phần mô tả, lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/sai-gon/images/song-1.jpg",
+        "videos/sai-gon/images/song-2.jpg"
+      ]
+    }
+  ]
+}

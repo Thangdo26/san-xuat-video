@@ -1,0 +1,459 @@
+{
+  "id": "saigon-3n2d-en",
+  "title": "Saigon in 3 days",
+  "language": "en",
+  "region": "Thành phố Hồ Chí Minh, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb547",
+    "brand": "SÀI GÒN"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SAIGON",
+      "label": "3 DAYS",
+      "kind": "dive",
+      "narration": "First time in Saigon? Here's a three-day plan built from the most-liked TikTok videos and what locals say in the comments. Save it!",
+      "durationSec": 9
+    },
+    {
+      "id": "dinhdoclap",
+      "layout": "point",
+      "caption": "Independence Palace",
+      "label": "Day 1 · Morning",
+      "accent": "#ffb547",
+      "points": [
+        "Cabinet room and the old cinema",
+        "Go early, tickets until 3:30 pm"
+      ],
+      "narration": "Day one starts at Independence Palace. Go early for the cabinet room, the old private cinema and the lawn out front. For lunch, broken rice is a short walk away.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/0-palace.jpg",
+        "videos/sai-gon/images/0-palace-room.jpg",
+        "videos/sai-gon/images/0-palace-cinema.jpg",
+        "videos/sai-gon/images/0-palace-court.jpg"
+      ],
+      "geo": {
+        "lat": 10.777,
+        "lng": 106.6953
+      },
+      "dishes": [
+        {
+          "name": "Broken rice",
+          "place": "Cơm Tấm @2 Sài Gòn",
+          "address": "48 Trịnh Văn Cấn",
+          "rating": 4.9,
+          "spokenAs": "broken rice"
+        },
+        {
+          "name": "Broken rice",
+          "place": "Tiệm Cơm 67 Tấm",
+          "address": "Võ Văn Tần",
+          "rating": 4.6
+        },
+        {
+          "name": "Banh mi",
+          "place": "Bánh mì Chim Chạy",
+          "address": "11/4 Nguyễn Thị Minh Khai",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, món Việt",
+          "place": "Anh Ba Rọi",
+          "address": "66/5 Phạm Ngọc Thạch",
+          "rating": 4.6
+        },
+        {
+          "name": "Hủ tiếu",
+          "place": "Hủ Tiếu Hồng Phát",
+          "address": "293 Lý Tự Trọng",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "buudien",
+      "layout": "point",
+      "caption": "Post Office · Cathedral",
+      "label": "Day 1 · Midday",
+      "accent": "#ffd166",
+      "points": [
+        "Central Post Office, Book Street",
+        "Notre-Dame under restoration until late 2027"
+      ],
+      "narration": "A few minutes on foot bring you to the Central Post Office and Book Street. Notre-Dame Cathedral is under restoration until late twenty twenty-seven, so admire it from outside. Grab a banh mi nearby.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/sai-gon/images/buudien-1.jpg",
+        "videos/sai-gon/images/buudien-3.jpg",
+        "videos/sai-gon/images/nhatho-2.jpg",
+        "videos/sai-gon/images/nhatho-3.jpg",
+        "videos/sai-gon/images/buudien-2.jpg"
+      ],
+      "geo": {
+        "lat": 10.7799,
+        "lng": 106.6999
+      },
+      "dishes": [
+        {
+          "name": "Banh mi",
+          "place": "Bánh Mì Mẹ Ỉn",
+          "address": "136/13 Lê Thánh Tôn",
+          "rating": 4.8,
+          "spokenAs": "banh mi"
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Mặn Mòi",
+          "address": "125 Hai Bà Trưng",
+          "rating": 4.7
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Gánh",
+          "address": "91 Hai Bà Trưng",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh mì",
+          "place": "Bánh Mì Oanh",
+          "address": "146 Lê Thánh Tôn",
+          "rating": 4.7
+        },
+        {
+          "name": "Căn-tin món Việt",
+          "place": "Dì Mai Căn-tin",
+          "address": "Mplaza, 39 Lê Duẩn",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "benthanh",
+      "layout": "point",
+      "caption": "Ben Thanh Market",
+      "label": "Day 1 · Afternoon",
+      "accent": "#ff7a59",
+      "points": [
+        "Souvenirs in the afternoon",
+        "The night market no longer runs"
+      ],
+      "narration": "In the afternoon, shop for gifts at Ben Thanh Market. Heads up, the old night market is gone, so come by day. Hungry? Have a bowl of hu tieu at Hong Phat, rated four point nine.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sai-gon/images/benthanh-2.jpg",
+        "videos/sai-gon/images/benthanh-1.jpg",
+        "videos/sai-gon/images/benthanh-3.jpg",
+        "videos/sai-gon/images/benthanh-4.jpg"
+      ],
+      "geo": {
+        "lat": 10.7725,
+        "lng": 106.698
+      },
+      "dishes": [
+        {
+          "name": "Hu tieu noodles",
+          "place": "Hủ Tiếu Hồng Phát",
+          "address": "293 Lý Tự Trọng",
+          "rating": 4.9,
+          "spokenAs": "hu tieu"
+        },
+        {
+          "name": "Clay-pot rice",
+          "place": "Cơm Thố Xá Lị",
+          "address": "76/6 Tôn Thất Đạm",
+          "rating": 4.9
+        },
+        {
+          "name": "Street snacks",
+          "place": "Hanoi Ngon",
+          "address": "7 Huỳnh Thúc Kháng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh xèo",
+          "place": "XÈO Restaurant",
+          "address": "gần chợ Bến Thành",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh Mì Mẹ Ỉn",
+          "address": "136/13 Lê Thánh Tôn",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "nguyenhue",
+      "layout": "point",
+      "caption": "Nguyen Hue Walking Street",
+      "label": "Day 1 · Night",
+      "accent": "#ff4f81",
+      "points": [
+        "Cafes in the 42 Nguyen Hue apartments",
+        "Bui Vien is fun, but check prices"
+      ],
+      "narration": "At night, stroll Nguyen Hue Walking Street, have dinner at MANA Station, then climb to a cafe in the forty-two Nguyen Hue apartments. Bui Vien is fun, but check prices first.",
+      "durationSec": 12.5,
+      "gallery": [
+        "videos/sai-gon/images/nguyenhue-2.jpg",
+        "videos/sai-gon/images/nguyenhue-4.jpg",
+        "videos/sai-gon/images/nguyenhue-3.jpg",
+        "videos/sai-gon/images/nguyenhue-1.jpg"
+      ],
+      "geo": {
+        "lat": 10.774,
+        "lng": 106.7038
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "MANA Station",
+          "address": "Hai Bà Trưng",
+          "rating": 4.6,
+          "spokenAs": "MANA Station"
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Hoang Yen",
+          "address": "7 Ngô Đức Kế",
+          "rating": 4.5
+        },
+        {
+          "name": "Chicken rice",
+          "place": "Cơm Gà Lý Tự Trọng",
+          "address": "31 Lý Tự Trọng",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Ăn vặt",
+          "place": "Hanoi Ngon",
+          "address": "7 Huỳnh Thúc Kháng",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm thố",
+          "place": "Cơm Thố Xá Lị",
+          "address": "76/6 Tôn Thất Đạm",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "cholon",
+      "layout": "point",
+      "caption": "Cho Lon (Chinatown)",
+      "label": "Day 2 · Morning",
+      "accent": "#e63946",
+      "points": [
+        "Thien Hau Temple, Binh Tay Market",
+        "Dumplings on Ha Ton Quyen street"
+      ],
+      "narration": "Day two takes you to Cho Lon, Saigon's Chinatown. Light incense at Thien Hau Temple, wander Binh Tay Market, then eat dumplings on Ha Ton Quyen street. Nearby, Ba Ba crab noodle soup is on the Michelin list.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/sai-gon/images/cholon-3.jpg",
+        "videos/sai-gon/images/cholon-2.jpg",
+        "videos/sai-gon/images/cholon-1.jpg",
+        "videos/sai-gon/images/cholon-4.jpg",
+        "videos/sai-gon/images/cholon-5.jpg"
+      ],
+      "geo": {
+        "lat": 10.753,
+        "lng": 106.661
+      },
+      "dishes": [
+        {
+          "name": "Dumplings",
+          "place": "Cường Ký · Sủi cảo 157",
+          "address": "157 Hà Tôn Quyền",
+          "rating": 4.6,
+          "spokenAs": "dumplings"
+        },
+        {
+          "name": "Crab noodle soup",
+          "place": "Bánh canh cua Bà Ba",
+          "address": "84/6 Nguyễn Biểu",
+          "rating": 4.6
+        },
+        {
+          "name": "Har gow",
+          "place": "Há Cảo Kiều Ký",
+          "address": "43 Lão Tử",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Hủ tiếu Nam Vang",
+          "place": "Hủ tiếu Nhân Nghĩa",
+          "address": "385/1A Nguyễn Trãi",
+          "rating": 4.9
+        },
+        {
+          "name": "Hủ tiếu",
+          "place": "Hủ Tiếu Tân Vinh Nguyên",
+          "address": "345 Nguyễn Chí Thanh",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "layout": "point",
+      "caption": "Saigon River by night",
+      "label": "Day 2 · Sunset",
+      "accent": "#7b61ff",
+      "points": [
+        "Sunset at Saigon Riverside Park",
+        "Waterbus from 15,000 dong, Ba Son Bridge"
+      ],
+      "narration": "Evening is the best part. Watch the sunset at Saigon Riverside Park, then ride the Waterbus from Bach Dang pier for about sixty cents, past the glowing Ba Son Bridge and Landmark eighty-one. Come early for a seat.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/sai-gon/images/song-4.jpg",
+        "videos/sai-gon/images/song-1.jpg",
+        "videos/sai-gon/images/song-5.jpg",
+        "videos/sai-gon/images/song-2.jpg",
+        "videos/sai-gon/images/song-3.jpg",
+        "videos/sai-gon/images/song-6.jpg"
+      ],
+      "geo": {
+        "lat": 10.7745,
+        "lng": 106.7065
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "Quán Bụi Central",
+          "address": "1B Ngô Văn Năm",
+          "rating": 4.5
+        },
+        {
+          "name": "Hue dishes",
+          "place": "Minh – Món Huế",
+          "address": "6 Thi Sách",
+          "rating": 4.5
+        },
+        {
+          "name": "Floating restaurant",
+          "place": "Elisa Floating",
+          "address": "5 Nguyễn Tất Thành",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Mặn Mòi",
+          "address": "125 Hai Bà Trưng",
+          "rating": 4.7
+        },
+        {
+          "name": "Căn-tin món Việt",
+          "place": "Dì Mai Căn-tin",
+          "address": "Mplaza, 39 Lê Duẩn",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "cuchi",
+      "layout": "point",
+      "caption": "Cu Chi Tunnels",
+      "label": "Last day",
+      "accent": "#8ab17d",
+      "points": [
+        "About 70 km from the centre",
+        "Crawl a stretch of tunnel"
+      ],
+      "narration": "On your last day, leave early for the Cu Chi Tunnels, about seventy kilometres out of the city. Crawl a short stretch of tunnel, spot the hidden trapdoors, then try Cu Chi's young beef before heading back.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/sai-gon/images/cuchi-4.jpg",
+        "videos/sai-gon/images/cuchi-2.jpg",
+        "videos/sai-gon/images/cuchi-3.jpg",
+        "videos/sai-gon/images/cuchi-1.jpg"
+      ],
+      "geo": {
+        "lat": 11.143,
+        "lng": 106.463
+      },
+      "dishes": [
+        {
+          "name": "Young beef",
+          "place": "Bò tơ Bảy Biệm",
+          "address": "677 Nguyễn Thị Rành",
+          "rating": 4.7,
+          "spokenAs": "young beef"
+        },
+        {
+          "name": "Country food",
+          "place": "Nhà hàng Trường Lạc",
+          "address": "Trung Lập",
+          "rating": 4.7
+        },
+        {
+          "name": "Riverside garden",
+          "place": "Vườn Sinh Thái Ven Sông",
+          "address": "147 Cây Bài",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bò tơ",
+          "place": "Bò tơ Minh Thành",
+          "address": "48 Nguyễn Thị Hẹ",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm niêu Tây Sơn Củ Chi",
+          "address": "1925 Tỉnh Lộ 15",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "See you in Saigon",
+      "cta": "Save it for your trip!",
+      "narration": "Saigon is never boring if you time it right. Where would you go first? All the addresses are in the description. Save it for your trip!",
+      "durationSec": 9,
+      "gallery": [
+        "videos/sai-gon/images/song-1.jpg",
+        "videos/sai-gon/images/song-2.jpg"
+      ]
+    }
+  ]
+}

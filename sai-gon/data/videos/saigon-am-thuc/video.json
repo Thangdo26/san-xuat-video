@@ -1,0 +1,377 @@
+{
+  "id": "saigon-am-thuc",
+  "title": "Ẩm thực Sài Gòn: 5 món",
+  "language": "vi",
+  "region": "Thành phố Hồ Chí Minh, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffb547",
+    "brand": "SÀI GÒN"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SÀI GÒN ĂN GÌ",
+      "label": "5 MÓN",
+      "narration": "Đến Sài Gòn ăn gì? Đây là năm món dân TikTok khen nhiều nhất, kèm nguồn gốc, cách ăn và quán trên bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/sai-gon/images/comtam-3.jpg",
+        "videos/sai-gon/images/banhmi-4.jpg",
+        "videos/sai-gon/images/hutieu-1.jpg",
+        "videos/sai-gon/images/bolalot-3.jpg",
+        "videos/sai-gon/images/botchien-2.jpg"
+      ]
+    },
+    {
+      "id": "comtam",
+      "layout": "point",
+      "caption": "Cơm tấm",
+      "label": "1/5",
+      "accent": "#ffb347",
+      "narration": "Món thứ nhất, cơm tấm. Tấm là hạt gạo vỡ, xưa là gạo rẻ của nhà nông. Sài Gòn biến nó thành dĩa sườn nướng than, bì, chả trứng. Khi ăn, rưới nước mắm ngọt. Quán ngon: Sà Bì Chưởng, cơm tấm A Còng Hai và Sáu Bảy Tấm.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sai-gon/images/comtam-3.jpg",
+        "videos/sai-gon/images/comtam-4.jpg",
+        "videos/sai-gon/images/comtam-2.jpg",
+        "videos/sai-gon/images/comtam-1.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Hạt gạo vỡ thành đặc sản",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "gạo vỡ",
+            "text": "Tấm là hạt gạo vỡ, xưa là gạo rẻ của nhà nông"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "sườn nướng",
+            "text": "Sườn nướng than, bì, chả trứng · chan mỡ hành"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Rưới nước mắm ngọt, ăn kèm đồ chua, canh"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cơm tấm",
+                "place": "Cơm Tấm Sà Bì Chưởng",
+                "address": "160 Phan Xích Long",
+                "rating": 4.8
+              },
+              {
+                "name": "Cơm tấm",
+                "place": "Cơm Tấm @2 Sài Gòn",
+                "address": "48 Trịnh Văn Cấn",
+                "rating": 4.9
+              },
+              {
+                "name": "Cơm tấm",
+                "place": "Tiệm Cơm 67 Tấm",
+                "address": "Võ Văn Tần",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhmi",
+      "layout": "point",
+      "caption": "Bánh mì",
+      "label": "2/5",
+      "accent": "#f4a261",
+      "narration": "Món thứ hai, bánh mì. Ổ bánh có từ thời Pháp, người Sài Gòn kẹp pa tê, chả, thịt, đồ chua và ngò. Khi ăn, dân địa phương dặn vỏ đừng giòn quá mới ngon. Quán ngon: Mẹ Ỉn, Chim Chạy và bánh mì Oanh.",
+      "durationSec": 12,
+      "gallery": [
+        "videos/sai-gon/images/banhmi-4.jpg",
+        "videos/sai-gon/images/banhmi-2.jpg",
+        "videos/sai-gon/images/banhmi-3.jpg",
+        "videos/sai-gon/images/banhmi-1.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Ổ bánh thời Pháp, nhân kiểu Sài Gòn",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "thời Pháp",
+            "text": "Ổ bánh mì đến từ thời Pháp, người Việt làm lại theo cách riêng"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "pa tê",
+            "text": "Pa tê, chả, thịt, đồ chua, dưa leo, ngò"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Dân địa phương dặn: vỏ đừng giòn quá mới ngon"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Mẹ Ỉn",
+                "address": "136/13 Lê Thánh Tôn",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Chim Chạy",
+                "address": "97 Nguyễn Gia Trí",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh mì",
+                "place": "Bánh Mì Oanh",
+                "address": "146 Lê Thánh Tôn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hutieu",
+      "layout": "point",
+      "caption": "Hủ tiếu Nam Vang",
+      "label": "3/5",
+      "accent": "#e9c46a",
+      "narration": "Món thứ ba, hủ tiếu Nam Vang. Nam Vang là tên cũ của Phnom Penh, món theo người Hoa từ Campuchia sang. Một tô có tôm, thịt bằm, gan, trứng cút. Khi ăn, chọn nước hoặc khô. Quán ngon: Hồng Phát và Nhân Nghĩa.",
+      "durationSec": 12.5,
+      "gallery": [
+        "videos/sai-gon/images/hutieu-1.jpg",
+        "videos/sai-gon/images/hutieu-2.jpg",
+        "videos/sai-gon/images/hutieu-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Tô mì mang tên Phnom Penh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "phnom penh",
+            "text": "Nam Vang là tên cũ của Phnom Penh, Campuchia"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "trứng cút",
+            "text": "Tôm, thịt bằm, gan, trứng cút, nước dùng xương"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nước hoặc khô, thêm giá, hẹ, chanh"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Hủ tiếu",
+                "place": "Hủ Tiếu Hồng Phát",
+                "address": "293 Lý Tự Trọng",
+                "rating": 4.9
+              },
+              {
+                "name": "Hủ tiếu",
+                "place": "Hủ tiếu Nhân Nghĩa",
+                "address": "385/1A Nguyễn Trãi",
+                "rating": 4.9
+              },
+              {
+                "name": "Hủ tiếu",
+                "place": "Hồng Phát Bàn Cờ",
+                "address": "389 Võ Văn Tần",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bolalot",
+      "layout": "point",
+      "caption": "Bò lá lốt",
+      "label": "4/5",
+      "accent": "#90be6d",
+      "narration": "Món thứ tư, bò nướng lá lốt, món chiều quen thuộc của dân Sài Gòn. Thịt bò băm ướp sả, cuộn lá lốt, có nơi bọc thêm mỡ chài rồi nướng than. Khi ăn, cuốn bánh tráng, chấm mắm nêm. Quán ngon: O Lét và quán Na đường ray.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sai-gon/images/bolalot-3.jpg",
+        "videos/sai-gon/images/bolalot-1.jpg",
+        "videos/sai-gon/images/bolalot-2.jpg",
+        "videos/sai-gon/images/bolalot-4.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Khói than và mùi lá lốt",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món chiều",
+            "text": "Món nhậu, món chiều quen thuộc của dân Sài Gòn"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "ướp sả",
+            "text": "Bò băm ướp sả, cuộn lá lốt, có nơi bọc mỡ chài"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Cuốn bánh tráng, bún, rau sống, chấm mắm nêm"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bò lá lốt",
+                "place": "Bò Lá Lốt O Lét",
+                "address": "54 Phan Văn Hân",
+                "rating": 4.7
+              },
+              {
+                "name": "Bò lá lốt",
+                "place": "Bò lá lốt đường ray (Na)",
+                "address": "129/12B Hoàng Văn Thụ",
+                "rating": 4.5
+              },
+              {
+                "name": "Bò lá lốt",
+                "place": "Bún thịt nướng 59",
+                "address": "59 Nguyễn Thái Bình",
+                "rating": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "botchien",
+      "layout": "point",
+      "caption": "Bột chiên",
+      "label": "5/5",
+      "accent": "#f9844a",
+      "narration": "Món thứ năm, bột chiên, món ăn vặt gốc người Hoa. Bột gạo cắt miếng, chiên giòn rồi đập trứng lên. Khi ăn, thêm đu đủ ngâm chua và nước tương. Quán ngon: bột chiên khoai môn Cô Hiền, Rạp Thủ Đô và Bột chiên năm mốt.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sai-gon/images/botchien-2.jpg",
+        "videos/sai-gon/images/botchien-1.jpg",
+        "videos/sai-gon/images/botchien-3.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Món ăn vặt gốc Hoa",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "gốc người hoa",
+            "text": "Món ăn vặt gốc người Hoa, phổ biến quanh Chợ Lớn"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "chiên giòn",
+            "text": "Bột gạo cắt miếng, chiên giòn với trứng"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn kèm đu đủ ngâm chua, nước tương"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên khoai môn Cô Hiền",
+                "address": "3 Trương Hán Siêu",
+                "rating": 4.9
+              },
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên Rạp Thủ Đô",
+                "address": "35 Lão Tử",
+                "rating": 4.6
+              },
+              {
+                "name": "Bột chiên",
+                "place": "Bột chiên 51",
+                "address": "51 Nguyễn Văn Lạc",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Ăn sập Sài Gòn",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Bạn sẽ thử món nào trước? Quán nổi tiếng nhưng dưới bốn sao rưỡi, mình ghi đủ ở phần mô tả. Lưu lại nhé!",
+      "durationSec": 7,
+      "gallery": [
+        "videos/sai-gon/images/nguyenhue-2.jpg"
+      ]
+    }
+  ]
+}
