@@ -1,0 +1,339 @@
+{
+  "id": "ha-giang-am-thuc-v2",
+  "title": "Ẩm thực Hà Giang: 6 món",
+  "language": "vi",
+  "region": "Hà Giang (Tuyên Quang), Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#c8321e",
+    "highlight": "#f2b134",
+    "brand": "HÀ GIANG ĂN GÌ"
+  },
+  "narrator": {
+    "provider": "elevenlabs",
+    "voice": "Adam"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Bánh cuốn Giang": "bc-giang",
+    "Bánh Cuốn Bà Cúc": "bc-ba-cuc",
+    "Giàng Quán": "giang-quan",
+    "Thạch Sơn quán": "thach-son",
+    "Cafe Cực Bắc": "cuc-bac",
+    "Nhà Hàng CND": "cnd"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HÀ GIANG ĂN GÌ?",
+      "kicker": "6 MÓN · QUÁN ≥4.5★",
+      "narration": "Hello hô lê các con vợ! Lên Hà Giang mà chỉ ăn lẩu là phí. Đây là sáu món dân địa phương ăn thật, chọn từ ba chục video TikTok, quán nào lên hình cũng trên bốn chấm năm sao.",
+      "gallery": [
+        "videos/ha-giang/footage/tc-pot.mp4",
+        "videos/ha-giang/footage/cc-skewer.mp4",
+        "videos/ha-giang/footage/pho-stall.mp4",
+        "videos/ha-giang/footage/bc-steam.mp4"
+      ],
+      "durationSec": 9.5
+    },
+    {
+      "id": "banhcuon",
+      "layout": "dish",
+      "n": 1,
+      "time": [
+        7,
+        0
+      ],
+      "tag": "Ăn sáng · TP Hà Giang",
+      "caption": "Bánh cuốn trứng",
+      "facts": [
+        "Chan nước ninh xương",
+        "Không chấm nước mắm"
+      ],
+      "narration": "Sáng ở thành phố ăn bánh cuốn trứng, chan nước ninh xương chứ không chấm nước mắm. Bánh cuốn Giang năm sao, Bà Cúc bốn chấm tám.",
+      "cue": "Bánh cuốn Giang",
+      "gallery": [
+        "videos/ha-giang/footage/bc-steam.mp4",
+        "videos/ha-giang/footage/bc-pour.mp4",
+        "videos/ha-giang/footage/bc-fill.mp4",
+        "videos/ha-giang/footage/bc-vendor.mp4",
+        "videos/ha-giang/footage/bc-roll.mp4"
+      ],
+      "recap": [
+        "bc-bowl2",
+        "bc-soup",
+        "bc-plate",
+        "bc-rolling"
+      ],
+      "places": [
+        {
+          "place": "Bánh cuốn Giang",
+          "address": "207 Lý Thường Kiệt",
+          "rating": 5
+        },
+        {
+          "place": "Bánh Cuốn Bà Cúc",
+          "address": "78 Trường Chinh",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "pho",
+      "layout": "dish",
+      "n": 2,
+      "time": [
+        8,
+        0
+      ],
+      "tag": "Chợ phiên Chủ nhật · Đồng Văn",
+      "caption": "Phở lợn bản",
+      "facts": [
+        "Lợn bản da giòn",
+        "Nước xương ngọt thanh"
+      ],
+      "narration": "Chủ nhật ra chợ phiên Đồng Văn làm bát phở lợn bản da giòn, nước xương ngọt thanh. Quán bà Dung trong chợ được dân Đồng Văn khen nhất.",
+      "cue": "bà Dung",
+      "gallery": [
+        "videos/ha-giang/footage/pho-stall.mp4",
+        "videos/ha-giang/footage/cho-fire.mp4",
+        "videos/ha-giang/footage/pho-noodle.mp4",
+        "videos/ha-giang/footage/pho-pork.mp4",
+        "videos/ha-giang/footage/pho-bowls.mp4"
+      ],
+      "recap": [
+        "pho-bowl",
+        "pho-chop",
+        "pho-stalls",
+        "pho-market"
+      ],
+      "places": [
+        {
+          "place": "Phở bà Dung",
+          "address": "trong chợ Đồng Văn · dân địa phương khen"
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "cuoncai",
+      "layout": "dish",
+      "n": 3,
+      "time": [
+        16,
+        0
+      ],
+      "tag": "Ăn vặt · Lô Lô Chải",
+      "caption": "Thịt cuốn cải",
+      "facts": [
+        "Cải mèo hơi đắng",
+        "Nướng than, vừa đi vừa ăn"
+      ],
+      "narration": "Chiều ở Lô Lô Chải thì mua xiên thịt cuốn cải nướng, cải hơi đắng mà béo thơm, vừa đi vừa ăn.",
+      "cue": "thịt cuốn cải",
+      "gallery": [
+        "videos/ha-giang/footage/cc-lolo.mp4",
+        "videos/ha-giang/footage/cc-grill.mp4",
+        "videos/ha-giang/footage/cc-skewer.mp4",
+        "videos/ha-giang/footage/xoi-make.mp4"
+      ],
+      "recap": [
+        "cc-skewer",
+        "cc-grill",
+        "xoi-make"
+      ],
+      "places": [
+        {
+          "place": "Quầy nướng trong làng",
+          "address": "Lô Lô Chải · theo review TikTok"
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "lau",
+      "layout": "dish",
+      "n": 4,
+      "time": [
+        19,
+        0
+      ],
+      "tag": "Ăn tối · Đồng Văn, Lô Lô",
+      "caption": "Lẩu gà đen",
+      "facts": [
+        "Gà đen thịt chắc",
+        "Tối 8 độ là hợp"
+      ],
+      "narration": "Tối lạnh tám độ thì phải có nồi lẩu gà đen. Giàng Quán năm sao, Thạch Sơn bốn chấm chín.",
+      "cue": "Giàng Quán",
+      "gallery": [
+        "videos/ha-giang/footage/lau-spread.mp4",
+        "videos/ha-giang/footage/gaden-ph3.mp4",
+        "videos/ha-giang/footage/gaden-ph1.mp4",
+        "videos/ha-giang/footage/gaden-ph2.mp4",
+        "videos/ha-giang/footage/gaden-ph4.mp4"
+      ],
+      "recap": [
+        "lau-spread",
+        "gaden-ph3",
+        "gaden-ph1"
+      ],
+      "places": [
+        {
+          "place": "Giàng Quán",
+          "address": "Đồng Văn",
+          "rating": 5
+        },
+        {
+          "place": "Thạch Sơn quán",
+          "address": "chợ cổ Đồng Văn",
+          "rating": 4.9
+        },
+        {
+          "place": "Cafe Cực Bắc",
+          "address": "Lô Lô Chải",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "thangco",
+      "layout": "dish",
+      "n": 5,
+      "time": [
+        20,
+        0
+      ],
+      "tag": "Ăn tối · Đồng Văn",
+      "caption": "Thắng cố ngựa",
+      "facts": [
+        "Thịt, lòng ngựa + thảo quả",
+        "2 người: gọi nồi nhỏ"
+      ],
+      "narration": "Dám thử thì gọi thắng cố ngựa ở Đồng Văn, đi hai người gọi nồi nhỏ thôi. Thạch Sơn với CND đều trên bốn chấm tám.",
+      "cue": "Thạch Sơn",
+      "gallery": [
+        "videos/ha-giang/footage/tc-pot.mp4",
+        "videos/ha-giang/footage/tc-boil.mp4",
+        "videos/ha-giang/footage/tc-horse.mp4",
+        "videos/ha-giang/footage/tc-plate.mp4",
+        "videos/ha-giang/footage/tc-pot2.mp4",
+        "videos/ha-giang/footage/tc-hall.mp4"
+      ],
+      "recap": [
+        "tc-dip",
+        "tc-plate",
+        "tc-pot2",
+        "tc-hall"
+      ],
+      "places": [
+        {
+          "place": "Thạch Sơn quán",
+          "address": "chợ cổ Đồng Văn",
+          "rating": 4.9
+        },
+        {
+          "place": "Nhà Hàng CND",
+          "address": "đường 3/2 Đồng Văn",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "chao",
+      "layout": "dish",
+      "n": 6,
+      "time": [
+        22,
+        30
+      ],
+      "tag": "Ăn khuya",
+      "caption": "Cháo ấu tẩu",
+      "facts": [
+        "Củ có độc: ăn quán làm kỹ",
+        "Sợ đắng: xin ít ấu tẩu"
+      ],
+      "narration": "Khuya thì húp bát cháo ấu tẩu, đắng nhẹ mà ấm người. Củ ấu tẩu có độc nên chỉ ăn ở quán làm kỹ, sợ đắng thì xin ít ấu tẩu.",
+      "cue": "quán làm kỹ",
+      "gallery": [
+        "videos/ha-giang/footage/chao-tuber.mp4",
+        "videos/ha-giang/footage/chao-root.mp4",
+        "videos/ha-giang/footage/chao-ladle.mp4",
+        "videos/ha-giang/footage/chao-bowl.mp4",
+        "videos/ha-giang/footage/chao-spoon.mp4"
+      ],
+      "recap": [
+        "chao-bowl2",
+        "chao-pile",
+        "chao-close"
+      ],
+      "places": [
+        {
+          "place": "Quán cháo làm kỹ",
+          "address": "chưa quán nào ≥4.5★ · xem mô tả"
+        }
+      ],
+      "durationSec": 12,
+      "recapSec": 3
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Ăn cho đã nha!",
+      "kicker": "MANG VỀ LÀM QUÀ",
+      "gift": "Thịt treo gác bếp",
+      "pins": [
+        [
+          "Bánh cuốn",
+          "TP"
+        ],
+        [
+          "Phở",
+          "Đồng Văn"
+        ],
+        [
+          "Cuốn cải",
+          "Lô Lô"
+        ],
+        [
+          "Lẩu gà đen",
+          "Đồng Văn"
+        ],
+        [
+          "Thắng cố",
+          "Đồng Văn"
+        ],
+        [
+          "Cháo ấu tẩu",
+          "TP"
+        ]
+      ],
+      "narration": "Mua thịt treo gác bếp về làm quà nữa nha. Clip của các bạn TikToker, nguồn ở mô tả. Lưu lại rồi lên Hà Giang ăn cho đã đi các con vợ!",
+      "gallery": [
+        "videos/ha-giang/footage/tc-pot2.mp4",
+        "videos/ha-giang/footage/bc-steam.mp4",
+        "videos/ha-giang/footage/gaden-ph2.mp4"
+      ],
+      "durationSec": 10.5
+    }
+  ]
+}
