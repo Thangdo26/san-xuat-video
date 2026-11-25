@@ -1,0 +1,380 @@
+{
+  "id": "hue-am-thuc-en",
+  "title": "Hue food: 5 dishes",
+  "language": "en",
+  "region": "Thành phố Huế, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e8c170",
+    "highlight": "#f5d58a",
+    "brand": "HUẾ"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HUE EATS",
+      "kicker": "FOOD · TIKTOK FAVOURITES",
+      "label": "5 DISHES",
+      "narration": "What to eat in Hue? Here are the five dishes TikTok loves most, with where they come from, how to eat them, and places rated four and a half stars or more.",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/hue/images/bunbo-1.jpg",
+        "videos/hue/images/comhen-1.jpg",
+        "videos/hue/images/banhbeo-1.jpg",
+        "videos/hue/images/banhnam-1.jpg",
+        "videos/hue/images/che-1.jpg"
+      ]
+    },
+    {
+      "id": "bunbo",
+      "layout": "point",
+      "caption": "Bun bo Hue",
+      "label": "1/5",
+      "accent": "#e85d3f",
+      "narration": "Dish number one, bun bo. In Hue they simply call it bun bo gio cha, and its origin is only legend. The broth simmers bones with lemongrass and fermented shrimp paste, served with pork knuckle and crab cake. To eat, add chili sate and fresh herbs. Try Sen, Nha An or O Ty.",
+      "durationSec": 20.5,
+      "gallery": [
+        "videos/hue/images/bunbo-1.jpg",
+        "videos/hue/images/bunbo-2.jpg",
+        "videos/hue/images/bunbo-3.jpg",
+        "videos/hue/images/bunbo-4.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Locals just call it bun bo gio cha",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "legend",
+            "text": "Its origin is only legend; no firm record"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "shrimp paste",
+            "text": "Bone broth with lemongrass and shrimp paste · pork knuckle, crab cake, beef shank"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Add chili sate and herbs; locals say pick a shop with a big aluminium pot"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bún bò",
+                "place": "Bún Bò Huế Sen",
+                "address": "69 Võ Thị Sáu",
+                "rating": 4.7
+              },
+              {
+                "name": "Bún bò",
+                "place": "Bún Bò Huế Nhà An",
+                "address": "45 Nguyễn Công Trứ",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún bò",
+                "place": "Bún bò O Tý",
+                "address": "5 Nguyễn Du",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comhen",
+      "layout": "point",
+      "caption": "Com hen",
+      "label": "2/5",
+      "accent": "#d4a373",
+      "narration": "Dish number two, com hen, a humble dish tied to Hen Islet in the Perfume River. Cold rice is tossed with stir-fried baby clams, crackling, peanuts and herbs. To eat, mix it all and pour on hot clam broth, for about fifteen thousand dong. Try Han Mac Tu, Ba Den or Huong Xua.",
+      "durationSec": 20.5,
+      "gallery": [
+        "videos/hue/images/comhen-1.jpg",
+        "videos/hue/images/comhen-2.jpg",
+        "videos/hue/images/comhen-3.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Hue's humble clam rice",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "hen islet",
+            "text": "A humble dish tied to Hen Islet in the Perfume River"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "crackling",
+            "text": "Cold rice, stir-fried baby clams, crackling, peanuts, herbs"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Mix well, pour on hot clam broth; about 15,000 dong"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Cơm hến",
+                "place": "Cơm hến 05 Hàn Mặc Tử",
+                "address": "05 Hàn Mặc Tử",
+                "rating": 4.8
+              },
+              {
+                "name": "Cơm hến",
+                "place": "Cơm Hến Bà Đen",
+                "address": "31 Trần Quang Khải",
+                "rating": 4.6
+              },
+              {
+                "name": "Cơm hến",
+                "place": "Cơm hến Hương Xưa",
+                "address": "30/7 Ưng Bình",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhbeo",
+      "layout": "point",
+      "caption": "Banh beo",
+      "label": "3/5",
+      "accent": "#f4c95d",
+      "narration": "Dish number three, banh beo, tiny rice cakes steamed in little saucers, a Hue signature. The batter cooks right in the dish, topped with shrimp floss and scallion oil. To eat, spoon on sweet fish sauce while they're hot. Try Hue Xua, Trung Bo or Quan Ngo.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/hue/images/banhbeo-1.jpg",
+        "videos/hue/images/banhbeo-2.jpg",
+        "videos/hue/images/banhbeo-3.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Tiny saucer cakes, pure Hue",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "saucers",
+            "text": "Rice cakes steamed in little saucers, a Hue signature"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "shrimp floss",
+            "text": "Rice batter steamed in the dish · shrimp floss, scallion oil"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Spoon on sweet fish sauce, eat them hot"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh bèo",
+                "place": "Bánh Bèo Nậm Lọc Huế Xưa",
+                "address": "1 Nguyễn Bỉnh Khiêm",
+                "rating": 4.8
+              },
+              {
+                "name": "Bánh bèo",
+                "place": "Quán Trung Bộ",
+                "address": "16 Tô Hiến Thành",
+                "rating": 4.9
+              },
+              {
+                "name": "Bánh bèo",
+                "place": "Quán Ngỏ",
+                "address": "30 Phú Mộng",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banhnam",
+      "layout": "point",
+      "caption": "Banh nam & banh loc",
+      "label": "4/5",
+      "accent": "#9ccc65",
+      "narration": "Dish number four, banh nam and banh loc. Legend says banh nam began in Nam Pho village near Hue. Nam is a thin rice cake wrapped in banana leaf, while banh loc is clear tapioca dough with shrimp and pork. To eat, dip in chili fish sauce. Try Huong Cau, Rin or Hue Cuisine.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/hue/images/banhnam-1.jpg",
+        "videos/hue/images/banhnam-2.jpg",
+        "videos/hue/images/banhnam-3.jpg",
+        "videos/hue/images/banhnam-4.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Leaf-wrapped and see-through",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "nam pho",
+            "text": "Legend says banh nam began in Nam Pho village near Hue"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "tapioca",
+            "text": "Nam: thin rice cake in banana leaf · Loc: clear tapioca, shrimp and pork"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Dip in chili fish sauce; order with banh beo"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Bánh lọc",
+                "place": "Bánh lọc Huế Hương Cau",
+                "address": "4 Nguyễn Bỉnh Khiêm",
+                "rating": 4.7
+              },
+              {
+                "name": "Bèo, nậm, lọc",
+                "place": "Rin – Bánh canh Nam Phổ",
+                "address": "15 Hàn Mặc Tử",
+                "rating": 5
+              },
+              {
+                "name": "Bèo, nậm, lọc",
+                "place": "Hue Cuisine",
+                "address": "44 Hoàng Quốc Việt",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "che",
+      "layout": "point",
+      "caption": "Che Hue",
+      "label": "5/5",
+      "accent": "#c08fd8",
+      "narration": "Dish number five, che, Hue's sweet soups, famous for royal-style lotus seed che. There's even che with tapioca balls wrapped around roast pork, the most debated dish on TikTok. To eat, order a tray of several kinds. Try Che Thanh, Ngoc Che Buoi or Ong Lac.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/hue/images/che-1.jpg",
+        "videos/hue/images/che-2.jpg",
+        "videos/hue/images/che-3.jpg",
+        "videos/hue/images/che-4.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Royal lotus seeds and… roast pork",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "lotus seed",
+            "text": "Famous for royal-style lotus seed che"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "roast pork",
+            "text": "Lotus seeds, mung beans, tapioca balls around roast pork"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Order a tray of several; roast pork che splits the crowd"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Chè",
+                "place": "Chè Thanh",
+                "address": "76-78 Mai Thúc Loan",
+                "rating": 4.6
+              },
+              {
+                "name": "Chè",
+                "place": "Ngọc Chè Bưởi",
+                "address": "07 Trương Định",
+                "rating": 4.6
+              },
+              {
+                "name": "Chè",
+                "place": "Chè ông Lạc",
+                "address": "36 Thanh Tịnh",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Eat your way through Hue",
+      "cta": "Save it for your trip!",
+      "narration": "Hue food runs spicy and salty, so ask for less chili if you need to. Famous spots under four and a half stars are in the description. Save it!",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/hue/images/outro-food.jpg"
+      ]
+    }
+  ]
+}

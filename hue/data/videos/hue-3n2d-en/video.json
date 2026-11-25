@@ -1,0 +1,466 @@
+{
+  "id": "hue-3n2d-en",
+  "title": "Hue in 3 days",
+  "language": "en",
+  "region": "Thành phố Huế, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e8c170",
+    "highlight": "#f5d58a",
+    "brand": "HUẾ"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "dive": "videos/shared/map/dive-hue",
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HUE",
+      "kicker": "THE IMPERIAL CITY · FROM TIKTOK",
+      "label": "3 DAYS",
+      "sub": "Imperial City · Thien Mu · the Perfume River at sunset",
+      "kind": "dive",
+      "narration": "First time in Hue? Here's a three-day plan built from the most-liked TikTok videos and tips from locals in the comments. Save it!",
+      "durationSec": 9
+    },
+    {
+      "id": "dainoi",
+      "layout": "point",
+      "caption": "Imperial City",
+      "label": "Day 1 · Morning",
+      "accent": "#e8c170",
+      "points": [
+        "Meridian Gate, Thai Hoa Palace",
+        "200,000 dong, go before 10 am"
+      ],
+      "narration": "Day one, head into the Imperial City early. Walk through the Meridian Gate to Thai Hoa Palace, where the Nguyen court held audience. Tickets are two hundred thousand dong; go before ten, because the citadel gets hot with little breeze. For lunch, a bowl of bun bo is close by.",
+      "durationSec": 18.5,
+      "gallery": [
+        "videos/hue/images/dainoi-1.jpg",
+        "videos/hue/images/dainoi-2.jpg",
+        "videos/hue/images/dainoi-3.jpg",
+        "videos/hue/images/dainoi-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4677,
+        "lng": 107.5791
+      },
+      "dishes": [
+        {
+          "name": "Beef noodle soup",
+          "place": "Bún bò O Thư",
+          "address": "41 Ông Ích Khiêm",
+          "rating": 4.5,
+          "spokenAs": "bun bo"
+        },
+        {
+          "name": "Beef noodle soup",
+          "place": "Bún bò Huế O Mai",
+          "address": "29 Lê Thánh Tôn",
+          "rating": 4.7
+        },
+        {
+          "name": "Hue dishes",
+          "place": "36 Quán",
+          "address": "36 Đinh Tiên Hoàng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bún, cơm nguội",
+          "place": "Bún cơm nguội Cảnh Vân",
+          "address": "198B kiệt 4 Chi Lăng",
+          "rating": 4.5
+        },
+        {
+          "name": "Bún, cơm nguội",
+          "place": "Cơm nguội và Bún O Liễu",
+          "address": "206A kiệt 4 Chi Lăng",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "thienmu",
+      "layout": "point",
+      "caption": "Thien Mu Pagoda",
+      "label": "Day 1 · Afternoon",
+      "accent": "#f2a65a",
+      "points": [
+        "The seven-tier Phuoc Duyen tower",
+        "Sunset over the Perfume River"
+      ],
+      "narration": "In the afternoon, ride up to Thien Mu Pagoda, founded in sixteen-oh-one, its seven-tier tower looking over the Perfume River. Locals say come late in the day, the sunset here is lovely. Nearby, try Mandarin or Chamm Garden.",
+      "durationSec": 16.5,
+      "gallery": [
+        "videos/hue/images/thienmu-1.jpg",
+        "videos/hue/images/thienmu-2.jpg",
+        "videos/hue/images/thienmu-3.jpg",
+        "videos/hue/images/thienmu-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4537,
+        "lng": 107.5446
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "Mandarin Coffee & Restaurant",
+          "address": "06 Bà Nguyễn Đình Chi",
+          "rating": 4.8,
+          "spokenAs": "Mandarin"
+        },
+        {
+          "name": "Vietnamese garden",
+          "place": "Chạmm Garden",
+          "address": "18 Nguyễn Phúc Nguyên",
+          "rating": 4.8
+        },
+        {
+          "name": "Garden house",
+          "place": "Nhà Vườn Xuân Đài",
+          "address": "22 Thanh Nghị",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món chay",
+          "place": "Tâm Vegan",
+          "address": "74 Nguyễn Phúc Nguyên",
+          "rating": 4.8
+        },
+        {
+          "name": "Bánh Huế",
+          "place": "Quán bánh O Lé",
+          "address": "kiệt 104 Kim Long",
+          "rating": 4.5
+        },
+        {
+          "name": "Bánh nậm, lọc",
+          "place": "Bánh Nậm Lọc O Ân",
+          "address": "kiệt 104 Kim Long",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "layout": "point",
+      "caption": "Perfume River at sunset",
+      "label": "Day 1 · Sunset",
+      "accent": "#ff8a5b",
+      "points": [
+        "Take the boat late afternoon, not at night",
+        "Afternoon-tea cruise, about 490,000 dong"
+      ],
+      "narration": "Then take a boat on the Perfume River at sunset. TikTok comments warn that night dragon boats show you almost nothing, so go in the late afternoon. An afternoon-tea cruise is about four hundred ninety thousand dong. For dinner, have Hue dishes at Vi Hue or Madam Thu.",
+      "durationSec": 18,
+      "gallery": [
+        "videos/hue/images/song-1.jpg",
+        "videos/hue/images/song-2.jpg",
+        "videos/hue/images/song-3.jpg",
+        "videos/hue/images/song-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4689,
+        "lng": 107.5889
+      },
+      "dishes": [
+        {
+          "name": "Hue dishes",
+          "place": "Vị Huế Restaurant",
+          "address": "61 Võ Thị Sáu",
+          "rating": 4.9,
+          "spokenAs": "Hue dishes"
+        },
+        {
+          "name": "Hue dishes",
+          "place": "Madam Thu 2",
+          "address": "04 Võ Thị Sáu",
+          "rating": 4.7
+        },
+        {
+          "name": "Clay-pot rice",
+          "place": "Cơm Niêu Khải Hoàn",
+          "address": "90 Lê Lợi",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh Huế",
+          "place": "Nhà hàng Bánh Gánh Huế",
+          "address": "51A Võ Thị Sáu",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Cơm Cườm",
+          "address": "20/11 Lý Thường Kiệt",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "truongtien",
+      "layout": "point",
+      "caption": "Truong Tien Bridge by night",
+      "label": "Day 1 · Night",
+      "accent": "#b98cff",
+      "points": [
+        "Colour-changing bridge, riverside boardwalk",
+        "Park under the bridge"
+      ],
+      "narration": "At night, stroll the colour-changing Truong Tien Bridge, the wooden riverside walk and the lit-up Phu Van Lau pavilion. Locals warn there's no parking on the south bank of Le Loi street, so park under the bridge. Still hungry? Try the local specialty house nearby.",
+      "durationSec": 18,
+      "gallery": [
+        "videos/hue/images/truongtien-1.jpg",
+        "videos/hue/images/truongtien-2.jpg",
+        "videos/hue/images/truongtien-3.jpg",
+        "videos/hue/images/truongtien-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4689,
+        "lng": 107.5889
+      },
+      "dishes": [
+        {
+          "name": "Hue specialties",
+          "place": "Món ăn đặc sản Huế",
+          "address": "kiệt 42 Nguyễn Công Trứ",
+          "rating": 4.9,
+          "spokenAs": "specialty"
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Quán ăn An Tâm",
+          "address": "kiệt 33 Nguyễn Công Trứ",
+          "rating": 4.8
+        },
+        {
+          "name": "Home-style rice",
+          "place": "Cơm Quê Mự Hải",
+          "address": "20 Nguyễn Thái Học",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm niêu",
+          "place": "Cơm niêu Chạn",
+          "address": "19 Nguyễn Thái Học",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Nhà Nâu",
+          "address": "45 Hàn Thuyên",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "tuduc",
+      "layout": "point",
+      "caption": "Tu Duc Tomb",
+      "label": "Day 2 · Morning",
+      "accent": "#7fc8a9",
+      "points": [
+        "Luu Khiem lake, pines at the far end",
+        "150,000 dong"
+      ],
+      "narration": "Day two, visit Tu Duc's tomb, a poet's garden around Luu Khiem lake. Follow the lake to the far end for the pine grove TikTok loves. Comments say the main hall is under repair. For lunch, Khong Gian Xua, rated four point nine, is close by.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/hue/images/tuduc-1.jpg",
+        "videos/hue/images/tuduc-2.jpg",
+        "videos/hue/images/tuduc-3.jpg",
+        "videos/hue/images/tuduc-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.433,
+        "lng": 107.5655
+      },
+      "dishes": [
+        {
+          "name": "Hue dishes",
+          "place": "Nhà Hàng Không Gian Xưa",
+          "address": "98 Minh Mạng",
+          "rating": 4.9,
+          "spokenAs": "Khong Gian Xua"
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Maison Trang 2",
+          "address": "94 Huyền Trân Công Chúa",
+          "rating": 4.9
+        },
+        {
+          "name": "Pressed rice crisps",
+          "place": "Bánh ép Huệ",
+          "address": "118 Lê Ngô Cát",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Hello Restaurant",
+          "address": "40 Đoàn Nhữ Hải",
+          "rating": 5
+        },
+        {
+          "name": "Bún bò",
+          "place": "Bún Bò Huế Cố Đô",
+          "address": "268D Điện Biên Phủ",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "khaidinh",
+      "layout": "point",
+      "caption": "Khai Dinh Tomb",
+      "label": "Day 2 · Afternoon",
+      "accent": "#c9a0dc",
+      "points": [
+        "East meets West in stone",
+        "Thien Dinh hall, inlaid with porcelain"
+      ],
+      "narration": "In the afternoon, Khai Dinh's tomb took eleven years to build and mixes Eastern and Western styles. Inside, Thien Dinh hall glitters with porcelain and glass inlay. There are few places to eat nearby, so eat on the way back, at La Pines or Khong Gian Xua.",
+      "durationSec": 18,
+      "gallery": [
+        "videos/hue/images/khaidinh-1.jpg",
+        "videos/hue/images/khaidinh-2.jpg",
+        "videos/hue/images/khaidinh-3.jpg",
+        "videos/hue/images/khaidinh-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.399,
+        "lng": 107.5903
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "La Pines – Lá Thông",
+          "address": "94 Minh Mạng",
+          "rating": 4.6,
+          "spokenAs": "La Pines"
+        },
+        {
+          "name": "Hue dishes",
+          "place": "Không Gian Xưa",
+          "address": "205 Điện Biên Phủ",
+          "rating": 4.8
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Pinetree House",
+          "address": "Thủy Tiên",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món chay",
+          "place": "Tĩnh Garden",
+          "address": "140 Phan Bội Châu",
+          "rating": 4.9
+        },
+        {
+          "name": "Món chay",
+          "place": "Chay Mây",
+          "address": "248 Phan Bội Châu",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "dongba",
+      "layout": "point",
+      "caption": "Dong Ba Market",
+      "label": "Last day",
+      "accent": "#ff6f61",
+      "points": [
+        "Sesame candy, sour shrimp, lotus seeds",
+        "Hue rice cakes near the market"
+      ],
+      "narration": "On your last day, before the airport, stop at Dong Ba Market for sesame candy, sour shrimp and lotus seeds to take home. Hue Xua, rated four point eight, serves banh beo rice cakes nearby.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/hue/images/dongba-1.jpg",
+        "videos/hue/images/dongba-2.jpg",
+        "videos/hue/images/dongba-3.jpg",
+        "videos/hue/images/dongba-4.jpg"
+      ],
+      "geo": {
+        "lat": 16.4724,
+        "lng": 107.5886
+      },
+      "dishes": [
+        {
+          "name": "Hue rice cakes",
+          "place": "Bánh Bèo Nậm Lọc Huế Xưa",
+          "address": "1 Nguyễn Bỉnh Khiêm",
+          "rating": 4.8,
+          "spokenAs": "banh beo"
+        },
+        {
+          "name": "Hue rice cakes",
+          "place": "Quán Trung Bộ",
+          "address": "16 Tô Hiến Thành",
+          "rating": 4.9
+        },
+        {
+          "name": "Tapioca dumplings",
+          "place": "Bánh lọc Huế Hương Cau",
+          "address": "4 Nguyễn Bỉnh Khiêm",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh canh Nam Phổ",
+          "place": "Rin – Bánh canh Nam Phổ",
+          "address": "15 Hàn Mặc Tử",
+          "rating": 5
+        },
+        {
+          "name": "Bánh canh Nam Phổ",
+          "place": "Quán Hằng",
+          "address": "9 Phó Đức Chính",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "See you in Hue",
+      "cta": "Save it for your trip!",
+      "narration": "Hue is slow, and that's the charm. March is the sweetest month; avoid the rainy season from September to November. All the addresses are in the description. Save it!",
+      "durationSec": 12,
+      "gallery": [
+        "videos/hue/images/outro-1.jpg",
+        "videos/hue/images/outro-2.jpg"
+      ]
+    }
+  ]
+}
