@@ -1,0 +1,400 @@
+{
+  "id": "moc-chau-am-thuc-en",
+  "title": "Moc Chau food: 5 dishes",
+  "language": "en",
+  "region": "Mộc Châu, Sơn La, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8fd16b",
+    "highlight": "#ffe08a",
+    "brand": "MỘC CHÂU"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "MOC CHAU EATS",
+      "kicker": "NORTHWEST FOOD",
+      "label": "5 DISHES",
+      "narration": "What to eat in Moc Chau? Here are the five northwest dishes people talk about most, with how to eat them and places rated four and a half stars or more.",
+      "durationSec": 10,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-3.jpg",
+        "videos/moc-chau/food/papinh-7.jpg",
+        "videos/moc-chau/food/gacbep-7.jpg",
+        "videos/moc-chau/food/xoi-2.jpg",
+        "videos/moc-chau/food/xien-3.jpg"
+      ],
+      "names": [
+        "Salmon & sturgeon",
+        "Grilled stream fish",
+        "Smoked buffalo",
+        "Five-colour rice",
+        "Night-market skewers"
+      ]
+    },
+    {
+      "id": "cahoi",
+      "layout": "point",
+      "caption": "Salmon & sturgeon",
+      "label": "1/5",
+      "accent": "#ff9f6b",
+      "narration": "Dish number one, salmon and sturgeon, the plateau's newer specialty, with restaurants clustered in Chieng Di and Vuon Dao. It's served as a raw salad, grilled, as crispy skin, in hotpot or porridge. To eat, order a five or six dish set for the group and book ahead on weekends. Try Phuong Nhi, Xuan Bac in Chieng Di or Ca Hoi twenty-six.",
+      "durationSec": 24,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-3.jpg",
+        "videos/moc-chau/food/cahoi-2.jpg",
+        "videos/moc-chau/food/cahoi-6.jpg",
+        "videos/moc-chau/food/cahoi-5.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Cold-water fish of the plateau",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "newer specialty",
+            "text": "The plateau's newer specialty; many places in Chieng Di and Vuon Dao"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "raw salad",
+            "text": "Raw salad, grilled, crispy skin, hotpot or porridge"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Order a 5–6 dish set for the group; book ahead on weekends"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Phương Nhi",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.9
+              },
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Xuân Bắc CS1",
+                "address": "Chiềng Đi, QL6",
+                "rating": 4.7
+              },
+              {
+                "name": "Cá hồi",
+                "place": "Cá Hồi 26",
+                "address": "gần Happy Land",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "papinh",
+      "layout": "point",
+      "caption": "Grilled stream fish",
+      "label": "2/5",
+      "accent": "#f2c46b",
+      "narration": "Dish number two, grilled stream fish, which the Thai people call pa pinh top, folded grilled fish. It's marinated in mac khen pepper, lemongrass and ginger, folded into a bamboo clamp and grilled over charcoal. To eat, have it with sticky rice and wild greens, and ask ahead, it isn't always on. Try A Pao, Com Thai Son La or Hieu Thoa.",
+      "durationSec": 23,
+      "gallery": [
+        "videos/moc-chau/food/papinh-7.jpg",
+        "videos/moc-chau/food/papinh-2.jpg",
+        "videos/moc-chau/food/papinh-1.jpg",
+        "videos/moc-chau/food/papinh-11.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "The Thai people's pa pinh top",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "thai people",
+            "text": "A Thai dish; the name means \"folded grilled fish\""
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "mac khen",
+            "text": "Marinated in mac khen pepper, lemongrass, ginger; folded in bamboo, grilled"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Eat hot with sticky rice and wild greens; ask ahead, it's not always on"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Đặc sản Tây Bắc",
+                "place": "A Páo",
+                "address": "26 TK Nhà Nghỉ",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Thái",
+                "place": "Cơm Thái Sơn La",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.6
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Hiếu Thoa Tây Bắc",
+                "address": "Vân Sơn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gacbep",
+      "layout": "point",
+      "caption": "Smoked buffalo",
+      "label": "3/5",
+      "accent": "#e07a5f",
+      "narration": "Dish number three, smoked buffalo, a specialty of the Black Thai people. The meat is rubbed with chili, ginger and mac khen pepper, then hung above the hearth and smoked for days. To eat, tear it into strips and dip it in fiery cham cheo; buy gifts from trusted shops. Try A Pao, Ban Moc Quan or Hieu Thoa.",
+      "durationSec": 22,
+      "gallery": [
+        "videos/moc-chau/food/gacbep-7.jpg",
+        "videos/moc-chau/food/gacbep-1.jpg",
+        "videos/moc-chau/food/gacbep-6.jpg",
+        "videos/moc-chau/food/chamcheo-1.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Cured above the kitchen fire",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "black thai",
+            "text": "A specialty of the Black Thai people"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "smoked",
+            "text": "Rubbed with chili, ginger, mac khen; smoked over the hearth for days"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Tear into strips, dip in cham cheo; buy gifts from trusted shops"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Đặc sản Tây Bắc",
+                "place": "A Páo",
+                "address": "26 TK Nhà Nghỉ",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Bản Mộc Quán",
+                "address": "448 Hoàng Quốc Việt",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Hiếu Thoa Tây Bắc",
+                "address": "Vân Sơn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xoi",
+      "layout": "point",
+      "caption": "Five-colour rice",
+      "label": "4/5",
+      "accent": "#c9a3ff",
+      "narration": "Dish number four, five-colour sticky rice, a tradition of the Thai people. Upland sticky rice is dyed with leaves and steamed together in one pot. To eat, dip it in sesame salt or crushed peanuts, with chicken or grilled fish. Try Phuong Nhi, Com Thai Son La or Nha Hang Viet in Van Ho.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/moc-chau/food/xoi-2.jpg",
+        "videos/moc-chau/food/xoi-1.jpg",
+        "videos/moc-chau/food/xoi-4.jpg",
+        "videos/moc-chau/food/xoi-3.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Colours from forest leaves",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "thai people",
+            "text": "A traditional sticky rice of the Thai people"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "dyed",
+            "text": "Upland sticky rice dyed with leaves, steamed together"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Dip in sesame salt or crushed peanuts; with chicken or grilled fish"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Phương Nhi",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.9
+              },
+              {
+                "name": "Món Thái",
+                "place": "Cơm Thái Sơn La",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.6
+              },
+              {
+                "name": "Món Việt",
+                "place": "Nhà hàng Việt",
+                "address": "Hua Tạt, Vân Hồ",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xien",
+      "layout": "point",
+      "caption": "Night-market skewers",
+      "label": "5/5",
+      "accent": "#ffb36b",
+      "narration": "Dish number five, night-market skewers. When evening falls, the town centre fills with grills. Marinated meat goes onto skewers over charcoal. To eat, stroll the market skewer in hand, and if it's too cold, sit down at a grill house. Try Nguyet Anh, TuSa or Leo Xeo.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/moc-chau/food/xien-3.jpg",
+        "videos/moc-chau/food/xien-6.jpg",
+        "videos/moc-chau/food/xien-1.jpg",
+        "videos/moc-chau/food/xien-7.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Charcoal smoke after dark",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Origin",
+            "cue": "night market",
+            "text": "Every evening the night market in the town centre fires up its grills"
+          },
+          {
+            "part": "made",
+            "title": "How it's made",
+            "cue": "charcoal",
+            "text": "Marinated meat on skewers, grilled over charcoal"
+          },
+          {
+            "part": "eat",
+            "title": "How to eat",
+            "cue": "to eat",
+            "text": "Eat as you stroll; if it's too cold, sit down at a grill house"
+          },
+          {
+            "part": "where",
+            "title": "Where",
+            "cue": "try",
+            "places": [
+              {
+                "name": "Nướng than",
+                "place": "Nguyệt Anh Quán",
+                "address": "73 Tô Hiệu",
+                "rating": 4.9
+              },
+              {
+                "name": "Lẩu nướng",
+                "place": "TuSa Đây!",
+                "address": "Thảo Nguyên",
+                "rating": 4.8
+              },
+              {
+                "name": "Nướng, lẩu",
+                "place": "LÈO XÈO",
+                "address": "104 Nguyễn Hoài Xuân",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Which one first?",
+      "cta": "Save it for your trip!",
+      "narration": "Be chao, flash-fried veal, is a must too; places are in the description. Take home some yogurt and milk candy. Which dish would you try first?",
+      "durationSec": 11,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-2.jpg",
+        "videos/moc-chau/food/papinh-2.jpg",
+        "videos/moc-chau/food/gacbep-1.jpg",
+        "videos/moc-chau/food/xoi-1.jpg",
+        "videos/moc-chau/food/xien-6.jpg"
+      ],
+      "names": [
+        "Salmon & sturgeon",
+        "Grilled stream fish",
+        "Smoked buffalo",
+        "Five-colour rice",
+        "Night-market skewers"
+      ]
+    }
+  ]
+}
