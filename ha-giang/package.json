@@ -1,0 +1,22 @@
+{
+  "name": "ha-giang",
+  "private": true,
+  "type": "module",
+  "description": "Ha Giang travel and food shorts, rendered with HyperFrames",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@andresaya/edge-tts": "1.9.1",
+    "puppeteer-core": "^24.43.1"
+  },
+  "scripts": {
+    "video:validate": "node scripts/validate.mjs",
+    "video:voice": "node scripts/voice.mjs",
+    "video:import-voice": "node scripts/import-voice.mjs",
+    "video:fetch-image": "node scripts/fetch-commons.mjs",
+    "video:build": "node hf/build.mjs",
+    "video:render": "node hf/render.mjs"
+  }
+}
+

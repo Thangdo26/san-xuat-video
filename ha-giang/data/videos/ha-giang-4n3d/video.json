@@ -1,0 +1,684 @@
+{
+  "id": "ha-giang-4n3d",
+  "title": "Hà Giang 4N3Đ",
+  "language": "vi",
+  "region": "Hà Giang (nay thuộc Tuyên Quang), Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e86a92",
+    "highlight": "#f2c14e",
+    "brand": "HÀ GIANG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Lan Anh Restaurant": "lan-anh",
+    "Nhà hàng Huy Định": "huy-dinh",
+    "Nhà hàng Yến Ngọc 2": "yen-ngoc",
+    "Ngọc Tuyên": "ngoc-tuyen",
+    "Hằng Venus": "hang-venus",
+    "Phong Vân Quán": "phong-van",
+    "Nhà hàng Tùng Tỷ": "tung-ty",
+    "Quán Cơm nhà Pao": "nha-pao",
+    "Thạch Sơn quán": "thach-son",
+    "Nhà hàng CND": "cnd",
+    "Giàng Quán": "giang-quan",
+    "Nhà hàng Tùng Phúc": "tung-phuc",
+    "Cafe Cực Bắc": "cuc-bac",
+    "Lalaland Restaurant": "lalaland",
+    "À Lôi Lô Lô Chải": "a-loi",
+    "Sông Nho Quế": "song-nho-que",
+    "Tu Sản Coffee": "tu-san-coffee",
+    "Cafe Mỷ": "cafe-my",
+    "Adventure Restaurant": "adventure",
+    "Nhà hàng Thủy Tiên": "thuy-tien",
+    "Tuấn Hen": "tuan-hen",
+    "H'mong Restaurant": "hmong-dg",
+    "Ngan Trang Restaurant": "ngan-trang",
+    "Tớ Dày Village": "to-day",
+    "Bánh cuốn Giang": "bc-giang",
+    "Bánh cuốn Bà Chính": "bc-chinh"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HÀ GIANG",
+      "kicker": "CỰC BẮC TỔ QUỐC · TỪ TIKTOK",
+      "label": "4N3Đ",
+      "narration": "Có bốn ngày? Đi Hà Giang thong thả, từ cổng trời Quản Bạ, cột cờ Lũng Cú, đèo Mã Pí Lèng tới một đêm ở Du Già. Đây là lịch trình bốn ngày ba đêm gom từ TikTok, kèm chi phí từng khoản. Lưu lại nhé!",
+      "durationSec": 12,
+      "gallery": [
+        "videos/ha-giang/pexels/35792511.jpg",
+        "videos/ha-giang/pexels/39243869.jpg",
+        "videos/ha-giang/pexels/15997684.jpg",
+        "videos/ha-giang/pexels/27421515.jpg"
+      ]
+    },
+    {
+      "id": "quanba",
+      "layout": "point",
+      "caption": "Cổng trời Quản Bạ",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#7bd389",
+      "points": [
+        "Chụp cột mốc Km0 lúc sáng sớm",
+        "Qua dốc Bắc Sum, ngắm núi đôi Cô Tiên"
+      ],
+      "narration": "Xe đêm tới thành phố Hà Giang lúc ba, bốn giờ sáng. Ngày một, chụp ảnh ở cột mốc số không, rồi chạy quốc lộ bốn C qua dốc Bắc Sum, lên cổng trời Quản Bạ ngắm núi đôi Cô Tiên. Ăn sáng ở Lan Anh Restaurant, bốn chấm tám sao.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/ha-giang/candidates/qb-03.jpg",
+        "videos/ha-giang/candidates/qb-02.jpg",
+        "videos/ha-giang/candidates/qb-01.jpg",
+        "videos/ha-giang/candidates/qb-04.jpg"
+      ],
+      "geo": {
+        "lat": 23.0697,
+        "lng": 104.9886
+      },
+      "dishes": [
+        {
+          "name": "Cơm, lẩu",
+          "place": "Lan Anh Restaurant",
+          "address": "192 Tam Sơn",
+          "rating": 4.8,
+          "spokenAs": "Lan Anh"
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Nhà hàng Huy Định",
+          "address": "tổ 3 Tam Sơn",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Yến Ngọc 2",
+          "address": "tổ 3 Tam Sơn",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Hương Lan",
+          "address": "Tam Sơn",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Huyền Trang",
+          "address": "Tam Sơn",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "thamma",
+      "layout": "point",
+      "caption": "Dốc Thẩm Mã",
+      "label": "Ngày 1 · Trưa",
+      "accent": "#f2c14e",
+      "points": [
+        "Ăn trưa ở Yên Minh, suất khoảng 100k (TikTok)",
+        "Dốc Chín Khoanh nhìn xuống phố Cáo"
+      ],
+      "narration": "Trưa dừng ở Yên Minh, TikTok gợi ý suất cơm chừng một trăm nghìn, như ở quán Ngọc Tuyên, bốn chấm chín sao. Chiều qua dốc Thẩm Mã, nơi các em nhỏ đeo gùi hoa, rồi dốc Chín Khoanh nhìn xuống phố Cáo.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ha-giang/candidates/tm-01.jpg",
+        "videos/ha-giang/pexels/36582384.jpg",
+        "videos/ha-giang/candidates/tm-02.jpg",
+        "videos/ha-giang/candidates/tm-07.jpg"
+      ],
+      "geo": {
+        "lat": 23.1785,
+        "lng": 105.216
+      },
+      "dishes": [
+        {
+          "name": "Cơm, phở, lẩu",
+          "place": "Ngọc Tuyên",
+          "address": "cổng chào Yên Minh",
+          "rating": 4.9,
+          "spokenAs": "Ngọc Tuyên"
+        },
+        {
+          "name": "Cơm",
+          "place": "Hằng Venus",
+          "address": "451 Trần Hưng Đạo",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm",
+          "place": "Phong Vân Quán",
+          "address": "tổ 8 Trần Hưng Đạo",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Nhà Sàn Restaurant",
+          "address": "Yên Minh",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Hóa Cường",
+          "address": "Yên Minh",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "vuong",
+      "layout": "point",
+      "caption": "Dinh thự họ Vương",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#e8a87c",
+      "points": [
+        "Xây đầu thế kỷ 20, vé khoảng 30k (TikTok)",
+        "Hai vòng tường đá, nhà gỗ quý"
+      ],
+      "narration": "Ghé dinh thự họ Vương ở Sà Phìn, xây từ đầu thế kỷ hai mươi theo lối nhà Thanh, có hai vòng tường đá bao quanh. Vé theo TikTok khoảng ba mươi nghìn. Gần đó có nhà hàng Tùng Tỷ, bốn chấm tám sao.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ha-giang/candidates/vg-03.jpg",
+        "videos/ha-giang/candidates/vg-08.jpg",
+        "videos/ha-giang/candidates/vg-06.jpg",
+        "videos/ha-giang/candidates/vg-01.jpg"
+      ],
+      "geo": {
+        "lat": 23.2263,
+        "lng": 105.2397
+      },
+      "dishes": [
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Tùng Tỷ",
+          "address": "Sà Phìn",
+          "rating": 4.8,
+          "spokenAs": "Tùng Tỷ"
+        },
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm nhà Pao",
+          "address": "QL4C Sà Phìn",
+          "rating": 4.5
+        },
+        {
+          "name": "Lẩu gà đen",
+          "place": "Thạch Sơn quán",
+          "address": "chợ cổ Đồng Văn",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Thắng cố ngựa",
+          "place": "Nhà hàng CND",
+          "address": "đường 3/2 Đồng Văn",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Giàng Quán",
+          "address": "Đồng Văn",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "lungcu",
+      "layout": "point",
+      "caption": "Cột cờ Lũng Cú",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#ff6b6b",
+      "points": [
+        "Cao khoảng 1.470 m, lá cờ rộng 54 m²",
+        "Vé 25k; tối ngủ làng Lô Lô Chải"
+      ],
+      "narration": "Tối ngủ làng Lô Lô Chải dưới chân cột cờ, ăn lẩu gà đen ở Cafe Cực Bắc, bốn chấm bảy sao. Ngày hai, leo cột cờ Lũng Cú ở độ cao khoảng một nghìn bốn trăm bảy mươi mét, lá cờ rộng năm mươi tư mét vuông, vé hai mươi lăm nghìn.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/ha-giang/candidates/lc-10.jpg",
+        "videos/ha-giang/pexels/15997684.jpg",
+        "videos/ha-giang/candidates/lc-07.jpg",
+        "videos/ha-giang/candidates/lc-04.jpg",
+        "videos/ha-giang/candidates/lc-09.jpg"
+      ],
+      "geo": {
+        "lat": 23.3633,
+        "lng": 105.3166
+      },
+      "dishes": [
+        {
+          "name": "Lẩu gà đen",
+          "place": "Cafe Cực Bắc",
+          "address": "Lô Lô Chải",
+          "rating": 4.7,
+          "spokenAs": "Cực Bắc"
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Lalaland Restaurant",
+          "address": "Lô Lô Chải",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "À Lôi Lô Lô Chải",
+          "address": "homestay Lô Lô Chải",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Vị Lư",
+          "address": "Lô Lô Chải",
+          "rating": 4.9
+        },
+        {
+          "name": "Cà phê, cơm",
+          "place": "Then Pa Cafe",
+          "address": "làng Thèn Pả",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "dongvan",
+      "layout": "point",
+      "caption": "Phố cổ Đồng Văn",
+      "label": "Ngày 2 · Trưa",
+      "accent": "#ffd166",
+      "points": [
+        "Chợ phiên họp sáng Chủ nhật",
+        "Tối cuối tuần có văn nghệ, đốt lửa (TikTok)"
+      ],
+      "narration": "Trưa về phố cổ Đồng Văn, quanh khu chợ cổ có những ngôi nhà hơn trăm năm tuổi, chợ phiên họp vào sáng Chủ nhật. Ăn lẩu gà đen ở Thạch Sơn quán, bốn chấm chín sao với hơn năm trăm lượt đánh giá.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ha-giang/pexels/31621608.jpg",
+        "videos/ha-giang/pexels/36606046.jpg",
+        "videos/ha-giang/candidates/dv-07.jpg",
+        "videos/ha-giang/pexels/20557941.jpg"
+      ],
+      "geo": {
+        "lat": 23.2775,
+        "lng": 105.3622
+      },
+      "dishes": [
+        {
+          "name": "Lẩu gà đen",
+          "place": "Thạch Sơn quán",
+          "address": "chợ cổ Đồng Văn",
+          "rating": 4.9,
+          "spokenAs": "Thạch Sơn"
+        },
+        {
+          "name": "Cơm, lẩu",
+          "place": "Giàng Quán",
+          "address": "Đồng Văn",
+          "rating": 5
+        },
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Tùng Phúc",
+          "address": "số 135 Đồng Văn",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, đồ Tây",
+          "place": "Ethnic House",
+          "address": "phố cổ Đồng Văn",
+          "rating": 4.8
+        },
+        {
+          "name": "Thắng cố ngựa",
+          "place": "Nhà hàng CND",
+          "address": "đường 3/2 Đồng Văn",
+          "rating": 4.8
+        },
+        {
+          "name": "Lẩu nướng",
+          "place": "Lẩu nướng Cô Xuân",
+          "address": "Đồng Văn",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "mapileng",
+      "layout": "point",
+      "caption": "Đèo Mã Pí Lèng",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#5fd3a8",
+      "points": [
+        "Thuyền sông Nho Quế 120–150k",
+        "Qua hẻm Tu Sản, vách đá dựng đứng"
+      ],
+      "narration": "Chiều vượt đèo Mã Pí Lèng, xuống bến đi thuyền trên sông Nho Quế qua hẻm Tu Sản, vé thuyền khoảng một trăm hai mươi tới một trăm năm mươi nghìn. Ăn cơm ở nhà hàng Sông Nho Quế ngay bến, bốn chấm tám sao, rồi về Mèo Vạc nghỉ đêm.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/ha-giang/pexels/39243869.jpg",
+        "videos/ha-giang/candidates/mpl-08.jpg",
+        "videos/ha-giang/pexels/30318714.jpg",
+        "videos/ha-giang/pexels/22028924.jpg",
+        "videos/ha-giang/pexels/31334165.jpg"
+      ],
+      "geo": {
+        "lat": 23.24,
+        "lng": 105.411
+      },
+      "dishes": [
+        {
+          "name": "Cơm bến sông",
+          "place": "Sông Nho Quế",
+          "address": "bến thuyền",
+          "rating": 4.8,
+          "spokenAs": "Sông Nho Quế"
+        },
+        {
+          "name": "Cà phê",
+          "place": "Tu Sản Coffee",
+          "address": "đèo Mã Pí Lèng",
+          "rating": 4.9
+        },
+        {
+          "name": "Cà phê",
+          "place": "Cafe Mỷ",
+          "address": "đèo Mã Pí Lèng",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Nho Quế Retreat",
+          "address": "Mèo Vạc",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm",
+          "place": "Ma Pi Leng restaurant",
+          "address": "Đồng Văn",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "meovac",
+      "layout": "point",
+      "caption": "Mèo Vạc",
+      "label": "Ngày 3 · Sáng",
+      "accent": "#c3a6ff",
+      "points": [
+        "Chợ phiên họp sáng Chủ nhật",
+        "Thung lũng Pả Vi, đường Hạnh Phúc"
+      ],
+      "narration": "Ngày ba, sáng đi chợ phiên Mèo Vạc nếu đúng Chủ nhật, thử thắng cố và mèn mén, rồi ngắm thung lũng Pả Vi. Ăn ở Adventure Restaurant trên đường Hạnh Phúc, năm sao với hơn ba trăm lượt đánh giá.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ha-giang/pexels/38924531.jpg",
+        "videos/ha-giang/candidates/mv-04.jpg",
+        "videos/ha-giang/candidates/mv-05.jpg",
+        "videos/ha-giang/pexels/39243877.jpg"
+      ],
+      "geo": {
+        "lat": 23.156,
+        "lng": 105.411
+      },
+      "dishes": [
+        {
+          "name": "Cơm, món Tây",
+          "place": "Adventure Restaurant",
+          "address": "202 đường Hạnh Phúc",
+          "rating": 5,
+          "spokenAs": "Adventure"
+        },
+        {
+          "name": "Cơm",
+          "place": "Nhà hàng Thủy Tiên",
+          "address": "342 đường Hạnh Phúc",
+          "rating": 4.7
+        },
+        {
+          "name": "Cơm",
+          "place": "Tuấn Hen",
+          "address": "Mèo Vạc",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu nướng",
+          "place": "Lẩu nướng Hải Yến",
+          "address": "chợ đêm Mèo Vạc",
+          "rating": 4.7
+        },
+        {
+          "name": "Cà phê",
+          "place": "Cafe Mỷ",
+          "address": "đèo Mã Pí Lèng",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "dugia",
+      "layout": "point",
+      "caption": "Du Già",
+      "label": "Ngày 3 · Chiều",
+      "accent": "#8ecbff",
+      "points": [
+        "Đường hơi khó, ít người đi (TikTok)",
+        "Suối, thác, ngủ homestay giữa ruộng"
+      ],
+      "narration": "Chiều về Du Già, cung đường TikTok bảo hơi khó đi nhưng yên bình, có suối, thác và ruộng lúa. Tối ngủ homestay, ăn ở H'mong Restaurant, bốn chấm chín sao với gần chín trăm lượt đánh giá. Ngày bốn về lại thành phố.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/ha-giang/candidates/dg-02.jpg",
+        "videos/ha-giang/pexels/27421515.jpg",
+        "videos/ha-giang/candidates/dg-01.jpg"
+      ],
+      "geo": {
+        "lat": 22.9076,
+        "lng": 105.1667
+      },
+      "dishes": [
+        {
+          "name": "Cơm bản",
+          "place": "H'mong Restaurant",
+          "address": "Du Già",
+          "rating": 4.9,
+          "spokenAs": "H'mong"
+        },
+        {
+          "name": "Cơm",
+          "place": "Ngan Trang Restaurant",
+          "address": "Du Già",
+          "rating": 4.8
+        },
+        {
+          "name": "Cơm, homestay",
+          "place": "Tớ Dày Village",
+          "address": "làng Khác, Du Già",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, homestay",
+          "place": "Pachidua Ecolodge",
+          "address": "Du Già",
+          "rating": 4.9
+        },
+        {
+          "name": "Cơm, homestay",
+          "place": "Du Gia Panorama",
+          "address": "Du Già",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#e86a92",
+      "zones": [
+        {
+          "title": "Làng Lô Lô Chải",
+          "note": "Dưới chân cột cờ, yên bình; cuối tuần đông",
+          "picks": [
+            [
+              "À Lôi Lô Lô Chải",
+              4.9,
+              "Lô Lô Chải"
+            ],
+            [
+              "Chanh Homestay",
+              4.8,
+              "Lô Lô Chải"
+            ]
+          ]
+        },
+        {
+          "title": "Thị trấn Đồng Văn",
+          "note": "Gần phố cổ, chợ phiên, nhiều quán ăn",
+          "picks": [
+            [
+              "Nhà nghỉ Quang Trung",
+              4.9,
+              "Đồng Văn"
+            ],
+            [
+              "Bình Minh Hostel",
+              4.7,
+              "Đồng Văn"
+            ]
+          ]
+        },
+        {
+          "title": "Du Già",
+          "note": "Ngủ giữa ruộng, suối; đường khó hơn",
+          "picks": [
+            [
+              "Pachidua Ecolodge",
+              4.9,
+              "Du Già"
+            ],
+            [
+              "Km0Home Du Già",
+              5,
+              "Du Già"
+            ]
+          ]
+        }
+      ],
+      "tip": "Mùa hoa tam giác mạch và cuối tuần: đặt sớm",
+      "cues": [
+        "lô lô",
+        "đồng văn",
+        "du già",
+        "mùa hoa"
+      ],
+      "narration": "Nên ở đâu? Đêm đầu ngủ làng Lô Lô Chải dưới chân cột cờ, như À Lôi Lô Lô Chải. Đêm hai ở Đồng Văn hoặc Mèo Vạc, như nhà nghỉ Quang Trung, bốn chấm chín sao. Đêm ba ở Du Già, như Pachidua Ecolodge. Mùa hoa tam giác mạch và cuối tuần nhớ đặt phòng sớm.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/ha-giang/candidates/lc-07.jpg",
+        "videos/ha-giang/candidates/dv-08.jpg",
+        "videos/ha-giang/candidates/dg-02.jpg"
+      ]
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "accent": "#f2c14e",
+      "receiptTitle": "CHI PHÍ 4N3Đ · 1 NGƯỜI",
+      "items": [
+        {
+          "k": "Xe Hà Nội ⇄ Hà Giang",
+          "note": "giường nằm, cabin · khứ hồi",
+          "v": "550–700k"
+        },
+        {
+          "k": "Phòng 3 đêm",
+          "note": "Lô Lô Chải, Mèo Vạc, Du Già",
+          "v": "650k–1,05tr"
+        },
+        {
+          "k": "Thuê xe máy 4 ngày",
+          "note": "180–300k/ngày, đi 2 người",
+          "v": "360–600k"
+        },
+        {
+          "k": "Xăng",
+          "note": "chia 2",
+          "v": "~150k"
+        },
+        {
+          "k": "Vé Lũng Cú, dinh thự, thuyền Nho Quế",
+          "v": "175–205k"
+        },
+        {
+          "k": "Ăn uống 4 ngày",
+          "note": "theo TikTok và MIA.vn",
+          "v": "650k–1,2tr"
+        }
+      ],
+      "total": "2,5–3,9 triệu",
+      "stamp": "THAM KHẢO 11/2026",
+      "totalCue": "tổng cộng",
+      "note": "2 người đi chung · nguồn: VnExpress, MIA.vn, TikTok",
+      "narration": "Hết bao nhiêu tiền? Tính cho một người, đi hai người: xe giường nằm khứ hồi khoảng năm trăm rưỡi tới bảy trăm nghìn, phòng ba đêm sáu trăm rưỡi tới hơn một triệu, thuê xe máy bốn ngày bốn tới sáu trăm nghìn. Tổng cộng khoảng hai phẩy năm tới ba phẩy chín triệu một người.",
+      "durationSec": 16.5,
+      "gallery": [
+        "videos/ha-giang/pexels/37970026.jpg",
+        "videos/ha-giang/pexels/34574527.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Hà Giang",
+      "kicker": "LƯU LẠI CHO CHUYẾN ĐI",
+      "cta": "Lưu lại nhé!",
+      "narration": "Đi Hà Giang nhớ mang bằng lái vì trên đường có nhiều chốt kiểm tra, và đừng uống rượu khi chạy đèo. Địa chỉ quán và bảng chi phí mình để ở phần mô tả. Hẹn gặp ở Hà Giang, lưu lại nhé!",
+      "durationSec": 11.5,
+      "gallery": [
+        "videos/ha-giang/pexels/39243864.jpg"
+      ],
+      "stamps": [
+        "Cổng trời Quản Bạ",
+        "Dốc Thẩm Mã",
+        "Dinh thự họ Vương",
+        "Cột cờ Lũng Cú",
+        "Phố cổ Đồng Văn",
+        "Đèo Mã Pí Lèng",
+        "Mèo Vạc",
+        "Du Già"
+      ]
+    }
+  ]
+}

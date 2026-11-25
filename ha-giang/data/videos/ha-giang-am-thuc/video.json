@@ -1,0 +1,387 @@
+{
+  "id": "ha-giang-am-thuc",
+  "title": "Ẩm thực Hà Giang: 5 món",
+  "language": "vi",
+  "region": "Hà Giang (nay thuộc Tuyên Quang), Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e86a92",
+    "highlight": "#f2c14e",
+    "brand": "HÀ GIANG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Lan Anh Restaurant": "lan-anh",
+    "Nhà hàng Huy Định": "huy-dinh",
+    "Nhà hàng Yến Ngọc 2": "yen-ngoc",
+    "Ngọc Tuyên": "ngoc-tuyen",
+    "Hằng Venus": "hang-venus",
+    "Phong Vân Quán": "phong-van",
+    "Nhà hàng Tùng Tỷ": "tung-ty",
+    "Quán Cơm nhà Pao": "nha-pao",
+    "Thạch Sơn quán": "thach-son",
+    "Nhà hàng CND": "cnd",
+    "Giàng Quán": "giang-quan",
+    "Nhà hàng Tùng Phúc": "tung-phuc",
+    "Cafe Cực Bắc": "cuc-bac",
+    "Lalaland Restaurant": "lalaland",
+    "À Lôi Lô Lô Chải": "a-loi",
+    "Sông Nho Quế": "song-nho-que",
+    "Tu Sản Coffee": "tu-san-coffee",
+    "Cafe Mỷ": "cafe-my",
+    "Adventure Restaurant": "adventure",
+    "Nhà hàng Thủy Tiên": "thuy-tien",
+    "Tuấn Hen": "tuan-hen",
+    "H'mong Restaurant": "hmong-dg",
+    "Ngan Trang Restaurant": "ngan-trang",
+    "Tớ Dày Village": "to-day",
+    "Bánh cuốn Giang": "bc-giang",
+    "Bánh cuốn Bà Chính": "bc-chinh"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "HÀ GIANG ĂN GÌ?",
+      "kicker": "ẨM THỰC CAO NGUYÊN ĐÁ",
+      "label": "5 MÓN",
+      "narration": "Lên Hà Giang ăn gì? Đây là năm món được nhắc nhiều nhất trên TikTok và báo, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8.5,
+      "gallery": [
+        "videos/ha-giang/candidates/f-banhcuon-3.jpg",
+        "videos/ha-giang/food/39585943.jpg",
+        "videos/ha-giang/food/33621138.jpg",
+        "videos/ha-giang/candidates/f-thangco-1.jpg",
+        "videos/ha-giang/candidates/f-tgm-1.jpg"
+      ],
+      "names": [
+        "Bánh cuốn",
+        "Cháo ấu tẩu",
+        "Lẩu gà đen",
+        "Thắng cố",
+        "Bánh tam giác mạch"
+      ],
+      "tags": [
+        "Nước xương hầm",
+        "Món ăn đêm",
+        "Gà bản, thuốc bắc",
+        "Chợ phiên",
+        "Hạt tam giác mạch"
+      ]
+    },
+    {
+      "id": "banhcuon",
+      "layout": "point",
+      "caption": "Bánh cuốn",
+      "label": "1/5",
+      "accent": "#f2c14e",
+      "narration": "Món thứ nhất, bánh cuốn, món sáng quen thuộc của người Hà Giang. Bánh tráng mỏng, nhân thịt, mộc nhĩ hoặc trứng. Khi ăn, ăn cùng bát nước xương hầm như canh, thêm chút măng cay. Quán ngon: bánh cuốn Giang, năm sao, và bánh cuốn Bà Chính.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/ha-giang/candidates/f-banhcuon-3.jpg",
+        "videos/ha-giang/food/34314598.jpg",
+        "videos/ha-giang/candidates/f-banhcuon-1.jpg",
+        "videos/ha-giang/candidates/f-banhcuon-2.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Ăn cùng bát nước xương",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món sáng",
+            "text": "Món sáng quen thuộc của người Hà Giang"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "bánh tráng",
+            "text": "Bánh tráng mỏng, nhân thịt, mộc nhĩ hoặc trứng"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn cùng bát nước xương hầm như canh, thêm măng cay; gọi kèm sữa ngô (TikTok)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh cuốn",
+                "place": "Bánh cuốn Giang",
+                "address": "207 Lý Thường Kiệt",
+                "rating": 5
+              },
+              {
+                "name": "Bánh cuốn",
+                "place": "Bánh cuốn Bà Chính",
+                "address": "Phan Đình Phùng",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "autau",
+      "layout": "point",
+      "caption": "Cháo ấu tẩu",
+      "label": "2/5",
+      "accent": "#c3a6ff",
+      "narration": "Món thứ hai, cháo ấu tẩu, món của người Mông thường ăn vào buổi tối. Củ ấu tẩu có độc nếu không chế biến kỹ, nên được ninh nhiều giờ rồi nấu cùng gạo và chân giò. Khi ăn, vị ngọt rồi đắng nhẹ, lần đầu nên gọi ít đắng. Quán ngon thì các quán nổi tiếng chưa đạt bốn sao rưỡi, VnExpress gợi ý ăn ở các quán đêm quanh phố cổ Đồng Văn.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/ha-giang/food/39585943.jpg",
+        "videos/ha-giang/food/32835478.jpg",
+        "videos/ha-giang/food/5652188.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Đắng nhẹ, ăn cho ấm",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người mông",
+            "text": "Món của người Mông, thường ăn vào buổi tối cho ấm"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "củ ấu",
+            "text": "Củ ấu tẩu có độc nếu không ninh kỹ; ninh nhiều giờ, nấu cùng gạo và chân giò"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Vị ngọt rồi đắng nhẹ; ăn nóng, lần đầu nên gọi ít đắng (TikTok)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cháo ấu tẩu",
+                "place": "Quán đêm phố cổ Đồng Văn",
+                "address": "theo VnExpress"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gaden",
+      "layout": "point",
+      "caption": "Lẩu gà đen",
+      "label": "3/5",
+      "accent": "#ff6b6b",
+      "narration": "Món thứ ba, lẩu gà đen, giống gà quý của vùng cao, ngày xưa chỉ làm khi nhà có khách. Gà bản da giòn, thịt chắc, nấu lẩu với thuốc bắc và thảo mộc. Khi ăn, ngồi quanh nồi lẩu sau một ngày chạy đèo. Quán ngon: Thạch Sơn quán ở phố cổ Đồng Văn, và Cafe Cực Bắc ở Lô Lô Chải.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/ha-giang/food/33621138.jpg",
+        "videos/ha-giang/food/33312413.jpg",
+        "videos/ha-giang/food/30882911.jpg",
+        "videos/ha-giang/food/31514374.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Gà bản của cao nguyên đá",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "giống gà",
+            "text": "Gà đen là giống gà quý, xưa chỉ làm khi nhà có khách (theo TikTok)"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "gà bản",
+            "text": "Gà bản da giòn, thịt chắc, nấu lẩu với thuốc bắc và thảo mộc"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn tối sau một ngày chạy đèo; ở homestay khoảng 200k/người (TikTok)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Lẩu gà đen",
+                "place": "Thạch Sơn quán",
+                "address": "chợ cổ Đồng Văn",
+                "rating": 4.9
+              },
+              {
+                "name": "Lẩu gà đen",
+                "place": "Cafe Cực Bắc",
+                "address": "Lô Lô Chải",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "thangco",
+      "layout": "point",
+      "caption": "Thắng cố",
+      "label": "4/5",
+      "accent": "#ffa94d",
+      "narration": "Món thứ tư, thắng cố, món canh truyền thống của người Mông ở chợ phiên. Thịt và nội tạng ngựa hoặc bò được nấu với hoa hồi, thảo quả và lá thắng cố. Khi ăn, ăn nóng ở chợ phiên Đồng Văn hay Mèo Vạc vào sáng Chủ nhật. Quán ngon: nhà hàng CND ở Đồng Văn, bốn chấm tám sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/ha-giang/candidates/f-thangco-1.jpg",
+        "videos/ha-giang/candidates/mv-02.jpg",
+        "videos/ha-giang/candidates/f-thangco-2.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Món canh của phiên chợ",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món canh",
+            "text": "Món canh truyền thống của người Mông, nấu ở chợ phiên"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nội tạng",
+            "text": "Thịt và nội tạng ngựa hoặc bò, hoa hồi, thảo quả, lá thắng cố"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng ở chợ phiên Đồng Văn, Mèo Vạc vào sáng Chủ nhật"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Thắng cố ngựa",
+                "place": "Nhà hàng CND",
+                "address": "đường 3/2 Đồng Văn",
+                "rating": 4.8
+              },
+              {
+                "name": "Thắng cố",
+                "place": "Chợ phiên Đồng Văn",
+                "address": "sáng Chủ nhật"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgm",
+      "layout": "point",
+      "caption": "Bánh tam giác mạch",
+      "label": "5/5",
+      "accent": "#e86a92",
+      "narration": "Món thứ năm, bánh tam giác mạch, làm từ hạt của loài hoa nở vào tháng mười, tháng mười một trên cao nguyên đá. Hạt được xay thành bột, nhào rồi hấp hoặc nướng. Khi ăn, ăn nóng hoặc mua làm quà. Quán ngon thì chưa có quán nào đủ đánh giá, TikTok gợi ý mua ở chợ phiên hay ven dốc Thẩm Mã.",
+      "durationSec": 17,
+      "gallery": [
+        "videos/ha-giang/candidates/f-tgm-1.jpg",
+        "videos/ha-giang/pexels/30269214.jpg",
+        "videos/ha-giang/pexels/28396511.jpg",
+        "videos/ha-giang/pexels/29863314.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Từ loài hoa của cao nguyên",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món thứ năm",
+            "text": "Làm từ hạt tam giác mạch, loài hoa nở tháng 10–11 trên cao nguyên đá"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "hạt được",
+            "text": "Hạt xay thành bột, nhào rồi hấp hoặc nướng (MIA.vn)"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng hoặc mua làm quà"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh tam giác mạch",
+                "place": "Chợ phiên, ven dốc Thẩm Mã",
+                "address": "gợi ý từ TikTok"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Phở chua, mèn mén và xôi ngũ sắc cũng nên thử, quán mình để ở phần mô tả. Bạn chọn món nào trước?",
+      "durationSec": 6.5,
+      "gallery": [
+        "videos/ha-giang/food/34314598.jpg",
+        "videos/ha-giang/food/32835478.jpg",
+        "videos/ha-giang/food/33621138.jpg",
+        "videos/ha-giang/candidates/f-thangco-2.jpg",
+        "videos/ha-giang/candidates/f-tgm-1.jpg"
+      ],
+      "names": [
+        "Bánh cuốn",
+        "Cháo ấu tẩu",
+        "Lẩu gà đen",
+        "Thắng cố",
+        "Bánh tam giác mạch"
+      ]
+    }
+  ]
+}

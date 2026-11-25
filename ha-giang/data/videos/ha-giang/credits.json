@@ -1,0 +1,632 @@
+[
+  {
+    "slot": "dg-01",
+    "file": "videos/ha-giang/candidates/dg-01.jpg",
+    "title": "File:Du Gia 062026.jpg",
+    "author": "Teaanhvu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADu_Gia_062026.jpg"
+  },
+  {
+    "slot": "dg-02",
+    "file": "videos/ha-giang/candidates/dg-02.jpg",
+    "title": "File:Du Già.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADu_Gi%C3%A0.jpg"
+  },
+  {
+    "slot": "dv-01",
+    "file": "videos/ha-giang/candidates/dv-01.jpg",
+    "title": "File:Dong Van old town.jpg",
+    "author": "HuangWending18072009",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADong_Van_old_town.jpg"
+  },
+  {
+    "slot": "dv-02",
+    "file": "videos/ha-giang/candidates/dv-02.jpg",
+    "title": "File:Cho Pho Co Dong Van in 2014.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACho_Pho_Co_Dong_Van_in_2014.jpg"
+  },
+  {
+    "slot": "dv-03",
+    "file": "videos/ha-giang/candidates/dv-03.jpg",
+    "title": "File:Pho Co Coffee in Dong Van.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3APho_Co_Coffee_in_Dong_Van.jpg"
+  },
+  {
+    "slot": "dv-04",
+    "file": "videos/ha-giang/candidates/dv-04.jpg",
+    "title": "File:Ha Giang market- Dong Van market.jpg",
+    "author": "Nghia Bui- Zonitrip",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_market-_Dong_Van_market.jpg"
+  },
+  {
+    "slot": "dv-05",
+    "file": "videos/ha-giang/candidates/dv-05.jpg",
+    "title": "File:Tt. Đồng Văn, Đồng Văn, Hà Giang, Vietnam - panoramio.jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._%C4%90%E1%BB%93ng_V%C4%83n%2C_%C4%90%E1%BB%93ng_V%C4%83n%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio.jpg"
+  },
+  {
+    "slot": "dv-06",
+    "file": "videos/ha-giang/candidates/dv-06.jpg",
+    "title": "File:Tt. Đồng Văn, Đồng Văn, Hà Giang, Vietnam - panoramio (1).jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._%C4%90%E1%BB%93ng_V%C4%83n%2C_%C4%90%E1%BB%93ng_V%C4%83n%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio_(1).jpg"
+  },
+  {
+    "slot": "dv-07",
+    "file": "videos/ha-giang/candidates/dv-07.jpg",
+    "title": "File:Khu pho co, tt Dong van, tinh Hagiang Việt Nam - panoramio.jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AKhu_pho_co%2C_tt_Dong_van%2C_tinh_Hagiang_Vi%E1%BB%87t_Nam_-_panoramio.jpg"
+  },
+  {
+    "slot": "dv-08",
+    "file": "videos/ha-giang/candidates/dv-08.jpg",
+    "title": "File:Đồng Văn, Vietnam - 3.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3A%C4%90%E1%BB%93ng_V%C4%83n%2C_Vietnam_-_3.jpg"
+  },
+  {
+    "slot": "dv-09",
+    "file": "videos/ha-giang/candidates/dv-09.jpg",
+    "title": "File:Tt. Đồng Văn, Đồng Văn, Hà Giang, Vietnam - panoramio (5).jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._%C4%90%E1%BB%93ng_V%C4%83n%2C_%C4%90%E1%BB%93ng_V%C4%83n%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio_(5).jpg"
+  },
+  {
+    "slot": "f-banhcuon-1",
+    "file": "videos/ha-giang/candidates/f-banhcuon-1.jpg",
+    "title": "File:Banh cuon nhan thit.jpg",
+    "author": "Mai Truong, aka Eistube at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABanh_cuon_nhan_thit.jpg"
+  },
+  {
+    "slot": "f-banhcuon-2",
+    "file": "videos/ha-giang/candidates/f-banhcuon-2.jpg",
+    "title": "File:Bánh cuốn.jpg",
+    "author": "Casablanca1911 at vi.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_cu%E1%BB%91n.jpg"
+  },
+  {
+    "slot": "f-banhcuon-3",
+    "file": "videos/ha-giang/candidates/f-banhcuon-3.jpg",
+    "title": "File:Bánh cuốn nhân thịt.JPG",
+    "author": "Casablanca1911 at vi.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_cu%E1%BB%91n_nh%C3%A2n_th%E1%BB%8Bt.JPG"
+  },
+  {
+    "slot": "f-local-1",
+    "file": "videos/ha-giang/candidates/f-local-1.jpg",
+    "title": "File:Ha Giang local foods in Ha Giang City.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_local_foods_in_Ha_Giang_City.jpg"
+  },
+  {
+    "slot": "f-tgm-1",
+    "file": "videos/ha-giang/candidates/f-tgm-1.jpg",
+    "title": "File:Lễ hội ẩm thực Cửa Việt th4n2023 đặc sản Tây Bắc, bánh tam giác mạch.jpg",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AL%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_T%C3%A2y_B%E1%BA%AFc%2C_b%C3%A1nh_tam_gi%C3%A1c_m%E1%BA%A1ch.jpg"
+  },
+  {
+    "slot": "f-thangco-1",
+    "file": "videos/ha-giang/candidates/f-thangco-1.jpg",
+    "title": "File:Thắng cố.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATh%E1%BA%AFng_c%E1%BB%91.jpg"
+  },
+  {
+    "slot": "f-thangco-2",
+    "file": "videos/ha-giang/candidates/f-thangco-2.jpg",
+    "title": "File:Thang Co (Cattle Intestines Soup).jpg",
+    "author": "Zennysmile",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AThang_Co_(Cattle_Intestines_Soup).jpg"
+  },
+  {
+    "slot": "f-xoi-1",
+    "file": "videos/ha-giang/candidates/f-xoi-1.jpg",
+    "title": "File:Xôi ngũ sắc.JPG",
+    "author": "Khương Việt Hà",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AX%C3%B4i_ng%C5%A9_s%E1%BA%AFc.JPG"
+  },
+  {
+    "slot": "lc-01",
+    "file": "videos/ha-giang/candidates/lc-01.jpg",
+    "title": "File:Lung Cu Flag Tower.jpg",
+    "author": "Zennysmile",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALung_Cu_Flag_Tower.jpg"
+  },
+  {
+    "slot": "lc-02",
+    "file": "videos/ha-giang/candidates/lc-02.jpg",
+    "title": "File:Lung Cu flag tower of Ha Giang in 2014 04.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALung_Cu_flag_tower_of_Ha_Giang_in_2014_04.jpg"
+  },
+  {
+    "slot": "lc-03",
+    "file": "videos/ha-giang/candidates/lc-03.jpg",
+    "title": "File:Lung Cu flag tower of Ha Giang in 2014 01.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALung_Cu_flag_tower_of_Ha_Giang_in_2014_01.jpg"
+  },
+  {
+    "slot": "lc-04",
+    "file": "videos/ha-giang/candidates/lc-04.jpg",
+    "title": "File:Cột cờ Lũng Cú - Hà Giang.JPG",
+    "author": "vi:User:Leminhel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AC%E1%BB%99t_c%E1%BB%9D_L%C5%A9ng_C%C3%BA_-_H%C3%A0_Giang.JPG"
+  },
+  {
+    "slot": "lc-05",
+    "file": "videos/ha-giang/candidates/lc-05.jpg",
+    "title": "File:Lá cờ Việt Nam trên đỉnh Cột cờ Lũng Cú.JPG",
+    "author": "Leminhel at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AL%C3%A1_c%E1%BB%9D_Vi%E1%BB%87t_Nam_tr%C3%AAn_%C4%91%E1%BB%89nh_C%E1%BB%99t_c%E1%BB%9D_L%C5%A9ng_C%C3%BA.JPG"
+  },
+  {
+    "slot": "lc-06",
+    "file": "videos/ha-giang/candidates/lc-06.jpg",
+    "title": "File:Lung cu view.jpg",
+    "author": "Lost Cosmonauts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALung_cu_view.jpg"
+  },
+  {
+    "slot": "lc-07",
+    "file": "videos/ha-giang/candidates/lc-07.jpg",
+    "title": "File:Lô Lô Chải 2022 - NKS.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AL%C3%B4_L%C3%B4_Ch%E1%BA%A3i_2022_-_NKS.jpg"
+  },
+  {
+    "slot": "lc-08",
+    "file": "videos/ha-giang/candidates/lc-08.jpg",
+    "title": "File:Toàn cảnh.jpg",
+    "author": "Khoitran1957",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATo%C3%A0n_c%E1%BA%A3nh.jpg"
+  },
+  {
+    "slot": "lc-09",
+    "file": "videos/ha-giang/candidates/lc-09.jpg",
+    "title": "File:Lũng Cú, Đồng Văn, Hà Giang, Vietnam - panoramio (1).jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AL%C5%A9ng_C%C3%BA%2C_%C4%90%E1%BB%93ng_V%C4%83n%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio_(1).jpg"
+  },
+  {
+    "slot": "lc-10",
+    "file": "videos/ha-giang/candidates/lc-10.jpg",
+    "title": "File:Cột cờ Lũng Cú.JPG",
+    "author": "Leminhel at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AC%E1%BB%99t_c%E1%BB%9D_L%C5%A9ng_C%C3%BA.JPG"
+  },
+  {
+    "slot": "mpl-01",
+    "file": "videos/ha-giang/candidates/mpl-01.jpg",
+    "title": "File:Mã Pí Lèng Pass, Vietnam.jpg",
+    "author": "Hoach Le Dinh",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A3_P%C3%AD_L%C3%A8ng_Pass%2C_Vietnam.jpg"
+  },
+  {
+    "slot": "mpl-02",
+    "file": "videos/ha-giang/candidates/mpl-02.jpg",
+    "title": "File:Mountain road at Mã Pí Lèng Pass, Hà Giang Province, Vietnam.jpg",
+    "author": "Khánh Hmoong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMountain_road_at_M%C3%A3_P%C3%AD_L%C3%A8ng_Pass%2C_H%C3%A0_Giang_Province%2C_Vietnam.jpg"
+  },
+  {
+    "slot": "mpl-03",
+    "file": "videos/ha-giang/candidates/mpl-03.jpg",
+    "title": "File:Ma Pi Leng panorama.jpg",
+    "author": "Velvet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMa_Pi_Leng_panorama.jpg"
+  },
+  {
+    "slot": "mpl-04",
+    "file": "videos/ha-giang/candidates/mpl-04.jpg",
+    "title": "File:Mã Pí Lèng, Vietnam.jpg",
+    "author": "Hoach Le Dinh",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A3_P%C3%AD_L%C3%A8ng%2C_Vietnam.jpg"
+  },
+  {
+    "slot": "mpl-05",
+    "file": "videos/ha-giang/candidates/mpl-05.jpg",
+    "title": "File:Đèo Mã Pí Lèng 2022.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3A%C4%90%C3%A8o_M%C3%A3_P%C3%AD_L%C3%A8ng_2022.jpg"
+  },
+  {
+    "slot": "mpl-06",
+    "file": "videos/ha-giang/candidates/mpl-06.jpg",
+    "title": "File:MaPiLeng loop 2022.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMaPiLeng_loop_2022.jpg"
+  },
+  {
+    "slot": "mpl-07",
+    "file": "videos/ha-giang/candidates/mpl-07.jpg",
+    "title": "File:Hẻm Tu Sản 2-2022.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AH%E1%BA%BBm_Tu_S%E1%BA%A3n_2-2022.jpg"
+  },
+  {
+    "slot": "mpl-08",
+    "file": "videos/ha-giang/candidates/mpl-08.jpg",
+    "title": "File:Sông Nho Quế 2022 - NKS.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AS%C3%B4ng_Nho_Qu%E1%BA%BF_2022_-_NKS.jpg"
+  },
+  {
+    "slot": "mpl-09",
+    "file": "videos/ha-giang/candidates/mpl-09.jpg",
+    "title": "File:Sông Nho Quế.jpg",
+    "author": "Khoitran1957",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AS%C3%B4ng_Nho_Qu%E1%BA%BF.jpg"
+  },
+  {
+    "slot": "mpl-10",
+    "file": "videos/ha-giang/candidates/mpl-10.jpg",
+    "title": "File:Ma Pi Leng Pass winding road Ha Giang Vietnam.jpg",
+    "author": "Khánh Hmoong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMa_Pi_Leng_Pass_winding_road_Ha_Giang_Vietnam.jpg"
+  },
+  {
+    "slot": "mpl-11",
+    "file": "videos/ha-giang/candidates/mpl-11.jpg",
+    "title": "File:Mapileng mountains.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMapileng_mountains.jpg"
+  },
+  {
+    "slot": "mv-01",
+    "file": "videos/ha-giang/candidates/mv-01.jpg",
+    "title": "File:Mèo Vạc market - 01.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A8o_V%E1%BA%A1c_market_-_01.jpg"
+  },
+  {
+    "slot": "mv-02",
+    "file": "videos/ha-giang/candidates/mv-02.jpg",
+    "title": "File:Mèo Vạc market - 04.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A8o_V%E1%BA%A1c_market_-_04.jpg"
+  },
+  {
+    "slot": "mv-03",
+    "file": "videos/ha-giang/candidates/mv-03.jpg",
+    "title": "File:Mèo Vạc market - 02.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A8o_V%E1%BA%A1c_market_-_02.jpg"
+  },
+  {
+    "slot": "mv-04",
+    "file": "videos/ha-giang/candidates/mv-04.jpg",
+    "title": "File:Thị trấn Mèo Vạc.jpg",
+    "author": "Khoitran1957",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATh%E1%BB%8B_tr%E1%BA%A5n_M%C3%A8o_V%E1%BA%A1c.jpg"
+  },
+  {
+    "slot": "mv-05",
+    "file": "videos/ha-giang/candidates/mv-05.jpg",
+    "title": "File:Ancient river valley in PaVi HaGiang Vietnam.jpg",
+    "author": "BacLuong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAncient_river_valley_in_PaVi_HaGiang_Vietnam.jpg"
+  },
+  {
+    "slot": "mv-06",
+    "file": "videos/ha-giang/candidates/mv-06.jpg",
+    "title": "File:Rd4C & Valley in PaVi HaGiang Vietnam.jpg",
+    "author": "BacLuong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARd4C_%26_Valley_in_PaVi_HaGiang_Vietnam.jpg"
+  },
+  {
+    "slot": "mv-07",
+    "file": "videos/ha-giang/candidates/mv-07.jpg",
+    "title": "File:Mèo Vạc market - 07.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%C3%A8o_V%E1%BA%A1c_market_-_07.jpg"
+  },
+  {
+    "slot": "qb-01",
+    "file": "videos/ha-giang/candidates/qb-01.jpg",
+    "title": "File:Quản Bạ, Vietnam - 1.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AQu%E1%BA%A3n_B%E1%BA%A1%2C_Vietnam_-_1.jpg"
+  },
+  {
+    "slot": "qb-02",
+    "file": "videos/ha-giang/candidates/qb-02.jpg",
+    "title": "File:Quản Bạ, Vietnam - 2.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AQu%E1%BA%A3n_B%E1%BA%A1%2C_Vietnam_-_2.jpg"
+  },
+  {
+    "slot": "qb-03",
+    "file": "videos/ha-giang/candidates/qb-03.jpg",
+    "title": "File:Núi Cô Tiên, Quản Bạ (47742798901).jpg",
+    "author": "Sketyl none",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AN%C3%BAi_C%C3%B4_Ti%C3%AAn%2C_Qu%E1%BA%A3n_B%E1%BA%A1_(47742798901).jpg"
+  },
+  {
+    "slot": "qb-04",
+    "file": "videos/ha-giang/candidates/qb-04.jpg",
+    "title": "File:DuonglencongtroiQuanBa.jpg",
+    "author": "The original uploader was Thái Nhi at Vietnamese Wikipedia.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADuonglencongtroiQuanBa.jpg"
+  },
+  {
+    "slot": "qb-05",
+    "file": "videos/ha-giang/candidates/qb-05.jpg",
+    "title": "File:Tt. Tam Sơn, Quản Bạ, Hà Giang, Vietnam - panoramio (4).jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._Tam_S%C6%A1n%2C_Qu%E1%BA%A3n_B%E1%BA%A1%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio_(4).jpg"
+  },
+  {
+    "slot": "qb-06",
+    "file": "videos/ha-giang/candidates/qb-06.jpg",
+    "title": "File:Cán Tỷ, Quản Bạ, Hà Giang, Vietnam - panoramio.jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AC%C3%A1n_T%E1%BB%B7%2C_Qu%E1%BA%A3n_B%E1%BA%A1%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio.jpg"
+  },
+  {
+    "slot": "qb-07",
+    "file": "videos/ha-giang/candidates/qb-07.jpg",
+    "title": "File:Tt. Tam Sơn, Quản Bạ, Hà Giang, Vietnam - panoramio (3).jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._Tam_S%C6%A1n%2C_Qu%E1%BA%A3n_B%E1%BA%A1%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio_(3).jpg"
+  },
+  {
+    "slot": "tm-01",
+    "file": "videos/ha-giang/candidates/tm-01.jpg",
+    "title": "File:Dốc Thẩm Mã 2022 - NKS.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AD%E1%BB%91c_Th%E1%BA%A9m_M%C3%A3_2022_-_NKS.jpg"
+  },
+  {
+    "slot": "tm-02",
+    "file": "videos/ha-giang/candidates/tm-02.jpg",
+    "title": "File:Tham Ma pass - Dong Van.jpg",
+    "author": "NKSTTSSHNVN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATham_Ma_pass_-_Dong_Van.jpg"
+  },
+  {
+    "slot": "tm-03",
+    "file": "videos/ha-giang/candidates/tm-03.jpg",
+    "title": "File:Road in Hà Giang province.jpg",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARoad_in_H%C3%A0_Giang_province.jpg"
+  },
+  {
+    "slot": "tm-04",
+    "file": "videos/ha-giang/candidates/tm-04.jpg",
+    "title": "File:Tt. Yên Minh, Yên Minh, Hà Giang, Vietnam - panoramio.jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATt._Y%C3%AAn_Minh%2C_Y%C3%AAn_Minh%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio.jpg"
+  },
+  {
+    "slot": "tm-05",
+    "file": "videos/ha-giang/candidates/tm-05.jpg",
+    "title": "File:Needle trees in the Yen Minh district 1.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ANeedle_trees_in_the_Yen_Minh_district_1.jpg"
+  },
+  {
+    "slot": "tm-06",
+    "file": "videos/ha-giang/candidates/tm-06.jpg",
+    "title": "File:Sủng Là, Đồng Văn, Hà Giang, Vietnam - panoramio.jpg",
+    "author": "trungydang",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AS%E1%BB%A7ng_L%C3%A0%2C_%C4%90%E1%BB%93ng_V%C4%83n%2C_H%C3%A0_Giang%2C_Vietnam_-_panoramio.jpg"
+  },
+  {
+    "slot": "tm-07",
+    "file": "videos/ha-giang/candidates/tm-07.jpg",
+    "title": "File:Ha Giang Loop.jpg",
+    "author": "Sabourock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Loop.jpg"
+  },
+  {
+    "slot": "tm-08",
+    "file": "videos/ha-giang/candidates/tm-08.jpg",
+    "title": "File:Ha Giang Loop, Northern Vietnam.jpg",
+    "author": "miketnorton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Loop%2C_Northern_Vietnam.jpg"
+  },
+  {
+    "slot": "vg-01",
+    "file": "videos/ha-giang/candidates/vg-01.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 05.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_05.jpg"
+  },
+  {
+    "slot": "vg-02",
+    "file": "videos/ha-giang/candidates/vg-02.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 17.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_17.jpg"
+  },
+  {
+    "slot": "vg-03",
+    "file": "videos/ha-giang/candidates/vg-03.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 01.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_01.jpg"
+  },
+  {
+    "slot": "vg-04",
+    "file": "videos/ha-giang/candidates/vg-04.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 12.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_12.jpg"
+  },
+  {
+    "slot": "vg-05",
+    "file": "videos/ha-giang/candidates/vg-05.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 03.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_03.jpg"
+  },
+  {
+    "slot": "vg-06",
+    "file": "videos/ha-giang/candidates/vg-06.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 08.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_08.jpg"
+  },
+  {
+    "slot": "vg-07",
+    "file": "videos/ha-giang/candidates/vg-07.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 20.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_20.jpg"
+  },
+  {
+    "slot": "vg-08",
+    "file": "videos/ha-giang/candidates/vg-08.jpg",
+    "title": "File:Ha Giang Hmong King palace in 2014 15.jpg",
+    "author": "Vuong Tri Binh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHa_Giang_Hmong_King_palace_in_2014_15.jpg"
+  }
+]
