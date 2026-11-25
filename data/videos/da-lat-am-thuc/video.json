@@ -1,0 +1,365 @@
+{
+  "id": "da-lat-am-thuc",
+  "title": "Ẩm thực Đà Lạt: 6 món",
+  "language": "vi",
+  "region": "Đà Lạt, Lâm Đồng, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ff8a3d",
+    "highlight": "#ffe08a",
+    "brand": "ĐÀ LẠT ĂN GÌ"
+  },
+  "narrator": {
+    "provider": "elevenlabs",
+    "voice": "Adam"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Bánh mì xíu mại Ri 79": "xm-ri79",
+    "Bánh mì xíu mại Phương": "xm-phuong",
+    "Xíu mại Hồng Hoa (Yến)": "xm-hong-hoa",
+    "Bánh Căn Cô Thương": "co-thuong",
+    "Bánh căn ngoại ô quán": "ngoai-o",
+    "Bánh Căn Nhỏ": "can-nho",
+    "Bánh ướt lòng gà Thu Phương": "bu-thu-phuong",
+    "Bánh ướt lòng gà Góc Phố": "bu-goc-pho",
+    "Bánh ướt lòng gà Hà Phương": "bu-ha-phuong",
+    "Nem nướng Tân Long": "nem-tan-long",
+    "Nem nướng Hà Tốt": "nem-ha-tot",
+    "Nem nướng Hoàng Hải": "nem-hoang-hai",
+    "Lẩu gà lá é Cao Phụng": "lau-cao-phung",
+    "Lẩu gà lá é Tao Ngộ": "lau-hai-thuong",
+    "Lẩu gà lá é Ò ó o": "lau-o-o-o",
+    "Bánh tráng nướng Cô Chi": "btn-co-chi",
+    "Bánh tráng nướng Cô Hương": "btn-co-huong",
+    "Hia Lee – Bánh tráng nướng": "btn-hia-lee"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "ĐÀ LẠT ĂN GÌ",
+      "kicker": "6 MÓN · QUÁN ≥4.5★",
+      "narration": "Hello hô lê các con vợ! Lên Đà Lạt mà chỉ biết cà phê với đồ nướng là phí nửa chuyến. Mình đã xem hơn hai chục video TikTok, đọc cả nghìn bình luận khen có chê có, để chọn ra sáu món phải ăn, kèm quán trên bốn chấm năm sao Google Maps. Lưu lại đi nha!",
+      "gallery": [
+        "videos/da-lat/footage/bc-pour.mp4",
+        "videos/da-lat/footage/btn-night.mp4",
+        "videos/da-lat/footage/lau-le.mp4"
+      ],
+      "durationSec": 18
+    },
+    {
+      "id": "xiumai",
+      "layout": "dish",
+      "n": 1,
+      "time": "06:30",
+      "caption": "Bánh mì xíu mại",
+      "tag": "Ăn sáng",
+      "facts": [
+        "Xíu mại trong nước hầm xương",
+        "Da heo, đu đủ bào, sa tế",
+        "Xé bánh mì chấm vào chén"
+      ],
+      "narration": "Sáng sớm trời mười mấy độ, dân Đà Lạt làm chén xíu mại. Mấy viên thịt to tròn trong nước hầm xương, thêm da heo, đu đủ bào, chút sa tế, rồi xé bánh mì nóng chấm vào. Quán Ri bảy chín có tới hai nghìn lượt đánh giá, dân địa phương ăn đông lắm, đi sớm không thì hết bàn.",
+      "gallery": [
+        "videos/da-lat/footage/xm-pot2.mp4",
+        "videos/da-lat/footage/xm-ladle.mp4",
+        "videos/da-lat/footage/xm-pot.mp4",
+        "videos/da-lat/footage/xm-dip.mp4",
+        "videos/da-lat/footage/xm-bowl.mp4"
+      ],
+      "recap": [
+        "xm-pot3",
+        "xm-bowl",
+        "xm-dip",
+        "xm-ladle"
+      ],
+      "cue": "Ri bảy chín",
+      "places": [
+        {
+          "place": "Bánh mì xíu mại Ri 79",
+          "address": "2 Thông Thiên Học",
+          "rating": 4.6
+        },
+        {
+          "place": "Bánh mì xíu mại Phương",
+          "address": "40 Nguyễn Trãi",
+          "rating": 4.9
+        },
+        {
+          "place": "Xíu mại Hồng Hoa (Yến)",
+          "address": "77 Bùi Thị Xuân",
+          "rating": 4.9
+        }
+      ],
+      "durationSec": 23,
+      "recapSec": 3
+    },
+    {
+      "id": "banhcan",
+      "layout": "dish",
+      "n": 2,
+      "time": "08:00",
+      "caption": "Bánh căn",
+      "tag": "Ăn sáng",
+      "facts": [
+        "Đổ khuôn đất trên bếp than",
+        "Trứng cút hoặc hải sản",
+        "Mắm nêm hoặc nước mắm, xoài bào"
+      ],
+      "narration": "Món thứ hai là bánh căn, đổ trong khuôn đất trên bếp than nên vỏ giòn xém. Gọi trứng cút hay hải sản, chấm mắm nêm hoặc nước mắm với xoài bào là cuốn. Bánh căn Cô Thương thì đông nghẹt, có người đợi cả tiếng. Muốn yên hơn thì ghé bánh căn ngoại ô trên đường Hoàng Hoa Thám, từ ba mươi nghìn một phần.",
+      "gallery": [
+        "videos/da-lat/footage/bc-pour.mp4",
+        "videos/da-lat/footage/bc-coal.mp4",
+        "videos/da-lat/footage/bc-grill.mp4",
+        "videos/da-lat/footage/bc-man.mp4",
+        "videos/da-lat/footage/bc-plate.mp4"
+      ],
+      "recap": [
+        "bc-plate",
+        "bc-pour",
+        "bc-grill",
+        "bc-coal"
+      ],
+      "cue": "Cô Thương",
+      "places": [
+        {
+          "place": "Bánh Căn Cô Thương",
+          "address": "2A Hoàng Hoa Thám",
+          "rating": 4.5
+        },
+        {
+          "place": "Bánh căn ngoại ô quán",
+          "address": "56 Hoàng Hoa Thám",
+          "rating": 4.6
+        },
+        {
+          "place": "Bánh Căn Nhỏ",
+          "address": "KQH Phạm Hồng Thái",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 24.5,
+      "recapSec": 3
+    },
+    {
+      "id": "banhuot",
+      "layout": "dish",
+      "n": 3,
+      "time": "10:00",
+      "caption": "Bánh ướt lòng gà",
+      "tag": "Ăn nguội",
+      "facts": [
+        "Gà ta xé, tim, mề, trứng non",
+        "Bánh ăn nguội, chan nước mắm",
+        "Quen ăn nóng thì báo trước nha"
+      ],
+      "narration": "Bánh ướt lòng gà là đặc sản xứ này, nhưng nói trước nè: bánh ăn nguội, gà ta xé trộn, chan nước mắm chua ngọt. Ai quen ăn nóng hay chê lạnh, còn người mê thì ăn tám chín năm không chán. Thử Thu Phương gà ta dai ngọt, hay Góc Phố bốn chấm chín sao, quán mới mà khen nức nở.",
+      "gallery": [
+        "videos/da-lat/footage/bu-mix.mp4",
+        "videos/da-lat/footage/bu-mix2.mp4",
+        "videos/da-lat/footage/bu-bowl2.mp4",
+        "videos/da-lat/footage/bu-pour.mp4",
+        "videos/da-lat/footage/bu-bowl3.mp4"
+      ],
+      "recap": [
+        "bu-mix",
+        "bu-bowl3",
+        "bu-pour",
+        "bu-mix2"
+      ],
+      "cue": "Thu Phương",
+      "places": [
+        {
+          "place": "Bánh ướt lòng gà Thu Phương",
+          "address": "202/23 Phan Đình Phùng",
+          "rating": 4.5
+        },
+        {
+          "place": "Bánh ướt lòng gà Góc Phố",
+          "address": "94 Xô Viết Nghệ Tĩnh",
+          "rating": 4.9
+        },
+        {
+          "place": "Bánh ướt lòng gà Hà Phương",
+          "address": "Đặng Thùy Trâm",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 23,
+      "recapSec": 3
+    },
+    {
+      "id": "nem",
+      "layout": "dish",
+      "n": 4,
+      "time": "14:00",
+      "caption": "Nem nướng",
+      "tag": "Ăn xế",
+      "facts": [
+        "Nem nướng than",
+        "Cuốn bánh tráng chiên giòn, rau, đồ chua",
+        "Nước chấm béo béo, ngọt ngọt"
+      ],
+      "narration": "Xế chiều làm dĩa nem nướng: nem nướng than, bánh tráng chiên giòn, rau với đồ chua, cuốn lại chấm nước sốt béo béo. Tân Long trong hẻm Bùi Thị Xuân là quán quen của dân Đà Lạt, dù có người chê nước chấm ngọt như chè. Cùng con hẻm có Hà Tốt bốn chấm chín sao, nem đặc thịt, ăn đã luôn.",
+      "gallery": [
+        "videos/da-lat/footage/nem-grill.mp4",
+        "videos/da-lat/footage/nem-plate.mp4",
+        "videos/da-lat/footage/nem-table.mp4",
+        "videos/da-lat/footage/nem-roll.mp4"
+      ],
+      "recap": [
+        "nem-plate",
+        "nem-roll",
+        "nem-grill"
+      ],
+      "cue": "Tân Long",
+      "places": [
+        {
+          "place": "Nem nướng Tân Long",
+          "address": "290 Bùi Thị Xuân",
+          "rating": 4.5
+        },
+        {
+          "place": "Nem nướng Hà Tốt",
+          "address": "272/6 Bùi Thị Xuân",
+          "rating": 4.9
+        },
+        {
+          "place": "Nem nướng Hoàng Hải",
+          "address": "12 La Sơn Phu Tử",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 24,
+      "recapSec": 3
+    },
+    {
+      "id": "lau",
+      "layout": "dish",
+      "n": 5,
+      "time": "19:00",
+      "caption": "Lẩu gà lá é",
+      "tag": "Ăn tối",
+      "facts": [
+        "Gốc Phú Yên, thành đặc sản Đà Lạt",
+        "Lá é thơm như húng chanh, tía tô",
+        "Nồi nhỏ ~200–250k"
+      ],
+      "narration": "Tối trời lạnh thì phải có nồi lẩu gà lá é. Món này gốc Phú Yên, nhưng lên Đà Lạt lại thành đặc sản. Lá é thơm như lai giữa húng chanh với tía tô, thả vào nồi gà ta là thơm lừng. Cao Phụng nồi hai trăm nghìn, ba đứa ăn ê hề. Cả thành phố quán nào cũng tên Tao Ngộ, nên xem kỹ số sao nha.",
+      "gallery": [
+        "videos/da-lat/footage/lau-le.mp4",
+        "videos/da-lat/footage/lau-pot.mp4",
+        "videos/da-lat/footage/lau-green.mp4",
+        "videos/da-lat/footage/lau-pot2.mp4",
+        "videos/da-lat/footage/lau-dip.mp4"
+      ],
+      "recap": [
+        "lau-pot",
+        "lau-green",
+        "lau-le"
+      ],
+      "cue": "Cao Phụng",
+      "places": [
+        {
+          "place": "Lẩu gà lá é Cao Phụng",
+          "address": "KQH Hoàng Văn Thụ",
+          "rating": 4.5
+        },
+        {
+          "place": "Lẩu gà lá é Tao Ngộ",
+          "address": "28B Hải Thượng",
+          "rating": 4.8
+        },
+        {
+          "place": "Lẩu gà lá é Ò ó o",
+          "address": "11 Kim Đồng",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 24.5,
+      "recapSec": 3
+    },
+    {
+      "id": "btn",
+      "layout": "dish",
+      "n": 6,
+      "time": "22:00",
+      "caption": "Bánh tráng nướng",
+      "tag": "Ăn khuya",
+      "facts": [
+        "\"Pizza Việt Nam\" nướng than",
+        "Trứng cút, hành, phô mai kéo sợi",
+        "Ở quán địa phương 10–25k"
+      ],
+      "narration": "Khuya đói thì gọi bánh tráng nướng, người ta hay gọi vui là pizza Việt Nam. Bánh tráng nướng than, trứng cút, hành, phô mai kéo sợi. Cô Chi bán mười tới hai lăm nghìn, khách du lịch cũng giá như dân địa phương. Còn ở quảng trường có người mua sáu lăm nghìn một cái đó nha.",
+      "gallery": [
+        "videos/da-lat/footage/btn-cook.mp4",
+        "videos/da-lat/footage/btn-grill.mp4",
+        "videos/da-lat/footage/px-btn1.mp4",
+        "videos/da-lat/footage/btn-eggs.mp4",
+        "videos/da-lat/footage/btn-dip.mp4",
+        "videos/da-lat/footage/btn-grill2.mp4"
+      ],
+      "recap": [
+        "btn-plate",
+        "btn-eggs",
+        "btn-grill2",
+        "px-btn1"
+      ],
+      "cue": "Cô Chi",
+      "places": [
+        {
+          "place": "Bánh tráng nướng Cô Chi",
+          "address": "20 Xô Viết Nghệ Tĩnh",
+          "rating": 4.8
+        },
+        {
+          "place": "Bánh tráng nướng Cô Hương",
+          "address": "46 Nguyễn Văn Trỗi",
+          "rating": 4.5
+        },
+        {
+          "place": "Hia Lee – Bánh tráng nướng",
+          "address": "hẻm 12C Triệu Việt Vương",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 21.5,
+      "recapSec": 3
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Ăn cho đã nha!",
+      "kicker": "MẸO DÂN SÀNH ĂN",
+      "tips": [
+        "Xem sao Google Maps trước",
+        "Hỏi giá trước ở chợ đêm",
+        "Đi sớm, quán ngon hết nhanh"
+      ],
+      "tipCues": [
+        "google maps",
+        "hỏi giá",
+        "đi sớm"
+      ],
+      "narration": "Mẹo của dân sành ăn nè: xem số sao Google Maps trước, đừng chỉ tin review; hỏi giá trước khi ngồi ở chợ đêm; và đi sớm, quán ngon hết hàng nhanh lắm. Clip là của các bạn TikToker, nguồn mình để ở mô tả. Lưu lại rồi lên Đà Lạt ăn cho đã đi các con vợ!",
+      "gallery": [
+        "videos/da-lat/footage/btn-eggs2.mp4",
+        "videos/da-lat/footage/px-btn2.mp4",
+        "videos/da-lat/footage/bc-coal.mp4"
+      ],
+      "durationSec": 18.5
+    }
+  ]
+}

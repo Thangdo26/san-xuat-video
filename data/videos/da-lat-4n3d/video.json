@@ -1,0 +1,424 @@
+{
+  "id": "da-lat-4n3d",
+  "title": "Đà Lạt 4N3Đ mùa cỏ hồng",
+  "language": "vi",
+  "region": "Đà Lạt, Lâm Đồng, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#f28fae",
+    "highlight": "#ffd25e",
+    "brand": "ĐÀ LẠT"
+  },
+  "narrator": {
+    "provider": "elevenlabs",
+    "voice": "Adam"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-ambient.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Lẩu gà lá é Cao Phụng": "lau-cao-phung",
+    "Nem nướng Hà Tốt": "nem-ha-tot",
+    "Bánh tráng nướng Cô Chi": "btn-co-chi",
+    "Biển Mây Chill – Cầu Gỗ": "cd-bien-may",
+    "Săn Mây Cầu Gỗ – Bình Minh": "cd-binh-minh",
+    "The Diff House's": "cd-diff",
+    "Bò Tơ Bản Địa": "ld-bo-to",
+    "SOLENA": "ld-solena",
+    "Ẩm thực KRIN": "ld-krin",
+    "An – Tuyền Lâm": "tl-an",
+    "Lac du LeLe": "tl-lele",
+    "The Seen House": "tl-seen",
+    "Cozy Garden Boutique Hotel": "st-cozy",
+    "Thanh Nhã House": "st-thanh-nha",
+    "Dream Garden Homestay": "st-dream",
+    "Nhà Hoa Nắng Homestay": "st-hoa-nang"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "ĐÀ LẠT",
+      "label": "4 NGÀY 3 ĐÊM",
+      "kicker": "MÙA CỎ HỒNG · CUỐI THÁNG 11",
+      "voiceDelay": 9.6,
+      "cold": [
+        "videos/da-lat/footage/cold-mist.mp4",
+        "videos/da-lat/footage/cold-sun.mp4"
+      ],
+      "coldAudio": [
+        "videos/da-lat/audio/cold-mist.mp3",
+        "videos/da-lat/audio/cold-sun.mp3"
+      ],
+      "narration": "Hello hô lê các con vợ! Cuối tháng mười một rồi, Đà Lạt đang vào mùa đẹp nhất năm: trời xanh, tối lạnh, đồi cỏ hồng lên màu, mây thì nằm đầy thung lũng. Mình đã cày hơn năm chục video TikTok của người vừa đi về để gom lịch trình bốn ngày ba đêm này. Lưu lại liền đi nha!",
+      "gallery": [
+        "videos/da-lat/footage/px-city.mp4",
+        "videos/da-lat/footage/dq-drone.mp4",
+        "videos/da-lat/footage/tl-mist.mp4"
+      ],
+      "durationSec": 29
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "N1",
+      "label": "Ngày 1 · Trung tâm",
+      "caption": "Chào Đà Lạt",
+      "badge": "Hồ Xuân Hương",
+      "points": [
+        "Xe đêm tới sớm: ngồi quán cà phê chờ nhận phòng",
+        "17h30 quảng trường Lâm Viên lên đèn"
+      ],
+      "narration": "Ngày một, đáp sân bay Liên Khương thì taxi về trung tâm tầm hai trăm nghìn. Đi xe đêm tới lúc năm giờ sáng thì đừng ôm vali đứng giữa trời mười mấy độ, ghé quán cà phê mở cửa sớm ngồi chờ nhận phòng. Chiều dạo hồ Xuân Hương, năm rưỡi ra quảng trường Lâm Viên ngắm phố lên đèn. Tối làm nồi lẩu gà lá é Cao Phụng cho ấm bụng. Nhớ né ăn ở bậc thang chợ đêm nha, có người hai tô bún bay bốn trăm nghìn đó.",
+      "gallery": [
+        "videos/da-lat/footage/px-city2.mp4",
+        "videos/da-lat/footage/px-yersin.mp4",
+        "videos/da-lat/footage/city-view.mp4",
+        "videos/da-lat/footage/ga-dalat.mp4",
+        "videos/da-lat/footage/night-square.mp4"
+      ],
+      "cardTitle": "TỐI NAY ĂN GÌ",
+      "dishes": [
+        {
+          "name": "Lẩu gà lá é",
+          "place": "Lẩu gà lá é Cao Phụng",
+          "address": "KQH Hoàng Văn Thụ",
+          "rating": 4.5,
+          "spokenAs": "Cao Phụng"
+        },
+        {
+          "name": "Nem nướng",
+          "place": "Nem nướng Hà Tốt",
+          "address": "272/6 Bùi Thị Xuân",
+          "rating": 4.9
+        },
+        {
+          "name": "Bánh tráng nướng",
+          "place": "Bánh tráng nướng Cô Chi",
+          "address": "20 Xô Viết Nghệ Tĩnh",
+          "rating": 4.8
+        }
+      ],
+      "durationSec": 27
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "N2",
+      "label": "Ngày 2 · Hướng Cầu Đất",
+      "caption": "Săn mây Cầu Đất",
+      "badge": "~28 km · 4h sáng",
+      "points": [
+        "Đèo không đèn, sương dày: tay lái non đi tour",
+        "Ngày ít mây ở đây vẫn có mây"
+      ],
+      "narration": "Ngày hai là ngày test nhân phẩm. Bốn giờ sáng chạy hai mươi tám cây số ra đồi chè Cầu Đất. Đèo không đèn, sương dày đặc, tay lái non thì đi tour cho lành. Bù lại, ở đây ngày ít mây vẫn có mây, chứ mấy đồi gần trung tâm phải trúng ngày thật nhiều mây mới thấy. Ngồi Biển Mây Chill nhâm nhi cà phê, ngắm đồi chè với mấy cái tua bin gió, đẹp muốn xỉu.",
+      "gallery": [
+        "videos/da-lat/footage/cd-road.mp4",
+        "videos/da-lat/footage/cd-sea.mp4",
+        "videos/da-lat/footage/cd-turbine.mp4",
+        "videos/da-lat/footage/cd-deck.mp4",
+        "videos/da-lat/footage/cd-valley.mp4",
+        "videos/da-lat/footage/cd-daquy.mp4"
+      ],
+      "cardTitle": "CÀ PHÊ SĂN MÂY",
+      "dishes": [
+        {
+          "name": "Cà phê",
+          "place": "Biển Mây Chill – Cầu Gỗ",
+          "address": "đồi chè Cầu Đất",
+          "rating": 4.9,
+          "spokenAs": "Biển Mây Chill"
+        },
+        {
+          "name": "Cà phê",
+          "place": "Săn Mây Cầu Gỗ – Bình Minh",
+          "address": "đồi chè Cầu Đất",
+          "rating": 4.6
+        },
+        {
+          "name": "Cà phê",
+          "place": "The Diff House's",
+          "address": "Đất Làng, Trường Xuân",
+          "rating": 4.5
+        }
+      ],
+      "durationSec": 24
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "N3",
+      "label": "Ngày 3 · Hướng Lạc Dương",
+      "caption": "Cỏ hồng & Langbiang",
+      "badge": "6h30–8h",
+      "points": [
+        "Đồi cỏ hồng chỉ hồng khi nắng sớm",
+        "Langbiang 2.167 m: leo ~4 tiếng hoặc đi Jeep"
+      ],
+      "narration": "Ngày ba đi hướng Lạc Dương. Từ sáu rưỡi tới tám giờ sáng là lúc đồi cỏ hồng trên đường lên Suối Vàng hồng rực nhất, lên trễ là chỉ thấy cỏ khô thôi á. Xong đi chinh phục Langbiang, nóc nhà Đà Lạt cao hai nghìn một trăm sáu mươi bảy mét: leo bộ mất chừng bốn tiếng, còn lười thì leo lên xe Jeep. Trưa làm bữa bò tơ bản địa ở Lạc Dương cho lại sức.",
+      "gallery": [
+        "videos/da-lat/footage/ch-pink.mp4",
+        "videos/da-lat/footage/ch-gold.mp4",
+        "videos/da-lat/footage/ch-sun.mp4",
+        "videos/da-lat/footage/lb-trek.mp4",
+        "videos/da-lat/footage/px-pine.mp4",
+        "videos/da-lat/footage/lb-peak.mp4"
+      ],
+      "cardTitle": "ĂN Ở LẠC DƯƠNG",
+      "dishes": [
+        {
+          "name": "Bò tơ, lẩu nướng",
+          "place": "Bò Tơ Bản Địa",
+          "address": "QL27C, Lạc Dương",
+          "rating": 4.7,
+          "spokenAs": "bò tơ"
+        },
+        {
+          "name": "Món nướng",
+          "place": "SOLENA",
+          "address": "Biđoúp, Lạc Dương",
+          "rating": 4.6
+        },
+        {
+          "name": "Món Tây Nguyên",
+          "place": "Ẩm thực KRIN",
+          "address": "79 Biđoúp",
+          "rating": 4.7
+        }
+      ],
+      "durationSec": 23.5
+    },
+    {
+      "id": "d4",
+      "layout": "point",
+      "day": "N4",
+      "label": "Ngày 4 · Hướng đèo Prenn",
+      "caption": "Hồ Tuyền Lâm",
+      "badge": "Dã quỳ cuối mùa",
+      "points": [
+        "Cáp treo Robin → Thiền viện: 80k/chiều",
+        "Máng trượt Datanla: chọn đường số 3"
+      ],
+      "narration": "Ngày cuối đi hướng đèo Prenn. Sáng sớm hồ Tuyền Lâm còn sương, đi cáp treo từ đồi Robin qua Thiền viện Trúc Lâm, vé tám mươi nghìn một chiều. Mùa này dã quỳ còn nở vàng dọc đường quanh hồ. Còn sức thì ghé thác Datanla trượt máng, chọn đường số ba, mới nhất mà dài nhất. Ghé An Tuyền Lâm uống ly cà phê ngắm hồ, rồi mua đặc sản ra sân bay.",
+      "gallery": [
+        "videos/da-lat/footage/tl-falls.mp4",
+        "videos/da-lat/footage/tl-suoitia.mp4",
+        "videos/da-lat/footage/dq-girl.mp4",
+        "videos/da-lat/footage/dq-drone2.mp4",
+        "videos/da-lat/footage/dtl-falls.mp4",
+        "videos/da-lat/footage/tl-sunset.mp4"
+      ],
+      "cardTitle": "CÀ PHÊ VEN HỒ",
+      "dishes": [
+        {
+          "name": "Cà phê",
+          "place": "An – Tuyền Lâm",
+          "address": "Hoa Phượng Tím",
+          "rating": 4.7,
+          "spokenAs": "An Tuyền Lâm"
+        },
+        {
+          "name": "Cà phê",
+          "place": "Lac du LeLe",
+          "address": "Hoa Cẩm Tú Cầu",
+          "rating": 4.7
+        },
+        {
+          "name": "Cà phê",
+          "place": "The Seen House",
+          "address": "KDL hồ Tuyền Lâm",
+          "rating": 4.6
+        }
+      ],
+      "durationSec": 24
+    },
+    {
+      "id": "extra",
+      "layout": "extra",
+      "day": "+1",
+      "caption": "Có thêm ngày 5?",
+      "kicker": "ĐI 5N4Đ THÌ THÊM",
+      "items": [
+        {
+          "t": "Tà Nung · thôn 13",
+          "s": "~15 km, cà phê view thung lũng",
+          "cue": "Tà Nung"
+        },
+        {
+          "t": "Dinh Bảo Đại · ga Đà Lạt",
+          "s": "đi chậm, chụp ảnh cổ",
+          "cue": "dinh Bảo Đại"
+        },
+        {
+          "t": "Festival Hoa Đà Lạt",
+          "s": "khai mạc dự kiến tối 19/12",
+          "cue": "Festival"
+        }
+      ],
+      "narration": "Có thêm ngày thứ năm thì sao? Chạy mười lăm cây sang Tà Nung, ghé thôn mười ba với mấy quán cà phê nhìn ra thung lũng. Hoặc ghé dinh Bảo Đại với ga Đà Lạt cổ, đi chậm cho đã. Còn ai lên sau mười chín tháng mười hai thì trúng luôn Festival Hoa Đà Lạt, dự kiến khai mạc ở quảng trường Lâm Viên.",
+      "gallery": [
+        "videos/da-lat/footage/tn-lake.mp4",
+        "videos/da-lat/footage/tn-house.mp4",
+        "videos/da-lat/footage/tn-cafe.mp4",
+        "videos/da-lat/footage/px-farm.mp4"
+      ],
+      "durationSec": 19
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Ngủ ở đâu?",
+      "zones": [
+        {
+          "title": "Trung tâm",
+          "note": "Đi bộ ra chợ, ra hồ · lần đầu nên ở đây",
+          "picks": [
+            [
+              "Cozy Garden Boutique Hotel",
+              4.9,
+              "94 Lữ Gia"
+            ],
+            [
+              "Thanh Nhã House",
+              5,
+              "400 Hai Bà Trưng"
+            ]
+          ]
+        },
+        {
+          "title": "Cầu Đất",
+          "note": "Mê săn mây · khỏi chạy đèo lúc 3h sáng",
+          "picks": [
+            [
+              "Dream Garden Homestay",
+              4.7,
+              "Đất Làng, Trường Xuân"
+            ],
+            [
+              "Nhà Hoa Nắng Homestay",
+              4.9,
+              "Đất Làng, Trường Xuân"
+            ]
+          ]
+        }
+      ],
+      "tip": "Chọn phòng có nước nóng, chăn dày, cửa kín gió",
+      "cues": [
+        "trung tâm",
+        "cầu đất",
+        "nước nóng"
+      ],
+      "narration": "Ở đâu cho tiện? Lần đầu đi thì ở trung tâm, đi bộ ra chợ ra hồ, như Cozy Garden bốn chấm chín sao. Mê săn mây thì ngủ luôn ở Cầu Đất, như Dream Garden Homestay, khỏi phải chạy đèo lúc ba giờ sáng. Nhớ chọn phòng có nước nóng với chăn dày, tháng này tối lạnh run cầm cập.",
+      "gallery": [
+        "videos/da-lat/footage/window-view.mp4",
+        "videos/da-lat/footage/pine-girl.mp4",
+        "videos/da-lat/footage/cd-girl.mp4"
+      ],
+      "durationSec": 20
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "BẢNG GIÁ 1 NGƯỜI",
+      "receiptTitle": "ĐÀ LẠT 4N3Đ · 1 NGƯỜI",
+      "total": "4,5–6,2tr",
+      "totalCue": "tổng cộng",
+      "stamp": "THAM KHẢO 20/11/2026",
+      "note": "Nguồn: review TikTok, Jungle Boss, Nam Thiên Travel",
+      "items": [
+        {
+          "k": "Máy bay HN khứ hồi",
+          "note": "đặt sớm",
+          "v": "2,3–3,2tr",
+          "n": [
+            2300,
+            3200
+          ]
+        },
+        {
+          "k": "Phòng 3 đêm",
+          "note": "ở 2 người",
+          "v": "450–825k",
+          "n": [
+            450,
+            825
+          ]
+        },
+        {
+          "k": "Xe máy 4 ngày",
+          "note": "chia 2 người",
+          "v": "240–360k",
+          "n": [
+            240,
+            360
+          ]
+        },
+        {
+          "k": "Ăn uống 4 ngày",
+          "note": "~300k/ngày",
+          "v": "1,2–1,3tr",
+          "n": [
+            1200,
+            1320
+          ]
+        },
+        {
+          "k": "Vé, taxi sân bay",
+          "note": "cáp treo 80k, Langbiang 50k",
+          "v": "330–450k",
+          "n": [
+            330,
+            450
+          ]
+        }
+      ],
+      "narration": "Ví tiền thì sao? Vé máy bay từ Hà Nội đặt sớm tầm hai triệu ba tới ba triệu hai. Phòng ba đêm ở chung chừng năm trăm tới tám trăm nghìn mỗi người. Xe máy, ăn uống, vé với taxi thêm khoảng hai triệu. Tổng cộng tầm bốn triệu rưỡi tới sáu triệu hai một người, đi xe khách từ Sài Gòn thì còn rẻ hơn nhiều.",
+      "gallery": [
+        "videos/da-lat/footage/cafe-cup.mp4",
+        "videos/da-lat/footage/pm-forest.mp4"
+      ],
+      "durationSec": 21
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Đà Lạt chờ bạn",
+      "kicker": "3 ĐIỀU NHỚ MANG",
+      "cta": "Lưu lại nhé!",
+      "tips": [
+        "Áo khoác + kem chống nắng",
+        "Hỏi giá trước ở chợ đêm",
+        "Taxi: đặt qua app"
+      ],
+      "tipCues": [
+        "áo khoác",
+        "hỏi giá",
+        "taxi"
+      ],
+      "caseTags": [
+        "Hồ Xuân Hương",
+        "Cầu Đất",
+        "Langbiang",
+        "Tuyền Lâm",
+        "Tà Nung"
+      ],
+      "narration": "Ba điều người đi trước dặn nè: mang áo khoác lẫn kem chống nắng vì sáng lạnh trưa nắng, hỏi giá trước khi ăn hay chụp hình ở chợ đêm, và taxi thì đặt qua app. Clip trong video là của các bạn TikToker, nguồn mình để ở phần mô tả. Lưu lại rồi rủ cạ cứng lên Đà Lạt đón lạnh liền đi các con vợ!",
+      "gallery": [
+        "videos/da-lat/footage/cd-sit.mp4",
+        "videos/da-lat/footage/ch-pink2.mp4",
+        "videos/da-lat/footage/tl-sunset2.mp4"
+      ],
+      "durationSec": 20.5
+    }
+  ]
+}
