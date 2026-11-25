@@ -1,0 +1,51 @@
+# name | source | start | dur | note  (chọn từ contact sheet 21/11/2026)
+dh-frost | raw-tiktok/daihai__emhang.vannam__7709455230097706258.mp4 | 12 | 4 | rừng cây đóng băng Đại Hải Thảo Sơn
+dh-slope | raw-tiktok/daihai__emhang.vannam__7709455230097706258.mp4 | 28 | 5 | đồi tuyết trời xanh
+dh-ski | raw-tiktok/daihai__emhang.vannam__7709455230097706258.mp4 | 37.5 | 5 | đường trượt toàn cảnh
+dh-road | raw-tiktok/daihai__thevudayy__7707656353837370644.mp4 | 8 | 6 | đường giữa thảo nguyên tuyết
+dh-window | raw-tiktok/daihai__thevudayy__7707656353837370644.mp4 | 15.5 | 5 | đồi tuyết nhìn qua cửa xe
+dh-skiers | raw-tiktok/daihai__hatrangchina__7706452720135228693.mp4 | 15 | 5 | người trượt tuyết (xa)
+hb-village | raw-tiktok/harbin__huyen.anhha__7686423139416329490.mp4 | 6 | 8 | làng Tuyết Hương lên đèn (không chữ)
+hb-village2 | raw-tiktok/harbin__huyen.anhha__7686423139416329490.mp4 | 15 | 7 | mái nhà tuyết như nấm
+hb-street | raw-tiktok/harbin__dicungtuyetvietchill__7671261048065789205.mp4 | 3 | 5 | phố làng tuyết đêm (chữ creator)
+hb-roofs | raw-tiktok/harbin__dicungtuyetvietchill__7671261048065789205.mp4 | 8.5 | 5 | mái tuyết đèn màu
+hb-frozen | raw-tiktok/harbin__nguyetchinatravel__7677460909031197959.mp4 | 5.5 | 3 | rau đông cứng sau 2 phút
+hb-castle | raw-tiktok/harbin__vanvivutravel__7701198457523965205.mp4 | 0.5 | 5.5 | lâu đài băng trong tuyết
+hb-iceworld | raw-tiktok/harbin__vietnamtickets_official__7579854468553018631.mp4 | 16 | 5.5 | Thế giới băng tuyết đêm
+kt-cable | raw-tiktok/kieutu__gahaylaca__7708714722043890964.mp4 | 16.5 | 3 | cáp treo Kiệu Tử trong tuyết
+kt-cable2 | raw-tiktok/kieutu__gahaylaca__7708714722043890964.mp4 | 21.5 | 3.5 | cabin cáp treo phủ tuyết
+kt-path | raw-tiktok/kieutu__ngotvivu__7629738880572394772.mp4 | 13 | 4 | đường đi bộ phủ tuyết
+lau-nam | raw-tiktok/kieutu__ngotvivu__7629738880572394772.mp4 | 41 | 4 | lẩu nấm Côn Minh
+dc-gulls | raw-tiktok/kieutu__ngotvivu__7629738880572394772.mp4 | 59 | 5 | hải âu hồ Điền Trì
+kt-platform | raw-tiktok/kieutu__thevudayy__7706028490503539976.mp4 | 14.5 | 4 | sân ngắm tuyết rơi Kiệu Tử
+nl-crowd | raw-tiktok/ngoclong__chaulinhhhhh__7706365371627998484.mp4 | 11 | 5 | Ngọc Long tuyết lớn 09/11, rất đông
+nl-gold | raw-tiktok/ngoclong__tuan_fieu__7688776985941773576.mp4 | 0.5 | 6 | Ngọc Long nhuộm vàng buổi sáng
+nl-peak | raw-tiktok/ngoclong__tuan_fieu__7688776985941773576.mp4 | 55 | 6 | đỉnh tuyết Ngọc Long rực nắng
+nl-range | raw-tiktok/ngoclong__linhmedi__7664637959248940295.mp4 | 48.5 | 3.5 | dãy Ngọc Long nhìn xa
+kt-cliff | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 9 | 4 | lối đi vách núi phủ tuyết
+dc-flock | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 17 | 4.5 | đàn hải âu bay rợp trời
+km-tower | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 24 | 4 | tháp bên hồ, công viên Côn Minh
+lng-red | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 40 | 4.5 | rừng ngập nước lá đỏ (Lão Ngư Hà)
+kt-frost | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 47 | 4.5 | cây phủ băng nhìn từ dưới
+kt-snowland | raw-tiktok/tour__dattr.1__7705027933643066645.mp4 | 55 | 4 | đồi tuyết trắng
+km-ginkgo | raw-tiktok/tour__dattr.1__7707646669692685588.mp4 | 10 | 4 | phố lá vàng Côn Minh
+km-train | raw-tiktok/tour__dattr.1__7707646669692685588.mp4 | 18 | 4 | tàu cao tốc
+km-park | raw-tiktok/tour__dattr.1__7707646669692685588.mp4 | 35.5 | 4.5 | công viên hồ nhìn từ trên
+km-market | raw-tiktok/tour__dattr.1__7707646669692685588.mp4 | 43.5 | 4 | chợ đêm đồ nướng
+kt-summit | raw-tiktok/tour__dattr.1__7709090346768010517.mp4 | 3 | 5 | đỉnh tuyết trên mây (người xa)
+km-gate | raw-tiktok/tour__dattr.1__7709090346768010517.mp4 | 22 | 5 | cổng công viên Thúy Hồ
+dc-sunset | raw-tiktok/tour__dattr.1__7709090346768010517.mp4 | 43 | 5 | hoàng hôn hồ, hải âu
+km-night | raw-tiktok/tour__dattr.1__7709090346768010517.mp4 | 53 | 5 | phố đêm Côn Minh
+kt-stairs | raw-tiktok/tour__dattr.1__7709090346768010517.mp4 | 62 | 8 | bậc thang rừng băng (không người)
+kt-ice | raw-tiktok/tour__hienbantour___7704537943649553682.mp4 | 3 | 5 | cầu thang băng giá
+kt-cabin | raw-tiktok/tour__hienbantour___7704537943649553682.mp4 | 24 | 4 | lên cabin cáp treo
+dc-gulls2 | raw-tiktok/tour__hienbantour___7704537943649553682.mp4 | 67 | 5 | hải âu trên hồ
+qd-gate | raw-tiktok/tour__hienbantour___7704537943649553682.mp4 | 78 | 5 | cổng Quan Độ cổ trấn
+kt-edge | raw-tiktok/tour__hienbantour___7704537943649553682.mp4 | 88 | 6 | vách đá tuyết Kiệu Tử
+kt-forest | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 0.3 | 9 | rừng băng, người đi xa
+qd-aerial | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 12 | 4.5 | Quan Độ nhìn từ trên
+dc-dusk | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 23 | 5 | hoàng hôn Điền Trì
+kt-rock | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 36 | 5 | đá núi tuyết dưới mây
+km-kmbk | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 41 | 5 | Kim Mã Bích Kê đêm
+dc-blue | raw-tiktok/tour__hoangha_tourvannam__7705603413031046418.mp4 | 47 | 9 | hải âu hồ xanh (đẹp nhất)
+kt-cablesnow | raw-tiktok/tour__nguyetchinatravel__7682022774990294290.mp4 | 15 | 6 | cáp treo trên rừng tuyết
