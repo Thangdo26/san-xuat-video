@@ -1,0 +1,522 @@
+{
+  "id": "cao-bang-3n2d",
+  "title": "Cao Bằng 3N2Đ mùa đông",
+  "language": "vi",
+  "region": "Cao Bằng, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#4fd1c5",
+    "highlight": "#ffcf5a",
+    "brand": "CAO BẰNG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "CAO BẰNG",
+      "label": "3N2Đ MÙA ĐÔNG",
+      "kicker": "THÁNG 11 · NON NƯỚC VIỆT BẮC",
+      "narration": "Cao Bằng tháng mười một, thác Bản Giốc nước trong xanh, mây phủ thung lũng, sáng sớm se lạnh. Đây là lịch trình ba ngày hai đêm cho mùa này, gom từ TikTok, kèm quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 12,
+      "gallery": [
+        "videos/cao-bang/footage/cb-mist.mp4",
+        "videos/cao-bang/footage/gioc-top.mp4"
+      ],
+      "pages": [
+        [
+          "NGÀY 1",
+          "Pác Bó · phố Cao Bằng"
+        ],
+        [
+          "NGÀY 2",
+          "Bản Giốc · Ngườm Ngao"
+        ],
+        [
+          "NGÀY 3",
+          "Núi Mắt Thần"
+        ]
+      ]
+    },
+    {
+      "id": "pacbo",
+      "layout": "point",
+      "caption": "Suối Lê Nin",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#4fd1c5",
+      "points": [
+        "Cách TP khoảng 50 km",
+        "Từ tháng 11 nước càng trong"
+      ],
+      "narration": "Xe đêm tới thành phố lúc rạng sáng. Ngày một, chạy chừng năm mươi cây số lên Pác Bó. Từ tháng mười một, suối Lê Nin càng trong, càng xanh, theo các đoàn vừa đi về. Sáng sớm lạnh, nhớ mang áo khoác. Trưa ăn cơm bản ở Quán Ngon, năm sao trên bản đồ.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/cao-bang/candidates/pacbo-03.jpg",
+        "videos/cao-bang/candidates/pacbo-07.jpg",
+        "videos/cao-bang/candidates/pacbo-04.jpg",
+        "videos/cao-bang/candidates/pacbo-02.jpg"
+      ],
+      "geo": {
+        "lat": 22.9805,
+        "lng": 106.0465
+      },
+      "dishes": [
+        {
+          "name": "Cơm bản",
+          "place": "Quán Ngon",
+          "address": "bản Pác Bó",
+          "rating": 5,
+          "spokenAs": "Quán Ngon"
+        },
+        {
+          "name": "Cơm bản",
+          "place": "Nhà hàng Sơn Huệ",
+          "address": "bản Pác Bó",
+          "rating": 4.8
+        },
+        {
+          "name": "Món Nùng",
+          "place": "Nhà hàng Nùng",
+          "address": "bản Pác Bó",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Bếp của Mế",
+          "address": "Trường Hà",
+          "rating": 4.6
+        }
+      ],
+      "badge": "~50 km"
+    },
+    {
+      "id": "city",
+      "layout": "point",
+      "caption": "Phố Cao Bằng",
+      "label": "Ngày 1 · Tối",
+      "accent": "#ffc56b",
+      "points": [
+        "Hoàng hôn trên sông Bằng",
+        "Áp chao vào mùa, tháng 11 – 2"
+      ],
+      "narration": "Chiều về thành phố, ngắm hoàng hôn trên sông Bằng. Bữa tối gọi phở vịt quay ở Dung Thịnh, bốn chấm bảy sao. Trời lạnh là mùa bánh áp chao, bán nhiều từ tháng mười một tới tháng hai, ghé áp chao cô Hạc mà TikTok hay review. Sáng mai ăn bánh cuốn chan canh nóng.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/cao-bang/footage/city-sunset.mp4",
+        "videos/cao-bang/candidates/city-03.jpg",
+        "videos/cao-bang/candidates/city-02.jpg",
+        "videos/cao-bang/candidates/city-06.jpg"
+      ],
+      "geo": {
+        "lat": 22.6657,
+        "lng": 106.2579
+      },
+      "dishes": [
+        {
+          "name": "Phở vịt, vịt quay",
+          "place": "Phở Vịt Dung Thịnh",
+          "address": "065 Đường 3/10",
+          "rating": 4.7,
+          "spokenAs": "phở vịt"
+        },
+        {
+          "name": "Bánh áp chao",
+          "place": "Áp chao cô Hạc",
+          "address": "124 Hiến Giang",
+          "rating": 4.5
+        },
+        {
+          "name": "Cơm nhà",
+          "place": "Yên - Ngon như mẹ nấu",
+          "address": "22 Đường 1-4",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh cuốn Phố Cũ",
+          "address": "59 Phố Cũ",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mỳ Thu Thắng",
+          "address": "119 Kim Đồng",
+          "rating": 4.8
+        },
+        {
+          "name": "Vịt quay",
+          "place": "Vịt quay O Thoa",
+          "address": "121 Kim Đồng",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm, lẩu riêu",
+          "place": "Vị Mế",
+          "address": "139 Kim Đồng",
+          "rating": 4.7
+        },
+        {
+          "name": "Cháo",
+          "place": "Chiêm Cháo",
+          "address": "191 Kim Đồng",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh áp chao",
+          "place": "Áp Chao Cô Ngân",
+          "address": "138 Phố Cũ",
+          "rating": 4.5
+        }
+      ],
+      "badge": "TP"
+    },
+    {
+      "id": "gioc",
+      "layout": "point",
+      "caption": "Thác Bản Giốc",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#5ee0b0",
+      "points": [
+        "Tháng 11: nước trong, xanh",
+        "Thuyền ra chân thác ~50k"
+      ],
+      "narration": "Ngày hai, chạy chừng chín mươi cây số tới thác Bản Giốc. Tháng mười một nước thác trong và xanh hơn mùa mưa, dù dòng nước nhỏ dần so với tháng tám, tháng chín. Đi thuyền ra sát chân thác, chừng năm mươi nghìn. Trưa ăn ở Hoàng Dương, bốn chấm bảy sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/cao-bang/footage/gioc-raft.mp4",
+        "videos/cao-bang/pexels/6348018.jpg",
+        "videos/cao-bang/footage/gioc-river.mp4",
+        "videos/cao-bang/pexels/37511190.jpg",
+        "videos/cao-bang/candidates/gioc-11.jpg"
+      ],
+      "geo": {
+        "lat": 22.8545,
+        "lng": 106.7225
+      },
+      "dishes": [
+        {
+          "name": "Cơm, phở",
+          "place": "Hoàng Dương",
+          "address": "Đàm Thủy",
+          "rating": 4.7,
+          "spokenAs": "Hoàng Dương"
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Linh Ngoan",
+          "address": "chợ bản Rạ",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh Cuốn Sáng",
+          "address": "làng đá Khuổi Ky",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm Vinh",
+          "address": "bãi xe Ngườm Ngao",
+          "rating": 4.8
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Chinh Lành",
+          "address": "Trùng Khánh",
+          "rating": 4.9
+        }
+      ],
+      "badge": "~90 km"
+    },
+    {
+      "id": "nguom",
+      "layout": "point",
+      "caption": "Động Ngườm Ngao",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#ffb15e",
+      "points": [
+        "Cách thác khoảng 3 km",
+        "Ghé làng đá Khuổi Ky"
+      ],
+      "narration": "Chiều ghé động Ngườm Ngao, cách thác chừng ba cây số, lối đi trong động khoảng hai cây số, thạch nhũ lấp lánh. Ra khỏi động thì dạo làng đá Khuổi Ky giữa đồng Trùng Khánh. Tối ngủ homestay gần thác, ăn cơm ở Quán Cơm Vinh, bốn chấm tám sao.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/cao-bang/footage/trungkhanh.mp4",
+        "videos/cao-bang/candidates/nguom-05.jpg",
+        "videos/cao-bang/candidates/nguom-02.jpg",
+        "videos/cao-bang/candidates/nguom-04.jpg"
+      ],
+      "geo": {
+        "lat": 22.8465,
+        "lng": 106.7046
+      },
+      "dishes": [
+        {
+          "name": "Cơm",
+          "place": "Quán Cơm Vinh",
+          "address": "bãi xe Ngườm Ngao",
+          "rating": 4.8,
+          "spokenAs": "Cơm Vinh"
+        },
+        {
+          "name": "Phở",
+          "place": "Phở Chinh Lành",
+          "address": "Trùng Khánh",
+          "rating": 4.9
+        },
+        {
+          "name": "Nhà hàng",
+          "place": "Nhà hàng Cây Khế",
+          "address": "ĐT206, Trùng Khánh",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, phở",
+          "place": "Hoàng Dương",
+          "address": "Đàm Thủy",
+          "rating": 4.7
+        },
+        {
+          "name": "Bánh cuốn",
+          "place": "Bánh Cuốn Sáng",
+          "address": "làng đá Khuổi Ky",
+          "rating": 4.5
+        }
+      ],
+      "badge": "~93 km"
+    },
+    {
+      "id": "matthan",
+      "layout": "point",
+      "caption": "Núi Mắt Thần",
+      "label": "Ngày 3 · Sáng",
+      "accent": "#9be15d",
+      "points": [
+        "Hang thủng tròn giữa đỉnh núi",
+        "Dã quỳ: cuối T11 – giữa T12"
+      ],
+      "narration": "Ngày ba, qua đèo Mã Phục tới núi Mắt Thần ở Trà Lĩnh, ngọn núi có hang thủng tròn ngay giữa đỉnh. Đường vào có đoạn lầy khi mưa, mùa khô dễ đi hơn. Cuối tháng mười một tới giữa tháng mười hai, dã quỳ nở vàng ở Quảng Uyên và Hạ Lang. Trưa ghé Nhà Mộc Homestay, bốn chấm sáu sao, rồi về thành phố bắt xe về Hà Nội.",
+      "durationSec": 19,
+      "gallery": [
+        "videos/cao-bang/footage/matthan.mp4",
+        "videos/cao-bang/pexels/37724043.jpg",
+        "videos/cao-bang/pexels/37511188.jpg",
+        "videos/cao-bang/pexels/40310960.jpg"
+      ],
+      "geo": {
+        "lat": 22.78,
+        "lng": 106.31
+      },
+      "dishes": [
+        {
+          "name": "Cơm homestay",
+          "place": "Nhà Mộc Homestay",
+          "address": "Bản Doanh, Trà Lĩnh",
+          "rating": 4.6,
+          "spokenAs": "Nhà Mộc"
+        },
+        {
+          "name": "Nhà hàng",
+          "place": "Nhà hàng Khương Thuỷ",
+          "address": "Quảng Uyên",
+          "rating": 4.6
+        },
+        {
+          "name": "Bánh mì",
+          "place": "Bánh mỳ Thu Thắng",
+          "address": "119 Kim Đồng",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm nhà",
+          "place": "Yên - Ngon như mẹ nấu",
+          "address": "22 Đường 1-4",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm, lẩu riêu",
+          "place": "Vị Mế",
+          "address": "139 Kim Đồng",
+          "rating": 4.7
+        }
+      ],
+      "badge": "Trà Lĩnh"
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#4fd1c5",
+      "zones": [
+        {
+          "title": "Trung tâm thành phố",
+          "note": "Gần bờ sông, quán ăn; xe khách tới đây",
+          "picks": [
+            [
+              "Mina Homestay",
+              4.8,
+              "trung tâm"
+            ],
+            [
+              "Cao Bang Eco House",
+              4.8,
+              "trung tâm"
+            ]
+          ]
+        },
+        {
+          "title": "Đàm Thủy, gần thác",
+          "note": "Ngắm thác sớm, ở làng bản; ít quán",
+          "picks": [
+            [
+              "Lan's Homestay",
+              4.7,
+              "ven sông Quây Sơn"
+            ],
+            [
+              "Minh Khang Homestay",
+              4.9,
+              "làng đá Khuổi Ky"
+            ]
+          ]
+        }
+      ],
+      "tip": "Cuối tuần mùa này: đặt phòng trước",
+      "cues": [
+        "trung tâm",
+        "đàm thủy",
+        "cuối tuần"
+      ],
+      "narration": "Nên ở đâu? Đêm đầu ở trung tâm thành phố cho gần quán ăn, như Mina Homestay hay Cao Bang Eco House. Đêm hai ngủ homestay ở Đàm Thủy gần thác, như Lan's Homestay hay Minh Khang. Cuối tuần mùa này nên đặt phòng trước.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/footage/song-bang.mp4",
+        "videos/cao-bang/candidates/city-01.jpg",
+        "videos/cao-bang/candidates/quay-06.jpg"
+      ]
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "accent": "#ffcf5a",
+      "receiptTitle": "CHI PHÍ 3N2Đ · 1 NGƯỜI",
+      "total": "1,8–2,6 triệu",
+      "totalCue": "tổng cộng",
+      "stamp": "THAM KHẢO 11/2026",
+      "note": "2 người đi chung · nguồn: Vietnamtourism (10/2026), TikTok",
+      "items": [
+        {
+          "k": "Xe giường nằm HN ⇄ CB",
+          "note": "khứ hồi · từ 340k/chiều",
+          "v": "700–800k"
+        },
+        {
+          "k": "Phòng 2 đêm",
+          "note": "TP + gần thác · ở 2 người",
+          "v": "200–450k"
+        },
+        {
+          "k": "Xe máy + xăng",
+          "note": "200–300k/ngày · đi 2 người",
+          "v": "300–500k"
+        },
+        {
+          "k": "Vé thác, động, thuyền",
+          "note": "45k + 45k + 50k, gửi xe",
+          "v": "~160k"
+        },
+        {
+          "k": "Ăn uống 3 ngày",
+          "note": "bữa địa phương 30–120k",
+          "v": "400–700k"
+        }
+      ],
+      "narration": "Hết bao nhiêu tiền? Tính cho một người, hai người đi chung. Xe giường nằm khứ hồi khoảng bảy đến tám trăm nghìn, xe máy và xăng ba đến năm trăm, vé thác, động và thuyền chừng một trăm sáu mươi nghìn. Tổng cộng khoảng một phẩy tám đến hai phẩy sáu triệu.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/cao-bang/footage/gioc-road.mp4",
+        "videos/cao-bang/pexels/6348025.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Cao Bằng",
+      "kicker": "LỊCH TRÌNH MÙA ĐÔNG",
+      "cta": "Lưu lại nhé!",
+      "narration": "Cao Bằng mùa này lạnh và có ngày mưa phùn, nhớ áo khoác, giày đế bám. Đỉnh Phia Oắc thường có băng giá vào cuối tháng mười hai, tháng một. Quán ăn mình để ở phần mô tả. Lưu lại cho chuyến đi nhé!",
+      "durationSec": 13,
+      "gallery": [
+        "videos/cao-bang/footage/lungnam.mp4"
+      ],
+      "polaroids": [
+        {
+          "src": "videos/cao-bang/candidates/pacbo-03.jpg",
+          "label": "Suối Lê Nin"
+        },
+        {
+          "src": "videos/cao-bang/candidates/city-03.jpg",
+          "label": "Phố Cao Bằng"
+        },
+        {
+          "src": "videos/cao-bang/pexels/6348018.jpg",
+          "label": "Bản Giốc"
+        },
+        {
+          "src": "videos/cao-bang/candidates/nguom-05.jpg",
+          "label": "Ngườm Ngao"
+        },
+        {
+          "src": "videos/cao-bang/pexels/37724043.jpg",
+          "label": "Mắt Thần"
+        }
+      ]
+    }
+  ],
+  "maps": {
+    "Quán Ngon": "quan-ngon",
+    "Nhà hàng Sơn Huệ": "son-hue",
+    "Nhà hàng Nùng": "nha-hang-nung",
+    "Phở Vịt Dung Thịnh": "dung-thinh",
+    "Áp chao cô Hạc": "co-hac",
+    "Yên - Ngon như mẹ nấu": "yen",
+    "Bánh cuốn Phố Cũ": "pho-cu",
+    "Bánh mỳ Thu Thắng": "thu-thang",
+    "Áp Chao Cô Ngân": "co-ngan",
+    "Hương Việt Palace": "huong-viet",
+    "Hoàng Dương": "hoang-duong",
+    "Phở Linh Ngoan": "linh-ngoan",
+    "Bánh Cuốn Sáng": "banh-cuon-sang",
+    "Quán Cơm Vinh": "com-vinh",
+    "Phở Chinh Lành": "chinh-lanh",
+    "Nhà hàng Cây Khế": "cay-khe",
+    "Nhà Mộc Homestay": "nha-moc",
+    "Nhà hàng Khương Thuỷ": "khuong-thuy"
+  }
+}

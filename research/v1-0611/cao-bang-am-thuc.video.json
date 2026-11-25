@@ -1,0 +1,361 @@
+{
+  "id": "cao-bang-am-thuc",
+  "title": "Ẩm thực Cao Bằng: 5 món",
+  "language": "vi",
+  "region": "Cao Bằng, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#4fd1c5",
+    "highlight": "#ffd27a",
+    "brand": "CAO BẰNG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "CAO BẰNG ĂN GÌ?",
+      "kicker": "ẨM THỰC VIỆT BẮC",
+      "label": "5 MÓN",
+      "narration": "Lên Cao Bằng ăn gì? Đây là năm món được nhắc nhiều nhất trên TikTok và báo, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8.5,
+      "gallery": [
+        "videos/cao-bang/food/cuon-1.jpg",
+        "videos/cao-bang/food/chao-1.jpg",
+        "videos/cao-bang/food/khau-1.jpg",
+        "videos/cao-bang/food/de-1.jpg",
+        "videos/cao-bang/food/xoi-2.jpg"
+      ],
+      "names": [
+        "Bánh cuốn",
+        "Bánh áp chao",
+        "Khâu nhục",
+        "Hạt dẻ Trùng Khánh",
+        "Xôi ngũ sắc"
+      ]
+    },
+    {
+      "id": "cuon",
+      "layout": "point",
+      "caption": "Bánh cuốn",
+      "label": "1/5",
+      "accent": "#ffd27a",
+      "narration": "Món thứ nhất, bánh cuốn, bữa sáng của người Cao Bằng, tráng từ bột gạo tẻ địa phương. Bánh cuốn nhân thịt băm mộc nhĩ, hoặc đập trứng ngay trên lớp bánh. Khi ăn, chan nước canh xương nóng chứ không chấm nước mắm. Quán ngon: bánh cuốn Phố Cũ, và Bánh Cuốn Sáng trong làng đá Khuổi Ky.",
+      "durationSec": 17,
+      "gallery": [
+        "videos/cao-bang/food/cuon-1.jpg",
+        "videos/cao-bang/food/cuon-5.jpg",
+        "videos/cao-bang/food/cuon-3.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Chan canh, không chấm mắm",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "bữa sáng",
+            "text": "Bột gạo tẻ địa phương, tráng mỏng mỗi sáng"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nhân thịt",
+            "text": "Nhân thịt băm mộc nhĩ hoặc đập trứng ngay trên lớp bánh"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chan nước canh xương nóng thay vì chấm nước mắm"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh cuốn",
+                "place": "Bánh cuốn Phố Cũ",
+                "address": "59 Phố Cũ",
+                "rating": 4.6
+              },
+              {
+                "name": "Bánh cuốn",
+                "place": "Bánh Cuốn Sáng",
+                "address": "làng đá Khuổi Ky",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chao",
+      "layout": "point",
+      "caption": "Bánh áp chao",
+      "label": "2/5",
+      "accent": "#ff9f5b",
+      "narration": "Món thứ hai, bánh áp chao, món ăn vặt bán nhiều từ tháng mười một tới tháng hai. Bột nếp nặn nhân thịt hoặc vịt, rán ngập dầu tới khi vàng giòn. Khi ăn, chấm nước chua ngọt lúc còn nóng, gọi thêm đĩa vịt rán. Quán ngon: áp chao cô Hạc mà TikTok hay review, và áp chao cô Ngân ở Phố Cũ.",
+      "durationSec": 17,
+      "gallery": [
+        "videos/cao-bang/food/chao-1.jpg",
+        "videos/cao-bang/food/chao-6.jpg",
+        "videos/cao-bang/food/chao-2.jpg",
+        "videos/cao-bang/food/chao-4.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Giòn rụm ngày se lạnh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "ăn vặt",
+            "text": "Món ăn vặt vùng Cao Bằng, Lạng Sơn; bán nhiều tháng 11 tới tháng 2"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "bột nếp",
+            "text": "Bột nếp nặn nhân thịt hoặc vịt, rán ngập dầu tới vàng giòn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng, chấm nước chua ngọt, gọi thêm vịt rán"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh áp chao",
+                "place": "Áp chao cô Hạc",
+                "address": "124 Hiến Giang",
+                "rating": 4.5
+              },
+              {
+                "name": "Bánh áp chao",
+                "place": "Áp Chao Cô Ngân",
+                "address": "138 Phố Cũ",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "khau",
+      "layout": "point",
+      "caption": "Khâu nhục",
+      "label": "3/5",
+      "accent": "#e07a5f",
+      "narration": "Món thứ ba, khâu nhục, món gốc người Hoa đã thành món cỗ quen của người Tày, Nùng. Thịt ba chỉ luộc, rán bì, tẩm gia vị rồi hấp nhiều giờ cùng khoai môn. Khi ăn, miếng thịt mềm tan, ăn với cơm nóng. Quán ngon: Yên Ngon như mẹ nấu và Hương Việt Palace.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/cao-bang/food/khau-1.jpg",
+        "videos/cao-bang/food/khau-3.jpg",
+        "videos/cao-bang/food/khau-2.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Món của mâm cỗ",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người hoa",
+            "text": "Gốc từ người Hoa, thành món cỗ quen của người Tày, Nùng"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "ba chỉ",
+            "text": "Ba chỉ luộc, rán bì, tẩm gia vị rồi hấp nhiều giờ với khoai môn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Miếng thịt mềm tan, ăn với cơm nóng và rau cải"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cơm nhà",
+                "place": "Yên - Ngon như mẹ nấu",
+                "address": "22 Đường 1-4",
+                "rating": 4.6
+              },
+              {
+                "name": "Nhà hàng",
+                "place": "Hương Việt Palace",
+                "address": "Km3, Nà Cáp",
+                "rating": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "de",
+      "layout": "point",
+      "caption": "Hạt dẻ Trùng Khánh",
+      "label": "4/5",
+      "accent": "#c98a4b",
+      "narration": "Món thứ tư, hạt dẻ Trùng Khánh, đặc sản mùa thu, vào mùa khoảng tháng mười, tháng mười một. Hạt dẻ được rang trên chảo, hoặc hầm cùng gà, giò lợn. Khi ăn, bóc nóng vừa ăn vừa đi, mua làm quà nhớ chọn đúng mùa. Nên mua ở chợ Trùng Khánh trên đường đi thác.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/cao-bang/food/de-1.jpg",
+        "videos/cao-bang/food/de-5.jpg",
+        "videos/cao-bang/food/de-3.jpg",
+        "videos/cao-bang/food/de-6.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Đặc sản mùa thu",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "đặc sản mùa thu",
+            "text": "Hạt dẻ trồng ở Trùng Khánh, vào mùa khoảng tháng 10–11"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "rang",
+            "text": "Rang trên chảo hoặc hầm cùng gà, giò lợn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Bóc nóng vừa ăn vừa đi; mua làm quà nhớ chọn đúng mùa"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "nên mua",
+            "places": [
+              {
+                "name": "Hạt dẻ",
+                "place": "Chợ Trùng Khánh",
+                "address": "gợi ý từ VnExpress",
+                "rating": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xoi",
+      "layout": "point",
+      "caption": "Xôi ngũ sắc",
+      "label": "5/5",
+      "accent": "#c9a3ff",
+      "narration": "Món thứ năm, xôi ngũ sắc, món xôi của người Tày trong ngày lễ, ngày chợ. Gạo nếp nhuộm màu từ lá cây rồi đồ chung một chõ. Khi ăn, kèm thịt gác bếp hay muối vừng, nên hỏi quán trước. Thử ở Quán Ngon và Nhà hàng Nùng ngay khu Pác Bó.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/cao-bang/food/xoi-2.jpg",
+        "videos/cao-bang/food/xoi-1.jpg",
+        "videos/cao-bang/food/xoi-4.jpg",
+        "videos/cao-bang/food/xoi-3.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Năm màu từ lá rừng",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người tày",
+            "text": "Món xôi của người Tày trong ngày lễ, ngày chợ"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nhuộm màu",
+            "text": "Nếp nhuộm màu từ lá cây, đồ chung một chõ"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn với thịt gác bếp, muối vừng; hỏi quán trước"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "thử ở",
+            "places": [
+              {
+                "name": "Cơm bản",
+                "place": "Quán Ngon",
+                "address": "bản Pác Bó",
+                "rating": 5
+              },
+              {
+                "name": "Món Nùng",
+                "place": "Nhà hàng Nùng",
+                "address": "bản Pác Bó",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Phở chua và vịt quay bảy vị cũng phải thử, quán mình để ở phần mô tả. Bạn chọn món nào trước?",
+      "durationSec": 6.5,
+      "gallery": [
+        "videos/cao-bang/food/cuon-5.jpg",
+        "videos/cao-bang/food/chao-6.jpg",
+        "videos/cao-bang/food/khau-3.jpg",
+        "videos/cao-bang/food/de-5.jpg",
+        "videos/cao-bang/food/xoi-1.jpg"
+      ],
+      "names": [
+        "Bánh cuốn",
+        "Bánh áp chao",
+        "Khâu nhục",
+        "Hạt dẻ Trùng Khánh",
+        "Xôi ngũ sắc"
+      ]
+    }
+  ]
+}
