@@ -1,0 +1,6 @@
+# name | src | start | dur | note  (keep original audio, breaks)
+b1-susu | raw-tiktok/cd1__cuongdidau___7672600503112437010.mp4 | 56 | 7 | xe máy xuyên giàn su su, giọng creator
+b2-walk | raw-tiktok/tr1__trongsapa1994__7691170073318362388.mp4 | 172.5 | 4.5 | đồi cỏ, tiếng ve
+b2-cows | raw-tiktok/tr1__trongsapa1994__7691170073318362388.mp4 | 182.5 | 8 | đàn bò, tiếng ve
+b3-sea | raw-tiktok/dq1__ducquayflycamsapa__7704249293447662869.mp4 | 0.3 | 8 | biển mây, giọng creator
+b3-dawn | raw-tiktok/hc1__hanhtrinhcuacao__7696051779779202322.mp4 | 28.4 | 4.6 | bình minh biển mây
