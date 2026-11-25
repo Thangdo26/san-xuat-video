@@ -1,0 +1,488 @@
+{
+  "id": "danang-am-thuc",
+  "title": "Ẩm thực Đà Nẵng: 6 món phải thử",
+  "language": "vi",
+  "region": "Đà Nẵng, Việt Nam",
+  "template": "food-explainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#ffc24d",
+    "brand": "ẨM THỰC ĐÀ NẴNG"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "gallery": [
+        "videos/danang-am-thuc/images/00-hook.jpg"
+      ],
+      "narration": "Đến Đà Nẵng ăn gì? Đây là sáu món phải thử, kèm nguồn gốc, cách làm, cách ăn, và quán ngon đã kiểm tra trên Google Maps.",
+      "label": "ẨM THỰC VÙNG MIỀN",
+      "caption": "ĐÀ NẴNG",
+      "badge": "6 MÓN",
+      "tip": "Nguồn gốc · Cách làm · Cách ăn · Quán ngon",
+      "stickers": [
+        "🍜",
+        "🥢",
+        "🐟",
+        "🌶️",
+        "😋",
+        "✨"
+      ],
+      "frame": "full",
+      "durationSec": 8
+    },
+    {
+      "id": "mi-quang",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/01-mi.jpg",
+        "videos/danang-am-thuc/images/01b-mi.jpg",
+        "videos/danang-am-thuc/images/01c-mi.jpg"
+      ],
+      "narration": "Món thứ nhất, mì Quảng. Món này có nhiều giả thuyết về nguồn gốc, gắn với các làng mì ven sông Thu Bồn như Phú Chiêm. Sợi mì làm từ bột gạo, tráng thành bánh rồi xắt to bản, thường nhuộm vàng bằng nghệ. Nước nhưn chỉ chan xâm xấp, có tôm thịt hoặc gà. Khi ăn, bẻ bánh tráng mè, thêm rau sống, đậu phộng, chanh ớt rồi trộn đều. Quán ngon: mì Quảng sứa Hồng Nga, Cô Sáu và Mỹ Sơn.",
+      "caption": "Mì Quảng",
+      "accent": "#ffc24d",
+      "stickers": [
+        "🍜",
+        "🦐",
+        "🥚",
+        "🥜",
+        "🌶️"
+      ],
+      "story": {
+        "number": 1,
+        "total": 6,
+        "tagline": "Linh hồn ẩm thực xứ Quảng",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Nhiều giả thuyết, gắn với làng mì Phú Chiêm ven sông Thu Bồn (Quảng Nam)",
+            "cue": "giả thuyết"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bột gạo tráng bánh, xắt to bản, nhuộm nghệ · nước nhưn chỉ xâm xấp",
+            "cue": "sợi mì"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Bẻ bánh tráng mè, thêm rau, đậu phộng, chanh ớt, trộn đều",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Mì Quảng",
+                "place": "Mì Quảng Sứa Hồng Nga",
+                "address": "67 Yên Bái",
+                "rating": 4.9
+              },
+              {
+                "name": "Mì Quảng",
+                "place": "Mỳ Quảng Cô Sáu",
+                "address": "397 Trần Hưng Đạo",
+                "rating": 4.5
+              },
+              {
+                "name": "Mì Quảng",
+                "place": "Mì Quảng Mỹ Sơn",
+                "address": "155 Đỗ Bá",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 22
+    },
+    {
+      "id": "banh-trang-cuon",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/02-btc.jpg",
+        "videos/danang-am-thuc/images/02b-btc.jpg"
+      ],
+      "narration": "Món thứ hai, bánh tráng cuốn thịt heo. Chưa rõ ai nghĩ ra món này, xưa chỉ người Quảng Nam, Đà Nẵng biết, nay thành đặc sản. Thịt heo luộc hoặc hấp, thái mỏng có cả da, mỡ, nạc, ngon nhất với bánh tráng Đại Lộc phơi sương. Khi ăn, trải bánh tráng, xếp rau sống, thêm thịt, cuốn chặt rồi chấm mắm nêm pha thơm, tỏi ớt. Quán ngon: quán Cốm Đại Lộc, Donald Trung và Bếp Bé Anh.",
+      "caption": "Bánh tráng cuốn thịt heo",
+      "accent": "#9fe07a",
+      "stickers": [
+        "🐷",
+        "🥬",
+        "🌯",
+        "🍍",
+        "🌿"
+      ],
+      "story": {
+        "number": 2,
+        "total": 6,
+        "tagline": "Cuốn tay, chấm mắm nêm",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Chưa rõ ai nghĩ ra · xưa chỉ người Quảng Nam, Đà Nẵng biết",
+            "cue": "chưa rõ"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Thịt heo luộc hoặc hấp, thái mỏng · bánh tráng Đại Lộc phơi sương",
+            "cue": "luộc hoặc hấp"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Bánh tráng + rau sống + thịt, cuốn chặt, chấm mắm nêm pha thơm",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Quán Cốm Đại Lộc",
+                "address": "103 Trưng Nữ Vương",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Donald Trung",
+                "address": "352 Hải Phòng",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh tráng cuốn thịt heo",
+                "place": "Bếp Bé Anh",
+                "address": "04 Mai Thúc Lân",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 22
+    },
+    {
+      "id": "bun-cha-ca",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/03-bcc.jpg",
+        "videos/danang-am-thuc/images/03b-bcc.jpg"
+      ],
+      "narration": "Món thứ ba, bún chả cá. Đà Nẵng gần biển, cá tươi nhiều nên chả cá thành món ăn sáng quen thuộc. Thịt cá thu, cá mối giã nhuyễn với gia vị, quết dẻo rồi hấp hoặc chiên vàng. Nước dùng ninh từ xương cá, thêm bí đỏ, thơm, cà chua cho ngọt. Khi ăn, thêm hành tím ngâm giấm, tỏi ớt, ai thích thì thêm chút mắm ruốc. Quán ngon: Dì Tấm và Má Hai.",
+      "caption": "Bún chả cá",
+      "accent": "#ffa36b",
+      "stickers": [
+        "🐟",
+        "🎃",
+        "🍅",
+        "🌶️",
+        "🧅"
+      ],
+      "story": {
+        "number": 3,
+        "total": 6,
+        "tagline": "Bữa sáng của dân biển",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Gần biển, cá tươi nhiều · món ăn sáng quen thuộc của người Đà Nẵng",
+            "cue": "gần biển"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cá thu, cá mối giã nhuyễn, hấp hoặc chiên · nước dùng xương cá, bí đỏ, thơm",
+            "cue": "giã nhuyễn"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Thêm hành tím ngâm giấm, tỏi ớt, chút mắm ruốc nếu thích",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Chả Cá Dì Tấm",
+                "address": "583 Trần Cao Vân",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún chả cá",
+                "place": "Bún Chả Cá Má Hai",
+                "address": "66 An Trung 1",
+                "rating": 5
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 20
+    },
+    {
+      "id": "bun-mam-nem",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/04-bm.jpg"
+      ],
+      "narration": "Món thứ tư, bún mắm nêm. Mắm nêm là đặc sản của dải duyên hải miền Trung, làm từ cá biển ướp muối, ủ lâu ngày. Tô bún có thịt heo luộc, heo quay, chả, đu đủ bào, mít non và rau thơm. Khi ăn, chan mắm nêm pha thơm, ớt, rồi trộn thật đều cho thấm. Quán ngon: bún mắm Liêm, bún mắm Hồng và Bé Hà.",
+      "caption": "Bún mắm nêm",
+      "accent": "#d9a7ff",
+      "stickers": [
+        "🐟",
+        "🐷",
+        "🥗",
+        "🌶️",
+        "🍍"
+      ],
+      "story": {
+        "number": 4,
+        "total": 6,
+        "tagline": "Đậm đà, ăn là ghiền",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Mắm nêm: đặc sản duyên hải miền Trung, cá biển ướp muối, ủ lâu ngày",
+            "cue": "duyên hải"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Thịt heo luộc, heo quay, chả, đu đủ bào, mít non, rau thơm",
+            "cue": "tô bún"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Chan mắm nêm pha thơm, ớt, trộn thật đều cho thấm",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Liêm",
+                "address": "41 Đoàn Thị Điểm",
+                "rating": 4.8
+              },
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Hồng heo quay",
+                "address": "23/6 Trần Kế Xương",
+                "rating": 4.9
+              },
+              {
+                "name": "Bún mắm nêm",
+                "place": "Bún mắm Bé Hà",
+                "address": "130 Bùi Hữu Nghĩa",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 17
+    },
+    {
+      "id": "banh-xeo",
+      "layout": "dish",
+      "gallery": [
+        "videos/danang-am-thuc/images/05-bx.jpg",
+        "videos/danang-am-thuc/images/05b-bx.jpg"
+      ],
+      "narration": "Món thứ năm, bánh xèo kiểu miền Trung, nhỏ và giòn hơn bánh miền Nam. Bột gạo pha nghệ, đổ vào khuôn nóng, thêm tôm, thịt, giá, chiên đến khi vàng giòn. Điểm khác là nước chấm sệt làm từ gan, đậu phộng và mè. Khi ăn, cuốn bánh với bánh tráng, rau sống, nem lụi rồi chấm. Quán ngon: bánh xèo bảy mươi sáu, từng vào danh sách Bib Gourmand của Michelin, bà Tuyết và bánh xèo Làng.",
+      "caption": "Bánh xèo",
+      "accent": "#ffd84d",
+      "stickers": [
+        "🥞",
+        "🦐",
+        "🌿",
+        "🥜",
+        "🔥"
+      ],
+      "story": {
+        "number": 5,
+        "total": 6,
+        "tagline": "Nhỏ, giòn, kiểu miền Trung",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Kiểu miền Trung: nhỏ, giòn hơn bánh miền Nam",
+            "cue": "miền trung"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Bột gạo pha nghệ, tôm thịt giá, chiên giòn · nước chấm gan, đậu phộng, mè",
+            "cue": "bột gạo"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Cuốn với bánh tráng, rau sống, nem lụi rồi chấm",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo 76",
+                "address": "85A Lê Văn Hưu",
+                "rating": 4.6
+              },
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo Bà Tuyết",
+                "address": "25/16 Trần Quốc Toản",
+                "rating": 4.7
+              },
+              {
+                "name": "Bánh xèo",
+                "place": "Bánh Xèo Làng",
+                "address": "58 Trần Quốc Toản",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "slide",
+      "durationSec": 22
+    },
+    {
+      "id": "goi-ca",
+      "layout": "dish",
+      "narration": "Món thứ sáu, gỏi cá Nam Ô, của làng chài Nam Ô dưới chân đèo Hải Vân. Cá trích tươi bỏ đầu, xương, thái miếng, ướp gừng, riềng, tỏi và thính. Nước chấm nấu từ nước cốt cá với nước mắm Nam Ô, ớt và bột năng, rắc thêm mè, đậu phộng. Khi ăn, cuốn cá với rau rừng, bánh tráng rồi chấm. Quán ngon: gỏi cá A Sinh, quán Cô Hồng và Gỏi cá Miền Trung.",
+      "caption": "Gỏi cá Nam Ô",
+      "accent": "#7fd3ff",
+      "stickers": [
+        "🐟",
+        "🌊",
+        "🌿",
+        "🥢"
+      ],
+      "story": {
+        "number": 6,
+        "total": 6,
+        "tagline": "Vị biển của làng chài",
+        "illustration": [
+          "🐟",
+          "🌿",
+          "🫚",
+          "🌶️",
+          "🥜",
+          "🍃"
+        ],
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "text": "Làng chài Nam Ô dưới chân đèo Hải Vân",
+            "cue": "làng chài"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "text": "Cá trích tươi thái miếng, ướp gừng, riềng, tỏi, thính · nước chấm từ nước cốt cá",
+            "cue": "cá trích"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "text": "Cuốn cá với rau rừng, bánh tráng rồi chấm",
+            "cue": "khi ăn"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Gỏi cá Nam Ô A. Sinh",
+                "address": "130 Huỳnh Thúc Kháng",
+                "rating": 4.8
+              },
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Quán Cô Hồng",
+                "address": "38 Lê Hồng Phong",
+                "rating": 4.5
+              },
+              {
+                "name": "Gỏi cá Nam Ô",
+                "place": "Gỏi Cá Miền Trung",
+                "address": "28 Nguyễn Phong Sắc",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      },
+      "transition": "wipe",
+      "durationSec": 20
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "gallery": [
+        "videos/danang-am-thuc/images/09-outro.jpg"
+      ],
+      "narration": "Sáu món này đủ cho một chuyến ăn sập Đà Nẵng. Địa chỉ quán mình để ở phần mô tả. Bạn thích món nào nhất? Lưu lại nhé!",
+      "label": "ĂN SẬP ĐÀ NẴNG",
+      "caption": "ĐÀ NẴNG",
+      "tip": "Bạn thích món nào nhất?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "stickers": [
+        "😋",
+        "🍜",
+        "💛",
+        "🥢"
+      ],
+      "frame": "full",
+      "transition": "iris",
+      "durationSec": 9
+    }
+  ]
+}
