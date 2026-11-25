@@ -1,0 +1,33 @@
+# name | src | start | dur | note | mode  (muted clips, Đồi Bò 24/11/2026)
+c-sea | raw-tiktok/xh3__xehetxang.93__7638858907674234130.mp4 | 0.5 | 1.6 | coldopen
+c-cows | raw-tiktok/xh4__xehetxang.93__7648216342788656391.mp4 | 21.6 | 1.4 | coldopen
+c-run | raw-tiktok/cl1__chaolaolo96__7709480502662581511.mp4 | 0.2 | 1.4 | coldopen
+c-sunset | raw-tiktok/lt1__linhtravelcamping__7704663869339225364.mp4 | 44.6 | 1.6 | coldopen
+h-sea | raw-tiktok/xh3__xehetxang.93__7638858907674234130.mp4 | 8 | 6 | hook
+h-cloud | raw-tiktok/cl3__chaolaolo96__7705611644126121224.mp4 | 9.6 | 6 | hook
+h-ridge | raw-tiktok/xh1__xehetxang.93__7648285644682185992.mp4 | 16 | 6 | hook
+r-road | raw-tiktok/da1__dthanhan98__7702378450409311540.mp4 | 13.5 | 5 | d1
+r-lane | raw-tiktok/da1__dthanhan98__7702378450409311540.mp4 | 46.5 | 5 | d1
+r-susu | raw-tiktok/da1__dthanhan98__7702378450409311540.mp4 | 128 | 5 | d1
+r-xeom | raw-tiktok/lt1__linhtravelcamping__7704663869339225364.mp4 | 26.4 | 3.4 | d1 | low
+t-trail | raw-tiktok/tx1__tuanxeomosapa__7703576691729386770.mp4 | 57 | 5 | d2
+t-meadow | raw-tiktok/xh4__xehetxang.93__7648216342788656391.mp4 | 9.6 | 3.5 | d2
+t-cows | raw-tiktok/xh2__xehetxang.93__7650004419009924370.mp4 | 15.2 | 4.2 | d2
+t-lan | raw-tiktok/th1__truonghaa21__7705999797542604052.mp4 | 87 | 3.5 | d2
+t-valley | raw-tiktok/xh4__xehetxang.93__7648216342788656391.mp4 | 24 | 3.6 | d2
+s-sea | raw-tiktok/xh3__xehetxang.93__7638858907674234130.mp4 | 15 | 6 | d3
+s-redhill | raw-tiktok/lt2__linhtravelcamping__7704539973634051380.mp4 | 10.2 | 4.2 | d3
+s-sunset | raw-tiktok/lt2__linhtravelcamping__7704539973634051380.mp4 | 15.6 | 5 | d3
+s-camp | raw-tiktok/hc1__hanhtrinhcuacao__7696051779779202322.mp4 | 37.4 | 3.4 | d3
+s-walk | raw-tiktok/cl3__chaolaolo96__7705611644126121224.mp4 | 25.6 | 6 | d3
+f-tent | raw-tiktok/te1__thuongellydulichtq__7702357560799612181.mp4 | 76.4 | 4 | stay
+f-lamp | raw-tiktok/lt2__linhtravelcamping__7704539973634051380.mp4 | 22.2 | 6 | stay
+f-hill | raw-tiktok/xh1__xehetxang.93__7648285644682185992.mp4 | 0.2 | 6 | stay
+k-sea | raw-tiktok/xh3__xehetxang.93__7638858907674234130.mp4 | 2 | 6 | cost
+k-run | raw-tiktok/cl1__chaolaolo96__7709480502662581511.mp4 | 14 | 6 | cost
+x-fog | raw-tiktok/th1__truonghaa21__7705999797542604052.mp4 | 106 | 5 | truth
+x-mud | raw-tiktok/hp1__huept2110__7670508656315731208.mp4 | 96.5 | 4 | truth | low
+x-wind | raw-tiktok/xh6__xehetxang.93__7711249874683022612.mp4 | 6 | 4 | truth
+o-walk | raw-tiktok/cl3__chaolaolo96__7705611644126121224.mp4 | 26 | 8 | outro
+o-sunset | raw-tiktok/lt2__linhtravelcamping__7704539973634051380.mp4 | 16 | 5 | outro
+o-lamp | raw-tiktok/lt2__linhtravelcamping__7704539973634051380.mp4 | 22.5 | 6 | outro

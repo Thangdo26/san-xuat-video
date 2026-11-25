@@ -1,0 +1,293 @@
+{
+  "id": "doi-bo-san-may",
+  "title": "Đồi Bò Sa Pa: săn biển mây",
+  "language": "vi",
+  "region": "Đồi Bò, Tả Phìn, Sa Pa, Lào Cai",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#e0a43c",
+    "highlight": "#fff6e0",
+    "brand": "ĐỒI BÒ · SA PA"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-pastoral.mp3",
+    "volume": 0.42
+  },
+  "maps": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "ĐỒI BÒ",
+      "label": "Tả Phìn · Sa Pa · ~2.400 m",
+      "kicker": "BIỂN MÂY 23/11/2026",
+      "voiceDelay": 5.6,
+      "cold": [
+        "videos/doi-bo/footage/c-sea.mp4",
+        "videos/doi-bo/footage/c-cows.mp4",
+        "videos/doi-bo/footage/c-run.mp4",
+        "videos/doi-bo/footage/c-sunset.mp4"
+      ],
+      "narration": "Ai bảo Sa Pa bị bê tông hoá? Cách trung tâm chỉ khoảng tám cây số, có một thảo nguyên cao khoảng hai nghìn bốn trăm mét, bò thả rông và biển mây trải tới chân trời. Đây là Đồi Bò. Đi đường nào, leo bao lâu, hết bao nhiêu tiền? Lưu lại nhé!",
+      "gallery": [
+        "videos/doi-bo/footage/h-sea.mp4",
+        "videos/doi-bo/footage/h-cloud.mp4",
+        "videos/doi-bo/footage/h-ridge.mp4"
+      ],
+      "durationSec": 20
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "1",
+      "label": "Chặng 1 · Đường lên",
+      "caption": "Xuyên vườn su su",
+      "badge": "~7 km · Ô Quy Hồ cũ",
+      "points": [
+        "Maps: tìm “Thảo Nguyên Nhỏ”",
+        "Xe máy chỉ lên ~2/3 · nên đi xe ôm"
+      ],
+      "narration": "Từ trung tâm Sa Pa, chạy khoảng bảy cây số về phía đèo Ô Quy Hồ, tới trụ sở phường Ô Quy Hồ cũ, chỗ có biển hợp tác xã nông sản thì rẽ vào con đường bê tông nhỏ. Trên Google Maps, tìm chữ Thảo Nguyên Nhỏ. Đoạn tiếp theo xuyên qua cả chục quả đồi trồng su su, dốc và hẹp, xe máy chỉ lên được khoảng hai phần ba. Người đi trước khuyên thuê xe ôm của bà con ở đây, họ quen đường, nhớ hỏi giá trước. Sau đây là vài thước phim trên đường xuyên vườn su su.",
+      "gallery": [
+        "videos/doi-bo/footage/r-road.mp4",
+        "videos/doi-bo/footage/r-lane.mp4",
+        "videos/doi-bo/footage/r-susu.mp4",
+        "videos/doi-bo/footage/r-xeom.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/doi-bo/footage/b1-susu.mp4",
+          "audio": "videos/doi-bo/footage/b1-susu.m4a",
+          "dur": 7
+        }
+      ],
+      "breatheTitle": "Đường xuyên vườn su su",
+      "durationSec": 33,
+      "breatheSec": 7
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "2",
+      "label": "Chặng 2 · Leo đồi",
+      "caption": "Đàn bò trên đồi",
+      "badge": "đi bộ 1–2 tiếng",
+      "points": [
+        "Ngã rẽ: theo mũi tên vẽ dưới đất",
+        "Lán nghỉ có mì tôm, nước"
+      ],
+      "narration": "Hết vườn su su, trèo qua hàng rào là bắt đầu đi bộ. Đường mòn thoai thoải qua rừng rồi ra đồng cỏ, người khoẻ mất khoảng một tiếng, đi chậm thì một tiếng rưỡi đến hai tiếng. Ở các ngã rẽ, để ý mũi tên vẽ dưới đất kẻo lạc. Giữa đường có lán nghỉ bán mì tôm, nước uống. Lên cao là gặp đàn bò thong thả gặm cỏ. Trời càng rét, cỏ dưới thấp càng ít, bò càng lên gần đỉnh, nên mới có tên Đồi Bò. Sau đây là vài thước phim trên đồi.",
+      "gallery": [
+        "videos/doi-bo/footage/t-trail.mp4",
+        "videos/doi-bo/footage/t-meadow.mp4",
+        "videos/doi-bo/footage/t-lan.mp4",
+        "videos/doi-bo/footage/t-cows.mp4",
+        "videos/doi-bo/footage/t-valley.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/doi-bo/footage/b2-walk.mp4",
+          "audio": "videos/doi-bo/footage/b2-walk.m4a",
+          "dur": 4.5
+        },
+        {
+          "src": "videos/doi-bo/footage/b2-cows.mp4",
+          "audio": "videos/doi-bo/footage/b2-cows.m4a",
+          "dur": 8
+        }
+      ],
+      "breatheTitle": "Trên Đồi Bò",
+      "recap": [
+        "r-susu",
+        "t-trail",
+        "t-cows",
+        "t-valley"
+      ],
+      "recapLabel": "Chặng 1 & 2",
+      "durationSec": 40,
+      "breatheSec": 12.5,
+      "recapSec": 3
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "3",
+      "label": "Chặng 3 · Săn mây",
+      "caption": "Biển mây ~2.400 m",
+      "badge": "5h–8h sáng · hoặc chiều",
+      "points": [
+        "Hôm trước mưa, hôm sau nắng: dễ có mây",
+        "Cắm trại: đêm ngắm sao"
+      ],
+      "narration": "Săn mây có hai khung giờ. Sáng sớm, khoảng năm đến tám giờ, phải đi bộ từ lúc trời còn tối, nhớ mang đèn pin. Hoặc lên từ trưa, ngồi chờ biển mây dày dần về chiều rồi ngắm hoàng hôn, nhưng xuống núi sẽ tối. Mây hay xuất hiện khi hôm trước mưa, hôm sau trời hửng nắng. Nhiều nhóm còn mang lều lên cắm trại, đêm ngắm sao, sáng mở lều là biển mây. Sau đây là vài thước phim biển mây trên Đồi Bò.",
+      "gallery": [
+        "videos/doi-bo/footage/s-sea.mp4",
+        "videos/doi-bo/footage/s-redhill.mp4",
+        "videos/doi-bo/footage/s-sunset.mp4",
+        "videos/doi-bo/footage/s-camp.mp4",
+        "videos/doi-bo/footage/s-walk.mp4"
+      ],
+      "breathe": [
+        {
+          "src": "videos/doi-bo/footage/b3-sea.mp4",
+          "audio": "videos/doi-bo/footage/b3-sea.m4a",
+          "dur": 8
+        },
+        {
+          "src": "videos/doi-bo/footage/b3-dawn.mp4",
+          "audio": "videos/doi-bo/footage/b3-dawn.m4a",
+          "dur": 4.6
+        }
+      ],
+      "breatheTitle": "Biển mây Đồi Bò",
+      "recap": [
+        "s-sea",
+        "s-redhill",
+        "s-sunset",
+        "s-camp"
+      ],
+      "recapLabel": "Chặng 3",
+      "durationSec": 38.6,
+      "breatheSec": 12.6,
+      "recapSec": 3
+    },
+    {
+      "id": "stay",
+      "layout": "extra",
+      "style": "stay",
+      "caption": "Ăn gì, ở đâu?",
+      "kicker": "≥4.5★ GOOGLE MAPS · CHECK 24/11",
+      "items": [
+        {
+          "t": "Lẩu cá tầm A Phủ ★4.7",
+          "s": "15 Fansipan · 3.987 đánh giá",
+          "cue": "a phủ",
+          "maps": [
+            "a-phu"
+          ]
+        },
+        {
+          "t": "Thắng cố A Quỳnh ★4.6",
+          "s": "15 Thạch Sơn · gà: Tuk Tuk ★4.9",
+          "cue": "thắng cố",
+          "maps": [
+            "a-quynh",
+            "tuk-tuk"
+          ]
+        },
+        {
+          "t": "Sapa Centre ★4.8 · Mega View ★4.8",
+          "s": "trung tâm, đi bộ ra nhà thờ Đá",
+          "cue": "sapa centre",
+          "maps": [
+            "sapa-centre",
+            "mega-view"
+          ]
+        },
+        {
+          "t": "The Link Farmstay ★4.8",
+          "s": "yên tĩnh, nhìn ra núi",
+          "cue": "the link",
+          "maps": [
+            "link-farmstay"
+          ]
+        }
+      ],
+      "narration": "Ăn và ngủ thì về trung tâm Sa Pa. Leo xong, làm nồi lẩu cá tầm ở nhà hàng A Phủ bốn phẩy bảy sao, hay bát thắng cố A Quỳnh bốn phẩy sáu sao. Thích gà thì có Tiệm Gà Tuk Tuk bốn phẩy chín sao. Ở thì Sapa Centre Hotel hoặc Mega View Homestay, cùng bốn phẩy tám sao, đi bộ ra nhà thờ Đá. Muốn yên tĩnh, nhìn ra núi thì có The Link Farmstay, cũng bốn phẩy tám sao.",
+      "gallery": [
+        "videos/doi-bo/footage/f-tent.mp4",
+        "videos/doi-bo/footage/f-lamp.mp4",
+        "videos/doi-bo/footage/f-hill.mp4"
+      ],
+      "durationSec": 21
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu?",
+      "kicker": "TỰ TÚC TỪ HÀ NỘI · 2N1Đ · 1 NGƯỜI",
+      "total": "1,5–2,2 triệu",
+      "totalCue": "một phẩy năm",
+      "stamp": "THAM KHẢO 11/2026",
+      "note": "chưa tính xe ôm qua vườn su su (hỏi giá trước) · dẫn đường + flycam ~600k/người",
+      "items": [
+        {
+          "k": "Xe khách khứ hồi (giường, cabin)",
+          "v": "480–780k"
+        },
+        {
+          "k": "Phòng 1 đêm (ở 2)",
+          "v": "290–360k"
+        },
+        {
+          "k": "Xe máy 2 ngày (chia 2)",
+          "v": "100–200k"
+        },
+        {
+          "k": "Ăn uống 2 ngày",
+          "v": "600–900k"
+        }
+      ],
+      "narration": "Đi tự túc hai ngày một đêm từ Hà Nội, mỗi người khoảng một phẩy năm đến hai phẩy hai triệu, chưa tính xe ôm qua vườn su su. Tốn nhất là xe khách khứ hồi, ăn uống và tiền phòng. Muốn có người dẫn đường kèm quay flycam thì có dịch vụ khoảng sáu trăm nghìn một người.",
+      "gallery": [
+        "videos/doi-bo/footage/k-sea.mp4",
+        "videos/doi-bo/footage/k-run.mp4"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "truth",
+      "layout": "extra",
+      "caption": "Nói thật nè",
+      "kicker": "NGƯỜI ĐI TRƯỚC DẶN",
+      "items": [
+        {
+          "t": "Chưa có biển chỉ dẫn",
+          "s": "có nhóm lạc trong rừng cả tiếng",
+          "cue": "biển chỉ dẫn"
+        },
+        {
+          "t": "Mưa xong: đường su su rất trơn",
+          "s": "xe ga dễ trượt",
+          "cue": "trơn"
+        },
+        {
+          "t": "Đỉnh đồi gió to, rét",
+          "s": "mây là trời cho, có hôm chỉ có sương",
+          "cue": "gió to"
+        }
+      ],
+      "narration": "Nói thật nè: Đồi Bò còn hoang sơ, chưa có biển chỉ dẫn, đã có nhóm lạc trong rừng mất cả tiếng, nên đi cùng người quen đường. Mưa xong đường su su rất trơn, xe ga dễ trượt. Trên đỉnh gió to và lạnh hơn thị trấn nhiều. Và mây là trời cho, có người leo lên chỉ gặp sương mù.",
+      "gallery": [
+        "videos/doi-bo/footage/x-fog.mp4",
+        "videos/doi-bo/footage/x-mud.mp4",
+        "videos/doi-bo/footage/x-wind.mp4"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn ở Đồi Bò",
+      "cta": "Lưu lại nhé!",
+      "narration": "Bạn đã lên Đồi Bò Sa Pa chưa? Nguồn clip mình để ở phần mô tả. Lưu lại và rủ hội bạn đi cùng nhé!",
+      "gallery": [
+        "videos/doi-bo/footage/o-walk.mp4",
+        "videos/doi-bo/footage/o-sunset.mp4",
+        "videos/doi-bo/footage/o-lamp.mp4"
+      ],
+      "durationSec": 8.5
+    }
+  ]
+}
