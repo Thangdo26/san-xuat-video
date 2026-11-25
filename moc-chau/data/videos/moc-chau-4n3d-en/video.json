@@ -1,0 +1,578 @@
+{
+  "id": "moc-chau-4n3d-en",
+  "title": "Moc Chau in 4 days",
+  "language": "en",
+  "region": "Mộc Châu, Sơn La, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8fd16b",
+    "highlight": "#ffe08a",
+    "brand": "MỘC CHÂU"
+  },
+  "narrator": {
+    "provider": "edge",
+    "voice": "en-US-AvaMultilingualNeural",
+    "rate": "+5%"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "kind": "ticket",
+      "caption": "MOC CHAU",
+      "kicker": "SON LA PLATEAU · FROM TIKTOK",
+      "label": "4 DAYS",
+      "ticket": {
+        "from": "HANOI",
+        "to": "MOC CHAU",
+        "km": "~190 km",
+        "time": "~4.5 hrs",
+        "via": "Highway 6 · Thung Khe pass",
+        "seat": "BERTH 07",
+        "cls": "SLEEPER BUS"
+      },
+      "narration": "Got four days? Take Moc Chau slowly. It's about a hundred and ninety kilometres from Hanoi, and here's a four-day plan built from TikTok, with places to eat rated four and a half stars or more. Save it!",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/moc-chau/images/tea-1.jpg",
+        "videos/moc-chau/images/naka-2.jpg",
+        "videos/moc-chau/images/khoa-1.jpg"
+      ]
+    },
+    {
+      "id": "tea",
+      "layout": "point",
+      "caption": "Heart Tea Hill",
+      "label": "Day 1 · Afternoon",
+      "accent": "#8fd16b",
+      "points": [
+        "About 9–10 km from the centre",
+        "Check before you buy a ticket"
+      ],
+      "narration": "Day one: about four and a half hours by road and you're up on the plateau. In the afternoon, visit the Heart-shaped Tea Hill, nine or ten kilometres from town, its rows curving into a heart. Hungry? Head back to Com Thai Son La, rated four point six, for Thai-style dishes.",
+      "durationSec": 20,
+      "gallery": [
+        "videos/moc-chau/images/tea-1.jpg",
+        "videos/moc-chau/images/tea-3.jpg",
+        "videos/moc-chau/images/tea-2.jpg",
+        "videos/moc-chau/images/tea-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8907,
+        "lng": 104.6865
+      },
+      "dishes": [
+        {
+          "name": "Thai-style dishes",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6,
+          "spokenAs": "Com Thai"
+        },
+        {
+          "name": "Northwest specialties",
+          "place": "A Páo",
+          "address": "26 TK Nhà Nghỉ",
+          "rating": 4.5
+        },
+        {
+          "name": "Northwest dishes",
+          "place": "Bản Mộc Quán",
+          "address": "448 Hoàng Quốc Việt",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu nấm",
+          "place": "Lẩu Nấm Thiên Nhiên",
+          "address": "TDP Nhà Nghỉ",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "layout": "point",
+      "caption": "Night market",
+      "label": "Day 1 · Night",
+      "accent": "#ffb36b",
+      "points": [
+        "In the Nong Truong town centre",
+        "Charcoal grills and gifts"
+      ],
+      "narration": "At night, wander the night market in the town centre; the whole street smells of charcoal. For a proper dinner, order salmon or sturgeon at Phuong Nhi, rated four point nine, or grill your own at Nguyet Anh.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/moc-chau/images/town-2.jpg",
+        "videos/moc-chau/images/town-1.jpg",
+        "videos/moc-chau/images/town-5.jpg",
+        "videos/moc-chau/images/town-3.jpg",
+        "videos/moc-chau/images/town-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8371,
+        "lng": 104.6826
+      },
+      "dishes": [
+        {
+          "name": "Salmon, sturgeon",
+          "place": "Phương Nhi",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.9,
+          "spokenAs": "salmon"
+        },
+        {
+          "name": "Charcoal grill",
+          "place": "Nguyệt Anh Quán",
+          "address": "73 Tô Hiệu",
+          "rating": 4.9
+        },
+        {
+          "name": "Hotpot, grill",
+          "place": "TuSa Đây!",
+          "address": "Thảo Nguyên",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu",
+          "place": "Lẩu Ngựa 911",
+          "address": "Tiểu khu 70",
+          "rating": 5
+        },
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "layout": "point",
+      "caption": "Chasing clouds",
+      "label": "Day 2 · Sunrise",
+      "accent": "#c9b6ff",
+      "points": [
+        "Leave at 5; clouds last till about 8",
+        "Bring a warm layer, dawn is cold"
+      ],
+      "narration": "Day two, wake at five to chase the clouds. According to TikTok creators, the sea of clouds is best from five to eight in the morning, so bring a warm layer. Then grab a bowl of fish noodles at Minh Chi, rated four point eight.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/moc-chau/images/cloud-1.jpg",
+        "videos/moc-chau/images/cloud-2.jpg",
+        "videos/moc-chau/images/cloud-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.86,
+        "lng": 104.66
+      },
+      "dishes": [
+        {
+          "name": "Fish noodles",
+          "place": "Bún Cá Minh Chi",
+          "address": "45 Lê Thanh Nghị",
+          "rating": 4.8,
+          "spokenAs": "fish noodles"
+        },
+        {
+          "name": "Crab noodle soup",
+          "place": "Bún riêu bề bề",
+          "address": "359 Hoàng Quốc Việt",
+          "rating": 4.8
+        },
+        {
+          "name": "Coffee",
+          "place": "Ka Tờ Rang Café",
+          "address": "Thảo Nguyên",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        },
+        {
+          "name": "Lẩu nướng",
+          "place": "TuSa Đây!",
+          "address": "Thảo Nguyên",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "khoa",
+      "layout": "point",
+      "caption": "Chieng Khoa Falls",
+      "label": "Day 2 · Morning",
+      "accent": "#5fd3c6",
+      "points": [
+        "20–28 km, nearly 50 minutes",
+        "Tier after tier, a turquoise pool"
+      ],
+      "narration": "Then ride twenty-odd kilometres to Chieng Khoa waterfall in Van Ho, tier after tier falling into a turquoise pool. Have lunch at Nha Hang Viet in Van Ho, rated four point nine, on the way back.",
+      "durationSec": 13.5,
+      "gallery": [
+        "videos/moc-chau/images/khoa-2.jpg",
+        "videos/moc-chau/images/khoa-1.jpg",
+        "videos/moc-chau/images/khoa-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.8347,
+        "lng": 104.8593
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "Nhà hàng Việt",
+          "address": "Hua Tạt, Vân Hồ",
+          "rating": 4.9,
+          "spokenAs": "Nha Hang Viet"
+        },
+        {
+          "name": "Northwest dishes",
+          "place": "Hiếu Thoa Tây Bắc",
+          "address": "Vân Sơn",
+          "rating": 4.7
+        },
+        {
+          "name": "Vietnamese",
+          "place": "Vigolando Vân Hồ",
+          "address": "Chiềng Đi 2",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Xuân Bắc CS1",
+          "address": "Chiềng Đi, QL6",
+          "rating": 4.7
+        },
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Đinh Hồng",
+          "address": "Chiềng Đi",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "layout": "point",
+      "caption": "Dairy farm",
+      "label": "Day 3 · Morning",
+      "accent": "#f5e6b8",
+      "points": [
+        "Dairy cows here since 1958",
+        "Buy yogurt and milk candy as gifts"
+      ],
+      "narration": "Day three, stop by the dairy farm on Hoang Quoc Viet street. Moc Chau has raised dairy cows since nineteen fifty-eight, so pick up yogurt and milk candy as gifts. Lunch nearby at Bep Nho, rated four point six.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/moc-chau/images/farm-1.jpg",
+        "videos/moc-chau/images/farm-3.jpg",
+        "videos/moc-chau/images/farm-2.jpg"
+      ],
+      "geo": {
+        "lat": 20.835,
+        "lng": 104.665
+      },
+      "dishes": [
+        {
+          "name": "Home-style rice",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6,
+          "spokenAs": "Bep Nho"
+        },
+        {
+          "name": "Crab noodle soup",
+          "place": "Bún riêu bề bề",
+          "address": "359 Hoàng Quốc Việt",
+          "rating": 4.8
+        },
+        {
+          "name": "Hotpot",
+          "place": "Lẩu Ngựa 911",
+          "address": "Tiểu khu 70",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Thái",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "happy",
+      "layout": "point",
+      "caption": "Happy Land",
+      "label": "Day 3 · Afternoon",
+      "accent": "#ff8fb1",
+      "points": [
+        "Flower park in Ban Lun, Muong Sang",
+        "Near the Bach Long glass bridge"
+      ],
+      "narration": "In the afternoon, head to Happy Land in Muong Sang, seven or eight kilometres from town, a flower park with a Ferris wheel. Nearby is Bach Long, which Guinness lists as the world's longest glass-bottomed pedestrian bridge. For dinner, try Trinh Hau Quan, rated four point nine.",
+      "durationSec": 19,
+      "gallery": [
+        "videos/moc-chau/images/happy-1.jpg",
+        "videos/moc-chau/images/happy-2.jpg",
+        "videos/moc-chau/images/happy-3.jpg",
+        "videos/moc-chau/images/bridge-1.jpg",
+        "videos/moc-chau/images/happy-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8366,
+        "lng": 104.5844
+      },
+      "dishes": [
+        {
+          "name": "Vietnamese",
+          "place": "Trịnh Hậu Quán",
+          "address": "Nguyễn Lương Bằng",
+          "rating": 4.9,
+          "spokenAs": "Trinh Hau"
+        },
+        {
+          "name": "Grill, hotpot",
+          "place": "LÈO XÈO",
+          "address": "104 Nguyễn Hoài Xuân",
+          "rating": 4.9
+        },
+        {
+          "name": "Salmon",
+          "place": "Cá Hồi 26",
+          "address": "gần Happy Land",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, nướng",
+          "place": "Quán Xưa",
+          "address": "193 TDP 1, Mộc Sơn",
+          "rating": 4.7
+        },
+        {
+          "name": "Món gia đình",
+          "place": "Chính Linh",
+          "address": "238 Trần Huy Liệu",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "cai",
+      "layout": "point",
+      "caption": "White mustard",
+      "label": "Day 4 · Morning",
+      "accent": "#f2f2f2",
+      "points": [
+        "Usually blooms Oct–Nov",
+        "Many gardens charge a photo fee"
+      ],
+      "narration": "On day four, visit a field of white mustard flowers. They usually bloom around October and November, and many gardens charge a small photo fee. Lunch is mushroom hotpot at Lau Nam Thien Nhien, rated four point six.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/moc-chau/images/cai-2.jpg",
+        "videos/moc-chau/images/cai-1.jpg",
+        "videos/moc-chau/images/cai-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.84,
+        "lng": 104.7
+      },
+      "dishes": [
+        {
+          "name": "Mushroom hotpot",
+          "place": "Lẩu Nấm Thiên Nhiên",
+          "address": "TDP Nhà Nghỉ",
+          "rating": 4.6,
+          "spokenAs": "mushroom hotpot"
+        },
+        {
+          "name": "Home-style rice",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        },
+        {
+          "name": "Hotpot",
+          "place": "Lẩu Ngựa 911",
+          "address": "Tiểu khu 70",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cà phê",
+          "place": "Ka Tờ Rang Café",
+          "address": "Thảo Nguyên",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Thái",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "naka",
+      "layout": "point",
+      "caption": "Na Ka Valley",
+      "label": "Day 4 · Afternoon",
+      "accent": "#ffd1e3",
+      "points": [
+        "Plum blossom: late Jan – mid Feb",
+        "About 15–20 km from the centre"
+      ],
+      "narration": "If you come in January or February, don't miss Na Ka plum valley, fifteen to twenty kilometres from town, when the blossoms turn it white. Have an early dinner at A Pao, rated four point five, then head back to Hanoi.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/moc-chau/images/naka-1.jpg",
+        "videos/moc-chau/images/naka-4.jpg",
+        "videos/moc-chau/images/naka-2.jpg",
+        "videos/moc-chau/images/naka-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.89,
+        "lng": 104.7
+      },
+      "dishes": [
+        {
+          "name": "Northwest specialties",
+          "place": "A Páo",
+          "address": "26 TK Nhà Nghỉ",
+          "rating": 4.5,
+          "spokenAs": "A Pao"
+        },
+        {
+          "name": "Charcoal grill",
+          "place": "Nguyệt Anh Quán",
+          "address": "73 Tô Hiệu",
+          "rating": 4.9
+        },
+        {
+          "name": "Thai-style dishes",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu nấm",
+          "place": "Lẩu Nấm Thiên Nhiên",
+          "address": "TDP Nhà Nghỉ",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Where to stay?",
+      "accent": "#8fd16b",
+      "zones": [
+        {
+          "title": "Town centre",
+          "note": "Near the night market, walk to dinner",
+          "picks": [
+            [
+              "Mũm Homestay",
+              4.6,
+              "TDP Minh Châu, Thảo Nguyên"
+            ],
+            [
+              "Sunflower Hotel",
+              4.8,
+              "đường 3/2 Hoa Ban"
+            ]
+          ]
+        },
+        {
+          "title": "Ban Ang – Muong Sang",
+          "note": "Quiet, by the pine forest; you need a bike",
+          "picks": [
+            [
+              "Vườn An Nhiên",
+              4.7,
+              "37 Bản Áng 3"
+            ],
+            [
+              "Eco House",
+              4.6,
+              "bản Là Ngà 1"
+            ]
+          ]
+        }
+      ],
+      "tip": "Check the exact location; book weekends early",
+      "cues": [
+        "town centre",
+        "quiet",
+        "check the exact"
+      ],
+      "narration": "Where to stay? First time, stay in the town centre near the night market, at Mum Homestay or Sunflower Hotel. Want it quiet? Try Ban Ang or Muong Sang, like Vuon An Nhien, but you'll need a motorbike. Check the exact location and book weekends early.",
+      "durationSec": 17.5,
+      "gallery": [
+        "videos/moc-chau/images/cloud-4.jpg",
+        "videos/moc-chau/images/ban-1.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Save the plan",
+      "cta": "Save it for your trip!",
+      "checklist": [
+        "Heart Tea Hill",
+        "Night market",
+        "Chasing clouds",
+        "Chieng Khoa Falls",
+        "Dairy farm",
+        "Happy Land",
+        "White mustard",
+        "Na Ka Valley"
+      ],
+      "narration": "Mornings and nights get cold, so pack a warm layer and rent a motorbike for the far stops. Try be chao, flash-fried veal, and the local salmon. All addresses are in the description. Save it!",
+      "durationSec": 14,
+      "gallery": [
+        "videos/moc-chau/images/naka-4.jpg",
+        "videos/moc-chau/images/cloud-1.jpg"
+      ]
+    }
+  ]
+}

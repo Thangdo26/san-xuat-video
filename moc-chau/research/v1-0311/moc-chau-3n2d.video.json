@@ -1,0 +1,471 @@
+{
+  "id": "moc-chau-3n2d",
+  "title": "Mộc Châu 3N2Đ",
+  "language": "vi",
+  "region": "Mộc Châu, Sơn La, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8fd16b",
+    "highlight": "#ffe08a",
+    "brand": "MỘC CHÂU"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "kind": "ticket",
+      "caption": "MỘC CHÂU",
+      "kicker": "CAO NGUYÊN SƠN LA · TỪ TIKTOK",
+      "label": "3N2Đ",
+      "ticket": {
+        "from": "HÀ NỘI",
+        "to": "MỘC CHÂU",
+        "km": "~190 km",
+        "time": "~4,5 giờ",
+        "via": "QL6 · đèo Thung Khe",
+        "seat": "GIƯỜNG 07",
+        "cls": "XE GIƯỜNG NẰM"
+      },
+      "narration": "Mộc Châu tháng này có mây, có hoa cải trắng. Cách Hà Nội chừng một trăm chín mươi cây số, khoảng bốn tiếng rưỡi đường bộ. Đây là lịch trình ba ngày hai đêm gom từ TikTok. Lưu lại nhé!",
+      "durationSec": 11.5,
+      "gallery": [
+        "videos/moc-chau/images/cloud-1.jpg",
+        "videos/moc-chau/images/khoa-1.jpg",
+        "videos/moc-chau/images/cai-2.jpg"
+      ]
+    },
+    {
+      "id": "tea",
+      "layout": "point",
+      "caption": "Đồi chè Trái Tim",
+      "label": "Ngày 1 · Chiều",
+      "accent": "#8fd16b",
+      "points": [
+        "Cách trung tâm khoảng 9–10 km",
+        "Hỏi kỹ trước khi mua vé"
+      ],
+      "narration": "Ngày một, xe chạy chừng bốn tiếng rưỡi là lên tới cao nguyên. Chiều ghé đồi chè Trái Tim, cách trung tâm chừng chín, mười cây số, những luống chè uốn cong thành hình trái tim. Đói thì về Cơm Thái Sơn La, bốn chấm sáu sao, ăn món người Thái.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/moc-chau/images/tea-1.jpg",
+        "videos/moc-chau/images/tea-3.jpg",
+        "videos/moc-chau/images/tea-2.jpg",
+        "videos/moc-chau/images/tea-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8907,
+        "lng": 104.6865
+      },
+      "dishes": [
+        {
+          "name": "Món Thái",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6,
+          "spokenAs": "Cơm Thái"
+        },
+        {
+          "name": "Đặc sản Tây Bắc",
+          "place": "A Páo",
+          "address": "26 TK Nhà Nghỉ",
+          "rating": 4.5
+        },
+        {
+          "name": "Món Tây Bắc",
+          "place": "Bản Mộc Quán",
+          "address": "448 Hoàng Quốc Việt",
+          "rating": 4.5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu nấm",
+          "place": "Lẩu Nấm Thiên Nhiên",
+          "address": "TDP Nhà Nghỉ",
+          "rating": 4.6
+        },
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "layout": "point",
+      "caption": "Chợ đêm Mộc Châu",
+      "label": "Ngày 1 · Tối",
+      "accent": "#ffb36b",
+      "points": [
+        "Ở trung tâm Nông Trường",
+        "Đồ nướng than, mua quà"
+      ],
+      "narration": "Tối, dạo chợ đêm ở trung tâm Nông Trường, đồ nướng than thơm cả con phố. Muốn ăn đàng hoàng thì gọi cá hồi, cá tầm ở Phương Nhi, bốn chấm chín sao, hoặc tự nướng ở Nguyệt Anh Quán.",
+      "durationSec": 11,
+      "gallery": [
+        "videos/moc-chau/images/town-2.jpg",
+        "videos/moc-chau/images/town-1.jpg",
+        "videos/moc-chau/images/town-5.jpg",
+        "videos/moc-chau/images/town-3.jpg",
+        "videos/moc-chau/images/town-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8371,
+        "lng": 104.6826
+      },
+      "dishes": [
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Phương Nhi",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.9,
+          "spokenAs": "cá hồi"
+        },
+        {
+          "name": "Nướng than",
+          "place": "Nguyệt Anh Quán",
+          "address": "73 Tô Hiệu",
+          "rating": 4.9
+        },
+        {
+          "name": "Lẩu nướng",
+          "place": "TuSa Đây!",
+          "address": "Thảo Nguyên",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Lẩu",
+          "place": "Lẩu Ngựa 911",
+          "address": "Tiểu khu 70",
+          "rating": 5
+        },
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "layout": "point",
+      "caption": "Săn mây sớm",
+      "label": "Ngày 2 · Bình minh",
+      "accent": "#c9b6ff",
+      "points": [
+        "Đi từ 5 giờ, mây đẹp tới khoảng 8 giờ",
+        "Mang áo ấm, sáng sớm rất lạnh"
+      ],
+      "narration": "Ngày hai, dậy từ năm giờ đi săn mây. Theo các bạn trên TikTok, mây đẹp nhất từ năm tới tám giờ sáng, nhớ mang áo ấm. Về ăn sáng bát bún cá Minh Chi, bốn chấm tám sao, rồi đi tiếp.",
+      "durationSec": 11,
+      "gallery": [
+        "videos/moc-chau/images/cloud-1.jpg",
+        "videos/moc-chau/images/cloud-2.jpg",
+        "videos/moc-chau/images/cloud-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.86,
+        "lng": 104.66
+      },
+      "dishes": [
+        {
+          "name": "Bún cá, ăn sáng",
+          "place": "Bún Cá Minh Chi",
+          "address": "45 Lê Thanh Nghị",
+          "rating": 4.8,
+          "spokenAs": "bún cá"
+        },
+        {
+          "name": "Bún riêu",
+          "place": "Bún riêu bề bề",
+          "address": "359 Hoàng Quốc Việt",
+          "rating": 4.8
+        },
+        {
+          "name": "Cà phê",
+          "place": "Ka Tờ Rang Café",
+          "address": "Thảo Nguyên",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        },
+        {
+          "name": "Lẩu nướng",
+          "place": "TuSa Đây!",
+          "address": "Thảo Nguyên",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": "khoa",
+      "layout": "point",
+      "caption": "Thác Chiềng Khoa",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#5fd3c6",
+      "points": [
+        "Khoảng 20–28 km, gần 50 phút",
+        "Nhiều tầng thác, hồ nước xanh"
+      ],
+      "narration": "Sáng chạy hơn hai mươi cây số sang thác Chiềng Khoa ở Vân Hồ, nhiều tầng thác đổ xuống hồ nước xanh ngọc. Trưa ăn ở Nhà hàng Việt Vân Hồ, bốn chấm chín sao, trên đường quay về.",
+      "durationSec": 11,
+      "gallery": [
+        "videos/moc-chau/images/khoa-2.jpg",
+        "videos/moc-chau/images/khoa-1.jpg",
+        "videos/moc-chau/images/khoa-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.8347,
+        "lng": 104.8593
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "Nhà hàng Việt",
+          "address": "Hua Tạt, Vân Hồ",
+          "rating": 4.9,
+          "spokenAs": "Nhà hàng Việt"
+        },
+        {
+          "name": "Món Tây Bắc",
+          "place": "Hiếu Thoa Tây Bắc",
+          "address": "Vân Sơn",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Việt",
+          "place": "Vigolando Vân Hồ",
+          "address": "Chiềng Đi 2",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Xuân Bắc CS1",
+          "address": "Chiềng Đi, QL6",
+          "rating": 4.7
+        },
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Đinh Hồng",
+          "address": "Chiềng Đi",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": "happy",
+      "layout": "point",
+      "caption": "Happy Land",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#ff8fb1",
+      "points": [
+        "Vườn hoa ở bản Lùn, Mường Sang",
+        "Gần cầu kính Bạch Long"
+      ],
+      "narration": "Chiều sang Happy Land ở bản Lùn, Mường Sang, cách trung tâm chừng bảy, tám cây số, vườn hoa có vòng quay và đủ góc chụp. Gần đó là cầu kính Bạch Long, được Guinness công nhận là cầu kính đi bộ dài nhất thế giới. Tối ăn ở Trịnh Hậu Quán, bốn chấm chín sao.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/moc-chau/images/happy-1.jpg",
+        "videos/moc-chau/images/happy-2.jpg",
+        "videos/moc-chau/images/happy-3.jpg",
+        "videos/moc-chau/images/happy-4.jpg"
+      ],
+      "geo": {
+        "lat": 20.8366,
+        "lng": 104.5844
+      },
+      "dishes": [
+        {
+          "name": "Món Việt",
+          "place": "Trịnh Hậu Quán",
+          "address": "Nguyễn Lương Bằng",
+          "rating": 4.9,
+          "spokenAs": "Trịnh Hậu"
+        },
+        {
+          "name": "Nướng, lẩu",
+          "place": "LÈO XÈO",
+          "address": "104 Nguyễn Hoài Xuân",
+          "rating": 4.9
+        },
+        {
+          "name": "Cá hồi",
+          "place": "Cá Hồi 26",
+          "address": "gần Happy Land",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cơm, nướng",
+          "place": "Quán Xưa",
+          "address": "193 TDP 1, Mộc Sơn",
+          "rating": 4.7
+        },
+        {
+          "name": "Món gia đình",
+          "place": "Chính Linh",
+          "address": "238 Trần Huy Liệu",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "cai",
+      "layout": "point",
+      "caption": "Hoa cải trắng",
+      "label": "Ngày 3 · Sáng",
+      "accent": "#f2f2f2",
+      "points": [
+        "Thường nở khoảng tháng 10–11",
+        "Nhiều vườn thu vé chụp ảnh"
+      ],
+      "narration": "Sáng cuối, ghé một đồi hoa cải trắng. Hoa thường nở khoảng tháng mười, tháng mười một, nhiều vườn thu vé vào chụp ảnh. Trưa ăn lẩu nấm ở Lẩu Nấm Thiên Nhiên, bốn chấm sáu sao, rồi lên xe về Hà Nội.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/moc-chau/images/cai-2.jpg",
+        "videos/moc-chau/images/cai-1.jpg",
+        "videos/moc-chau/images/cai-3.jpg"
+      ],
+      "geo": {
+        "lat": 20.84,
+        "lng": 104.7
+      },
+      "dishes": [
+        {
+          "name": "Lẩu nấm",
+          "place": "Lẩu Nấm Thiên Nhiên",
+          "address": "TDP Nhà Nghỉ",
+          "rating": 4.6,
+          "spokenAs": "lẩu nấm"
+        },
+        {
+          "name": "Cơm",
+          "place": "Bếp Nhớ",
+          "address": "77 Tiểu khu 70",
+          "rating": 4.6
+        },
+        {
+          "name": "Lẩu",
+          "place": "Lẩu Ngựa 911",
+          "address": "Tiểu khu 70",
+          "rating": 5
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cà phê",
+          "place": "Ka Tờ Rang Café",
+          "address": "Thảo Nguyên",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Thái",
+          "place": "Cơm Thái Sơn La",
+          "address": "Hoàng Quốc Việt",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#8fd16b",
+      "zones": [
+        {
+          "title": "Trung tâm Nông Trường",
+          "note": "Gần chợ đêm, đi bộ ăn tối",
+          "picks": [
+            [
+              "Mũm Homestay",
+              4.6,
+              "TDP Minh Châu, Thảo Nguyên"
+            ],
+            [
+              "Sunflower Hotel",
+              4.8,
+              "đường 3/2 Hoa Ban"
+            ]
+          ]
+        },
+        {
+          "title": "Bản Áng – Mường Sang",
+          "note": "Yên tĩnh, gần rừng thông; cần xe máy",
+          "picks": [
+            [
+              "Vườn An Nhiên",
+              4.7,
+              "37 Bản Áng 3"
+            ],
+            [
+              "Eco House",
+              4.6,
+              "bản Là Ngà 1"
+            ]
+          ]
+        }
+      ],
+      "tip": "Hỏi kỹ vị trí, đặt sớm cuối tuần",
+      "cues": [
+        "trung tâm",
+        "bản áng",
+        "nhớ hỏi"
+      ],
+      "narration": "Nên ở đâu? Lần đầu đi thì ở trung tâm Nông Trường cho gần chợ đêm, như Mũm Homestay hay Sunflower Hotel. Thích yên tĩnh thì ở phía Bản Áng, Mường Sang, như Vườn An Nhiên, nhưng cần thuê xe máy. Nhớ hỏi kỹ vị trí và đặt sớm cuối tuần.",
+      "durationSec": 14,
+      "gallery": [
+        "videos/moc-chau/images/town-2.jpg",
+        "videos/moc-chau/images/cloud-4.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Lưu lại lịch trình",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "checklist": [
+        "Đồi chè Trái Tim",
+        "Chợ đêm Mộc Châu",
+        "Săn mây sớm",
+        "Thác Chiềng Khoa",
+        "Happy Land",
+        "Hoa cải trắng"
+      ],
+      "narration": "Mộc Châu sáng sớm và tối khá lạnh, mang áo ấm và thuê xe máy để đi các điểm xa. Nhớ thử bê chao và cá hồi, địa chỉ quán và chỗ ở mình để ở phần mô tả. Lưu lại nhé!",
+      "durationSec": 10,
+      "gallery": [
+        "videos/moc-chau/images/cai-2.jpg",
+        "videos/moc-chau/images/tea-1.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "id": "moc-chau-am-thuc",
+  "title": "Ẩm thực Mộc Châu: 5 món",
+  "language": "vi",
+  "region": "Mộc Châu, Sơn La, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8fd16b",
+    "highlight": "#ffe08a",
+    "brand": "MỘC CHÂU"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "MỘC CHÂU ĂN GÌ?",
+      "kicker": "ẨM THỰC TÂY BẮC",
+      "label": "5 MÓN",
+      "narration": "Lên Mộc Châu ăn gì? Đây là năm món Tây Bắc được nhắc nhiều nhất, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 8,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-3.jpg",
+        "videos/moc-chau/food/papinh-7.jpg",
+        "videos/moc-chau/food/gacbep-7.jpg",
+        "videos/moc-chau/food/xoi-2.jpg",
+        "videos/moc-chau/food/xien-3.jpg"
+      ],
+      "names": [
+        "Cá hồi, cá tầm",
+        "Cá suối nướng",
+        "Trâu gác bếp",
+        "Xôi ngũ sắc",
+        "Xiên nướng"
+      ]
+    },
+    {
+      "id": "cahoi",
+      "layout": "point",
+      "caption": "Cá hồi, cá tầm",
+      "label": "1/5",
+      "accent": "#ff9f6b",
+      "narration": "Món thứ nhất, cá hồi và cá tầm, đặc sản mới của cao nguyên, quán mọc nhiều ở Chiềng Đi và Vườn Đào. Cá làm gỏi, nướng, chiên da giòn, nấu lẩu hay nấu cháo. Khi ăn, gọi set năm, sáu món cho cả nhóm, cuối tuần nhớ đặt bàn trước. Quán ngon: Phương Nhi, Xuân Bắc Chiềng Đi và Cá Hồi hai sáu.",
+      "durationSec": 17,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-3.jpg",
+        "videos/moc-chau/food/cahoi-2.jpg",
+        "videos/moc-chau/food/cahoi-6.jpg",
+        "videos/moc-chau/food/cahoi-5.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Món cá nước lạnh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "đặc sản mới",
+            "text": "Đặc sản mới của cao nguyên; quán nhiều ở Chiềng Đi, Vườn Đào"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "làm gỏi",
+            "text": "Làm gỏi, nướng, chiên da giòn, nấu lẩu hay nấu cháo"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Gọi set 5–6 món cho cả nhóm; cuối tuần đặt bàn trước"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Phương Nhi",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.9
+              },
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Xuân Bắc CS1",
+                "address": "Chiềng Đi, QL6",
+                "rating": 4.7
+              },
+              {
+                "name": "Cá hồi",
+                "place": "Cá Hồi 26",
+                "address": "gần Happy Land",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "papinh",
+      "layout": "point",
+      "caption": "Cá suối nướng",
+      "label": "2/5",
+      "accent": "#f2c46b",
+      "narration": "Món thứ hai, cá suối nướng, người Thái gọi là pa pỉnh tộp, nghĩa là cá nướng gập. Cá ướp mắc khén, sả, gừng, gập đôi kẹp tre rồi nướng trên than. Khi ăn, kèm xôi và rau rừng, nên hỏi quán trước vì không phải hôm nào cũng có. Thử ở A Páo, Cơm Thái Sơn La hay Hiếu Thoa.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/moc-chau/food/papinh-7.jpg",
+        "videos/moc-chau/food/papinh-2.jpg",
+        "videos/moc-chau/food/papinh-1.jpg",
+        "videos/moc-chau/food/papinh-11.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Pa pỉnh tộp của người Thái",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người thái",
+            "text": "Món của người Thái, tên nghĩa là \"cá nướng gập\""
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "mắc khén",
+            "text": "Cá ướp mắc khén, sả, gừng, gập đôi kẹp tre, nướng than"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng với xôi, rau rừng; hỏi quán trước vì không phải hôm nào cũng có"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "thử ở",
+            "places": [
+              {
+                "name": "Đặc sản Tây Bắc",
+                "place": "A Páo",
+                "address": "26 TK Nhà Nghỉ",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Thái",
+                "place": "Cơm Thái Sơn La",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.6
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Hiếu Thoa Tây Bắc",
+                "address": "Vân Sơn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gacbep",
+      "layout": "point",
+      "caption": "Trâu gác bếp",
+      "label": "3/5",
+      "accent": "#e07a5f",
+      "narration": "Món thứ ba, thịt trâu gác bếp, đặc sản của người Thái đen. Thịt ướp ớt, gừng, mắc khén, rồi treo trên gác bếp hun khói nhiều ngày. Khi ăn, xé sợi, chấm chẩm chéo cay nồng, mua làm quà thì chọn chỗ uy tín. Quán ngon: A Páo, Bản Mộc Quán và Hiếu Thoa.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/moc-chau/food/gacbep-7.jpg",
+        "videos/moc-chau/food/gacbep-1.jpg",
+        "videos/moc-chau/food/gacbep-6.jpg",
+        "videos/moc-chau/food/chamcheo-1.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Hun khói trên gác bếp",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "thái đen",
+            "text": "Đặc sản của người Thái đen"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "hun khói",
+            "text": "Ướp ớt, gừng, mắc khén, treo gác bếp hun khói nhiều ngày"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Xé sợi, chấm chẩm chéo; mua làm quà thì chọn chỗ uy tín"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Đặc sản Tây Bắc",
+                "place": "A Páo",
+                "address": "26 TK Nhà Nghỉ",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Bản Mộc Quán",
+                "address": "448 Hoàng Quốc Việt",
+                "rating": 4.5
+              },
+              {
+                "name": "Món Tây Bắc",
+                "place": "Hiếu Thoa Tây Bắc",
+                "address": "Vân Sơn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xoi",
+      "layout": "point",
+      "caption": "Xôi ngũ sắc",
+      "label": "4/5",
+      "accent": "#c9a3ff",
+      "narration": "Món thứ tư, xôi ngũ sắc, món xôi truyền thống của người Thái. Gạo nếp nương được nhuộm màu từ lá cây, rồi đồ chung một chõ. Khi ăn, chấm muối vừng hay lạc rang, kèm gà hoặc cá nướng. Quán ngon: Phương Nhi, Cơm Thái Sơn La và Nhà hàng Việt ở Vân Hồ.",
+      "durationSec": 15,
+      "gallery": [
+        "videos/moc-chau/food/xoi-2.jpg",
+        "videos/moc-chau/food/xoi-1.jpg",
+        "videos/moc-chau/food/xoi-4.jpg",
+        "videos/moc-chau/food/xoi-3.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Năm màu từ lá cây",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người thái",
+            "text": "Món xôi truyền thống của người Thái"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nhuộm màu",
+            "text": "Nếp nương nhuộm màu từ lá cây, đồ chung một chõ"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Chấm muối vừng hay lạc rang, ăn kèm gà, cá nướng"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Phương Nhi",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.9
+              },
+              {
+                "name": "Món Thái",
+                "place": "Cơm Thái Sơn La",
+                "address": "Hoàng Quốc Việt",
+                "rating": 4.6
+              },
+              {
+                "name": "Món Việt",
+                "place": "Nhà hàng Việt",
+                "address": "Hua Tạt, Vân Hồ",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xien",
+      "layout": "point",
+      "caption": "Xiên nướng",
+      "label": "5/5",
+      "accent": "#ffb36b",
+      "narration": "Món thứ năm, xiên nướng chợ đêm. Tối xuống là trung tâm Nông Trường bày hàng nướng. Thịt xiên que tẩm ướp, nướng trên than hoa. Khi ăn, cầm xiên vừa ăn vừa dạo chợ, lạnh quá thì vào quán nướng. Quán ngon: Nguyệt Anh Quán, TuSa và Lèo Xèo.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/moc-chau/food/xien-3.jpg",
+        "videos/moc-chau/food/xien-6.jpg",
+        "videos/moc-chau/food/xien-1.jpg",
+        "videos/moc-chau/food/xien-7.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Chợ đêm thơm mùi than",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "chợ đêm",
+            "text": "Chợ đêm ở trung tâm Nông Trường bày hàng nướng mỗi tối"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "than hoa",
+            "text": "Thịt xiên que tẩm ướp, nướng trên than hoa"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Vừa ăn vừa dạo chợ; lạnh quá thì vào quán nướng"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Nướng than",
+                "place": "Nguyệt Anh Quán",
+                "address": "73 Tô Hiệu",
+                "rating": 4.9
+              },
+              {
+                "name": "Lẩu nướng",
+                "place": "TuSa Đây!",
+                "address": "Thảo Nguyên",
+                "rating": 4.8
+              },
+              {
+                "name": "Nướng, lẩu",
+                "place": "LÈO XÈO",
+                "address": "104 Nguyễn Hoài Xuân",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Bê chao cũng là món phải thử, quán mình để ở phần mô tả. Về nhớ mua sữa chua, bánh sữa làm quà. Bạn chọn món nào trước?",
+      "durationSec": 8,
+      "gallery": [
+        "videos/moc-chau/food/cahoi-2.jpg",
+        "videos/moc-chau/food/papinh-2.jpg",
+        "videos/moc-chau/food/gacbep-1.jpg",
+        "videos/moc-chau/food/xoi-1.jpg",
+        "videos/moc-chau/food/xien-6.jpg"
+      ],
+      "names": [
+        "Cá hồi, cá tầm",
+        "Cá suối nướng",
+        "Trâu gác bếp",
+        "Xôi ngũ sắc",
+        "Xiên nướng"
+      ]
+    }
+  ]
+}
