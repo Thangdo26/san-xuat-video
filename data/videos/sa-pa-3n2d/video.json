@@ -1,0 +1,482 @@
+{
+  "id": "sa-pa-3n2d",
+  "title": "Sa Pa 3N2Đ",
+  "language": "vi",
+  "region": "Sa Pa, Lào Cai, Việt Nam",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8ecbff",
+    "highlight": "#ffd166",
+    "brand": "SA PA"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Hoa Cua Nui": "hoa-cua-nui",
+    "Dũng Thu Cát Cát": "dung-thu",
+    "Chợ Tình Quán": "cho-tinh",
+    "Nhà hàng A Phủ": "a-phu",
+    "Thắng cố A Quỳnh": "a-quynh",
+    "Hoa Sơn Tra": "hoa-son-tra",
+    "Cá Hồi Vua": "ca-hoi-vua",
+    "Nhà hàng Ô Quý Hồ": "o-quy-ho",
+    "Tiệm Gà Tuk Tuk": "tuk-tuk",
+    "Viet Deli": "viet-deli",
+    "Mẩy Quán": "may-quan",
+    "Toàn Mán Restaurant": "toan-man",
+    "Tả Van Restaurant": "tavan-res",
+    "Lúa Cafe": "lua-cafe",
+    "Phở gà Sơn Râu": "son-rau",
+    "Phở Hà Sapa": "pho-ha",
+    "Phở Ngô Góc Nhà Thờ": "pho-ngo",
+    "Lô.Cồ Coffee": "lo-co",
+    "Lao Chải View": "laochai-view",
+    "Thắng Cố A Nguyên 2": "a-nguyen",
+    "Trà Phương Quán": "tra-phuong",
+    "Chạm Quán Sapa": "cham-quan",
+    "Ẩm Thực Mông": "am-thuc-mong"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SA PA",
+      "kicker": "NÓC NHÀ ĐÔNG DƯƠNG · TỪ TIKTOK",
+      "label": "3N2Đ",
+      "narration": "Sa Pa có đỉnh Fansipan cao ba nghìn một trăm bốn mươi ba mét, có bản làng giữa ruộng bậc thang. Đây là lịch trình ba ngày hai đêm gom từ TikTok, kèm quán ăn từ bốn sao rưỡi và chi phí từng khoản. Lưu lại nhé!",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sa-pa/pexels/31669075.jpg",
+        "videos/sa-pa/pexels/37650250.jpg",
+        "videos/sa-pa/pexels/36913918.jpg",
+        "videos/sa-pa/pexels/30172036.jpg"
+      ]
+    },
+    {
+      "id": "catcat",
+      "layout": "point",
+      "caption": "Bản Cát Cát",
+      "label": "Ngày 1 · Sáng",
+      "accent": "#ffb4a2",
+      "points": [
+        "Cách trung tâm khoảng 2 km, bản người Mông",
+        "Vé khoảng 150k (theo TikTok)"
+      ],
+      "narration": "Xe đêm tới Sa Pa lúc tờ mờ sáng. Ngày một, xuống bản Cát Cát cách trung tâm chừng hai cây số, bản của người Mông với thác nước, nghề dệt và nhuộm chàm. Vé theo review TikTok khoảng một trăm năm mươi nghìn. Trưa ăn ở Hoa Cua Nui ngay trong bản, bốn chấm chín sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/sa-pa/pexels/36913918.jpg",
+        "videos/sa-pa/pexels/36223140.jpg",
+        "videos/sa-pa/candidates/catcat-02.jpg",
+        "videos/sa-pa/candidates/catcat-03.jpg",
+        "videos/sa-pa/pexels/29180561.jpg"
+      ],
+      "geo": {
+        "lat": 22.3297,
+        "lng": 103.832
+      },
+      "dishes": [
+        {
+          "name": "Cơm, lẩu",
+          "place": "Hoa Cua Nui",
+          "address": "trong bản Cát Cát",
+          "rating": 4.9,
+          "spokenAs": "Hoa Cua Nui"
+        },
+        {
+          "name": "Cơm bản",
+          "place": "Dũng Thu Cát Cát",
+          "address": "trong bản Cát Cát",
+          "rating": 4.7
+        },
+        {
+          "name": "Lẩu, cơm",
+          "place": "Chợ Tình Quán",
+          "address": "63D Fansipan",
+          "rating": 4.8
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Việt",
+          "place": "Sapa Life Restaurant",
+          "address": "trung tâm",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Việt",
+          "place": "Ginger Sapa",
+          "address": "trung tâm",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "layout": "point",
+      "caption": "Trung tâm Sa Pa",
+      "label": "Ngày 1 · Tối",
+      "accent": "#ffd166",
+      "points": [
+        "Nhà thờ Đá khởi công năm 1895",
+        "Dạo hồ Sa Pa, chợ đêm, đồ nướng"
+      ],
+      "narration": "Chiều tối dạo trung tâm: nhà thờ Đá khởi công từ năm một nghìn tám trăm chín mươi lăm, hồ Sa Pa và chợ đêm. Bữa tối gọi lẩu cá tầm ở A Phủ, quán TikTok khen nhiều nhất, bốn chấm bảy sao, hoặc thử thắng cố A Quỳnh, rồi ăn đồ nướng ở Hoa Sơn Tra.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/sa-pa/pexels/18023011.jpg",
+        "videos/sa-pa/pexels/33411899.jpg",
+        "videos/sa-pa/candidates/city-07.jpg",
+        "videos/sa-pa/pexels/38220875.jpg",
+        "videos/sa-pa/pexels/36074826.jpg"
+      ],
+      "geo": {
+        "lat": 22.3361,
+        "lng": 103.8433
+      },
+      "dishes": [
+        {
+          "name": "Lẩu cá tầm",
+          "place": "Nhà hàng A Phủ",
+          "address": "15 Fansipan",
+          "rating": 4.7,
+          "spokenAs": "A Phủ"
+        },
+        {
+          "name": "Thắng cố",
+          "place": "Thắng cố A Quỳnh",
+          "address": "15 Thạch Sơn",
+          "rating": 4.6
+        },
+        {
+          "name": "Đồ nướng",
+          "place": "Hoa Sơn Tra",
+          "address": "ngõ 679 Điện Biên Phủ",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Tây Bắc",
+          "place": "Viet Deli",
+          "address": "06 Thủ Dầu Một",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Tây Bắc",
+          "place": "Mẩy Quán",
+          "address": "057 Xuân Viên",
+          "rating": 4.6
+        },
+        {
+          "name": "Lẩu nướng",
+          "place": "Trà Phương Quán",
+          "address": "026 Ngũ Chỉ Sơn",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": "fansipan",
+      "layout": "point",
+      "caption": "Đỉnh Fansipan",
+      "label": "Ngày 2 · Sáng",
+      "accent": "#8ecbff",
+      "points": [
+        "Cao 3.143 m, đi tàu rồi cáp treo",
+        "Cáp treo khứ hồi khoảng 850k"
+      ],
+      "narration": "Ngày hai, lên đỉnh Fansipan cao ba nghìn một trăm bốn mươi ba mét. Đi tàu leo núi Mường Hoa rồi cáp treo, vé cáp treo khứ hồi khoảng tám trăm năm mươi nghìn. Theo TikTok nên đi sớm, mang áo ấm và mua vé online cho rẻ. Về trung tâm ăn ở Cá Hồi Vua, bốn chấm bảy sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/sa-pa/pexels/30172036.jpg",
+        "videos/sa-pa/pexels/36561115.jpg",
+        "videos/sa-pa/pexels/40026063.jpg",
+        "videos/sa-pa/candidates/fan-04.jpg",
+        "videos/sa-pa/pexels/28600258.jpg"
+      ],
+      "geo": {
+        "lat": 22.3033,
+        "lng": 103.775
+      },
+      "dishes": [
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Cá Hồi Vua",
+          "address": "15 Lê Văn Tám",
+          "rating": 4.7,
+          "spokenAs": "Cá Hồi Vua"
+        },
+        {
+          "name": "Gà ủ bí ngô",
+          "place": "Nhà hàng Ô Quý Hồ",
+          "address": "1 Thạch Sơn",
+          "rating": 4.5
+        },
+        {
+          "name": "Gà đen",
+          "place": "Tiệm Gà Tuk Tuk",
+          "address": "639 Điện Biên Phủ",
+          "rating": 4.9
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cá tầm",
+          "place": "Nhà hàng Cá Tầm Vua",
+          "address": "trung tâm",
+          "rating": 4.7
+        },
+        {
+          "name": "Cá hồi",
+          "place": "Cá Hồi Vua cs2",
+          "address": "trung tâm",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "oquyho",
+      "layout": "point",
+      "caption": "Đèo Ô Quy Hồ",
+      "label": "Ngày 2 · Chiều",
+      "accent": "#ffa94d",
+      "points": [
+        "Cổng Trời ngắm hoàng hôn 17h–17h30",
+        "Thác Bạc cách đỉnh đèo khoảng 3 km"
+      ],
+      "narration": "Chiều chạy lên đèo Ô Quy Hồ nối Lào Cai với Lai Châu, ghé thác Bạc rồi ngắm hoàng hôn ở Cổng Trời khoảng năm giờ chiều. Quanh đèo ít quán đạt bốn sao rưỡi, VnExpress gợi ý ăn cá hồi ở khu thác Bạc, hoặc về trung tâm ăn tối ở Viet Deli, bốn chấm bảy sao.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/sa-pa/candidates/oqh-02.jpg",
+        "videos/sa-pa/candidates/oqh-01.jpg",
+        "videos/sa-pa/candidates/bac-02.jpg",
+        "videos/sa-pa/pexels/36340822.jpg",
+        "videos/sa-pa/candidates/oqh-03.jpg"
+      ],
+      "geo": {
+        "lat": 22.3527,
+        "lng": 103.7653
+      },
+      "dishes": [
+        {
+          "name": "Cá hồi, cá tầm",
+          "place": "Khu thác Bạc",
+          "address": "gợi ý từ VnExpress",
+          "spokenAs": "VnExpress"
+        },
+        {
+          "name": "Món Tây Bắc",
+          "place": "Viet Deli",
+          "address": "06 Thủ Dầu Một",
+          "rating": 4.7
+        },
+        {
+          "name": "Món Tây Bắc",
+          "place": "Mẩy Quán",
+          "address": "057 Xuân Viên",
+          "rating": 4.6
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Món Tây Bắc",
+          "place": "Mường Lay Quán",
+          "address": "trung tâm",
+          "rating": 4.9
+        },
+        {
+          "name": "Món Việt",
+          "place": "Sapa Life Restaurant",
+          "address": "trung tâm",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "tavan",
+      "layout": "point",
+      "caption": "Bản Tả Van",
+      "label": "Ngày 3 · Sáng",
+      "accent": "#7bd389",
+      "points": [
+        "Cách trung tâm khoảng 11 km",
+        "Ruộng bậc thang, Cầu Mây, bản Lao Chải"
+      ],
+      "narration": "Ngày ba, chạy mười một cây số xuống bản Tả Van trong thung lũng Mường Hoa, đi bộ qua ruộng bậc thang, Cầu Mây và bản Lao Chải. Trưa ăn ở Toàn Mán, bốn chấm chín sao, rồi về trung tâm bắt xe về Hà Nội.",
+      "durationSec": 13,
+      "gallery": [
+        "videos/sa-pa/pexels/37225705.jpg",
+        "videos/sa-pa/pexels/37668077.jpg",
+        "videos/sa-pa/candidates/tavan-03.jpg",
+        "videos/sa-pa/pexels/40580220.jpg",
+        "videos/sa-pa/pexels/37667909.jpg"
+      ],
+      "geo": {
+        "lat": 22.302,
+        "lng": 103.887
+      },
+      "dishes": [
+        {
+          "name": "Cơm bản",
+          "place": "Toàn Mán Restaurant",
+          "address": "bản Tả Van",
+          "rating": 4.9,
+          "spokenAs": "Toàn Mán"
+        },
+        {
+          "name": "Cơm bản",
+          "place": "Tả Van Restaurant",
+          "address": "bản Tả Van",
+          "rating": 4.9
+        },
+        {
+          "name": "Cà phê, cơm",
+          "place": "Lúa Cafe",
+          "address": "bản Tả Van",
+          "rating": 4.7
+        }
+      ],
+      "moreDishes": [
+        {
+          "name": "Cà phê, đồ ăn",
+          "place": "Lô.Cồ Coffee",
+          "address": "bản Lao Chải",
+          "rating": 4.9
+        },
+        {
+          "name": "Cà phê",
+          "place": "Lao Chải View",
+          "address": "bản Lao Chải",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "layout": "stay",
+      "caption": "Nên ở đâu?",
+      "accent": "#8ecbff",
+      "zones": [
+        {
+          "title": "Trung tâm Sa Pa",
+          "note": "Gần nhà thờ Đá, quán ăn, ga tàu lên Fansipan",
+          "picks": [
+            [
+              "Sapa Centre Hotel",
+              4.8,
+              "trung tâm"
+            ],
+            [
+              "Mega View Homestay",
+              4.8,
+              "trung tâm"
+            ]
+          ]
+        },
+        {
+          "title": "Bản Tả Van",
+          "note": "Yên tĩnh, view ruộng; cách 11 km, cần xe",
+          "picks": [
+            [
+              "Sapa Bamboo Eco",
+              5,
+              "bản Tả Van"
+            ],
+            [
+              "MT House",
+              4.6,
+              "bản Tả Van"
+            ]
+          ]
+        }
+      ],
+      "tip": "Mùa lúa chín và cuối tuần: đặt sớm",
+      "cues": [
+        "trung tâm",
+        "tả van",
+        "mùa lúa"
+      ],
+      "narration": "Nên ở đâu? Lần đầu đi nên ở trung tâm cho gần quán ăn và ga tàu lên Fansipan, như Sapa Centre Hotel hay Mega View Homestay. Muốn yên tĩnh giữa ruộng bậc thang thì ngủ homestay ở Tả Van, như Sapa Bamboo Eco. Mùa lúa chín và cuối tuần nhớ đặt phòng sớm.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/sa-pa/pexels/33411899.jpg",
+        "videos/sa-pa/pexels/37668077.jpg"
+      ]
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Hết bao nhiêu tiền?",
+      "kicker": "TRƯỚC KHI ĐI",
+      "accent": "#ffd166",
+      "receiptTitle": "CHI PHÍ 3N2Đ · 1 NGƯỜI",
+      "items": [
+        {
+          "k": "Xe Hà Nội ⇄ Sa Pa",
+          "note": "giường nằm, cabin · khứ hồi",
+          "v": "480–780k"
+        },
+        {
+          "k": "Phòng 2 đêm",
+          "note": "580–720k/đêm, ở 2 người",
+          "v": "580–720k"
+        },
+        {
+          "k": "Thuê xe máy 3 ngày",
+          "note": "100–200k/ngày, đi 2 người",
+          "v": "150–300k"
+        },
+        {
+          "k": "Cáp treo Fansipan",
+          "note": "khứ hồi",
+          "v": "850k"
+        },
+        {
+          "k": "Vé Cát Cát, Cổng Trời, thác Bạc, Tả Van",
+          "v": "320k"
+        },
+        {
+          "k": "Ăn uống 3 ngày",
+          "note": "khoảng 300–450k/ngày",
+          "v": "0,9–1,35tr"
+        }
+      ],
+      "total": "3,3–4,3 triệu",
+      "stamp": "THAM KHẢO 11/2026",
+      "totalCue": "tổng cộng",
+      "note": "2 người đi chung · nguồn: VnExpress, Google Maps, TikTok",
+      "narration": "Hết bao nhiêu tiền? Tính cho một người, đi hai người: xe giường nằm khứ hồi khoảng năm trăm tới tám trăm nghìn, phòng hai đêm sáu, bảy trăm nghìn, cáp treo Fansipan tám trăm năm mươi nghìn. Tổng cộng khoảng ba phẩy ba tới bốn phẩy ba triệu một người.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/sa-pa/pexels/38220859.jpg",
+        "videos/sa-pa/pexels/34782076.jpg"
+      ]
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Hẹn gặp ở Sa Pa",
+      "kicker": "LƯU LẠI CHO CHUYẾN ĐI",
+      "cta": "Lưu lại nhé!",
+      "narration": "Sa Pa sáng tối se lạnh, mùa đông có hôm chỉ bảy độ, nhớ mang áo khoác dày và giày bám. Địa chỉ quán và bảng chi phí mình để ở phần mô tả. Hẹn gặp ở Sa Pa, lưu lại nhé!",
+      "durationSec": 10.5,
+      "gallery": [
+        "videos/sa-pa/pexels/34782073.jpg"
+      ]
+    }
+  ]
+}

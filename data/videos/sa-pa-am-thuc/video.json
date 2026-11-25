@@ -1,0 +1,399 @@
+{
+  "id": "sa-pa-am-thuc",
+  "title": "Ẩm thực Sa Pa: 5 món",
+  "language": "vi",
+  "region": "Sa Pa, Lào Cai, Việt Nam",
+  "template": "food",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#8ecbff",
+    "highlight": "#ffd166",
+    "brand": "SA PA"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-upbeat.mp3",
+    "volume": 0.8
+  },
+  "maps": {
+    "Hoa Cua Nui": "hoa-cua-nui",
+    "Dũng Thu Cát Cát": "dung-thu",
+    "Chợ Tình Quán": "cho-tinh",
+    "Nhà hàng A Phủ": "a-phu",
+    "Thắng cố A Quỳnh": "a-quynh",
+    "Hoa Sơn Tra": "hoa-son-tra",
+    "Cá Hồi Vua": "ca-hoi-vua",
+    "Nhà hàng Ô Quý Hồ": "o-quy-ho",
+    "Tiệm Gà Tuk Tuk": "tuk-tuk",
+    "Viet Deli": "viet-deli",
+    "Mẩy Quán": "may-quan",
+    "Toàn Mán Restaurant": "toan-man",
+    "Tả Van Restaurant": "tavan-res",
+    "Lúa Cafe": "lua-cafe",
+    "Phở gà Sơn Râu": "son-rau",
+    "Phở Hà Sapa": "pho-ha",
+    "Phở Ngô Góc Nhà Thờ": "pho-ngo",
+    "Lô.Cồ Coffee": "lo-co",
+    "Lao Chải View": "laochai-view",
+    "Thắng Cố A Nguyên 2": "a-nguyen",
+    "Trà Phương Quán": "tra-phuong",
+    "Chạm Quán Sapa": "cham-quan",
+    "Ẩm Thực Mông": "am-thuc-mong"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "SA PA ĂN GÌ?",
+      "kicker": "ẨM THỰC TÂY BẮC",
+      "label": "5 MÓN",
+      "narration": "Lên Sa Pa ăn gì? Đây là năm món được nhắc nhiều nhất trên TikTok và báo, kèm cách ăn và quán từ bốn sao rưỡi. Lưu lại nhé!",
+      "durationSec": 9,
+      "gallery": [
+        "videos/sa-pa/candidates/f-thangco-1.jpg",
+        "videos/sa-pa/food/40747253.jpg",
+        "videos/sa-pa/food/21938179.jpg",
+        "videos/sa-pa/pexels/34509892.jpg",
+        "videos/sa-pa/pexels/33873817.jpg"
+      ],
+      "names": [
+        "Thắng cố",
+        "Lẩu cá tầm",
+        "Gà đen",
+        "Đồ nướng Sa Pa",
+        "Cơm lam"
+      ],
+      "tags": [
+        "Món phiên chợ",
+        "Cá hồi, cá tầm",
+        "Gà bản",
+        "Phố nướng",
+        "Ống tre nướng"
+      ]
+    },
+    {
+      "id": "thangco",
+      "layout": "point",
+      "caption": "Thắng cố",
+      "label": "1/5",
+      "accent": "#ffa94d",
+      "narration": "Món thứ nhất, thắng cố, món của người Mông thường nấu trong chảo lớn ở phiên chợ. Thịt ngựa và nội tạng được ninh nhiều giờ với thảo quả, quế, hồi. Khi ăn, ăn nóng và chấm muối ớt. Quán ngon ở Sa Pa: thắng cố A Quỳnh, và thắng cố A Nguyên.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/sa-pa/candidates/f-thangco-1.jpg",
+        "videos/sa-pa/food/33921253.jpg",
+        "videos/sa-pa/candidates/f-thangco-2.jpg"
+      ],
+      "story": {
+        "number": 1,
+        "total": 5,
+        "tagline": "Món của phiên chợ vùng cao",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người mông",
+            "text": "Món của người Mông, nấu trong chảo lớn ở phiên chợ"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "thịt ngựa",
+            "text": "Thịt ngựa và nội tạng ninh nhiều giờ với thảo quả, quế, hồi"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ăn nóng, chấm muối ớt"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Thắng cố",
+                "place": "Thắng cố A Quỳnh",
+                "address": "15 Thạch Sơn",
+                "rating": 4.6
+              },
+              {
+                "name": "Thắng cố",
+                "place": "Thắng Cố A Nguyên 2",
+                "address": "591 Điện Biên Phủ",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "lau",
+      "layout": "point",
+      "caption": "Lẩu cá tầm",
+      "label": "2/5",
+      "accent": "#8ecbff",
+      "narration": "Món thứ hai, lẩu cá tầm, cá hồi, loại cá nuôi ở vùng nước lạnh Sa Pa. Cá được nấu lẩu chua cay, làm gỏi hoặc nướng, theo VnExpress một nồi lẩu khoảng ba tới sáu trăm nghìn. Khi ăn, nhúng cá với rau và bún. Quán ngon: A Phủ mà TikTok khen nhiều nhất, và Cá Hồi Vua.",
+      "durationSec": 16,
+      "gallery": [
+        "videos/sa-pa/food/40747253.jpg",
+        "videos/sa-pa/food/17597131.jpg",
+        "videos/sa-pa/food/17597151.jpg",
+        "videos/sa-pa/food/17597153.jpg"
+      ],
+      "story": {
+        "number": 2,
+        "total": 5,
+        "tagline": "Cá nuôi vùng nước lạnh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món thứ hai",
+            "text": "Cá hồi, cá tầm nuôi ở vùng nước lạnh Sa Pa"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "nấu lẩu",
+            "text": "Nấu lẩu chua cay, làm gỏi hoặc nướng; nồi lẩu 300–600k cho 3–6 người (VnExpress)"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Nhúng cá với rau, ăn kèm bún; set 500k đủ 2 người (TikTok)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Lẩu cá tầm",
+                "place": "Nhà hàng A Phủ",
+                "address": "15 Fansipan",
+                "rating": 4.7
+              },
+              {
+                "name": "Cá hồi, cá tầm",
+                "place": "Cá Hồi Vua",
+                "address": "15 Lê Văn Tám",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gaden",
+      "layout": "point",
+      "caption": "Gà đen",
+      "label": "3/5",
+      "accent": "#c3a6ff",
+      "narration": "Món thứ ba, gà đen, giống gà người Mông, người Dao nuôi thả trên núi, da và thịt đều đen. Gà được hầm thuốc bắc, nấu lẩu, hay ủ nguyên con trong quả bí đỏ. Khi ăn món gà ủ bí, ăn thịt rồi cạo phần bí, húp nước. Quán ngon: Ô Quý Hồ mà TikTok khen, và Tiệm Gà Tuk Tuk.",
+      "durationSec": 15.5,
+      "gallery": [
+        "videos/sa-pa/food/21938179.jpg",
+        "videos/sa-pa/food/30751222.jpg",
+        "videos/sa-pa/candidates/f-gaden-2.jpg"
+      ],
+      "story": {
+        "number": 3,
+        "total": 5,
+        "tagline": "Gà bản da đen, thịt đen",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "người mông",
+            "text": "Gà người Mông, người Dao nuôi thả trên núi; da, thịt đều đen"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "hầm thuốc",
+            "text": "Hầm thuốc bắc, nấu lẩu, hoặc ủ nguyên con trong quả bí đỏ"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Gà ủ bí: ăn gà rồi cạo phần bí, húp nước (theo TikTok)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Gà ủ bí ngô",
+                "place": "Nhà hàng Ô Quý Hồ",
+                "address": "1 Thạch Sơn",
+                "rating": 4.5
+              },
+              {
+                "name": "Gà đen",
+                "place": "Tiệm Gà Tuk Tuk",
+                "address": "639 Điện Biên Phủ",
+                "rating": 4.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nuong",
+      "layout": "point",
+      "caption": "Đồ nướng Sa Pa",
+      "label": "4/5",
+      "accent": "#ff8f6b",
+      "narration": "Món thứ tư, đồ nướng, món ăn tối quen thuộc mỗi khi lên Sa Pa. Xiên thịt, trứng, ngô, khoai được nướng trên than hoa. Khi ăn, ngồi quanh bếp than cho ấm, theo VnExpress mỗi xiên chừng hai mươi tới một trăm nghìn. Quán ngon: Hoa Sơn Tra mà người Sa Pa trên TikTok hay giới thiệu, và Trà Phương Quán.",
+      "durationSec": 18,
+      "gallery": [
+        "videos/sa-pa/pexels/34509892.jpg",
+        "videos/sa-pa/food/34509894.jpg",
+        "videos/sa-pa/candidates/f-nuong-1.jpg",
+        "videos/sa-pa/food/20782551.jpg"
+      ],
+      "story": {
+        "number": 4,
+        "total": 5,
+        "tagline": "Ấm bụng tối se lạnh",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "món ăn tối",
+            "text": "Món ăn tối quen thuộc quanh chợ đêm Sa Pa"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "xiên thịt",
+            "text": "Xiên thịt, trứng, ngô, khoai nướng trên than hoa"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Ngồi quanh bếp than cho ấm; mỗi xiên 20–100k (VnExpress)"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Đồ nướng",
+                "place": "Hoa Sơn Tra",
+                "address": "ngõ 679 Điện Biên Phủ",
+                "rating": 4.6
+              },
+              {
+                "name": "Lẩu nướng",
+                "place": "Trà Phương Quán",
+                "address": "026 Ngũ Chỉ Sơn",
+                "rating": 4.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comlam",
+      "layout": "point",
+      "caption": "Cơm lam",
+      "label": "5/5",
+      "accent": "#7bd389",
+      "narration": "Món thứ năm, cơm lam, món quen của đồng bào vùng cao khi lên nương. Gạo nếp cho vào ống tre non rồi nướng trên lửa tới khi chín dẻo. Khi ăn, bóc lớp vỏ tre, chấm muối vừng, ăn cùng thịt nướng. Quán ngon: Chạm Quán, và nhà hàng Ẩm Thực Mông.",
+      "durationSec": 14.5,
+      "gallery": [
+        "videos/sa-pa/pexels/33873817.jpg",
+        "videos/sa-pa/food/37060140.jpg",
+        "videos/sa-pa/food/38766046.jpg",
+        "videos/sa-pa/candidates/f-comlam-2.jpg"
+      ],
+      "story": {
+        "number": 5,
+        "total": 5,
+        "tagline": "Gạo nếp nướng trong ống tre",
+        "sections": [
+          {
+            "part": "origin",
+            "title": "Nguồn gốc",
+            "cue": "đồng bào",
+            "text": "Món của đồng bào vùng cao, mang theo khi lên nương"
+          },
+          {
+            "part": "made",
+            "title": "Cách làm",
+            "cue": "gạo nếp",
+            "text": "Gạo nếp cho vào ống tre non, nướng tới khi chín dẻo"
+          },
+          {
+            "part": "eat",
+            "title": "Cách ăn",
+            "cue": "khi ăn",
+            "text": "Bóc vỏ tre, chấm muối vừng, ăn cùng thịt nướng"
+          },
+          {
+            "part": "where",
+            "title": "Quán ngon",
+            "cue": "quán ngon",
+            "places": [
+              {
+                "name": "Cơm lam",
+                "place": "Chạm Quán Sapa",
+                "address": "22 Ngũ Chỉ Sơn",
+                "rating": 4.8
+              },
+              {
+                "name": "Món Mông",
+                "place": "Ẩm Thực Mông",
+                "address": "08 Xuân Viên",
+                "rating": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn món nào?",
+      "cta": "Lưu lại cho chuyến đi nhé!",
+      "narration": "Cốn sủi, phở ngô và cá suối nướng cũng nên thử, quán mình để ở phần mô tả. Bạn chọn món nào trước?",
+      "durationSec": 8,
+      "gallery": [
+        "videos/sa-pa/food/33921253.jpg",
+        "videos/sa-pa/food/17597131.jpg",
+        "videos/sa-pa/food/30751222.jpg",
+        "videos/sa-pa/food/34509894.jpg",
+        "videos/sa-pa/food/37060140.jpg"
+      ],
+      "names": [
+        "Thắng cố",
+        "Lẩu cá tầm",
+        "Gà đen",
+        "Đồ nướng Sa Pa",
+        "Cơm lam"
+      ]
+    }
+  ]
+}
