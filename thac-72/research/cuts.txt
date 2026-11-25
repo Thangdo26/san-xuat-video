@@ -1,0 +1,33 @@
+# name | source | start | dur | note  (chọn từ contact sheet 22/11/2026; clip có lời/nhạc gốc bị tắt tiếng)
+c-rainbow | raw-tiktok/t72__huytourbuonme__7705212018059480338.mp4 | 6 | 2 | thác + cầu vồng, người đứng đài sen (xa)
+c-aerial | raw-tiktok/t72__nguyenhieuphoto__7708939073494273286.mp4 | 18 | 2 | flycam thác
+c-bridge | raw-tiktok/t72__suadaukhongduong___7694674391090646292.mp4 | 6.5 | 2 | cầu sắt trong sương thác
+c-fall | raw-tiktok/t72__huytourbuonme__7705597460592200967.mp4 | 16 | 2 | cầu vồng chân thác
+h-wide | raw-tiktok/t72__huytourbuonme__7705212018059480338.mp4 | 22 | 4.5 | flycam toàn cảnh, cầu vồng
+h-mist | raw-tiktok/t72__moc1802__7569951055291616519.mp4 | 8.6 | 4 | thác nắng sớm, cầu vồng
+h-top | raw-tiktok/t72__nguyenhieuphoto__7708939073494273286.mp4 | 2 | 4.5 | flycam gần thác
+r-dirt | raw-tiktok/t72__lucx00z__7608798741927103764.mp4 | 0 | 3.6 | đường đất đỏ, xe máy
+r-sign | raw-tiktok/t72__lucx00z__7608798741927103764.mp4 | 4.5 | 3.6 | đường nhựa, biển Đắk G'Lung
+r-trail | raw-tiktok/t72__nguyenhieuphoto__7708939073494273286.mp4 | 36 | 4.5 | lối mòn trong rừng (flycam)
+r-aerial | raw-tiktok/t72__baycungtrung__7708269993581956373.mp4 | 18 | 4 | flycam thác giữa rừng
+x-bridge | raw-tiktok/t72__kimlocreviewbmt__7704612919249472788.mp4 | 0.5 | 4 | cầu sắt rêu, nắng
+x-mist | raw-tiktok/t72__nhatreviewbmt__7691280935802735892.mp4 | 3 | 4.5 | cầu dẫn vào màn sương thác
+x-cave | raw-tiktok/t72__vanquan_life__7710258569894972678.mp4 | 38.3 | 4.2 | hang đá có bàn thờ
+x-stairs | raw-tiktok/t72__thach_vita_89__7654221243691896085.mp4 | 40 | 4 | bậc đá, lan can giả rễ cây
+x-lotus | raw-tiktok/t72__huytourbuonme__7703155928719232274.mp4 | 22 | 4 | đài sen trước thác
+v-lotus | raw-tiktok/t72__huytourbuonme__7705212018059480338.mp4 | 3.6 | 4 | cầu vồng, đài sen
+v-arc | raw-tiktok/t72__kimlocreviewbmt__7697477626432130325.mp4 | 12.5 | 4 | cầu vồng nhìn từ trên
+v-big | raw-tiktok/t72__huytourbuonme__7705597460592200967.mp4 | 17.5 | 4.2 | cầu vồng lớn trước thác
+v-drone | raw-tiktok/t72__nguyenhieuphoto__7708939073494273286.mp4 | 46 | 4.5 | flycam cầu vồng
+s-boats | raw-tiktok/t72__lucx00z__7608798741927103764.mp4 | 12.6 | 3.6 | đạp vịt trong khu
+s-cave | raw-tiktok/t72___h.thanhhh__7699674996641189121.mp4 | 16 | 4.5 | lối đi dưới vòm hang nhìn thác
+s-bridge | raw-tiktok/t72__huytourbuonme__7696482622368795911.mp4 | 0 | 4 | thác + cầu dưới chân
+k-flow | raw-tiktok/t72__huytourbuonme__7703155928719232274.mp4 | 8 | 4 | dòng nước dưới thác
+k-wide | raw-tiktok/t72__baycungtrung__7708269993581956373.mp4 | 24 | 4 | flycam thác
+t-dry | raw-tiktok/t72__lucx00z__7608798741927103764.mp4 | 32 | 3.4 | mùa khô ít nước (02/2026)
+t-dryrb | raw-tiktok/t72__lucx00z__7608798741927103764.mp4 | 20 | 3 | mùa khô, cầu vồng nhỏ
+t-flood | raw-tiktok/t72__nguyenhieuphoto__7695946980945579284.mp4 | 0 | 4 | mùa nước lớn, mù sương
+t-rail | raw-tiktok/t72__huytourbuonme__7705597460592200967.mp4 | 24 | 4 | cầu sắt dưới chân thác
+o-aerial | raw-tiktok/t72__nguyenhieuphoto__7708939073494273286.mp4 | 26 | 4 | flycam
+o-rain | raw-tiktok/t72__huytourbuonme__7705212018059480338.mp4 | 14 | 4 | thác + cầu vồng
+o-wide | raw-tiktok/t72__huytourbuonme__7703155928719232274.mp4 | 34 | 4 | người dang tay trên cầu (xa)
