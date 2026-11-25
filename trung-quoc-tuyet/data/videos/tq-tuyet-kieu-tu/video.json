@@ -1,0 +1,269 @@
+{
+  "id": "tq-tuyet-kieu-tu",
+  "title": "Tour ngắm tuyết Trung Quốc 6 triệu: Kiệu Tử có đáng?",
+  "language": "vi",
+  "region": "Côn Minh, Vân Nam, Trung Quốc",
+  "template": "travel-itinerary",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "transitionFrames": 15,
+  "theme": {
+    "accent": "#5fc3ff",
+    "highlight": "#ffd76a",
+    "brand": "SĂN TUYẾT TRUNG QUỐC"
+  },
+  "narrator": {
+    "provider": "omnivoice",
+    "voice": "vi-nu-tre-03"
+  },
+  "subtitles": true,
+  "music": {
+    "src": "shared/music/travel-winter.mp3",
+    "volume": 0.8
+  },
+  "maps": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "layout": "hook",
+      "caption": "6 TRIỆU",
+      "label": "ĐI NGẮM TUYẾT TRUNG QUỐC?",
+      "kicker": "TOUR ĐANG VIRAL · THÁNG 11/2026",
+      "voiceDelay": 5.5,
+      "cold": [
+        "videos/tq-tuyet/footage/kt-stairs.mp4",
+        "videos/tq-tuyet/footage/dc-blue.mp4",
+        "videos/tq-tuyet/footage/kt-cablesnow.mp4",
+        "videos/tq-tuyet/footage/kt-frost.mp4"
+      ],
+      "narration": "Đi Trung Quốc ngắm tuyết chỉ khoảng sáu triệu, có thật không? Đây là chiếc tour đang viral nhất tháng mười một: Côn Minh và núi tuyết Kiệu Tử ở Vân Nam. Mình đã xem hai mươi tám video và bình luận của người đi thật, kể bạn nghe cả cái hay lẫn cái hên xui.",
+      "gallery": [
+        "videos/tq-tuyet/footage/kt-snowland.mp4",
+        "videos/tq-tuyet/footage/dc-gulls2.mp4",
+        "videos/tq-tuyet/footage/km-park.mp4"
+      ],
+      "durationSec": 21
+    },
+    {
+      "id": "d1",
+      "layout": "point",
+      "day": "N1",
+      "label": "Ngày 1 · Hà Nội → Côn Minh",
+      "caption": "Lên tàu cao tốc",
+      "badge": "~5 tiếng",
+      "points": [
+        "Xe giường nằm Hà Nội → Lào Cai",
+        "Cửa khẩu Hà Khẩu → tàu cao tốc"
+      ],
+      "narration": "Ngày một, đi xe giường nằm từ Hà Nội ra Lào Cai, qua cửa khẩu Hà Khẩu rồi lên tàu cao tốc tới Côn Minh, gần năm tiếng. Thành phố mùa này lá vàng rất đẹp.",
+      "gallery": [
+        "videos/tq-tuyet/footage/km-train.mp4",
+        "videos/tq-tuyet/footage/km-ginkgo.mp4",
+        "videos/tq-tuyet/footage/km-night.mp4",
+        "videos/tq-tuyet/footage/km-tower.mp4"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "d2",
+      "layout": "point",
+      "day": "N2",
+      "label": "Ngày 2 · Núi tuyết Kiệu Tử",
+      "caption": "Kiệu Tử phủ băng",
+      "badge": "gần 4.000 m",
+      "points": [
+        "2 chặng cáp treo",
+        "Cách Côn Minh ~150 km"
+      ],
+      "narration": "Ngày hai là ngày chính: núi tuyết Kiệu Tử, cách Côn Minh khoảng một trăm năm mươi cây số. Đi hai chặng cáp treo lên độ cao gần bốn nghìn mét, rừng cây phủ băng trắng xoá. Tuyết đầu mùa năm nay đã rơi từ đầu tháng mười một.",
+      "gallery": [
+        "videos/tq-tuyet/footage/kt-cablesnow.mp4",
+        "videos/tq-tuyet/footage/kt-snowland.mp4",
+        "videos/tq-tuyet/footage/kt-cliff.mp4",
+        "videos/tq-tuyet/footage/kt-rock.mp4",
+        "videos/tq-tuyet/footage/kt-cable2.mp4",
+        "videos/tq-tuyet/footage/kt-frost.mp4"
+      ],
+      "breathe": "videos/tq-tuyet/footage/kt-stairs.mp4",
+      "recap": [
+        "kt-summit",
+        "kt-platform",
+        "kt-ice",
+        "kt-cabin"
+      ],
+      "recapLabel": "Ngày 2",
+      "durationSec": 21,
+      "breatheSec": 4.5,
+      "recapSec": 3
+    },
+    {
+      "id": "d3",
+      "layout": "point",
+      "day": "N3",
+      "label": "Ngày 3 · Côn Minh",
+      "caption": "Hải âu Điền Trì",
+      "badge": "T11–T3",
+      "points": [
+        "Hải âu Siberia về trú đông",
+        "Tối: Kim Mã Bích Kê, chợ đêm"
+      ],
+      "narration": "Ngày ba ở lại Côn Minh. Sáng ra hồ Điền Trì ngắm hải âu từ Siberia bay về trú đông, từ tháng mười một tới tháng ba. Chiều ngắm hoàng hôn ở Lão Ngư Hà, tối dạo Kim Mã Bích Kê và chợ đêm Nam Cường.",
+      "gallery": [
+        "videos/tq-tuyet/footage/dc-gulls2.mp4",
+        "videos/tq-tuyet/footage/dc-dusk.mp4",
+        "videos/tq-tuyet/footage/lng-red.mp4",
+        "videos/tq-tuyet/footage/dc-sunset.mp4",
+        "videos/tq-tuyet/footage/km-kmbk.mp4",
+        "videos/tq-tuyet/footage/km-market.mp4"
+      ],
+      "breathe": "videos/tq-tuyet/footage/dc-blue.mp4",
+      "recap": [
+        "km-tower",
+        "km-gate",
+        "lau-nam",
+        "km-park"
+      ],
+      "recapLabel": "Ngày 3",
+      "durationSec": 19.5,
+      "breatheSec": 4.5,
+      "recapSec": 3
+    },
+    {
+      "id": "d4",
+      "layout": "point",
+      "day": "N4",
+      "label": "Ngày 4 · về Hà Nội",
+      "caption": "Quan Độ cổ trấn",
+      "badge": "tàu về",
+      "points": [
+        "Hoặc chợ hoa Đấu Nam"
+      ],
+      "narration": "Ngày bốn ghé Quan Độ cổ trấn hoặc chợ hoa Đấu Nam, rồi lên tàu về.",
+      "gallery": [
+        "videos/tq-tuyet/footage/qd-aerial.mp4",
+        "videos/tq-tuyet/footage/km-night.mp4"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "truth",
+      "layout": "extra",
+      "caption": "Nói thật nè",
+      "kicker": "NGƯỜI ĐI TRƯỚC DẶN",
+      "items": [
+        {
+          "t": "Tuyết hên xui",
+          "s": "có đợt lên núi nắng, không tuyết",
+          "cue": "tuyết là thời tiết"
+        },
+        {
+          "t": "Côn Minh mưa → núi có tuyết",
+          "s": "theo dõi thời tiết Kiệu Tử",
+          "cue": "côn minh mưa"
+        },
+        {
+          "t": "Gần 4.000 m",
+          "s": "cần sức khoẻ, mặc thật ấm",
+          "cue": "sức khoẻ"
+        }
+      ],
+      "narration": "Nói thật nè: tuyết là thời tiết, có đợt lên núi trời nắng, không có tuyết. Mẹo của người đi nhiều là theo dõi thời tiết Kiệu Tử, thấy Côn Minh mưa thì trên núi thường đang có tuyết. Núi cao gần bốn nghìn mét, đi lại nhiều, nên cần sức khoẻ và mặc thật ấm.",
+      "gallery": [
+        "videos/tq-tuyet/footage/kt-snowland.mp4",
+        "videos/tq-tuyet/footage/kt-stairs.mp4",
+        "videos/tq-tuyet/footage/kt-frost.mp4"
+      ],
+      "durationSec": 15.5
+    },
+    {
+      "id": "cost",
+      "layout": "cost",
+      "caption": "Giá bao nhiêu?",
+      "kicker": "TOUR TRỌN GÓI 4N3Đ · 1 NGƯỜI",
+      "receiptTitle": "CÔN MINH – KIỆU TỬ",
+      "total": "6–7 triệu",
+      "totalCue": "sáu đến bảy",
+      "stamp": "THAM KHẢO 11/2026",
+      "note": "Giá các tour quảng cáo trên TikTok 11/2026",
+      "items": [
+        {
+          "k": "Visa đoàn + xe HN ⇄ Lào Cai",
+          "v": "✓ gồm"
+        },
+        {
+          "k": "Tàu cao tốc khứ hồi",
+          "v": "✓ gồm"
+        },
+        {
+          "k": "Khách sạn 3–4★ + ăn đoàn",
+          "v": "✓ gồm"
+        },
+        {
+          "k": "Cáp treo Kiệu Tử",
+          "v": "✓ gồm"
+        },
+        {
+          "k": "Tip HDV, phụ thu, đồ ấm",
+          "v": "hỏi kỹ"
+        }
+      ],
+      "narration": "Giá tour khoảng sáu đến bảy triệu, thường đã gồm visa đoàn, xe, tàu, khách sạn, ăn và cáp treo. Hỏi kỹ tiền tip hướng dẫn viên và phụ thu trước khi cọc nha.",
+      "gallery": [
+        "videos/tq-tuyet/footage/km-park.mp4",
+        "videos/tq-tuyet/footage/dc-gulls.mp4"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "compare",
+      "layout": "extra",
+      "style": "compare",
+      "caption": "Hay đi đâu?",
+      "kicker": "3 CHỖ NGẮM TUYẾT",
+      "items": [
+        {
+          "t": "Kiệu Tử · Côn Minh",
+          "s": "~6–7tr · 4N3Đ · tuyết hên xui",
+          "cue": "côn minh"
+        },
+        {
+          "t": "Ngọc Long · Lệ Giang",
+          "s": "~17tr · hỏi kỹ cáp lên mốc 4.680 m",
+          "cue": "ngọc long"
+        },
+        {
+          "t": "Cáp Nhĩ Tân",
+          "s": "từ ~30tr · −20°C · đẹp T12–T1",
+          "cue": "cáp nhĩ tân"
+        }
+      ],
+      "narration": "Muốn chắc tuyết hơn thì có núi tuyết Ngọc Long ở Lệ Giang, khoảng mười bảy triệu, nhớ hỏi có lên mốc bốn nghìn sáu trăm tám mươi mét không. Còn Cáp Nhĩ Tân lạnh âm hai mươi độ, từ khoảng ba mươi triệu, đẹp nhất tháng mười hai và tháng một.",
+      "gallery": [
+        "videos/tq-tuyet/footage/nl-gold.mp4",
+        "videos/tq-tuyet/footage/nl-peak.mp4",
+        "videos/tq-tuyet/footage/hb-village.mp4",
+        "videos/tq-tuyet/footage/hb-castle.mp4",
+        "videos/tq-tuyet/footage/hb-iceworld.mp4"
+      ],
+      "breathe": "videos/tq-tuyet/footage/hb-village2.mp4",
+      "durationSec": 19,
+      "breatheSec": 4.5
+    },
+    {
+      "id": "outro",
+      "layout": "outro",
+      "caption": "Bạn chọn đâu?",
+      "cta": "Lưu lại nhé!",
+      "narration": "Bạn chọn Kiệu Tử, Ngọc Long hay Cáp Nhĩ Tân? Clip trong video là của các bạn TikToker, nguồn mình để ở phần mô tả. Lưu lại nhé!",
+      "gallery": [
+        "videos/tq-tuyet/footage/kt-rock.mp4",
+        "videos/tq-tuyet/footage/dc-blue.mp4",
+        "videos/tq-tuyet/footage/hb-roofs.mp4"
+      ],
+      "durationSec": 9
+    }
+  ]
+}
