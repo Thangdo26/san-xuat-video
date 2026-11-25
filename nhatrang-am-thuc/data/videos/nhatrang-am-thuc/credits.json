@@ -1,0 +1,84 @@
+[
+  {
+    "slot": "00-hook",
+    "file": "videos/nhatrang-am-thuc/images/00-hook.jpg",
+    "title": "File:Mẹt nem nướng Nha Trang.jpg",
+    "author": "Letruongan1122",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AM%E1%BA%B9t_nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg"
+  },
+  {
+    "slot": "01b-nem",
+    "file": "videos/nhatrang-am-thuc/images/01b-nem.jpg",
+    "title": "File:Vietnamese Meatball Wraps.jpg",
+    "author": "Boonlert",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese_Meatball_Wraps.jpg"
+  },
+  {
+    "slot": "01c-nem",
+    "file": "videos/nhatrang-am-thuc/images/01c-nem.jpg",
+    "title": "File:Nem nướng by Baoothersks.jpg",
+    "author": "Baoothersks",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ANem_n%C6%B0%E1%BB%9Bng_by_Baoothersks.jpg"
+  },
+  {
+    "slot": "02-bcc",
+    "file": "videos/nhatrang-am-thuc/images/02-bcc.jpg",
+    "title": "File:Bun cha ca nha trang.jpg",
+    "author": "Nguyen Thi Quynh Tram",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABun_cha_ca_nha_trang.jpg",
+    "note": "cropped to remove a watermark"
+  },
+  {
+    "slot": "03-bc",
+    "file": "videos/nhatrang-am-thuc/images/03-bc.jpg",
+    "title": "File:Bánh căn in phan rang, vietnam.jpg",
+    "author": "Saigon Time",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_c%C4%83n_in_phan_rang%2C_vietnam.jpg"
+  },
+  {
+    "slot": "03b-bc",
+    "file": "videos/nhatrang-am-thuc/images/03b-bc.jpg",
+    "title": "File:Bánh căn (Vietnamese mini pancake) clay cooking pots.jpg",
+    "author": "VinhNguyen.1257",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_c%C4%83n_(Vietnamese_mini_pancake)_clay_cooking_pots.jpg"
+  },
+  {
+    "slot": "05-bcanh",
+    "file": "videos/nhatrang-am-thuc/images/05-bcanh.jpg",
+    "title": "File:Tô bánh canh tháng 4 năm 2018 (1).jpg",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AT%C3%B4_b%C3%A1nh_canh_th%C3%A1ng_4_n%C4%83m_2018_(1).jpg"
+  },
+  {
+    "slot": "05b-bcanh",
+    "file": "videos/nhatrang-am-thuc/images/05b-bcanh.jpg",
+    "title": "File:Tô bánh canh tháng 4 năm 2018 (2).jpg",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3AT%C3%B4_b%C3%A1nh_canh_th%C3%A1ng_4_n%C4%83m_2018_(2).jpg"
+  },
+  {
+    "slot": "09-outro",
+    "file": "videos/nhatrang-am-thuc/images/09-outro.jpg",
+    "title": "File:Sunrise in Nha Trang.jpg",
+    "author": "ChiLam Ly",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASunrise_in_Nha_Trang.jpg"
+  }
+]
